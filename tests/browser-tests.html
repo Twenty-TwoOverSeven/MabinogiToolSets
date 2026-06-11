@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>洛奇战斗力计算器测试</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 24px;
+      }
+
+      .pass {
+        color: #047857;
+      }
+
+      .fail {
+        color: #b91c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="results"></div>
+    <script src="./testHarness.js"></script>
+    <script src="../src/domain/ranks.js"></script>
+    <script src="../src/domain/calculateCombatPower.js"></script>
+    <script src="./domain.test.js"></script>
+    <script>
+      window.MabinogiCPTest.renderResults();
+    </script>
+  </body>
+</html>
