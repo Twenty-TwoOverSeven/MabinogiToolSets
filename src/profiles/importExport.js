@@ -3,6 +3,7 @@
   const SCHEMA_VERSION = 1;
   const RACES = ['人类', '精灵', '巨人'];
   const STAT_KEYS = ['life', 'mana', 'stamina', 'strength', 'intelligence', 'dexterity', 'will', 'luck'];
+  const SAFE_ID_PATTERN = /^[A-Za-z0-9_:-]{1,80}$/;
 
   app.exportProfiles = function exportProfiles(profiles) {
     if (!Array.isArray(profiles)) {
@@ -92,6 +93,10 @@
       return { ok: false, error: '角色基础信息无效' };
     }
 
+    if (!SAFE_ID_PATTERN.test(value.id)) {
+      return { ok: false, error: '角色 ID 无效' };
+    }
+
     if (!RACES.includes(value.race)) {
       return { ok: false, error: `角色种族无效：${String(value.race)}` };
     }
@@ -107,11 +112,18 @@
     }
 
     const skills = [];
+    const seenSkillIds = new Set();
 
     for (const skill of value.skills) {
       if (!isRecord(skill) || typeof skill.skillId !== 'string' || !app.isSkillRank(skill.rank)) {
         return { ok: false, error: '角色技能条目无效' };
       }
+
+      if (seenSkillIds.has(skill.skillId)) {
+        return { ok: false, error: `角色技能重复：${skill.skillId}` };
+      }
+
+      seenSkillIds.add(skill.skillId);
 
       if (!knownSkillIds.has(skill.skillId)) {
         unknownSkillIds.add(skill.skillId);

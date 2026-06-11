@@ -45,7 +45,7 @@
             <h2>角色档案</h2>
             <label>选择角色
               <select data-profile-select>
-                ${state.profiles.map((item) => `<option value="${item.id}" ${item.id === state.activeProfileId ? 'selected' : ''}>${escapeHtml(item.name || '未命名角色')}</option>`).join('')}
+                ${state.profiles.map((item) => `<option value="${escapeHtml(item.id)}" ${item.id === state.activeProfileId ? 'selected' : ''}>${escapeHtml(item.name || '未命名角色')}</option>`).join('')}
               </select>
             </label>
             <div class="profile-actions">
@@ -130,7 +130,14 @@
       root.querySelectorAll('[data-stat]').forEach((input) => {
         input.addEventListener('input', () => {
           const key = input.dataset.stat;
-          const value = Math.max(0, Number(input.value || 0));
+          const value = Number(input.value || 0);
+
+          if (!Number.isFinite(value) || value < 0) {
+            importMessage = `白值属性无效：${statLabel(key)}`;
+            draw();
+            return;
+          }
+
           importMessage = '';
           setState(app.updateActiveProfile(state, (profile) => ({ ...profile, stats: { ...profile.stats, [key]: value } })));
         });
@@ -242,6 +249,12 @@
       <input type="number" min="0" data-stat="${field.key}" value="${profile.stats[field.key]}" />
       <span class="field-help">贡献：${contribution.contribution.toFixed(2)}</span>
     </label>`;
+  }
+
+  function statLabel(key) {
+    const field = STAT_FIELDS.find((item) => item.key === key);
+
+    return field ? field.label : key;
   }
 
   function renderLearnedSkills(profile, highestId, secondId) {

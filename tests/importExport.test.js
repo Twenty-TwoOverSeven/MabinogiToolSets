@@ -84,4 +84,28 @@
 
     expectEqual(message, '白值属性无效：life');
   });
+
+  test('duplicate skill ids are rejected during import', () => {
+    const json = JSON.stringify({
+      schemaVersion: 1,
+      exportedAt: '2026-06-11T00:00:00.000Z',
+      profiles: [{ ...profile, skills: [{ skillId: 'defense', rank: 'F' }, { skillId: 'defense', rank: '1' }] }],
+    });
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'replace' });
+
+    expectEqual(result.ok, false);
+    expectEqual(result.error, '角色技能重复：defense');
+  });
+
+  test('unsafe profile ids are rejected during import', () => {
+    const json = JSON.stringify({
+      schemaVersion: 1,
+      exportedAt: '2026-06-11T00:00:00.000Z',
+      profiles: [{ ...profile, id: 'x" onclick="alert(1)' }],
+    });
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'replace' });
+
+    expectEqual(result.ok, false);
+    expectEqual(result.error, '角色 ID 无效');
+  });
 })();
