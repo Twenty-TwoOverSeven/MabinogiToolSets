@@ -54,6 +54,7 @@
 
     expectEqual(result.ok, true);
     expectEqual(result.unknownSkillIds[0], 'unknown_skill');
+    expectEqual(result.profiles[0].skills[0].skillId, 'unknown_skill');
   });
 
   test('non-finite stat values are rejected', () => {

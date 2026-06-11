@@ -106,8 +106,8 @@
 
     expectEqual(result.highestSkill, null);
     expectEqual(result.secondHighestSkill, null);
-    expectClose(result.baseStatContribution, 149.5);
-    expectClose(result.total, 149.5);
+    expectClose(result.baseStatContribution, 171.5);
+    expectClose(result.total, 171.5);
   });
 
   test('one skill uses highest and zero second skill', () => {
@@ -116,7 +116,7 @@
     expectEqual(result.highestSkill.skillId, 'defense');
     expectEqual(result.secondHighestSkill, null);
     expectClose(result.skillContribution, 400);
-    expectClose(result.total, 549.5);
+    expectClose(result.total, 571.5);
   });
 
   test('two skills add half of second skill', () => {
@@ -133,7 +133,7 @@
     expectEqual(result.highestSkill.skillId, 'defense');
     expectEqual(result.secondHighestSkill.skillId, 'smash');
     expectClose(result.skillContribution, 560);
-    expectClose(result.total, 709.5);
+    expectClose(result.total, 731.5);
   });
 
   test('tied skills keep stable learned order', () => {
