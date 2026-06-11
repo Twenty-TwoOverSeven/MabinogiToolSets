@@ -5,6 +5,14 @@
   const STAT_KEYS = ['life', 'mana', 'stamina', 'strength', 'intelligence', 'dexterity', 'will', 'luck'];
 
   app.exportProfiles = function exportProfiles(profiles) {
+    if (!Array.isArray(profiles)) {
+      throw new Error('角色列表无效');
+    }
+
+    for (const profile of profiles) {
+      validateProfileForExport(profile);
+    }
+
     return JSON.stringify(
       {
         schemaVersion: SCHEMA_VERSION,
@@ -123,6 +131,14 @@
         skills,
       },
     };
+  }
+
+  function validateProfileForExport(value) {
+    const parsed = parseProfile(value, new Set(), new Set());
+
+    if (!parsed.ok) {
+      throw new Error(parsed.error);
+    }
   }
 
   function parseStats(value) {

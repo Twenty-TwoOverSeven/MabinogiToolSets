@@ -72,4 +72,16 @@
     expectEqual(result.ok, false);
     expectEqual(result.error, '导入模式无效：append');
   });
+
+  test('export rejects non-finite stat values', () => {
+    let message = '';
+
+    try {
+      exportProfiles([{ ...profile, stats: { ...profile.stats, life: Infinity } }]);
+    } catch (error) {
+      message = error.message;
+    }
+
+    expectEqual(message, '白值属性无效：life');
+  });
 })();
