@@ -55,4 +55,20 @@
     expectEqual(result.ok, true);
     expectEqual(result.unknownSkillIds[0], 'unknown_skill');
   });
+
+  test('non-finite stat values are rejected', () => {
+    const json = '{"schemaVersion":1,"exportedAt":"2026-06-11T00:00:00.000Z","profiles":[{"id":"char-1","name":"主号","race":"人类","title":"猛者","stats":{"life":1e999,"mana":90,"stamina":80,"strength":70,"intelligence":60,"dexterity":50,"will":40,"luck":30},"skills":[]}]}';
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'replace' });
+
+    expectEqual(result.ok, false);
+    expectEqual(result.error, '白值属性无效：life');
+  });
+
+  test('invalid import mode is rejected', () => {
+    const json = exportProfiles([profile]);
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'append' });
+
+    expectEqual(result.ok, false);
+    expectEqual(result.error, '导入模式无效：append');
+  });
 })();

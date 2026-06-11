@@ -19,6 +19,14 @@
   app.importProfiles = function importProfiles(json, options) {
     let data;
 
+    if (!isRecord(options) || !(options.knownSkillIds instanceof Set) || !Array.isArray(options.existingProfiles)) {
+      return { ok: false, error: '导入参数无效' };
+    }
+
+    if (options.mode !== 'replace' && options.mode !== 'merge') {
+      return { ok: false, error: `导入模式无效：${String(options.mode)}` };
+    }
+
     try {
       data = JSON.parse(json);
     } catch {
@@ -127,7 +135,7 @@
     for (const key of STAT_KEYS) {
       const statValue = value[key];
 
-      if (typeof statValue !== 'number' || Number.isNaN(statValue) || statValue < 0) {
+      if (typeof statValue !== 'number' || !Number.isFinite(statValue) || statValue < 0) {
         return { ok: false, error: `白值属性无效：${key}` };
       }
 
