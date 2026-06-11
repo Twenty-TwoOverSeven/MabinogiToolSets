@@ -1,0 +1,38 @@
+:root {
+  color: #1f2937;
+  background: #f8fafc;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.panel,
+.app-header {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.skill-row--top {
+  background: #fff7cc;
+}
+
+.skill-row--second {
+  background: #e0f2fe;
+}
