@@ -1,0 +1,58 @@
+(function () {
+  const { exportProfiles, importProfiles } = window.MabinogiCP;
+  const { expectEqual, test } = window.MabinogiCPTest;
+
+  const profile = {
+    id: 'char-1',
+    name: '主号',
+    race: '人类',
+    title: '猛者',
+    stats: {
+      life: 100,
+      mana: 90,
+      stamina: 80,
+      strength: 70,
+      intelligence: 60,
+      dexterity: 50,
+      will: 40,
+      luck: 30,
+    },
+    skills: [{ skillId: 'defense', rank: '1' }],
+  };
+
+  test('profiles round trip through JSON', () => {
+    const json = exportProfiles([profile]);
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'replace' });
+
+    expectEqual(result.ok, true);
+    expectEqual(result.profiles[0].name, '主号');
+    expectEqual(result.profiles[0].skills[0].rank, '1');
+  });
+
+  test('unsupported schema is rejected', () => {
+    const result = importProfiles(JSON.stringify({ schemaVersion: 999, profiles: [] }), {
+      knownSkillIds: new Set(),
+      existingProfiles: [],
+      mode: 'replace',
+    });
+
+    expectEqual(result.ok, false);
+    expectEqual(result.error, '不支持的存档版本：999');
+  });
+
+  test('duplicate names are suffixed during merge', () => {
+    const json = exportProfiles([profile]);
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [profile], mode: 'merge' });
+
+    expectEqual(result.ok, true);
+    expectEqual(result.profiles[1].name, '主号 (2)');
+  });
+
+  test('unknown skill ids are reported but preserved', () => {
+    const json = exportProfiles([{ ...profile, skills: [{ skillId: 'unknown_skill', rank: 'F' }] }]);
+    const result = importProfiles(json, { knownSkillIds: new Set(['defense']), existingProfiles: [], mode: 'replace' });
+
+    expectEqual(result.ok, true);
+    expectEqual(result.unknownSkillIds[0], 'unknown_skill');
+  });
+})();
