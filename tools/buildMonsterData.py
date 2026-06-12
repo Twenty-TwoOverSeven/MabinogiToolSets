@@ -27,7 +27,6 @@ USER_AGENT = "MabinogiCombatPowerDataBuilder/1.0 (https://wiki.mabinogiworld.com
 BASE_QUERY_PARTS = [
     "[[Monster difficulty parent::~*]]",
     "[[Monster cp::>>0]]",
-    "[[Monster family::!~*Event*]]",
     "|?Monster cp",
     "|?Monster field locations list",
     "|?Monster missions list",

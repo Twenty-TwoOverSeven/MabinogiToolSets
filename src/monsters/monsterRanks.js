@@ -134,7 +134,6 @@
     const translationStatus = activeFilters.translationStatus || 'all';
 
     return (monsters || [])
-      .filter((monster) => !monster.isEvent)
       .filter((monster) => isInDataScope(monster, activeFilters))
       .map((monster) => ({
         ...monster,
@@ -155,6 +154,10 @@
   };
 
   function isInDataScope(monster, filters) {
+    if (filters.dataScope !== 'all' && monster.isEvent) {
+      return false;
+    }
+
     const generation = parseGeneration(monster.introducedBy);
 
     if (generation === null) {

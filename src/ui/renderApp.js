@@ -505,10 +505,10 @@
     const min = range.min.toFixed(2);
 
     if (range.maxExclusive === null) {
-      return `${min} 以上`;
+      return `CP >= ${min}`;
     }
 
-    return `${min} - ${range.maxExclusive.toFixed(2)}`;
+    return `${min} <= CP < ${range.maxExclusive.toFixed(2)}`;
   }
 
   function formatMonsterLocation(monster) {

@@ -155,6 +155,27 @@
     localStorage.clear();
   });
 
+  test('monster rank ranges describe half-open CP boundaries', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    const rangeText = root.querySelector('.monster-range-grid').textContent;
+    expectEqual(rangeText.includes('80.00 <= CP < 100.00'), true);
+    expectEqual(rangeText.includes('CP >= 300.00'), true);
+
+    root.remove();
+    localStorage.clear();
+  });
+
   test('monster tab manual override changes filter source only', () => {
     const root = document.createElement('div');
     document.body.appendChild(root);

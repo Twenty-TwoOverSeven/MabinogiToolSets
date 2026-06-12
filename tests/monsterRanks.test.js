@@ -164,6 +164,14 @@
     expectEqual(result[1].rank.id, 'strong');
   });
 
+  test('complete data scope can include event records while default G13 hides them', () => {
+    const defaultResult = filterMonsters(monsters, filter({ selectedRanks: ['weak'] }));
+    const completeResult = filterMonsters(monsters, filter({ selectedRanks: ['weak'], dataScope: 'all' }));
+
+    expectEqual(defaultResult.map((item) => item.id).join(','), 'gray-wolf');
+    expectEqual(completeResult.map((item) => item.id).join(','), 'event-rat,gray-wolf');
+  });
+
   test('monster filter limits records by selected ranks', () => {
     expectEqual(filterMonsters(monsters, filter({ selectedRanks: ['weak'] })).map((item) => item.id).join(','), 'gray-wolf');
     expectEqual(filterMonsters(monsters, filter({ selectedRanks: ['strong'] })).map((item) => item.id).join(','), 'red-spider');
@@ -181,7 +189,7 @@
       translationStatus: 'all',
     });
 
-    expectEqual(result.map((item) => item.id).join(','), 'unknown-snake,gray-wolf,red-spider,future-boss');
+    expectEqual(result.map((item) => item.id).join(','), 'unknown-snake,event-rat,gray-wolf,red-spider,future-boss');
   });
 
   test('monster search matches simplified, traditional, English, and locations', () => {
