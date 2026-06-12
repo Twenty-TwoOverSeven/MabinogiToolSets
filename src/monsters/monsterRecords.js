@@ -184,6 +184,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "ascended-python-boss",
+      "zhCNName": "Ascended Python (Boss)",
+      "zhTWName": "",
+      "enName": "Ascended Python (Boss)",
+      "combatPower": 10000,
+      "locations": [
+        "Snaky Energy"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "banner-imp",
       "zhCNName": "旗帜小恶魔",
       "zhTWName": "旗幟小惡魔",
@@ -332,6 +346,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "belisha-monster",
+      "zhCNName": "Belisha (Monster)",
+      "zhTWName": "",
+      "enName": "Belisha (Monster)",
+      "combatPower": 2500,
+      "locations": [
+        "Cursed Labyrinth"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "big-horned-deer",
       "zhCNName": "Big-Horned Deer",
       "zhTWName": "",
@@ -373,20 +401,6 @@
         "Abb Neagh"
       ],
       "introducedBy": "G9",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "black-forest-lizard",
-      "zhCNName": "Black Forest Lizard",
-      "zhTWName": "",
-      "enName": "Black Forest Lizard",
-      "combatPower": 1500,
-      "locations": [
-        "Rano (Karu Forest)"
-      ],
-      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -546,20 +560,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "black-raccoon",
-      "zhCNName": "Black Raccoon",
-      "zhTWName": "",
-      "enName": "Black Raccoon",
-      "combatPower": 1284,
-      "locations": [
-        "Dunbarton (Locations)"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "black-sand-scorpion",
       "zhCNName": "Black Sand Scorpion",
       "zhTWName": "",
@@ -663,21 +663,6 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "black-spider-hardmode",
-      "zhCNName": "Black Spider (Hardmode)",
-      "zhTWName": "",
-      "enName": "Black Spider (Hardmode)",
-      "combatPower": 1872,
-      "locations": [
-        "Ciar Normal Hardmode",
-        "Rundal Normal Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -831,6 +816,66 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "blinker-300-2d542eda",
+      "zhCNName": "Blinker",
+      "zhTWName": "",
+      "enName": "Blinker",
+      "combatPower": 300,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "blinker-600-91b6fed2",
+      "zhCNName": "Blinker",
+      "zhTWName": "",
+      "enName": "Blinker",
+      "combatPower": 600,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "blinker-900-f060291c",
+      "zhCNName": "Blinker",
+      "zhTWName": "",
+      "enName": "Blinker",
+      "combatPower": 900,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "blinker-1200-f97e1f1d",
+      "zhCNName": "Blinker",
+      "zhTWName": "",
+      "enName": "Blinker",
+      "combatPower": 1200,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "blinker-1800-22f2f3da",
+      "zhCNName": "Blinker",
+      "zhTWName": "",
+      "enName": "Blinker",
+      "combatPower": 1800,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "blue-dire-wolf",
       "zhCNName": "Blue Dire Wolf",
       "zhTWName": "",
@@ -897,20 +942,6 @@
         "Longa Amethyst"
       ],
       "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "blue-rat-man",
-      "zhCNName": "Blue Rat Man",
-      "zhTWName": "",
-      "enName": "Blue Rat Man",
-      "combatPower": 1200,
-      "locations": [
-        "Ciar Normal (Rare Spawn)"
-      ],
-      "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -1073,6 +1104,54 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "bran-2300-3c2cd58b",
+      "zhCNName": "Bran",
+      "zhTWName": "",
+      "enName": "Bran",
+      "combatPower": 2300,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "bran-4600-ba87de23",
+      "zhCNName": "Bran",
+      "zhTWName": "",
+      "enName": "Bran",
+      "combatPower": 4600,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "bran-6900-e137ff01",
+      "zhCNName": "Bran",
+      "zhTWName": "",
+      "enName": "Bran",
+      "combatPower": 6900,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "bran-9200-ac397a86",
+      "zhCNName": "Bran",
+      "zhTWName": "",
+      "enName": "Bran",
+      "combatPower": 9200,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "brown-dire-wolf",
       "zhCNName": "棕色恐狼",
       "zhTWName": "棕色恐狼",
@@ -1183,20 +1262,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "brown-reindeer",
-      "zhCNName": "Brown Reindeer",
-      "zhTWName": "",
-      "enName": "Brown Reindeer",
-      "combatPower": 1100,
-      "locations": [
-        "Physis (Barba Basin)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "brown-snake-517-8535647b",
       "zhCNName": "Brown Snake",
       "zhTWName": "",
@@ -1270,20 +1335,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "brown-tailed-mongoose",
-      "zhCNName": "Brown-tailed Mongoose",
-      "zhTWName": "",
-      "enName": "Brown-tailed Mongoose",
-      "combatPower": 600,
-      "locations": [
-        "Rano (outside Qilla Base Camp)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "buck",
       "zhCNName": "Buck",
       "zhTWName": "",
@@ -1333,48 +1384,6 @@
       "combatPower": 1243,
       "locations": [
         "Alby Intermediate"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "burgundy-dire-wolf-hardmode",
-      "zhCNName": "Burgundy Dire Wolf (Hardmode)",
-      "zhTWName": "",
-      "enName": "Burgundy Dire Wolf (Hardmode)",
-      "combatPower": 3361,
-      "locations": [
-        "Alby Advanced Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "burgundy-sickle-laghodessa",
-      "zhCNName": "Burgundy Sickle Laghodessa",
-      "zhTWName": "",
-      "enName": "Burgundy Sickle Laghodessa",
-      "combatPower": 1600,
-      "locations": [
-        "Ciar Intermediate"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "burgundy-sickle-laghodessa-hardmode",
-      "zhCNName": "Burgundy Sickle Laghodessa (Hardmode)",
-      "zhTWName": "",
-      "enName": "Burgundy Sickle Laghodessa (Hardmode)",
-      "combatPower": 4040,
-      "locations": [
-        "Ciar Advanced Hardmode"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1497,22 +1506,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "cave-rat",
-      "zhCNName": "Cave Rat",
-      "zhTWName": "",
-      "enName": "Cave Rat",
-      "combatPower": 250,
-      "locations": [
-        "Rabbie Ashes from Portia",
-        "Solea (Cave)",
-        "Scathach Caverns"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "cave-rat-fiodh",
       "zhCNName": "Cave Rat (Fiodh)",
       "zhTWName": "",
@@ -1591,15 +1584,60 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "chandelier-spider",
-      "zhCNName": "Chandelier Spider",
+      "id": "cerberus-1375-cbf471d5",
+      "zhCNName": "Cerberus",
       "zhTWName": "",
-      "enName": "Chandelier Spider",
-      "combatPower": 1000,
-      "locations": [
-        "Abb Neagh Castle Dungeon",
-        "Dugald Castle Dungeon"
-      ],
+      "enName": "Cerberus",
+      "combatPower": 1375,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "cerberus-2750-e16c7670",
+      "zhCNName": "Cerberus",
+      "zhTWName": "",
+      "enName": "Cerberus",
+      "combatPower": 2750,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "cerberus-4125-6990551e",
+      "zhCNName": "Cerberus",
+      "zhTWName": "",
+      "enName": "Cerberus",
+      "combatPower": 4125,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "cerberus-5500-4003495b",
+      "zhCNName": "Cerberus",
+      "zhTWName": "",
+      "enName": "Cerberus",
+      "combatPower": 5500,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "cerberus-6875-e04c4682",
+      "zhCNName": "Cerberus",
+      "zhTWName": "",
+      "enName": "Cerberus",
+      "combatPower": 6875,
+      "locations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2038,20 +2076,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "doe",
-      "zhCNName": "Doe",
-      "zhTWName": "",
-      "enName": "Doe",
-      "combatPower": 1000,
-      "locations": [
-        "Corrib Valley"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "dog",
       "zhCNName": "Dog",
       "zhTWName": "",
@@ -2313,15 +2337,15 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "enraged-ghoul",
-      "zhCNName": "Enraged Ghoul",
+      "id": "esras-monster",
+      "zhCNName": "Esras (Monster)",
       "zhTWName": "",
-      "enName": "Enraged Ghoul",
-      "combatPower": 6750,
+      "enName": "Esras (Monster)",
+      "combatPower": 2490,
       "locations": [
-        "Peaca Intermediate"
+        "Esras' Dungeon (Boss)"
       ],
-      "introducedBy": "G3",
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -2403,18 +2427,6 @@
         "Iria (Exploration Treasure Box)"
       ],
       "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "fire-slime",
-      "zhCNName": "Fire Slime",
-      "zhTWName": "",
-      "enName": "Fire Slime",
-      "combatPower": 5000,
-      "locations": [],
-      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -2650,20 +2662,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "ghoul-blue-basic",
-      "zhCNName": "Ghoul (Blue) (Basic)",
-      "zhTWName": "",
-      "enName": "Ghoul (Blue) (Basic)",
-      "combatPower": 4500,
-      "locations": [
-        "Peaca Basic"
-      ],
-      "introducedBy": "G3",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "ghoul-gray",
       "zhCNName": "Ghoul (Gray)",
       "zhTWName": "",
@@ -2729,20 +2727,6 @@
         "Tir Chonaill (Location)"
       ],
       "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "giant-fire-sprite",
-      "zhCNName": "Giant Fire Sprite",
-      "zhTWName": "",
-      "enName": "Giant Fire Sprite",
-      "combatPower": 2592,
-      "locations": [
-        "Coill Normal (Boss)"
-      ],
-      "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -2892,17 +2876,16 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "giant-lightning-sprite",
-      "zhCNName": "Giant Lightning Sprite",
+      "id": "giant-moon-bunny",
+      "zhCNName": "Giant Moon Bunny",
       "zhTWName": "",
-      "enName": "Giant Lightning Sprite",
-      "combatPower": 3000,
+      "enName": "Giant Moon Bunny",
+      "combatPower": 300,
       "locations": [
-        "Ciar Advanced (Boss)",
-        "Rabbie Advanced (Party Boss)"
+        "Only during the Mabinogi 2nd Anniversary Event at Ladeca (an event map area)"
       ],
-      "introducedBy": "G1",
-      "isEvent": false,
+      "introducedBy": "unknown",
+      "isEvent": true,
       "translationStatus": "missing",
       "source": "mabinogi-world"
     },
@@ -2978,6 +2961,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "giant-sandworm-old",
+      "zhCNName": "Giant Sandworm (Old)",
+      "zhTWName": "",
+      "enName": "Giant Sandworm (Old)",
+      "combatPower": 10000,
+      "locations": [
+        "Summoned by Monster Summoning Urn"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "giant-skeleton",
       "zhCNName": "Giant Skeleton",
       "zhTWName": "",
@@ -2985,20 +2982,6 @@
       "combatPower": 1298,
       "locations": [
         "Math Normal"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "giant-skeleton-hellhound",
-      "zhCNName": "Giant Skeleton Hellhound",
-      "zhTWName": "",
-      "enName": "Giant Skeleton Hellhound",
-      "combatPower": 2780,
-      "locations": [
-        "Math Advanced (Boss)"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3115,21 +3098,6 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "giant-spider-hardmode",
-      "zhCNName": "Giant Spider (Hardmode)",
-      "zhTWName": "",
-      "enName": "Giant Spider (Hardmode)",
-      "combatPower": 3500,
-      "locations": [
-        "Alby Normal Hardmode (Boss)",
-        "Alby Advanced Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -3277,20 +3245,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "glowing-stone-gargoyle",
-      "zhCNName": "Glowing Stone Gargoyle",
-      "zhTWName": "",
-      "enName": "Glowing Stone Gargoyle",
-      "combatPower": 5000,
-      "locations": [
-        "Maiz Glowing Stone Gargoyle Statue"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "gold-forest-lizard",
       "zhCNName": "Gold Forest Lizard",
       "zhTWName": "",
@@ -3312,6 +3266,21 @@
       "combatPower": 3400,
       "locations": [
         "Rano (east of Human Mark)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "golden-rat-man",
+      "zhCNName": "Golden Rat Man",
+      "zhTWName": "",
+      "enName": "Golden Rat Man",
+      "combatPower": 1000,
+      "locations": [
+        "Nekojima (Nezumijima",
+        "Rat Island)"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -3559,20 +3528,6 @@
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "gray-prison-zombie",
-      "zhCNName": "灰色监狱僵尸",
-      "zhTWName": "灰色監獄殭屍",
-      "enName": "Gray Prison Zombie",
-      "combatPower": 10000,
-      "locations": [
-        "Connous (Metus)"
-      ],
-      "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4122,6 +4077,18 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "guardian-pillar",
+      "zhCNName": "Guardian Pillar",
+      "zhTWName": "",
+      "enName": "Guardian Pillar",
+      "combatPower": 8000,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "head-hobgoblin",
       "zhCNName": "Head Hobgoblin",
       "zhTWName": "",
@@ -4145,6 +4112,18 @@
         "Rano (Muyu Desert",
         "Northeast of the word \"Desert\" in Muyu Desert)"
       ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "heathcliff",
+      "zhCNName": "Heathcliff",
+      "zhTWName": "",
+      "enName": "Heathcliff",
+      "combatPower": 108000,
+      "locations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4202,20 +4181,6 @@
       "locations": [
         "Courcle (Lappa",
         "Exploration)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "hobgoblin-exorcist-raft-strong",
-      "zhCNName": "Hobgoblin Exorcist (Raft) (Strong)",
-      "zhTWName": "",
-      "enName": "Hobgoblin Exorcist (Raft) (Strong)",
-      "combatPower": 2200,
-      "locations": [
-        "Courcle (Rafting Course)"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4411,20 +4376,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "ice-worm-white",
-      "zhCNName": "Ice Worm (White)",
-      "zhTWName": "",
-      "enName": "Ice Worm (White)",
-      "combatPower": 1200,
-      "locations": [
-        "Physis (near Lunae Valley)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "ice-wyvern",
       "zhCNName": "Ice Wyvern",
       "zhTWName": "",
@@ -4449,6 +4400,20 @@
         "Connous Underground Maze (Center)"
       ],
       "introducedBy": "G4",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "ifrit-old",
+      "zhCNName": "Ifrit (Old)",
+      "zhTWName": "",
+      "enName": "Ifrit (Old)",
+      "combatPower": 10000,
+      "locations": [
+        "Summoned by Monster Summoning Urn"
+      ],
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -4579,6 +4544,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "kid-zombie",
+      "zhCNName": "Kid Zombie",
+      "zhTWName": "",
+      "enName": "Kid Zombie",
+      "combatPower": 1000,
+      "locations": [
+        "Muyu Desert"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "king-connous-lizard",
       "zhCNName": "King Connous Lizard",
       "zhTWName": "",
@@ -4606,6 +4585,20 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "king-zombie",
+      "zhCNName": "King Zombie",
+      "zhTWName": "",
+      "enName": "King Zombie",
+      "combatPower": 10000,
+      "locations": [
+        "Muyu Desert (fort at midnight)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -4699,6 +4692,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "leprechaun-event",
+      "zhCNName": "Leprechaun (Event)",
+      "zhTWName": "",
+      "enName": "Leprechaun (Event)",
+      "combatPower": 1800,
+      "locations": [
+        "Only during the St. Patrick's Day Event (2010) as the boss in the Special Four Leaf Clover Dungeon version of Rabbie Dungeon"
+      ],
+      "introducedBy": "G1",
+      "isEvent": true,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "lightning-slime",
       "zhCNName": "Lightning Slime",
       "zhTWName": "",
@@ -4706,23 +4713,6 @@
       "combatPower": 5000,
       "locations": [],
       "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "lightning-sprite",
-      "zhCNName": "Lightning Sprite",
-      "zhTWName": "",
-      "enName": "Lightning Sprite",
-      "combatPower": 1097,
-      "locations": [
-        "Coill Normal",
-        "Coill Passive Defense",
-        "Coill Elemental",
-        "Ceo Island (Location)"
-      ],
-      "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -4737,34 +4727,6 @@
         "Zardine (skies over Raspa Volcano)"
       ],
       "introducedBy": "G8",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "long-mane-hyena",
-      "zhCNName": "Long Mane Hyena",
-      "zhTWName": "",
-      "enName": "Long Mane Hyena",
-      "combatPower": 1900,
-      "locations": [
-        "Muyu Desert"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "lost-cat",
-      "zhCNName": "Lost Cat",
-      "zhTWName": "",
-      "enName": "Lost Cat",
-      "combatPower": 600,
-      "locations": [
-        "Tara"
-      ],
-      "introducedBy": "G10",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -4798,15 +4760,49 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "lycanthrope-hardmode",
-      "zhCNName": "Lycanthrope (Hardmode)",
+      "id": "lost-zombie-soldier-900-cf59ffb8",
+      "zhCNName": "Lost Zombie Soldier",
       "zhTWName": "",
-      "enName": "Lycanthrope (Hardmode)",
-      "combatPower": 4712,
-      "locations": [
-        "Alby Advanced Hardmode (Boss)"
-      ],
-      "introducedBy": "G1",
+      "enName": "Lost Zombie Soldier",
+      "combatPower": 900,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "lost-zombie-soldier-1800-597ad47f",
+      "zhCNName": "Lost Zombie Soldier",
+      "zhTWName": "",
+      "enName": "Lost Zombie Soldier",
+      "combatPower": 1800,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "lost-zombie-soldier-2700-24cca593",
+      "zhCNName": "Lost Zombie Soldier",
+      "zhTWName": "",
+      "enName": "Lost Zombie Soldier",
+      "combatPower": 2700,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "lost-zombie-soldier-3600-8c098d1e",
+      "zhCNName": "Lost Zombie Soldier",
+      "zhTWName": "",
+      "enName": "Lost Zombie Soldier",
+      "combatPower": 3600,
+      "locations": [],
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -4838,12 +4834,14 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "mammoth",
-      "zhCNName": "Mammoth",
+      "id": "mammoth-old",
+      "zhCNName": "Mammoth (Old)",
       "zhTWName": "",
-      "enName": "Mammoth",
+      "enName": "Mammoth (Old)",
       "combatPower": 10000,
-      "locations": [],
+      "locations": [
+        "Summoned by Monster Summoning Urn"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4859,6 +4857,54 @@
         "Peaca Intermediate"
       ],
       "introducedBy": "G3",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "mata-monster-3000-3b4c24d5",
+      "zhCNName": "Mata (Monster)",
+      "zhTWName": "",
+      "enName": "Mata (Monster)",
+      "combatPower": 3000,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "mata-monster-6000-5764c2af",
+      "zhCNName": "Mata (Monster)",
+      "zhTWName": "",
+      "enName": "Mata (Monster)",
+      "combatPower": 6000,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "mata-monster-9000-799a172a",
+      "zhCNName": "Mata (Monster)",
+      "zhTWName": "",
+      "enName": "Mata (Monster)",
+      "combatPower": 9000,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "mata-monster-12000-15ec045d",
+      "zhCNName": "Mata (Monster)",
+      "zhTWName": "",
+      "enName": "Mata (Monster)",
+      "combatPower": 12000,
+      "locations": [],
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -4922,43 +4968,12 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "metal-skeleton-hardmode",
-      "zhCNName": "Metal Skeleton (Hardmode)",
-      "zhTWName": "",
-      "enName": "Metal Skeleton (Hardmode)",
-      "combatPower": 3264,
-      "locations": [
-        "Ciar Normal Hardmode (Boss)"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "metal-skeleton-heavy-armor",
       "zhCNName": "Metal Skeleton (Heavy Armor)",
       "zhTWName": "",
       "enName": "Metal Skeleton (Heavy Armor)",
       "combatPower": 1786,
       "locations": [
-        "Albey Black Orb",
-        "Albey Goddess"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "metal-skeleton-light-armor",
-      "zhCNName": "Metal Skeleton (Light Armor)",
-      "zhTWName": "",
-      "enName": "Metal Skeleton (Light Armor)",
-      "combatPower": 1814,
-      "locations": [
-        "Albey Red",
-        "Albey Silver",
         "Albey Black Orb",
         "Albey Goddess"
       ],
@@ -5008,6 +5023,20 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "mini-milk-cow",
+      "zhCNName": "Mini Milk Cow",
+      "zhTWName": "",
+      "enName": "Mini Milk Cow",
+      "combatPower": 180,
+      "locations": [
+        "Only during the Mabinogi 2nd Anniversary Event at Ladeca (an event map area)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": true,
+      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -5086,6 +5115,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "ogre-warrior-imp-s-dream-land",
+      "zhCNName": "Ogre Warrior (Imp's Dream Land)",
+      "zhTWName": "",
+      "enName": "Ogre Warrior (Imp's Dream Land)",
+      "combatPower": 2980,
+      "locations": [
+        "Imp's Dream Land Event"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": true,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "ogre-warrior-large",
       "zhCNName": "大型食人魔战士",
       "zhTWName": "大型食人魔戰士",
@@ -5129,34 +5172,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "old-mimic-hardmode",
-      "zhCNName": "Old Mimic (Hardmode)",
-      "zhTWName": "",
-      "enName": "Old Mimic (Hardmode)",
-      "combatPower": 1249,
-      "locations": [
-        "Alby Normal Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "old-sand-mimic",
-      "zhCNName": "Old Sand Mimic",
-      "zhTWName": "",
-      "enName": "Old Sand Mimic",
-      "combatPower": 500,
-      "locations": [
-        "Longa Normal"
-      ],
-      "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "otter",
       "zhCNName": "Otter",
       "zhTWName": "",
@@ -5185,16 +5200,16 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "phantom-black-mask",
-      "zhCNName": "Phantom Black Mask",
+      "id": "peridot-crystal-bear-event",
+      "zhCNName": "Peridot Crystal Bear (Event)",
       "zhTWName": "",
-      "enName": "Phantom Black Mask",
-      "combatPower": 1000,
+      "enName": "Peridot Crystal Bear (Event)",
+      "combatPower": 7000,
       "locations": [
-        "Dugald Castle Dungeon (Second floor)"
+        "Dunbarton (Northwest Fields)"
       ],
-      "introducedBy": "unknown",
-      "isEvent": false,
+      "introducedBy": "G1",
+      "isEvent": true,
       "translationStatus": "missing",
       "source": "mabinogi-world"
     },
@@ -5401,20 +5416,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "pirate-skeleton-hardmode",
-      "zhCNName": "Pirate Skeleton (Hardmode)",
-      "zhTWName": "",
-      "enName": "Pirate Skeleton (Hardmode)",
-      "combatPower": 2961,
-      "locations": [
-        "Rundal Normal Hardmode"
-      ],
-      "introducedBy": "G2",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "pirate-skeleton-hook",
       "zhCNName": "Pirate Skeleton (Hook)",
       "zhTWName": "",
@@ -5456,29 +5457,15 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "pledged-hollow-knight",
-      "zhCNName": "Pledged Hollow Knight",
+      "id": "pit-viper",
+      "zhCNName": "Pit Viper",
       "zhTWName": "",
-      "enName": "Pledged Hollow Knight",
-      "combatPower": 7110,
+      "enName": "Pit Viper",
+      "combatPower": 2000,
       "locations": [
-        "Peaca Intermediate"
+        "Snaky Energy"
       ],
-      "introducedBy": "G3",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "poison-skeleton-soldier",
-      "zhCNName": "Poison Skeleton Soldier",
-      "zhTWName": "",
-      "enName": "Poison Skeleton Soldier",
-      "combatPower": 1754,
-      "locations": [
-        "Ciar Dungeon (Advanced Boss Summon)"
-      ],
-      "introducedBy": "G1",
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -5498,20 +5485,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "poisoned-sasquatch",
-      "zhCNName": "Poisoned Sasquatch",
-      "zhTWName": "",
-      "enName": "Poisoned Sasquatch",
-      "combatPower": 8000,
-      "locations": [
-        "Shyllien Nature Reserve (Outskirts District 2)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "pot-belly-spider",
       "zhCNName": "大肚蜘蛛",
       "zhTWName": "大肚蜘蛛",
@@ -5524,21 +5497,6 @@
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "pot-belly-spider-large",
-      "zhCNName": "Pot-Belly Spider (Large)",
-      "zhTWName": "",
-      "enName": "Pot-Belly Spider (Large)",
-      "combatPower": 2400,
-      "locations": [
-        "Karu Stone Hound",
-        "Karu Pot Belly Spider"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -5598,20 +5556,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "pot-belly-spider-with-glowing-pincers",
-      "zhCNName": "Pot-Belly Spider with Glowing Pincers",
-      "zhTWName": "",
-      "enName": "Pot-Belly Spider with Glowing Pincers",
-      "combatPower": 1800,
-      "locations": [
-        "Karu Pot-Belly Spider's Pincer (Boss)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "pot-belly-spider-with-glowing-pot",
       "zhCNName": "Pot-Belly Spider with Glowing Pot",
       "zhTWName": "",
@@ -5652,6 +5596,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "quartz-crystal-bear-event",
+      "zhCNName": "Quartz Crystal Bear (Event)",
+      "zhTWName": "",
+      "enName": "Quartz Crystal Bear (Event)",
+      "combatPower": 7000,
+      "locations": [
+        "Dunbarton (Northwest Fields)"
+      ],
+      "introducedBy": "G1",
+      "isEvent": true,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "raccoon",
       "zhCNName": "Raccoon",
       "zhTWName": "",
@@ -5685,20 +5643,6 @@
         "Albey Goddess"
       ],
       "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "rat-man-hardmode",
-      "zhCNName": "Rat Man (Hardmode)",
-      "zhTWName": "",
-      "enName": "Rat Man (Hardmode)",
-      "combatPower": 2028,
-      "locations": [
-        "Ciar Advanced Hardmode"
-      ],
-      "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -5747,20 +5691,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "red-mummy-servant",
-      "zhCNName": "Red Mummy Servant",
-      "zhTWName": "",
-      "enName": "Red Mummy Servant",
-      "combatPower": 2500,
-      "locations": [
-        "Longa Mysterious Arrow (Floor 1)"
-      ],
-      "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "red-poisonous-snake",
       "zhCNName": "Red Poisonous Snake",
       "zhTWName": "",
@@ -5803,20 +5733,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "red-sickle-laghodessa",
-      "zhCNName": "Red Sickle Laghodessa",
-      "zhTWName": "",
-      "enName": "Red Sickle Laghodessa",
-      "combatPower": 1660,
-      "locations": [
-        "Ciar Advanced"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "red-skeleton",
       "zhCNName": "Red Skeleton",
       "zhTWName": "",
@@ -5852,22 +5768,6 @@
       "enName": "Red Skeleton (Heavy Armor)",
       "combatPower": 1526,
       "locations": [
-        "Albey Black Orb",
-        "Albey Goddess"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "red-skeleton-light-armor",
-      "zhCNName": "红色轻甲骷髅",
-      "zhTWName": "紅色輕甲骷髏",
-      "enName": "Red Skeleton (Light Armor)",
-      "combatPower": 1365,
-      "locations": [
-        "Albey Red",
         "Albey Black Orb",
         "Albey Goddess"
       ],
@@ -5918,43 +5818,13 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "red-spider-dungeon-331-9fe82f90",
-      "zhCNName": "Red Spider (Dungeon)",
-      "zhTWName": "",
-      "enName": "Red Spider (Dungeon)",
-      "combatPower": 331,
-      "locations": [
-        "Ciar Normal"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "red-spider-dungeon-631-012b0563",
+      "id": "red-spider-dungeon",
       "zhCNName": "Red Spider (Dungeon)",
       "zhTWName": "",
       "enName": "Red Spider (Dungeon)",
       "combatPower": 631,
       "locations": [
         "Fiodh Normal"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "red-spider-dungeon-849-397019e2",
-      "zhCNName": "Red Spider (Dungeon)",
-      "zhTWName": "",
-      "enName": "Red Spider (Dungeon)",
-      "combatPower": 849,
-      "locations": [
-        "Barri Paladin Training",
-        "Barri Mythril Mine",
-        "Barri Spirit Fossil"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -6013,20 +5883,6 @@
       "combatPower": 2800,
       "locations": [
         "Rabbie Basic (Solo Boss)"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "red-succubus-advanced",
-      "zhCNName": "Red Succubus (Advanced)",
-      "zhTWName": "",
-      "enName": "Red Succubus (Advanced)",
-      "combatPower": 4000,
-      "locations": [
-        "Rabbie Advanced"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -6233,34 +6089,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "sahagin-soldier-hardmode",
-      "zhCNName": "Sahagin Soldier (Hardmode)",
-      "zhTWName": "",
-      "enName": "Sahagin Soldier (Hardmode)",
-      "combatPower": 2660,
-      "locations": [
-        "Rundal Advanced Hardmode"
-      ],
-      "introducedBy": "G2",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "sahagin-warrior",
-      "zhCNName": "Sahagin Warrior",
-      "zhTWName": "",
-      "enName": "Sahagin Warrior",
-      "combatPower": 1600,
-      "locations": [
-        "Rundal Siren"
-      ],
-      "introducedBy": "G2",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "sahagin-warrior-hardmode",
       "zhCNName": "Sahagin Warrior (Hardmode)",
       "zhTWName": "",
@@ -6337,14 +6165,13 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "savanna-jackal",
-      "zhCNName": "Savanna Jackal",
+      "id": "sandbag-puppet-bisque-doll",
+      "zhCNName": "Sandbag Puppet (Bisque Doll)",
       "zhTWName": "",
-      "enName": "Savanna Jackal",
-      "combatPower": 1210,
+      "enName": "Sandbag Puppet (Bisque Doll)",
+      "combatPower": 2200,
       "locations": [
-        "Courcle (Cenae Meadows)",
-        "West of Mana Tunnel"
+        "Emain Macha (Square)"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -6352,17 +6179,30 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "sea-troll",
-      "zhCNName": "Sea Troll",
+      "id": "sandbag-puppet-dark-wooden-dummy",
+      "zhCNName": "Sandbag Puppet (Dark Wooden Dummy)",
       "zhTWName": "",
-      "enName": "Sea Troll",
-      "combatPower": 3650,
+      "enName": "Sandbag Puppet (Dark Wooden Dummy)",
+      "combatPower": 2200,
       "locations": [
-        "Scathach Beach",
-        "Scathach Caverns"
+        "Emain Macha (Square)"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "sapphire-crystal-bear-event",
+      "zhCNName": "Sapphire Crystal Bear (Event)",
+      "zhTWName": "",
+      "enName": "Sapphire Crystal Bear (Event)",
+      "combatPower": 7000,
+      "locations": [
+        "Dunbarton (Northwest Fields)"
+      ],
+      "introducedBy": "G1",
+      "isEvent": true,
       "translationStatus": "missing",
       "source": "mabinogi-world"
     },
@@ -6408,6 +6248,30 @@
       "zhTWName": "",
       "enName": "Seafood",
       "combatPower": 8800,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "sentry-2400-455c95f5",
+      "zhCNName": "Sentry",
+      "zhTWName": "",
+      "enName": "Sentry",
+      "combatPower": 2400,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "sentry-3600-f56a3936",
+      "zhCNName": "Sentry",
+      "zhTWName": "",
+      "enName": "Sentry",
+      "combatPower": 3600,
       "locations": [],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -7087,20 +6951,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "sheep-wolf",
-      "zhCNName": "Sheep Wolf",
-      "zhTWName": "",
-      "enName": "Sheep Wolf",
-      "combatPower": 1539,
-      "locations": [
-        "Osna Sail (Location)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "short-maned-hyena",
       "zhCNName": "Short Maned Hyena",
       "zhTWName": "",
@@ -7187,6 +7037,21 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "skelemancer",
+      "zhCNName": "Skelemancer",
+      "zhTWName": "",
+      "enName": "Skelemancer",
+      "combatPower": 80000,
+      "locations": [
+        "Rabbie Phantasm",
+        "Rabbie Phantasm Mirror"
+      ],
+      "introducedBy": "G1",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "skeleton",
       "zhCNName": "Skeleton",
       "zhTWName": "",
@@ -7260,15 +7125,15 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "skeleton-mini-heavy-armor",
-      "zhCNName": "Skeleton (Mini Heavy Armor)",
+      "id": "skeleton-mini-captain",
+      "zhCNName": "Skeleton (Mini Captain)",
       "zhTWName": "",
-      "enName": "Skeleton (Mini Heavy Armor)",
-      "combatPower": 1028,
+      "enName": "Skeleton (Mini Captain)",
+      "combatPower": 600,
       "locations": [
-        "Math Paladin Training"
+        "?"
       ],
-      "introducedBy": "G1",
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -7372,22 +7237,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "skeleton-wolf",
-      "zhCNName": "骷髅狼",
-      "zhTWName": "骷髏狼",
-      "enName": "Skeleton Wolf",
-      "combatPower": 1112,
-      "locations": [
-        "Rabbie Normal",
-        "Rundal Normal",
-        "Gairech Hills"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "skeleton-wolf-abb-neagh",
       "zhCNName": "Skeleton Wolf (Abb Neagh)",
       "zhTWName": "",
@@ -7453,35 +7302,6 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "small-golem-moss-2448-1866bbce",
-      "zhCNName": "Small Golem (Moss)",
-      "zhTWName": "",
-      "enName": "Small Golem (Moss)",
-      "combatPower": 2448,
-      "locations": [
-        "Fiodh Normal (Boss)",
-        "Fiodh (Violet) (Boss)"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "small-golem-moss-3430-b8a67cfa",
-      "zhCNName": "Small Golem (Moss)",
-      "zhTWName": "",
-      "enName": "Small Golem (Moss)",
-      "combatPower": 3430,
-      "locations": [
-        "Fiodh Intermediate (1-Person Boss)"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -7798,23 +7618,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "specter-archer",
-      "zhCNName": "Specter Archer",
-      "zhTWName": "",
-      "enName": "Specter Archer",
-      "combatPower": 2200,
-      "locations": [
-        "Abb Neagh Castle Dungeon",
-        "Sen Mag Castle Dungeon",
-        "Dugald Castle Dungeon",
-        "Sliab Cuilin Castle Dungeon"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "specter-fighter",
       "zhCNName": "Specter Fighter",
       "zhTWName": "",
@@ -7914,20 +7717,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "spider-archer",
-      "zhCNName": "Spider Archer",
-      "zhTWName": "",
-      "enName": "Spider Archer",
-      "combatPower": 3300,
-      "locations": [
-        "Alby Advanced"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "spider-archer-hardmode",
       "zhCNName": "Spider Archer (Hardmode)",
       "zhTWName": "",
@@ -7970,24 +7759,10 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "spider-ranger-hardmode",
-      "zhCNName": "Spider Ranger (Hardmode)",
+      "id": "spider-ranger",
+      "zhCNName": "Spider Ranger",
       "zhTWName": "",
-      "enName": "Spider Ranger (Hardmode)",
-      "combatPower": 6040,
-      "locations": [
-        "Alby Advanced Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "spider-soldier",
-      "zhCNName": "Spider Soldier",
-      "zhTWName": "",
-      "enName": "Spider Soldier",
+      "enName": "Spider Ranger",
       "combatPower": 3600,
       "locations": [
         "Alby Advanced"
@@ -7998,27 +7773,13 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "spider-soldier-hardmode",
-      "zhCNName": "Spider Soldier (Hardmode)",
+      "id": "spider-ranger-hardmode",
+      "zhCNName": "Spider Ranger (Hardmode)",
       "zhTWName": "",
-      "enName": "Spider Soldier (Hardmode)",
+      "enName": "Spider Ranger (Hardmode)",
       "combatPower": 6040,
       "locations": [
         "Alby Advanced Hardmode"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "spider-warrior",
-      "zhCNName": "Spider Warrior",
-      "zhTWName": "",
-      "enName": "Spider Warrior",
-      "combatPower": 4100,
-      "locations": [
-        "Alby Advanced"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -8092,20 +7853,6 @@
       "combatPower": 3000,
       "locations": [
         "Maiz Normal"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "stone-gargoyle-with-glowing-boots",
-      "zhCNName": "Stone Gargoyle with Glowing Boots",
-      "zhTWName": "",
-      "enName": "Stone Gargoyle with Glowing Boots",
-      "combatPower": 4000,
-      "locations": [
-        "Maiz Stone Gargoyle Boot"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8201,36 +7948,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "stone-imp",
-      "zhCNName": "石头小恶魔",
-      "zhTWName": "石頭小惡魔",
-      "enName": "Stone Imp",
-      "combatPower": 1200,
-      "locations": [
-        "Karu Normal",
-        "Karu Stone Imp",
-        "Karu Final Hit"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "stone-imp-the-dubious",
-      "zhCNName": "Stone Imp (the Dubious)",
-      "zhTWName": "",
-      "enName": "Stone Imp (the Dubious)",
-      "combatPower": 1500,
-      "locations": [
-        "Karu Normal"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "stone-mask",
       "zhCNName": "Stone Mask",
       "zhTWName": "",
@@ -8277,34 +7994,6 @@
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "stone-zombie-the-dubious",
-      "zhCNName": "Stone Zombie (the Dubious)",
-      "zhTWName": "",
-      "enName": "Stone Zombie (the Dubious)",
-      "combatPower": 1400,
-      "locations": [
-        "Karu Normal"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "stone-zombie-with-glowing-belt",
-      "zhCNName": "Stone Zombie with Glowing Belt",
-      "zhTWName": "",
-      "enName": "Stone Zombie with Glowing Belt",
-      "combatPower": 2000,
-      "locations": [
-        "Karu Stone Zombie (Belt Boss)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
@@ -8372,6 +8061,66 @@
       "locations": [
         "Karu Stone Zombie (Shoulder Accessory Boss)"
       ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "strange-book-631-f4bab7ba",
+      "zhCNName": "Strange Book",
+      "zhTWName": "",
+      "enName": "Strange Book",
+      "combatPower": 631,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "strange-book-1262-0d185e96",
+      "zhCNName": "Strange Book",
+      "zhTWName": "",
+      "enName": "Strange Book",
+      "combatPower": 1262,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "strange-book-1893-1acd8b36",
+      "zhCNName": "Strange Book",
+      "zhTWName": "",
+      "enName": "Strange Book",
+      "combatPower": 1893,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "strange-book-2524-5a8fe95e",
+      "zhCNName": "Strange Book",
+      "zhTWName": "",
+      "enName": "Strange Book",
+      "combatPower": 2524,
+      "locations": [],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "strange-book-3786-7723ebf0",
+      "zhCNName": "Strange Book",
+      "zhTWName": "",
+      "enName": "Strange Book",
+      "combatPower": 3786,
+      "locations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8488,15 +8237,13 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "temple-knight-sword-and-shield",
-      "zhCNName": "Temple Knight (Sword and Shield)",
+      "id": "tethra-monster",
+      "zhCNName": "Tethra (Monster)",
       "zhTWName": "",
-      "enName": "Temple Knight (Sword and Shield)",
-      "combatPower": 1180,
-      "locations": [
-        "Rundal Dungeon (Temple Knights Lair)"
-      ],
-      "introducedBy": "G2",
+      "enName": "Tethra (Monster)",
+      "combatPower": 1893,
+      "locations": [],
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -8601,6 +8348,20 @@
         "Rundal Normal Hardmode"
       ],
       "introducedBy": "G2",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "trickster-monster",
+      "zhCNName": "Trickster (Monster)",
+      "zhTWName": "",
+      "enName": "Trickster (Monster)",
+      "combatPower": 1800,
+      "locations": [
+        "Cursed Labyrinth"
+      ],
+      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -8952,6 +8713,20 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "weak-ghost",
+      "zhCNName": "Weak Ghost",
+      "zhTWName": "",
+      "enName": "Weak Ghost",
+      "combatPower": 800,
+      "locations": [
+        "(Chest Event)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": true,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "wendigo",
       "zhCNName": "Wendigo",
       "zhTWName": "",
@@ -9066,20 +8841,6 @@
         "Fiodh Advanced"
       ],
       "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "white-poisonous-snake",
-      "zhCNName": "White Poisonous Snake",
-      "zhTWName": "",
-      "enName": "White Poisonous Snake",
-      "combatPower": 2400,
-      "locations": [
-        "Scathach Beach"
-      ],
-      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -9247,24 +9008,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "white-spiderling",
-      "zhCNName": "White Spiderling",
-      "zhTWName": "",
-      "enName": "White Spiderling",
-      "combatPower": 189,
-      "locations": [
-        "Alby Beginner",
-        "Alby Normal",
-        "Alby Magic Bean",
-        "Albey Blue",
-        "Albey Red"
-      ],
-      "introducedBy": "G1",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "white-spiderling-hardmode",
       "zhCNName": "White Spiderling (Hardmode)",
       "zhTWName": "",
@@ -9364,21 +9107,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "white-tailed-mongoose",
-      "zhCNName": "White-tailed Mongoose",
-      "zhTWName": "",
-      "enName": "White-tailed Mongoose",
-      "combatPower": 800,
-      "locations": [
-        "Rano (South of Flower Mark",
-        "East of Human Mark)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "wight-3700-7241842e",
       "zhCNName": "Wight",
       "zhTWName": "",
@@ -9400,20 +9128,6 @@
       "combatPower": 4000,
       "locations": [
         "Peaca Basic"
-      ],
-      "introducedBy": "G3",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "wight-weak",
-      "zhCNName": "Wight (Weak)",
-      "zhTWName": "",
-      "enName": "Wight (Weak)",
-      "combatPower": 3700,
-      "locations": [
-        "G12 Peaca Secret Lair Dungeon"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -9496,23 +9210,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "wolf-sprite",
-      "zhCNName": "Wolf Sprite",
-      "zhTWName": "",
-      "enName": "Wolf Sprite",
-      "combatPower": 1600,
-      "locations": [
-        "Abb Neagh Castle Dungeon",
-        "Sen Mag Castle Dungeon",
-        "Dugald Castle Dungeon",
-        "Sliab Cuilin Castle Dungeon"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "wolf-striped-desert-spider",
       "zhCNName": "Wolf-striped Desert Spider",
       "zhTWName": "",
@@ -9569,21 +9266,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "yellow-breasted-bunting",
-      "zhCNName": "Yellow-Breasted Bunting",
-      "zhTWName": "",
-      "enName": "Yellow-Breasted Bunting",
-      "combatPower": 1000,
-      "locations": [
-        "Path from Tara to Corrib Valley",
-        "Corrib Valley"
-      ],
-      "introducedBy": "G10",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "yeti",
       "zhCNName": "Yeti",
       "zhTWName": "",
@@ -9597,6 +9279,20 @@
         "South of Fruited Tree Landmark",
         "North of Sella Beach",
         "South of Sella Beach"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "yeti-old",
+      "zhCNName": "Yeti (Old)",
+      "zhTWName": "",
+      "enName": "Yeti (Old)",
+      "combatPower": 10000,
+      "locations": [
+        "Summoned by Monster Summoning Urn"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9655,20 +9351,6 @@
         "Longa Normal"
       ],
       "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "young-blue-warg",
-      "zhCNName": "Young Blue Warg",
-      "zhTWName": "",
-      "enName": "Young Blue Warg",
-      "combatPower": 800,
-      "locations": [
-        "Physis (Southwest of the Flightless Bird Mark)"
-      ],
-      "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
       "source": "mabinogi-world"
@@ -9759,20 +9441,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "young-dark-red-porcupine",
-      "zhCNName": "Young Dark Red Porcupine",
-      "zhTWName": "",
-      "enName": "Young Dark Red Porcupine",
-      "combatPower": 400,
-      "locations": [
-        "Connous (South Errans Canyon)"
-      ],
-      "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "young-gray-raccoon",
       "zhCNName": "Young Gray Raccoon",
       "zhTWName": "",
@@ -9809,20 +9477,6 @@
       "combatPower": 600,
       "locations": [
         "Rano (outside Qilla Base Camp)"
-      ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "young-nubes-millipede",
-      "zhCNName": "Young Nubes Millipede",
-      "zhTWName": "",
-      "enName": "Young Nubes Millipede",
-      "combatPower": 550,
-      "locations": [
-        "Solea Underground (South)"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9961,21 +9615,6 @@
       "source": "mabinogi-world"
     },
     {
-      "id": "young-white-tailed-mongoose",
-      "zhCNName": "Young White-tailed Mongoose",
-      "zhTWName": "",
-      "enName": "Young White-tailed Mongoose",
-      "combatPower": 700,
-      "locations": [
-        "Rano (outside Qilla Base Camp)",
-        "Connous (southeast of Filia)"
-      ],
-      "introducedBy": "G4",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
       "id": "zebra",
       "zhCNName": "Zebra",
       "zhTWName": "",
@@ -10002,6 +9641,34 @@
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "zombie-female",
+      "zhCNName": "Zombie (Female)",
+      "zhTWName": "",
+      "enName": "Zombie (Female)",
+      "combatPower": 1000,
+      "locations": [
+        "Muyu Desert (fort)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
+      "source": "mabinogi-world"
+    },
+    {
+      "id": "zombie-male",
+      "zhCNName": "Zombie (Male)",
+      "zhTWName": "",
+      "enName": "Zombie (Male)",
+      "combatPower": 1000,
+      "locations": [
+        "Muyu Desert (fort)"
+      ],
+      "introducedBy": "unknown",
+      "isEvent": false,
+      "translationStatus": "missing",
       "source": "mabinogi-world"
     },
     {
