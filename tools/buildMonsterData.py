@@ -7,6 +7,7 @@ queries the same public properties directly instead of scraping generated HTML.
 from __future__ import annotations
 
 import datetime as _datetime
+import hashlib
 import json
 import re
 import urllib.parse
@@ -66,6 +67,7 @@ EVENT_HINTS = ("event", "halloween", "christmas", "anniversary")
 def main() -> None:
     raw_rows = fetch_monster_rows()
     normalized_records = normalize_rows(raw_rows)
+    verify_records(normalized_records)
     runtime_records = [runtime_record(record) for record in normalized_records]
 
     raw_payload = {
@@ -123,8 +125,8 @@ def fetch_json(url: str) -> dict[str, Any]:
 
 
 def normalize_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    records: list[dict[str, Any]] = []
-    used_ids: dict[str, int] = {}
+    candidates: list[dict[str, Any]] = []
+    seen_keys: set[tuple[str, int, tuple[str, ...]]] = set()
 
     for row in sorted(rows, key=row_sort_key):
         en_name = extract_name(row)
@@ -134,14 +136,15 @@ def normalize_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             continue
 
         locations = extract_locations(row)
-        base_id = slugify(en_name)
-        used_ids[base_id] = used_ids.get(base_id, 0) + 1
-        record_id = base_id if used_ids[base_id] == 1 else f"{base_id}-{used_ids[base_id]}"
+        key = normalized_record_key(en_name, combat_power, locations)
+        if key in seen_keys:
+            continue
+
+        seen_keys.add(key)
         zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
 
-        records.append(
+        candidates.append(
             {
-                "id": record_id,
                 "zhCNName": zh_cn_name,
                 "zhTWName": zh_tw_name,
                 "enName": en_name,
@@ -160,11 +163,69 @@ def normalize_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             }
         )
 
-    return records
+    return assign_stable_ids(candidates)
+
+
+def assign_stable_ids(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    name_counts: dict[str, int] = {}
+    used_ids: set[str] = set()
+    assigned_records: list[dict[str, Any]] = []
+
+    for record in records:
+        name_counts[record["enName"]] = name_counts.get(record["enName"], 0) + 1
+
+    for record in records:
+        base_id = slugify(record["enName"])
+        record_key = normalized_record_key(record["enName"], record["combatPower"], record["locations"])
+        record_id = base_id
+
+        if name_counts[record["enName"]] > 1:
+            record_id = f"{base_id}-{record['combatPower']}-{short_hash(record_key)}"
+
+        if record_id in used_ids:
+            record_id = f"{record_id}-{short_hash(record_key)}"
+
+        used_ids.add(record_id)
+        assigned_records.append({"id": record_id, **record})
+
+    return assigned_records
 
 
 def row_sort_key(row: dict[str, Any]) -> tuple[str, int, str]:
     return (extract_name(row).lower(), extract_combat_power(row) or 0, row.get("fullurl", ""))
+
+
+def normalized_record_key(en_name: str, combat_power: int, locations: list[str]) -> tuple[str, int, tuple[str, ...]]:
+    return (
+        normalize_key_text(en_name),
+        combat_power,
+        tuple(sorted(normalize_key_text(location) for location in locations)),
+    )
+
+
+def normalize_key_text(value: str) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip().lower()
+
+
+def short_hash(value: Any) -> str:
+    payload = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha1(payload.encode("utf-8")).hexdigest()[:8]
+
+
+def verify_records(records: list[dict[str, Any]]) -> None:
+    ids = [record["id"] for record in records]
+    keys = [normalized_record_key(record["enName"], record["combatPower"], record["locations"]) for record in records]
+
+    if len(ids) != len(set(ids)):
+        raise ValueError("Generated monster records contain duplicate ids")
+
+    if len(keys) != len(set(keys)):
+        raise ValueError("Generated monster records contain duplicate normalized keys")
+
+    zombies = [record for record in records if record["enName"] == "Zombie"]
+    for zombie in zombies:
+        if any(not is_event_text(location) for location in zombie["locations"]) and zombie["isEvent"]:
+            raise ValueError("Zombie with regular locations must not be marked as an event record")
 
 
 def extract_name(row: dict[str, Any]) -> str:
@@ -252,8 +313,15 @@ def infer_introduced_by(en_name: str, locations: list[str]) -> str:
 
 
 def infer_is_event(en_name: str, locations: list[str]) -> bool:
-    haystack = " ".join([en_name, *locations]).lower()
-    return any(hint in haystack for hint in EVENT_HINTS)
+    if is_event_text(en_name):
+        return True
+
+    return bool(locations) and all(is_event_text(location) for location in locations)
+
+
+def is_event_text(value: str) -> bool:
+    text = str(value or "").lower()
+    return any(hint in text for hint in EVENT_HINTS)
 
 
 def runtime_record(record: dict[str, Any]) -> dict[str, Any]:
