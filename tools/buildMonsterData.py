@@ -6,7 +6,7 @@ queries the same public properties directly instead of scraping generated HTML.
 
 from __future__ import annotations
 
-import datetime as _datetime
+import argparse
 import hashlib
 import json
 import re
@@ -173,27 +173,60 @@ EVENT_HINTS = ("event", "halloween", "christmas", "anniversary")
 
 
 def main() -> None:
-    raw_rows = fetch_monster_rows()
-    normalized_records = normalize_rows(raw_rows)
+    args = parse_args()
+
+    if args.fetch:
+        raw_rows = fetch_monster_rows()
+        normalized_records = normalize_rows(raw_rows)
+        verify_records(normalized_records)
+        write_raw_records(normalized_records)
+        print(f"Wrote {len(normalized_records)} records to {RAW_OUTPUT.relative_to(ROOT).as_posix()}")
+    else:
+        normalized_records = load_raw_records()
+
+    normalized_records = [derive_runtime_source_record(record) for record in normalized_records]
     verify_records(normalized_records)
     runtime_records = [runtime_record(record) for record in normalized_records]
 
+    JS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    JS_OUTPUT.write_text(render_js(runtime_records), encoding="utf-8")
+
+    print(f"Wrote {len(runtime_records)} records to {JS_OUTPUT.relative_to(ROOT).as_posix()}")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build browser monster combat power records.")
+    parser.add_argument(
+        "--fetch",
+        "--refresh-source",
+        action="store_true",
+        dest="fetch",
+        help="Fetch Mabinogi World Wiki and refresh the committed raw source JSON before generating runtime data.",
+    )
+    return parser.parse_args()
+
+
+def load_raw_records() -> list[dict[str, Any]]:
+    payload = json.loads(RAW_OUTPUT.read_text(encoding="utf-8"))
+    records = payload.get("records", [])
+
+    if not isinstance(records, list):
+        raise ValueError("Raw monster data must contain a records list")
+
+    return records
+
+
+def write_raw_records(normalized_records: list[dict[str, Any]]) -> None:
     raw_payload = {
         "sourceUrl": SOURCE_PAGE_URL,
         "apiEndpoint": API_ENDPOINT,
         "sourceQuery": "".join(BASE_QUERY_PARTS),
-        "generatedAt": _datetime.datetime.now(_datetime.UTC).replace(microsecond=0).isoformat(),
         "recordCount": len(normalized_records),
         "records": normalized_records,
     }
 
     RAW_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    JS_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     RAW_OUTPUT.write_text(json.dumps(raw_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    JS_OUTPUT.write_text(render_js(runtime_records), encoding="utf-8")
-
-    print(f"Wrote {len(normalized_records)} records to {RAW_OUTPUT.relative_to(ROOT).as_posix()}")
-    print(f"Wrote {len(runtime_records)} records to {JS_OUTPUT.relative_to(ROOT).as_posix()}")
 
 
 def fetch_monster_rows() -> list[dict[str, Any]]:
@@ -431,6 +464,21 @@ def infer_is_event(en_name: str, locations: list[str]) -> bool:
 def is_event_text(value: str) -> bool:
     text = str(value or "").lower()
     return any(hint in text for hint in EVENT_HINTS)
+
+
+def derive_runtime_source_record(record: dict[str, Any]) -> dict[str, Any]:
+    en_name = str(record["enName"])
+    locations = [str(location) for location in record.get("locations", [])]
+    zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
+
+    return {
+        **record,
+        "zhCNName": zh_cn_name,
+        "zhTWName": zh_tw_name,
+        "introducedBy": infer_introduced_by(en_name, locations),
+        "isEvent": infer_is_event(en_name, locations),
+        "translationStatus": translation_status,
+    }
 
 
 def runtime_record(record: dict[str, Any]) -> dict[str, Any]:
