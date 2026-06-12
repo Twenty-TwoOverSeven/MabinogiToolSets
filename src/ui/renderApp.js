@@ -24,6 +24,7 @@
     }
 
     function draw() {
+      const focusState = captureFocus(root);
       const profile = app.activeProfile(state);
       const result = app.calculateCombatPower(profile, app.G13_SKILLS);
       const suggestions = app.searchSkills(skillQuery, app.G13_SKILLS, profile.skills).slice(0, 8);
@@ -76,19 +77,12 @@
             <div class="skill-list">${renderLearnedSkills(profile, result.highestSkill && result.highestSkill.skillId, result.secondHighestSkill && result.secondHighestSkill.skillId)}</div>
           </section>
 
-          <section class="panel result-panel">
-            <h2>计算结果</h2>
-            <p>总战斗力：${result.total.toFixed(2)}</p>
-            <p>最高技能：${result.highestSkill ? `${escapeHtml(result.highestSkill.name)} ${result.highestSkill.combatPower}` : '无'}</p>
-            <p>次高技能：${result.secondHighestSkill ? `${escapeHtml(result.secondHighestSkill.name)} ${result.secondHighestSkill.combatPower}` : '无'}</p>
-            <p>技能贡献：${result.skillContribution.toFixed(2)}</p>
-            <p>白值贡献：${result.baseStatContribution.toFixed(2)}</p>
-            <ul>${result.statContributions.map((item) => `<li>${item.label}: ${item.contribution.toFixed(2)}</li>`).join('')}</ul>
-          </section>
+          ${renderResultPanel(result)}
         </main>
       `;
 
       bindEvents();
+      restoreFocus(root, focusState);
     }
 
     function bindEvents() {
@@ -123,7 +117,9 @@
         input.addEventListener('input', () => {
           const key = input.dataset.field;
           importMessage = '';
-          setState(app.updateActiveProfile(state, (profile) => ({ ...profile, [key]: input.value })));
+          state = app.updateActiveProfile(state, (profile) => ({ ...profile, [key]: input.value }));
+          app.saveState(localStorage, state);
+          updateImportMessage();
         });
       });
 
@@ -134,18 +130,37 @@
 
           if (!Number.isFinite(value) || value < 0) {
             importMessage = `白值属性无效：${statLabel(key)}`;
-            draw();
+            updateImportMessage();
             return;
           }
 
           importMessage = '';
-          setState(app.updateActiveProfile(state, (profile) => ({ ...profile, stats: { ...profile.stats, [key]: value } })));
+          state = app.updateActiveProfile(state, (profile) => ({ ...profile, stats: { ...profile.stats, [key]: value } }));
+          app.saveState(localStorage, state);
+          updateImportMessage();
+          updateCalculatedView();
         });
       });
 
-      root.querySelector('[data-skill-search]').addEventListener('input', (event) => {
+      const skillSearchInput = root.querySelector('[data-skill-search]');
+      let isComposing = false;
+
+      skillSearchInput.addEventListener('compositionstart', () => {
+        isComposing = true;
+      });
+
+      skillSearchInput.addEventListener('compositionend', (event) => {
+        isComposing = false;
         skillQuery = event.target.value;
         draw();
+      });
+
+      skillSearchInput.addEventListener('input', (event) => {
+        skillQuery = event.target.value;
+
+        if (!isComposing) {
+          draw();
+        }
       });
 
       root.querySelectorAll('[data-add-skill]').forEach((button) => {
@@ -228,6 +243,30 @@
     }
 
     draw();
+
+    function updateCalculatedView() {
+      const profile = app.activeProfile(state);
+      const result = app.calculateCombatPower(profile, app.G13_SKILLS);
+      const resultPanel = root.querySelector('.result-panel');
+
+      resultPanel.outerHTML = renderResultPanel(result);
+
+      result.statContributions.forEach((item) => {
+        const contribution = root.querySelector(`[data-stat-contribution="${item.key}"]`);
+
+        if (contribution) {
+          contribution.textContent = `贡献：${item.contribution.toFixed(2)}`;
+        }
+      });
+    }
+
+    function updateImportMessage() {
+      const message = root.querySelector('[data-import-message]');
+
+      if (message) {
+        message.textContent = importMessage;
+      }
+    }
   };
 
   function ensureStateHasProfile(state) {
@@ -247,8 +286,20 @@
 
     return `<label>${field.label}
       <input type="number" min="0" data-stat="${field.key}" value="${profile.stats[field.key]}" />
-      <span class="field-help">贡献：${contribution.contribution.toFixed(2)}</span>
+      <span class="field-help" data-stat-contribution="${field.key}">贡献：${contribution.contribution.toFixed(2)}</span>
     </label>`;
+  }
+
+  function renderResultPanel(result) {
+    return `<section class="panel result-panel">
+      <h2>计算结果</h2>
+      <p>总战斗力：${result.total.toFixed(2)}</p>
+      <p>最高技能：${result.highestSkill ? `${escapeHtml(result.highestSkill.name)} ${result.highestSkill.combatPower}` : '无'}</p>
+      <p>次高技能：${result.secondHighestSkill ? `${escapeHtml(result.secondHighestSkill.name)} ${result.secondHighestSkill.combatPower}` : '无'}</p>
+      <p>技能贡献：${result.skillContribution.toFixed(2)}</p>
+      <p>白值贡献：${result.baseStatContribution.toFixed(2)}</p>
+      <ul>${result.statContributions.map((item) => `<li>${item.label}: ${item.contribution.toFixed(2)}</li>`).join('')}</ul>
+    </section>`;
   }
 
   function statLabel(key) {
@@ -296,5 +347,72 @@
 
   function escapeHtml(value) {
     return String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[char]);
+  }
+
+  function captureFocus(root) {
+    const active = document.activeElement;
+
+    if (!active || !root.contains(active)) {
+      return null;
+    }
+
+    const selector = focusSelector(active);
+
+    if (!selector) {
+      return null;
+    }
+
+    return {
+      selector,
+      start: typeof active.selectionStart === 'number' ? active.selectionStart : null,
+      end: typeof active.selectionEnd === 'number' ? active.selectionEnd : null,
+    };
+  }
+
+  function restoreFocus(root, focusState) {
+    if (!focusState) {
+      return;
+    }
+
+    const next = root.querySelector(focusState.selector);
+
+    if (!next) {
+      return;
+    }
+
+    next.focus();
+
+    if (typeof next.setSelectionRange === 'function' && focusState.start !== null && focusState.end !== null) {
+      const length = next.value.length;
+      next.setSelectionRange(Math.min(focusState.start, length), Math.min(focusState.end, length));
+    }
+  }
+
+  function focusSelector(element) {
+    if (element.dataset.field) {
+      return `[data-field="${cssEscape(element.dataset.field)}"]`;
+    }
+
+    if (element.dataset.stat) {
+      return `[data-stat="${cssEscape(element.dataset.stat)}"]`;
+    }
+
+    if (element.dataset.skillSearch !== undefined) {
+      return '[data-skill-search]';
+    }
+
+    if (element.dataset.rankFor) {
+      return `[data-rank-for="${cssEscape(element.dataset.rankFor)}"]`;
+    }
+
+    return null;
+  }
+
+  function cssEscape(value) {
+    if (window.CSS && typeof window.CSS.escape === 'function') {
+      return window.CSS.escape(value);
+    }
+
+    return String(value).replace(/["\\]/g, '\\$&');
   }
 })();

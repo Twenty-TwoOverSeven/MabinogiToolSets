@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>怪物强度筛选页签设计草图</title>
+    <style>
+      :root {
+        color: #1f2937;
+        background: #f8fafc;
+        font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      main {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 28px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0 0 10px;
+      }
+
+      p {
+        color: #64748b;
+        line-height: 1.65;
+        margin: 0 0 14px;
+      }
+
+      .hero,
+      .option,
+      .panel {
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+      }
+
+      .hero {
+        margin-bottom: 20px;
+        padding: 22px;
+      }
+
+      .options {
+        display: grid;
+        gap: 18px;
+      }
+
+      .option {
+        padding: 18px;
+      }
+
+      .badge {
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        border-radius: 999px;
+        color: #1d4ed8;
+        display: inline-flex;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        padding: 5px 10px;
+      }
+
+      .mock-app {
+        border: 1px solid #dbe3ef;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .mock-header {
+        align-items: center;
+        background: #0f172a;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 18px;
+      }
+
+      .mock-header small {
+        color: #cbd5e1;
+      }
+
+      .tabs {
+        background: #f1f5f9;
+        border-bottom: 1px solid #dbe3ef;
+        display: flex;
+        gap: 8px;
+        padding: 10px 12px 0;
+      }
+
+      .tab {
+        background: #e2e8f0;
+        border-radius: 10px 10px 0 0;
+        color: #475569;
+        font-weight: 700;
+        padding: 10px 14px;
+      }
+
+      .tab.active {
+        background: #ffffff;
+        color: #0f172a;
+      }
+
+      .mock-body {
+        display: grid;
+        gap: 14px;
+        padding: 16px;
+      }
+
+      .mock-body.two-col {
+        grid-template-columns: 300px 1fr;
+      }
+
+      .mock-body.three-col {
+        grid-template-columns: 250px 1fr 260px;
+      }
+
+      .panel {
+        box-shadow: none;
+        padding: 14px;
+      }
+
+      .field {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        color: #334155;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+
+      .rank-strip {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(6, 1fr);
+      }
+
+      .rank {
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 10px 8px;
+        text-align: center;
+      }
+
+      .weakest {
+        background: #94a3b8;
+      }
+
+      .weak {
+        background: #38bdf8;
+      }
+
+      .normal {
+        background: #22c55e;
+      }
+
+      .strong {
+        background: #f59e0b;
+      }
+
+      .awful {
+        background: #ef4444;
+      }
+
+      .boss {
+        background: #7c3aed;
+      }
+
+      table {
+        border-collapse: collapse;
+        font-size: 14px;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid #e5e7eb;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        color: #475569;
+        font-size: 13px;
+      }
+
+      .summary-grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .metric {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 12px;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 20px;
+      }
+
+      .notes {
+        background: #fffbeb;
+        border: 1px solid #fde68a;
+        border-radius: 12px;
+        margin-top: 14px;
+        padding: 12px 14px;
+      }
+
+      @media (max-width: 900px) {
+        .mock-body.two-col,
+        .mock-body.three-col,
+        .rank-strip,
+        .summary-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>怪物强度筛选功能：静态设计草图</h1>
+        <p>
+          这不是最终实现，只用于讨论交互方向。资料来源倾向使用 Mabinogi World Wiki 的 Monster CP 表，强度分档按
+          怪物 CP / 角色 CP：Weakest 0.8 以下、Weak 0.8-1、同级 1-1.4、Strong 1.4-2、Awful 2-3、Boss 3 以上。
+        </p>
+      </section>
+
+      <div class="options">
+        <section class="option">
+          <span class="badge">推荐方案 A：新增页签</span>
+          <h2>在现有计算器内增加“怪物筛选”页签</h2>
+          <p>最贴近你的原始想法：角色档案和战力计算仍在原页签，筛选页签复用当前角色的总战力，也允许临时输入战力。</p>
+
+          <div class="mock-app">
+            <div class="mock-header">
+              <strong>洛奇战斗力计算器</strong>
+              <small>当前角色：娜儿，总战斗力 742.35</small>
+            </div>
+            <div class="tabs">
+              <div class="tab">角色战力</div>
+              <div class="tab active">怪物筛选</div>
+              <div class="tab">导入导出</div>
+            </div>
+            <div class="mock-body two-col">
+              <aside class="panel">
+                <h3>筛选条件</h3>
+                <div class="field">角色战力：742.35（使用当前角色）</div>
+                <div class="field">强度：Strong / 强敌</div>
+                <div class="field">怪物名搜索：狼</div>
+                <div class="field">地点：全部</div>
+                <div class="field">数据范围：G13 前后可筛选</div>
+              </aside>
+              <section class="panel">
+                <h3>符合 Strong 的怪物</h3>
+                <div class="rank-strip">
+                  <div class="rank weakest">Weakest<br />0-593</div>
+                  <div class="rank weak">Weak<br />594-742</div>
+                  <div class="rank normal">同级<br />743-1039</div>
+                  <div class="rank strong">Strong<br />1040-1484</div>
+                  <div class="rank awful">Awful<br />1485-2227</div>
+                  <div class="rank boss">Boss<br />2228+</div>
+                </div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>中文名</th>
+                      <th>原名</th>
+                      <th>CP</th>
+                      <th>强度</th>
+                      <th>地点</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>灰狼</td>
+                      <td>Gray Wolf</td>
+                      <td>1,120</td>
+                      <td>Strong</td>
+                      <td>示例地点</td>
+                    </tr>
+                    <tr>
+                      <td>骷髅狼</td>
+                      <td>Skeleton Wolf</td>
+                      <td>1,350</td>
+                      <td>Strong</td>
+                      <td>示例地下城</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="option">
+          <span class="badge">方案 B：计算器右侧加推荐栏</span>
+          <h2>边算角色战力，边显示各强度怪物</h2>
+          <p>适合频繁调技能等级看怪物档位变化，但现有页面会更拥挤；移动端也更难安排。</p>
+
+          <div class="mock-app">
+            <div class="mock-header">
+              <strong>洛奇战斗力计算器</strong>
+              <small>实时预览怪物强度</small>
+            </div>
+            <div class="mock-body three-col">
+              <section class="panel">
+                <h3>角色与白值</h3>
+                <div class="field">力量 120</div>
+                <div class="field">敏捷 80</div>
+                <div class="field">意志 60</div>
+              </section>
+              <section class="panel">
+                <h3>技能与结果</h3>
+                <div class="field">风车 Rank 1：350</div>
+                <div class="field">防御 Rank 9：210</div>
+                <div class="metric"><strong>742.35</strong>总战斗力</div>
+              </section>
+              <aside class="panel">
+                <h3>推荐怪物</h3>
+                <div class="field">Strong：灰狼、骷髅狼...</div>
+                <div class="field">Awful：僵尸、巨大蜘蛛...</div>
+                <div class="field">Boss：食人魔战士...</div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="option">
+          <span class="badge">方案 C：独立怪物数据库页</span>
+          <h2>把怪物筛选做成更完整的资料库</h2>
+          <p>适合后续扩展成怪物图鉴、地点筛选和翻译校对工作台，但第一版范围会明显变大。</p>
+
+          <div class="mock-app">
+            <div class="mock-header">
+              <strong>怪物 CP 数据库</strong>
+              <small>可独立输入角色战力</small>
+            </div>
+            <div class="mock-body">
+              <section class="panel">
+                <div class="summary-grid">
+                  <div class="metric"><strong>1,482</strong>怪物记录</div>
+                  <div class="metric"><strong>65%</strong>已有中文译名</div>
+                  <div class="metric"><strong>G13</strong>按版本筛选</div>
+                </div>
+              </section>
+              <section class="panel">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>中文名</th>
+                      <th>英文名</th>
+                      <th>日文名</th>
+                      <th>CP</th>
+                      <th>地点</th>
+                      <th>译名状态</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>待校对：Fenrir</td>
+                      <td>Fenrir</td>
+                      <td>フェンリル</td>
+                      <td>2,400</td>
+                      <td>示例</td>
+                      <td>需要确认</td>
+                    </tr>
+                    <tr>
+                      <td>巨大蜘蛛</td>
+                      <td>Giant Spider</td>
+                      <td>巨大クモ</td>
+                      <td>示例</td>
+                      <td>艾菲地下城</td>
+                      <td>已确认</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="notes">
+        <strong>需要确认的关键点：</strong>
+        第一版是只内置一批经过翻译校对的常用怪物，还是尽量导入完整英文 CP 表并把未确认译名标记为“待翻译”？
+      </section>
+    </main>
+  </body>
+</html>
