@@ -177,6 +177,18 @@
 - 空结果提示。
 - 非法手动战力提示。
 
+## 数据刷新流程
+
+怪物 CP 数据通过 `tools/buildMonsterData.py` 刷新。该脚本使用 Python 标准库读取 Mabinogi World Wiki 的 `List of Monster CP` 页面，写入 `data/raw/mabinogi-world-monster-cp.json`，并生成浏览器使用的 `src/monsters/monsterRecords.js`。
+
+刷新命令：
+
+```powershell
+python "tools/buildMonsterData.py"
+```
+
+刷新后需要检查默认 G13 结果、译名状态和版本未知比例，确认没有明显解析错误后再提交。
+
 ## 已确认决策
 
 - 使用方案 A 的页签体验。
