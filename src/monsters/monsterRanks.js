@@ -56,6 +56,12 @@
 
   app.calculateMonsterRank = function calculateMonsterRank(monsterCombatPower, characterCombatPower) {
     const monsterValue = Number(monsterCombatPower);
+    const characterValue = Number(characterCombatPower);
+
+    if (!Number.isFinite(monsterValue) || !Number.isFinite(characterValue) || characterValue <= 0) {
+      return null;
+    }
+
     const ranges = app.calculateMonsterRankRanges(characterCombatPower);
 
     return (
@@ -136,6 +142,7 @@
         ...monster,
         rank: app.calculateMonsterRank(monster.combatPower, activeFilters.combatPower),
       }))
+      .filter((monster) => monster.rank !== null)
       .filter((monster) => selectedRanks.has(monster.rank.id))
       .filter((monster) => translationStatus === 'all' || monster.translationStatus === translationStatus)
       .filter((monster) => matchesNameQuery(monster, nameQuery))

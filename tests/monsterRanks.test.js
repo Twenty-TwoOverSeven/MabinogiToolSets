@@ -79,6 +79,34 @@
     expectEqual(calculateMonsterRank(300, 100).id, 'boss');
   });
 
+  test('invalid combat power inputs do not produce a monster rank', () => {
+    expectEqual(calculateMonsterRank(Number.NaN, 100), null);
+    expectEqual(calculateMonsterRank(100, Number.NaN), null);
+    expectEqual(calculateMonsterRank(100, Number.POSITIVE_INFINITY), null);
+    expectEqual(calculateMonsterRank(100, 0), null);
+
+    const result = filterMonsters(
+      [
+        ...monsters,
+        {
+          id: 'invalid-cp',
+          zhCNName: '无效战力',
+          zhTWName: '無效戰力',
+          enName: 'Invalid CP',
+          combatPower: Number.NaN,
+          locations: ['测试'],
+          introducedBy: 'G1',
+          isEvent: false,
+          translationStatus: 'confirmed',
+          source: 'test',
+        },
+      ],
+      filter(),
+    );
+
+    expectEqual(result.map((item) => item.id).join(','), 'gray-wolf,red-spider');
+  });
+
   test('monster rank ranges are derived from active combat power', () => {
     const ranges = calculateMonsterRankRanges(100);
 
@@ -133,6 +161,12 @@
     expectEqual(result.map((item) => item.id).join(','), 'gray-wolf,red-spider');
     expectEqual(result[0].rank.id, 'weak');
     expectEqual(result[1].rank.id, 'strong');
+  });
+
+  test('monster filter limits records by selected ranks', () => {
+    expectEqual(filterMonsters(monsters, filter({ selectedRanks: ['weak'] })).map((item) => item.id).join(','), 'gray-wolf');
+    expectEqual(filterMonsters(monsters, filter({ selectedRanks: ['strong'] })).map((item) => item.id).join(','), 'red-spider');
+    expectEqual(filterMonsters(monsters, filter({ selectedRanks: [] })).length, 0);
   });
 
   test('complete monster filter can include future and unknown version records', () => {
