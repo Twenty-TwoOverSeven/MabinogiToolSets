@@ -58,19 +58,17 @@
     const monsterValue = Number(monsterCombatPower);
     const characterValue = Number(characterCombatPower);
 
-    if (!Number.isFinite(monsterValue) || !Number.isFinite(characterValue) || characterValue <= 0) {
+    if (!Number.isFinite(monsterValue) || monsterValue < 0 || !Number.isFinite(characterValue) || characterValue <= 0) {
       return null;
     }
 
     const ranges = app.calculateMonsterRankRanges(characterCombatPower);
 
-    return (
-      app.MONSTER_RANKS.find((rank) => {
-        const range = ranges[rank.id];
+    return app.MONSTER_RANKS.find((rank) => {
+      const range = ranges[rank.id];
 
-        return monsterValue >= range.min && (range.maxExclusive === null || monsterValue < range.maxExclusive);
-      }) || app.MONSTER_RANKS[app.MONSTER_RANKS.length - 1]
-    );
+      return monsterValue >= range.min && (range.maxExclusive === null || monsterValue < range.maxExclusive);
+    }) || null;
   };
 
   app.calculateMonsterRankRanges = function calculateMonsterRankRanges(characterCombatPower) {

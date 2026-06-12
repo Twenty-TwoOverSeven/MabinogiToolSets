@@ -81,6 +81,7 @@
 
   test('invalid combat power inputs do not produce a monster rank', () => {
     expectEqual(calculateMonsterRank(Number.NaN, 100), null);
+    expectEqual(calculateMonsterRank(-1, 100), null);
     expectEqual(calculateMonsterRank(100, Number.NaN), null);
     expectEqual(calculateMonsterRank(100, Number.POSITIVE_INFINITY), null);
     expectEqual(calculateMonsterRank(100, 0), null);
