@@ -109,3 +109,100 @@ button:disabled {
 .result-panel p {
   margin: 6px 0;
 }
+
+.page-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.page-tab {
+  background: #ffffff;
+}
+
+.page-tab--active {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #ffffff;
+}
+
+.monster-summary-grid,
+.monster-filter-grid,
+.monster-range-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.monster-summary-grid p {
+  margin: 0;
+}
+
+.monster-message {
+  color: #b91c1c;
+  margin: 12px 0 0;
+}
+
+.monster-rank-filters {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 8px 0 0;
+  padding: 12px;
+}
+
+.monster-rank-filters legend {
+  color: #475569;
+  padding: 0 6px;
+}
+
+.checkbox-label {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  margin: 0;
+}
+
+.checkbox-label input {
+  margin: 0;
+}
+
+.monster-range-card {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+}
+
+.monster-range-card span {
+  color: #64748b;
+}
+
+.monster-table-wrap {
+  overflow-x: auto;
+}
+
+.monster-table {
+  border-collapse: collapse;
+  min-width: 900px;
+  width: 100%;
+}
+
+.monster-table th,
+.monster-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.monster-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 700;
+}

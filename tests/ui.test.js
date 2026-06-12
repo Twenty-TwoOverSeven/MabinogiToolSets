@@ -134,4 +134,90 @@
     root.remove();
     localStorage.clear();
   });
+
+  test('monster tab uses current profile combat power by default', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    const strengthInput = root.querySelector('[data-stat="strength"]');
+    strengthInput.value = '100';
+    strengthInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    expectEqual(root.querySelector('[data-active-monster-cp]').textContent.includes('100.00'), true);
+    expectEqual(root.querySelector('[data-monster-source]').textContent, '来自当前角色');
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster tab manual override changes filter source only', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-source]').textContent, '手动覆盖');
+    expectEqual(root.querySelector('[data-active-monster-cp]').textContent.includes('100.00'), true);
+
+    root.querySelector('[data-tab="character"]').click();
+
+    expectEqual(root.querySelector('.result-panel').textContent.includes('总战斗力：0.00'), true);
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster tab validates invalid manual combat power', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '-5';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-message]').textContent, '手动战力必须是大于 0 的数字。');
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster tab can search generated monster records', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    const nameInput = root.querySelector('[data-monster-name-query]');
+    nameInput.value = 'gray';
+    nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-results]').textContent.toLowerCase().includes('gray'), true);
+
+    root.remove();
+    localStorage.clear();
+  });
 })();

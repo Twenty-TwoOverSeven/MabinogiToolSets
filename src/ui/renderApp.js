@@ -16,6 +16,8 @@
     let state = app.loadState(localStorage) || app.createAppState();
     let skillQuery = '';
     let importMessage = '';
+    let activeTab = 'character';
+    let monsterFilters = { ...app.DEFAULT_MONSTER_FILTERS };
 
     function setState(next) {
       state = ensureStateHasProfile(next);
@@ -42,42 +44,8 @@
             <p class="import-message" data-import-message>${escapeHtml(importMessage)}</p>
           </header>
 
-          <section class="panel">
-            <h2>角色档案</h2>
-            <label>选择角色
-              <select data-profile-select>
-                ${state.profiles.map((item) => `<option value="${escapeHtml(item.id)}" ${item.id === state.activeProfileId ? 'selected' : ''}>${escapeHtml(item.name || '未命名角色')}</option>`).join('')}
-              </select>
-            </label>
-            <div class="profile-actions">
-              <button data-add-profile>新建角色</button>
-              <button data-duplicate-profile>复制当前角色</button>
-              <button data-delete-profile ${state.profiles.length === 1 ? 'disabled' : ''}>删除当前角色</button>
-            </div>
-            <label>角色名 <input data-field="name" value="${escapeHtml(profile.name)}" /></label>
-            <label>种族
-              <select data-field="race">${renderRaceOptions(profile.race)}</select>
-            </label>
-            <label>称号 <input data-field="title" value="${escapeHtml(profile.title)}" /></label>
-          </section>
-
-          <section class="panel">
-            <h2>白值属性</h2>
-            <div class="stat-grid">
-              ${STAT_FIELDS.map((field) => renderStatInput(field, profile, result)).join('')}
-            </div>
-          </section>
-
-          <section class="panel">
-            <h2>技能</h2>
-            <label>搜索技能 <input data-skill-search value="${escapeHtml(skillQuery)}" placeholder="输入大陆名或台湾名" /></label>
-            <div class="suggestions">
-              ${suggestions.map((skill) => `<button data-add-skill="${skill.id}">添加 ${escapeHtml(skill.zhCNName)}</button>`).join('')}
-            </div>
-            <div class="skill-list">${renderLearnedSkills(profile, result.highestSkill && result.highestSkill.skillId, result.secondHighestSkill && result.secondHighestSkill.skillId)}</div>
-          </section>
-
-          ${renderResultPanel(result)}
+          ${renderTabs(activeTab)}
+          ${activeTab === 'character' ? renderCharacterTab(state, profile, result, suggestions, skillQuery) : renderMonsterTab(result, monsterFilters)}
         </main>
       `;
 
@@ -86,6 +54,20 @@
     }
 
     function bindEvents() {
+      root.querySelectorAll('[data-tab]').forEach((button) => {
+        button.addEventListener('click', () => {
+          activeTab = button.dataset.tab;
+          draw();
+        });
+      });
+
+      bindCommonEvents();
+
+      if (activeTab === 'monsters') {
+        bindMonsterEvents();
+        return;
+      }
+
       root.querySelector('[data-profile-select]').addEventListener('change', (event) => {
         setState(app.selectProfile(state, event.target.value));
       });
@@ -193,7 +175,9 @@
           })));
         });
       });
+    }
 
+    function bindCommonEvents() {
       root.querySelector('[data-export-json]').addEventListener('click', () => {
         try {
           downloadJson(app.exportProfiles(state.profiles));
@@ -211,6 +195,49 @@
 
       root.querySelector('[data-import-merge]').addEventListener('change', (event) => {
         importFromInput(event.currentTarget, 'merge');
+      });
+    }
+
+    function bindMonsterEvents() {
+      root.querySelectorAll('[data-monster-rank]').forEach((input) => {
+        input.addEventListener('change', () => {
+          const selectedRanks = Array.from(root.querySelectorAll('[data-monster-rank]:checked')).map((item) => item.value);
+          monsterFilters = { ...monsterFilters, selectedRanks };
+          draw();
+        });
+      });
+
+      const manualInput = root.querySelector('[data-monster-manual-cp]');
+      manualInput.addEventListener('input', (event) => {
+        monsterFilters = { ...monsterFilters, manualCombatPower: event.target.value };
+        draw();
+      });
+
+      const nameInput = root.querySelector('[data-monster-name-query]');
+      nameInput.addEventListener('input', (event) => {
+        monsterFilters = { ...monsterFilters, nameQuery: event.target.value };
+        draw();
+      });
+
+      const locationInput = root.querySelector('[data-monster-location-query]');
+      locationInput.addEventListener('input', (event) => {
+        monsterFilters = { ...monsterFilters, locationQuery: event.target.value };
+        draw();
+      });
+
+      root.querySelector('[data-monster-data-scope]').addEventListener('change', (event) => {
+        monsterFilters = { ...monsterFilters, dataScope: event.target.value };
+        draw();
+      });
+
+      root.querySelector('[data-monster-include-unknown]').addEventListener('change', (event) => {
+        monsterFilters = { ...monsterFilters, includeUnknownIntroducedBy: event.target.checked };
+        draw();
+      });
+
+      root.querySelector('[data-monster-translation-status]').addEventListener('change', (event) => {
+        monsterFilters = { ...monsterFilters, translationStatus: event.target.value };
+        draw();
       });
     }
 
@@ -281,6 +308,54 @@
     return ['人类', '精灵', '巨人'].map((race) => `<option value="${race}" ${race === value ? 'selected' : ''}>${race}</option>`).join('');
   }
 
+  function renderTabs(activeTab) {
+    return `<nav class="page-tabs" aria-label="页面切换">
+      <button class="page-tab ${activeTab === 'character' ? 'page-tab--active' : ''}" data-tab="character" type="button">角色战力</button>
+      <button class="page-tab ${activeTab === 'monsters' ? 'page-tab--active' : ''}" data-tab="monsters" type="button">怪物筛选</button>
+    </nav>`;
+  }
+
+  function renderCharacterTab(state, profile, result, suggestions, skillQuery) {
+    return `<div class="tab-panel tab-panel--character">
+      <section class="panel">
+        <h2>角色档案</h2>
+        <label>选择角色
+          <select data-profile-select>
+            ${state.profiles.map((item) => `<option value="${escapeHtml(item.id)}" ${item.id === state.activeProfileId ? 'selected' : ''}>${escapeHtml(item.name || '未命名角色')}</option>`).join('')}
+          </select>
+        </label>
+        <div class="profile-actions">
+          <button data-add-profile>新建角色</button>
+          <button data-duplicate-profile>复制当前角色</button>
+          <button data-delete-profile ${state.profiles.length === 1 ? 'disabled' : ''}>删除当前角色</button>
+        </div>
+        <label>角色名 <input data-field="name" value="${escapeHtml(profile.name)}" /></label>
+        <label>种族
+          <select data-field="race">${renderRaceOptions(profile.race)}</select>
+        </label>
+        <label>称号 <input data-field="title" value="${escapeHtml(profile.title)}" /></label>
+      </section>
+
+      <section class="panel">
+        <h2>白值属性</h2>
+        <div class="stat-grid">
+          ${STAT_FIELDS.map((field) => renderStatInput(field, profile, result)).join('')}
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>技能</h2>
+        <label>搜索技能 <input data-skill-search value="${escapeHtml(skillQuery)}" placeholder="输入大陆名或台湾名" /></label>
+        <div class="suggestions">
+          ${suggestions.map((skill) => `<button data-add-skill="${skill.id}">添加 ${escapeHtml(skill.zhCNName)}</button>`).join('')}
+        </div>
+        <div class="skill-list">${renderLearnedSkills(profile, result.highestSkill && result.highestSkill.skillId, result.secondHighestSkill && result.secondHighestSkill.skillId)}</div>
+      </section>
+
+      ${renderResultPanel(result)}
+    </div>`;
+  }
+
   function renderStatInput(field, profile, result) {
     const contribution = result.statContributions.find((item) => item.key === field.key);
 
@@ -300,6 +375,151 @@
       <p>白值贡献：${result.baseStatContribution.toFixed(2)}</p>
       <ul>${result.statContributions.map((item) => `<li>${item.label}: ${item.contribution.toFixed(2)}</li>`).join('')}</ul>
     </section>`;
+  }
+
+  function renderMonsterTab(result, filters) {
+    const resolved = app.resolveMonsterFilterCombatPower(result.total, filters.manualCombatPower);
+    const combatPower = resolved.ok ? resolved.value : null;
+    const monsters = resolved.ok ? app.filterMonsters(app.MONSTER_RECORDS, { ...filters, combatPower }) : [];
+    const sourceText = resolved.ok ? (resolved.source === 'manual' ? '手动覆盖' : '来自当前角色') : '';
+    const message = resolved.ok ? '' : resolved.error;
+    const ranges = resolved.ok ? app.calculateMonsterRankRanges(combatPower) : null;
+
+    return `<div class="tab-panel tab-panel--monsters">
+      <section class="panel monster-summary">
+        <h2>怪物筛选</h2>
+        <div class="monster-summary-grid">
+          <p>筛选战力：<strong data-active-monster-cp>${resolved.ok ? combatPower.toFixed(2) : '无'}</strong></p>
+          <p>来源：<strong data-monster-source>${escapeHtml(sourceText)}</strong></p>
+          <p>结果数：<strong>${monsters.length}</strong></p>
+        </div>
+        <p class="monster-message" data-monster-message>${escapeHtml(message)}</p>
+      </section>
+
+      <section class="panel monster-filters">
+        <h2>筛选条件</h2>
+        <div class="monster-filter-grid">
+          <label>手动战力
+            <input data-monster-manual-cp type="number" min="0" step="0.01" value="${escapeHtml(filters.manualCombatPower)}" placeholder="默认使用当前角色" />
+          </label>
+          <label>名称搜索
+            <input data-monster-name-query value="${escapeHtml(filters.nameQuery)}" placeholder="中文、繁中或英文" />
+          </label>
+          <label>地点搜索
+            <input data-monster-location-query value="${escapeHtml(filters.locationQuery)}" placeholder="地点或来源" />
+          </label>
+          <label>资料范围
+            <select data-monster-data-scope>
+              <option value="g13" ${filters.dataScope === 'g13' ? 'selected' : ''}>G13 及以前</option>
+              <option value="all" ${filters.dataScope === 'all' ? 'selected' : ''}>全部世代</option>
+            </select>
+          </label>
+          <label>译名状态
+            <select data-monster-translation-status>
+              <option value="all" ${filters.translationStatus === 'all' ? 'selected' : ''}>全部</option>
+              <option value="confirmed" ${filters.translationStatus === 'confirmed' ? 'selected' : ''}>已确认</option>
+              <option value="autoConverted" ${filters.translationStatus === 'autoConverted' ? 'selected' : ''}>自动转换</option>
+              <option value="missing" ${filters.translationStatus === 'missing' ? 'selected' : ''}>缺失</option>
+            </select>
+          </label>
+          <label class="checkbox-label">
+            <input data-monster-include-unknown type="checkbox" ${filters.includeUnknownIntroducedBy ? 'checked' : ''} />
+            包含未知世代
+          </label>
+        </div>
+        <fieldset class="monster-rank-filters">
+          <legend>相对强度</legend>
+          ${app.MONSTER_RANKS.map((rank) => `<label class="checkbox-label">
+            <input data-monster-rank type="checkbox" value="${escapeHtml(rank.id)}" ${filters.selectedRanks.includes(rank.id) ? 'checked' : ''} />
+            ${escapeHtml(rank.label)}
+          </label>`).join('')}
+        </fieldset>
+      </section>
+
+      <section class="panel monster-ranges">
+        <h2>强度 CP 范围</h2>
+        ${renderMonsterRankRanges(ranges)}
+      </section>
+
+      <section class="panel monster-results" data-monster-results>
+        <h2>筛选结果（${monsters.length}）</h2>
+        ${renderMonsterResults(monsters)}
+      </section>
+    </div>`;
+  }
+
+  function renderMonsterRankRanges(ranges) {
+    if (!ranges) {
+      return '<p class="empty-state">需要有效战力后才会显示范围。</p>';
+    }
+
+    return `<div class="monster-range-grid">
+      ${app.MONSTER_RANKS.map((rank) => `<div class="monster-range-card">
+        <strong>${escapeHtml(rank.label)}</strong>
+        <span>${formatRange(ranges[rank.id])}</span>
+      </div>`).join('')}
+    </div>`;
+  }
+
+  function renderMonsterResults(monsters) {
+    if (monsters.length === 0) {
+      return '<p class="empty-state">没有符合条件的怪物。</p>';
+    }
+
+    return `<div class="monster-table-wrap">
+      <table class="monster-table">
+        <thead>
+          <tr>
+            <th>中文名</th>
+            <th>繁中名</th>
+            <th>英文原名</th>
+            <th>CP</th>
+            <th>相对强度</th>
+            <th>地点/来源</th>
+            <th>译名状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${monsters.map((monster) => `<tr>
+            <td>${escapeHtml(monster.zhCNName || '')}</td>
+            <td>${escapeHtml(monster.zhTWName || '')}</td>
+            <td>${escapeHtml(monster.enName || '')}</td>
+            <td>${Number(monster.combatPower).toFixed(0)}</td>
+            <td>${escapeHtml(monster.rank.label)}</td>
+            <td>${escapeHtml(formatMonsterLocation(monster))}</td>
+            <td>${escapeHtml(translationStatusLabel(monster.translationStatus))}</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>`;
+  }
+
+  function formatRange(range) {
+    const min = range.min.toFixed(2);
+
+    if (range.maxExclusive === null) {
+      return `${min} 以上`;
+    }
+
+    return `${min} - ${range.maxExclusive.toFixed(2)}`;
+  }
+
+  function formatMonsterLocation(monster) {
+    const locations = monster.locations && monster.locations.length > 0 ? monster.locations.join('、') : '';
+    const source = [monster.introducedBy, monster.source].filter(Boolean).join(' / ');
+
+    return locations || source || '未知';
+  }
+
+  function translationStatusLabel(status) {
+    const labels = {
+      all: '全部',
+      confirmed: '已确认',
+      autoConverted: '自动转换',
+      missing: '缺失',
+    };
+
+    return labels[status] || status || '未知';
   }
 
   function statLabel(key) {
@@ -399,6 +619,18 @@
 
     if (element.dataset.skillSearch !== undefined) {
       return '[data-skill-search]';
+    }
+
+    if (element.dataset.monsterManualCp !== undefined) {
+      return '[data-monster-manual-cp]';
+    }
+
+    if (element.dataset.monsterNameQuery !== undefined) {
+      return '[data-monster-name-query]';
+    }
+
+    if (element.dataset.monsterLocationQuery !== undefined) {
+      return '[data-monster-location-query]';
     }
 
     if (element.dataset.rankFor) {
