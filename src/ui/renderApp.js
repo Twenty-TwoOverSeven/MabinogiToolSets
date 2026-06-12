@@ -385,18 +385,8 @@
     const message = resolved.ok ? '' : resolved.error;
     const ranges = resolved.ok ? app.calculateMonsterRankRanges(combatPower) : null;
 
-    return `<div class="tab-panel tab-panel--monsters">
-      <section class="panel monster-summary">
-        <h2>怪物筛选</h2>
-        <div class="monster-summary-grid">
-          <p>筛选战力：<strong data-active-monster-cp>${resolved.ok ? combatPower.toFixed(2) : '无'}</strong></p>
-          <p>来源：<strong data-monster-source>${escapeHtml(sourceText)}</strong></p>
-          <p>结果数：<strong>${monsters.length}</strong></p>
-        </div>
-        <p class="monster-message" data-monster-message>${escapeHtml(message)}</p>
-      </section>
-
-      <section class="panel monster-filters">
+    return `<section class="monster-layout">
+      <aside class="panel monster-filter-panel monster-filters">
         <h2>筛选条件</h2>
         <div class="monster-filter-grid">
           <label>手动战力
@@ -411,7 +401,7 @@
           <label>资料范围
             <select data-monster-data-scope>
               <option value="g13" ${filters.dataScope === 'g13' ? 'selected' : ''}>G13 及以前</option>
-              <option value="all" ${filters.dataScope === 'all' ? 'selected' : ''}>全部世代</option>
+              <option value="all" ${filters.dataScope === 'all' ? 'selected' : ''}>全部已知数据</option>
             </select>
           </label>
           <label>译名状态
@@ -431,21 +421,30 @@
           <legend>相对强度</legend>
           ${app.MONSTER_RANKS.map((rank) => `<label class="checkbox-label">
             <input data-monster-rank type="checkbox" value="${escapeHtml(rank.id)}" ${filters.selectedRanks.includes(rank.id) ? 'checked' : ''} />
-            ${escapeHtml(rank.label)}
+            ${escapeHtml(formatMonsterRankLabel(rank))}
           </label>`).join('')}
         </fieldset>
-      </section>
+      </aside>
 
-      <section class="panel monster-ranges">
+      <section class="panel monster-result-panel">
+        <h2>筛选结果</h2>
+        <div class="monster-summary-grid">
+          <p>筛选战力：<strong data-active-monster-cp>${resolved.ok ? combatPower.toFixed(2) : '无'}</strong></p>
+          <p>来源：<strong data-monster-source>${escapeHtml(sourceText)}</strong></p>
+          <p>结果数：<strong>${monsters.length}</strong></p>
+        </div>
+        <p class="monster-message" data-monster-message>${escapeHtml(message)}</p>
+
         <h2>强度 CP 范围</h2>
         ${renderMonsterRankRanges(ranges)}
-      </section>
+        ${renderMonsterDataScopeNote(filters)}
 
-      <section class="panel monster-results" data-monster-results>
-        <h2>筛选结果（${monsters.length}）</h2>
-        ${renderMonsterResults(monsters)}
+        <section class="monster-results" data-monster-results>
+          <h2>怪物列表（${monsters.length}）</h2>
+          ${renderMonsterResults(monsters)}
+        </section>
       </section>
-    </div>`;
+    </section>`;
   }
 
   function renderMonsterRankRanges(ranges) {
@@ -455,10 +454,18 @@
 
     return `<div class="monster-range-grid">
       ${app.MONSTER_RANKS.map((rank) => `<div class="monster-range-card">
-        <strong>${escapeHtml(rank.label)}</strong>
+        <strong>${escapeHtml(formatMonsterRankLabel(rank))}</strong>
         <span>${formatRange(ranges[rank.id])}</span>
       </div>`).join('')}
     </div>`;
+  }
+
+  function renderMonsterDataScopeNote(filters) {
+    if (filters.dataScope !== 'all') {
+      return '';
+    }
+
+    return '<p class="monster-data-scope-note" data-monster-data-scope-note>全部已知数据可能包含后期、版本未知或译名未校对记录。</p>';
   }
 
   function renderMonsterResults(monsters) {
@@ -485,7 +492,7 @@
             <td>${escapeHtml(monster.zhTWName || '')}</td>
             <td>${escapeHtml(monster.enName || '')}</td>
             <td>${Number(monster.combatPower).toFixed(0)}</td>
-            <td>${escapeHtml(monster.rank.label)}</td>
+            <td>${escapeHtml(formatMonsterRankLabel(monster.rank))}</td>
             <td>${escapeHtml(formatMonsterLocation(monster))}</td>
             <td>${escapeHtml(translationStatusLabel(monster.translationStatus))}</td>
           </tr>`).join('')}
@@ -509,6 +516,21 @@
     const source = [monster.introducedBy, monster.source].filter(Boolean).join(' / ');
 
     return locations || source || '未知';
+  }
+
+  function formatMonsterRankLabel(rank) {
+    const specLabels = {
+      weakest: 'Weakest',
+      weak: 'Weak',
+      normal: '同级',
+      strong: 'Strong',
+      awful: 'Awful',
+      boss: 'Boss',
+    };
+
+    const specLabel = specLabels[rank.id] || rank.id;
+
+    return `${specLabel} / ${rank.label}`;
   }
 
   function translationStatusLabel(status) {

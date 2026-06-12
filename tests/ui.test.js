@@ -198,6 +198,35 @@
     localStorage.clear();
   });
 
+  test('monster tab shows all data scope warning in design layout', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    expectEqual(Boolean(root.querySelector('.monster-layout')), true);
+    expectEqual(Boolean(root.querySelector('.monster-filter-panel')), true);
+    expectEqual(Boolean(root.querySelector('.monster-result-panel')), true);
+    ['Weakest', 'Weak', '同级', 'Strong', 'Awful', 'Boss'].forEach((rankName) => {
+      expectEqual(root.querySelector('.monster-rank-filters').textContent.includes(rankName), true);
+    });
+
+    const dataScopeSelect = root.querySelector('[data-monster-data-scope]');
+    expectEqual(Array.from(dataScopeSelect.options).some((option) => option.textContent === '全部已知数据'), true);
+    expectEqual(root.textContent.includes('全部世代'), false);
+
+    dataScopeSelect.value = 'all';
+    dataScopeSelect.dispatchEvent(new Event('change', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-data-scope-note]').textContent, '全部已知数据可能包含后期、版本未知或译名未校对记录。');
+
+    root.remove();
+    localStorage.clear();
+  });
+
   test('monster tab can search generated monster records', () => {
     const root = document.createElement('div');
     document.body.appendChild(root);
