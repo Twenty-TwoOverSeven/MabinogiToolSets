@@ -206,6 +206,14 @@
     expectEqual(result[0].id, 'red-spider');
   });
 
+  test('missing monster translations keep Chinese fields blank', () => {
+    const missing = window.MabinogiCP.MONSTER_RECORDS.find((monster) => monster.translationStatus === 'missing');
+
+    expectEqual(Boolean(missing), true);
+    expectEqual(missing.zhCNName, '');
+    expectEqual(missing.zhTWName, '');
+  });
+
   function filter(overrides = {}) {
     return {
       combatPower: 100,

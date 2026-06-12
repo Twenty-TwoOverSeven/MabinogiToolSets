@@ -7,37 +7,37 @@
   app.MONSTER_RANKS = [
     {
       id: 'weakest',
-      label: '最弱',
+      label: 'Weakest',
       minRatio: 0,
       maxRatio: 0.8,
     },
     {
       id: 'weak',
-      label: '弱',
+      label: 'Weak',
       minRatio: 0.8,
       maxRatio: 1,
     },
     {
       id: 'normal',
-      label: '普通',
+      label: 'Normal',
       minRatio: 1,
       maxRatio: 1.4,
     },
     {
       id: 'strong',
-      label: '强',
+      label: 'Strong',
       minRatio: 1.4,
       maxRatio: 2,
     },
     {
       id: 'awful',
-      label: '非常强',
+      label: 'Awful',
       minRatio: 2,
       maxRatio: 3,
     },
     {
       id: 'boss',
-      label: '首领',
+      label: 'Boss',
       minRatio: 3,
       maxRatio: null,
     },

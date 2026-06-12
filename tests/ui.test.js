@@ -231,7 +231,7 @@
     expectEqual(Boolean(root.querySelector('.monster-layout')), true);
     expectEqual(Boolean(root.querySelector('.monster-filter-panel')), true);
     expectEqual(Boolean(root.querySelector('.monster-result-panel')), true);
-    ['Weakest', 'Weak', '同级', 'Strong', 'Awful', 'Boss'].forEach((rankName) => {
+    ['Weakest', 'Weak', 'Normal', 'Strong', 'Awful', 'Boss'].forEach((rankName) => {
       expectEqual(root.querySelector('.monster-rank-filters').textContent.includes(rankName), true);
     });
 
@@ -310,6 +310,32 @@
     nameInput.dispatchEvent(new Event('input', { bubbles: true }));
 
     expectEqual(root.querySelector('[data-monster-results]').textContent.toLowerCase().includes('gray'), true);
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster result strength shows rank name without Chinese description', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    const nameInput = root.querySelector('[data-monster-name-query]');
+    nameInput.value = 'gray';
+    nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    const rankLabels = Array.from(root.querySelectorAll('[data-monster-rank-label]')).map((cell) => cell.textContent);
+    expectEqual(rankLabels.length > 0, true);
+    expectEqual(rankLabels.some((label) => label === 'Weak'), true);
+    expectEqual(rankLabels.some((label) => label.includes('弱的敌人')), false);
+    expectEqual(rankLabels.some((label) => label.includes(' / ')), false);
 
     root.remove();
     localStorage.clear();

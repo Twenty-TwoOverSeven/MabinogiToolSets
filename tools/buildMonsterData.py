@@ -438,9 +438,9 @@ def translate_name(en_name: str) -> tuple[str, str, str]:
     zh_tw_name = ZH_TW_OVERRIDES.get(en_name)
 
     if zh_cn_name or zh_tw_name:
-        return zh_cn_name or en_name, zh_tw_name or "", "confirmed"
+        return zh_cn_name or "", zh_tw_name or "", "confirmed"
 
-    return en_name, "", "missing"
+    return "", "", "missing"
 
 
 def infer_introduced_by(en_name: str, locations: list[str]) -> str:

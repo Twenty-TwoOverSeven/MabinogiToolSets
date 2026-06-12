@@ -4,7 +4,7 @@
   app.MONSTER_RECORDS = [
     {
       "id": "apprentice-capable-demi-lich",
-      "zhCNName": "(Apprentice Capable) Demi Lich",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "(Apprentice Capable) Demi Lich",
       "combatPower": 16000,
@@ -16,7 +16,7 @@
     },
     {
       "id": "dynamic-lands-ancient-tree-spirit-colorless",
-      "zhCNName": "(Dynamic Lands) Ancient Tree Spirit (Colorless)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "(Dynamic Lands) Ancient Tree Spirit (Colorless)",
       "combatPower": 5000,
@@ -28,7 +28,7 @@
     },
     {
       "id": "ancient-stone-mask",
-      "zhCNName": "Ancient Stone Mask",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ancient Stone Mask",
       "combatPower": 5000,
@@ -42,7 +42,7 @@
     },
     {
       "id": "arachne",
-      "zhCNName": "Arachne",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arachne",
       "combatPower": 6000,
@@ -56,7 +56,7 @@
     },
     {
       "id": "arachne-hardmode",
-      "zhCNName": "Arachne (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arachne (Hardmode)",
       "combatPower": 9400,
@@ -70,7 +70,7 @@
     },
     {
       "id": "arat-deer-800-d39c37c4",
-      "zhCNName": "Arat Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arat Deer",
       "combatPower": 800,
@@ -82,7 +82,7 @@
     },
     {
       "id": "arat-deer-1600-0e4310e1",
-      "zhCNName": "Arat Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arat Deer",
       "combatPower": 1600,
@@ -94,7 +94,7 @@
     },
     {
       "id": "arat-deer-2400-e2bf1fef",
-      "zhCNName": "Arat Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arat Deer",
       "combatPower": 2400,
@@ -106,7 +106,7 @@
     },
     {
       "id": "arat-deer-3200-7335d082",
-      "zhCNName": "Arat Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arat Deer",
       "combatPower": 3200,
@@ -118,7 +118,7 @@
     },
     {
       "id": "arat-deer-4000-c0f693c0",
-      "zhCNName": "Arat Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arat Deer",
       "combatPower": 4000,
@@ -130,7 +130,7 @@
     },
     {
       "id": "arc-lich",
-      "zhCNName": "Arc Lich",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Arc Lich",
       "combatPower": 30000,
@@ -144,7 +144,7 @@
     },
     {
       "id": "archelon",
-      "zhCNName": "Archelon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Archelon",
       "combatPower": 10000,
@@ -156,7 +156,7 @@
     },
     {
       "id": "archer-slate",
-      "zhCNName": "Archer Slate",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Archer Slate",
       "combatPower": 1900,
@@ -173,7 +173,7 @@
     },
     {
       "id": "ascended-python",
-      "zhCNName": "Ascended Python",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ascended Python",
       "combatPower": 10000,
@@ -185,7 +185,7 @@
     },
     {
       "id": "ascended-python-boss",
-      "zhCNName": "Ascended Python (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ascended Python (Boss)",
       "combatPower": 10000,
@@ -213,7 +213,7 @@
     },
     {
       "id": "bard-skeleton",
-      "zhCNName": "Bard Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bard Skeleton",
       "combatPower": 900,
@@ -228,7 +228,7 @@
     },
     {
       "id": "basilisk-2400-e2eaace3",
-      "zhCNName": "Basilisk",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 2400,
@@ -240,7 +240,7 @@
     },
     {
       "id": "basilisk-4800-f50d59d7",
-      "zhCNName": "Basilisk",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 4800,
@@ -252,7 +252,7 @@
     },
     {
       "id": "basilisk-7200-abec5d0b",
-      "zhCNName": "Basilisk",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 7200,
@@ -264,7 +264,7 @@
     },
     {
       "id": "basilisk-9600-b81fb917",
-      "zhCNName": "Basilisk",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 9600,
@@ -276,7 +276,7 @@
     },
     {
       "id": "basilisk-12000-1eb35abc",
-      "zhCNName": "Basilisk",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 12000,
@@ -288,7 +288,7 @@
     },
     {
       "id": "bear-sprite",
-      "zhCNName": "Bear Sprite",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bear Sprite",
       "combatPower": 1600,
@@ -305,7 +305,7 @@
     },
     {
       "id": "beetle-wolf-brown",
-      "zhCNName": "Beetle Wolf (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Beetle Wolf (Brown)",
       "combatPower": 3700,
@@ -319,7 +319,7 @@
     },
     {
       "id": "beetle-wolf-brown-hardmode",
-      "zhCNName": "Beetle Wolf (Brown) (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Beetle Wolf (Brown) (Hardmode)",
       "combatPower": 5760,
@@ -333,7 +333,7 @@
     },
     {
       "id": "beetle-wolf-white",
-      "zhCNName": "Beetle Wolf (White)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Beetle Wolf (White)",
       "combatPower": 3400,
@@ -347,7 +347,7 @@
     },
     {
       "id": "belisha-monster",
-      "zhCNName": "Belisha (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Belisha (Monster)",
       "combatPower": 2500,
@@ -361,7 +361,7 @@
     },
     {
       "id": "big-horned-deer",
-      "zhCNName": "Big-Horned Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Big-Horned Deer",
       "combatPower": 1220,
@@ -375,7 +375,7 @@
     },
     {
       "id": "black-dire-wolf",
-      "zhCNName": "Black Dire Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Dire Wolf",
       "combatPower": 933,
@@ -391,7 +391,7 @@
     },
     {
       "id": "black-dire-wolf-cub",
-      "zhCNName": "Black Dire Wolf Cub",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Dire Wolf Cub",
       "combatPower": 814,
@@ -407,7 +407,7 @@
     },
     {
       "id": "black-forest-mushroom-spider",
-      "zhCNName": "Black Forest Mushroom Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Forest Mushroom Spider",
       "combatPower": 1900,
@@ -422,7 +422,7 @@
     },
     {
       "id": "black-leopard",
-      "zhCNName": "Black Leopard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Leopard",
       "combatPower": 1900,
@@ -436,7 +436,7 @@
     },
     {
       "id": "black-mummy-servant",
-      "zhCNName": "Black Mummy Servant",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Mummy Servant",
       "combatPower": 3000,
@@ -450,7 +450,7 @@
     },
     {
       "id": "black-new-gremlin",
-      "zhCNName": "Black New Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black New Gremlin",
       "combatPower": 4140,
@@ -464,7 +464,7 @@
     },
     {
       "id": "black-panther",
-      "zhCNName": "Black Panther",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Panther",
       "combatPower": 9000,
@@ -476,7 +476,7 @@
     },
     {
       "id": "black-poison-snake",
-      "zhCNName": "Black Poison Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Poison Snake",
       "combatPower": 1500,
@@ -504,7 +504,7 @@
     },
     {
       "id": "black-poisonous-spider-hardmode",
-      "zhCNName": "Black Poisonous Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Poisonous Spider (Hardmode)",
       "combatPower": 5620,
@@ -518,7 +518,7 @@
     },
     {
       "id": "black-porcupine",
-      "zhCNName": "Black Porcupine",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Porcupine",
       "combatPower": 500,
@@ -546,7 +546,7 @@
     },
     {
       "id": "black-python",
-      "zhCNName": "Black Python",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Python",
       "combatPower": 1200,
@@ -561,7 +561,7 @@
     },
     {
       "id": "black-sand-scorpion",
-      "zhCNName": "Black Sand Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Sand Scorpion",
       "combatPower": 750,
@@ -575,7 +575,7 @@
     },
     {
       "id": "black-ship-rat",
-      "zhCNName": "Black Ship Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Ship Rat",
       "combatPower": 1000,
@@ -590,7 +590,7 @@
     },
     {
       "id": "black-ship-rat-hardmode",
-      "zhCNName": "Black Ship Rat (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Ship Rat (Hardmode)",
       "combatPower": 2900,
@@ -604,7 +604,7 @@
     },
     {
       "id": "black-snake",
-      "zhCNName": "Black Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Snake",
       "combatPower": 1400,
@@ -618,7 +618,7 @@
     },
     {
       "id": "black-snake-hardmode",
-      "zhCNName": "Black Snake (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Snake (Hardmode)",
       "combatPower": 3660,
@@ -632,7 +632,7 @@
     },
     {
       "id": "black-soldier",
-      "zhCNName": "Black Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Soldier",
       "combatPower": 2362,
@@ -667,7 +667,7 @@
     },
     {
       "id": "black-succubus",
-      "zhCNName": "Black Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Succubus",
       "combatPower": 1610,
@@ -681,7 +681,7 @@
     },
     {
       "id": "black-succubus-advanced",
-      "zhCNName": "Black Succubus (Advanced)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Succubus (Advanced)",
       "combatPower": 4000,
@@ -695,7 +695,7 @@
     },
     {
       "id": "black-sulfur-spider-950-05893a5a",
-      "zhCNName": "Black Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 950,
@@ -707,7 +707,7 @@
     },
     {
       "id": "black-sulfur-spider-1900-94afdd2e",
-      "zhCNName": "Black Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 1900,
@@ -719,7 +719,7 @@
     },
     {
       "id": "black-sulfur-spider-2850-602b306c",
-      "zhCNName": "Black Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 2850,
@@ -731,7 +731,7 @@
     },
     {
       "id": "black-town-rat",
-      "zhCNName": "Black Town Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Town Rat",
       "combatPower": 278,
@@ -747,7 +747,7 @@
     },
     {
       "id": "black-warg",
-      "zhCNName": "Black Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Warg",
       "combatPower": 1100,
@@ -761,7 +761,7 @@
     },
     {
       "id": "black-warrior",
-      "zhCNName": "Black Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Warrior",
       "combatPower": 3810,
@@ -775,7 +775,7 @@
     },
     {
       "id": "black-wizard-monster",
-      "zhCNName": "Black Wizard (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black Wizard (Monster)",
       "combatPower": 1790,
@@ -803,7 +803,7 @@
     },
     {
       "id": "black-tailed-mongoose",
-      "zhCNName": "Black-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Black-tailed Mongoose",
       "combatPower": 1300,
@@ -817,7 +817,7 @@
     },
     {
       "id": "blinker-300-2d542eda",
-      "zhCNName": "Blinker",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blinker",
       "combatPower": 300,
@@ -829,7 +829,7 @@
     },
     {
       "id": "blinker-600-91b6fed2",
-      "zhCNName": "Blinker",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blinker",
       "combatPower": 600,
@@ -841,7 +841,7 @@
     },
     {
       "id": "blinker-900-f060291c",
-      "zhCNName": "Blinker",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blinker",
       "combatPower": 900,
@@ -853,7 +853,7 @@
     },
     {
       "id": "blinker-1200-f97e1f1d",
-      "zhCNName": "Blinker",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blinker",
       "combatPower": 1200,
@@ -865,7 +865,7 @@
     },
     {
       "id": "blinker-1800-22f2f3da",
-      "zhCNName": "Blinker",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blinker",
       "combatPower": 1800,
@@ -877,7 +877,7 @@
     },
     {
       "id": "blue-dire-wolf",
-      "zhCNName": "Blue Dire Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Dire Wolf",
       "combatPower": 1218,
@@ -891,7 +891,7 @@
     },
     {
       "id": "blue-forest-mushroom-spider",
-      "zhCNName": "Blue Forest Mushroom Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Forest Mushroom Spider",
       "combatPower": 1700,
@@ -906,7 +906,7 @@
     },
     {
       "id": "blue-lizard-witch",
-      "zhCNName": "Blue Lizard Witch",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Lizard Witch",
       "combatPower": 3000,
@@ -920,7 +920,7 @@
     },
     {
       "id": "blue-new-gremlin",
-      "zhCNName": "Blue New Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue New Gremlin",
       "combatPower": 4110,
@@ -934,7 +934,7 @@
     },
     {
       "id": "blue-python",
-      "zhCNName": "Blue Python",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Python",
       "combatPower": 1400,
@@ -948,7 +948,7 @@
     },
     {
       "id": "blue-rat-man-hardmode",
-      "zhCNName": "Blue Rat Man (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Rat Man (Hardmode)",
       "combatPower": 3280,
@@ -962,7 +962,7 @@
     },
     {
       "id": "blue-sand-scorpion",
-      "zhCNName": "Blue Sand Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Sand Scorpion",
       "combatPower": 650,
@@ -976,7 +976,7 @@
     },
     {
       "id": "blue-snake-595-9432a328",
-      "zhCNName": "Blue Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Snake",
       "combatPower": 595,
@@ -990,7 +990,7 @@
     },
     {
       "id": "blue-snake-812-2f44433f",
-      "zhCNName": "Blue Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Snake",
       "combatPower": 812,
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "blue-snake-hardmode",
-      "zhCNName": "Blue Snake (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Snake (Hardmode)",
       "combatPower": 1961,
@@ -1020,7 +1020,7 @@
     },
     {
       "id": "blue-warg",
-      "zhCNName": "Blue Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Warg",
       "combatPower": 950,
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "blue-werewolf",
-      "zhCNName": "Blue Werewolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Werewolf",
       "combatPower": 1600,
@@ -1062,7 +1062,7 @@
     },
     {
       "id": "blue-wolf-hardmode",
-      "zhCNName": "Blue Wolf (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue Wolf (Hardmode)",
       "combatPower": 2143,
@@ -1076,7 +1076,7 @@
     },
     {
       "id": "blue-tailed-mongoose",
-      "zhCNName": "Blue-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Blue-tailed Mongoose",
       "combatPower": 700,
@@ -1090,7 +1090,7 @@
     },
     {
       "id": "bound-hollow-knight",
-      "zhCNName": "Bound Hollow Knight",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bound Hollow Knight",
       "combatPower": 7110,
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "bran-2300-3c2cd58b",
-      "zhCNName": "Bran",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bran",
       "combatPower": 2300,
@@ -1117,7 +1117,7 @@
     },
     {
       "id": "bran-4600-ba87de23",
-      "zhCNName": "Bran",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bran",
       "combatPower": 4600,
@@ -1129,7 +1129,7 @@
     },
     {
       "id": "bran-6900-e137ff01",
-      "zhCNName": "Bran",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bran",
       "combatPower": 6900,
@@ -1141,7 +1141,7 @@
     },
     {
       "id": "bran-9200-ac397a86",
-      "zhCNName": "Bran",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bran",
       "combatPower": 9200,
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "brown-dire-wolf-cub",
-      "zhCNName": "Brown Dire Wolf Cub",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Dire Wolf Cub",
       "combatPower": 560,
@@ -1187,7 +1187,7 @@
     },
     {
       "id": "brown-forest-lizard",
-      "zhCNName": "Brown Forest Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Forest Lizard",
       "combatPower": 1000,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "brown-forest-mushroom-spider",
-      "zhCNName": "Brown Forest Mushroom Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Forest Mushroom Spider",
       "combatPower": 900,
@@ -1219,7 +1219,7 @@
     },
     {
       "id": "brown-gremlin",
-      "zhCNName": "Brown Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Gremlin",
       "combatPower": 594,
@@ -1235,7 +1235,7 @@
     },
     {
       "id": "brown-lizard-witch",
-      "zhCNName": "Brown Lizard Witch",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Lizard Witch",
       "combatPower": 2600,
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "brown-porcupine",
-      "zhCNName": "Brown Porcupine",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Porcupine",
       "combatPower": 400,
@@ -1263,7 +1263,7 @@
     },
     {
       "id": "brown-snake-517-8535647b",
-      "zhCNName": "Brown Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Snake",
       "combatPower": 517,
@@ -1277,7 +1277,7 @@
     },
     {
       "id": "brown-snake-591-87d3e24a",
-      "zhCNName": "Brown Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Snake",
       "combatPower": 591,
@@ -1293,7 +1293,7 @@
     },
     {
       "id": "brown-snake-hardmode",
-      "zhCNName": "Brown Snake (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Snake (Hardmode)",
       "combatPower": 1563,
@@ -1307,7 +1307,7 @@
     },
     {
       "id": "brown-town-rat",
-      "zhCNName": "Brown Town Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Town Rat",
       "combatPower": 279,
@@ -1322,7 +1322,7 @@
     },
     {
       "id": "brown-warg",
-      "zhCNName": "Brown Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Brown Warg",
       "combatPower": 950,
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "buck",
-      "zhCNName": "Buck",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Buck",
       "combatPower": 1000,
@@ -1350,7 +1350,7 @@
     },
     {
       "id": "bug-bear",
-      "zhCNName": "Bug Bear",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bug Bear",
       "combatPower": 3580,
@@ -1364,7 +1364,7 @@
     },
     {
       "id": "bug-bear-hardmode",
-      "zhCNName": "Bug Bear (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Bug Bear (Hardmode)",
       "combatPower": 8160,
@@ -1378,7 +1378,7 @@
     },
     {
       "id": "burgundy-dire-wolf",
-      "zhCNName": "Burgundy Dire Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Burgundy Dire Wolf",
       "combatPower": 1243,
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "burgundy-spider",
-      "zhCNName": "Burgundy Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Burgundy Spider",
       "combatPower": 910,
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "cactus-lizard",
-      "zhCNName": "Cactus Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cactus Lizard",
       "combatPower": 1500,
@@ -1421,7 +1421,7 @@
     },
     {
       "id": "cactus-lizard-the-unknown",
-      "zhCNName": "Cactus Lizard (The Unknown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cactus Lizard (The Unknown)",
       "combatPower": 2200,
@@ -1435,7 +1435,7 @@
     },
     {
       "id": "candle-spider",
-      "zhCNName": "Candle Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Candle Spider",
       "combatPower": 1000,
@@ -1465,7 +1465,7 @@
     },
     {
       "id": "captain-red-skeleton-hardmode",
-      "zhCNName": "Captain Red Skeleton (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Captain Red Skeleton (Hardmode)",
       "combatPower": 5400,
@@ -1493,7 +1493,7 @@
     },
     {
       "id": "captain-skeleton-hardmode",
-      "zhCNName": "Captain Skeleton (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Captain Skeleton (Hardmode)",
       "combatPower": 4630,
@@ -1507,7 +1507,7 @@
     },
     {
       "id": "cave-rat-fiodh",
-      "zhCNName": "Cave Rat (Fiodh)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Rat (Fiodh)",
       "combatPower": 620,
@@ -1521,7 +1521,7 @@
     },
     {
       "id": "cave-sahagin-fighter",
-      "zhCNName": "Cave Sahagin Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Sahagin Fighter",
       "combatPower": 6000,
@@ -1533,7 +1533,7 @@
     },
     {
       "id": "cave-sahagin-mage",
-      "zhCNName": "Cave Sahagin Mage",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Sahagin Mage",
       "combatPower": 4048,
@@ -1547,7 +1547,7 @@
     },
     {
       "id": "cave-sahagin-mage-shadow",
-      "zhCNName": "Cave Sahagin Mage (Shadow)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Sahagin Mage (Shadow)",
       "combatPower": 6000,
@@ -1559,7 +1559,7 @@
     },
     {
       "id": "cave-sahagin-warrior",
-      "zhCNName": "Cave Sahagin Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Sahagin Warrior",
       "combatPower": 4048,
@@ -1573,7 +1573,7 @@
     },
     {
       "id": "cave-sahagin-warrior-shadow",
-      "zhCNName": "Cave Sahagin Warrior (Shadow)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cave Sahagin Warrior (Shadow)",
       "combatPower": 6000,
@@ -1585,7 +1585,7 @@
     },
     {
       "id": "cerberus-1375-cbf471d5",
-      "zhCNName": "Cerberus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cerberus",
       "combatPower": 1375,
@@ -1597,7 +1597,7 @@
     },
     {
       "id": "cerberus-2750-e16c7670",
-      "zhCNName": "Cerberus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cerberus",
       "combatPower": 2750,
@@ -1609,7 +1609,7 @@
     },
     {
       "id": "cerberus-4125-6990551e",
-      "zhCNName": "Cerberus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cerberus",
       "combatPower": 4125,
@@ -1621,7 +1621,7 @@
     },
     {
       "id": "cerberus-5500-4003495b",
-      "zhCNName": "Cerberus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cerberus",
       "combatPower": 5500,
@@ -1633,7 +1633,7 @@
     },
     {
       "id": "cerberus-6875-e04c4682",
-      "zhCNName": "Cerberus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cerberus",
       "combatPower": 6875,
@@ -1645,7 +1645,7 @@
     },
     {
       "id": "cheese-2200-efa76368",
-      "zhCNName": "Cheese",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 2200,
@@ -1657,7 +1657,7 @@
     },
     {
       "id": "cheese-4400-c8e5064f",
-      "zhCNName": "Cheese",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 4400,
@@ -1669,7 +1669,7 @@
     },
     {
       "id": "cheese-6600-4b1dcb06",
-      "zhCNName": "Cheese",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 6600,
@@ -1681,7 +1681,7 @@
     },
     {
       "id": "cheese-8800-0286e23f",
-      "zhCNName": "Cheese",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 8800,
@@ -1693,7 +1693,7 @@
     },
     {
       "id": "claimh-solas-g11-30000-46922dcf",
-      "zhCNName": "Claimh Solas (G11)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G11)",
       "combatPower": 30000,
@@ -1705,7 +1705,7 @@
     },
     {
       "id": "claimh-solas-g11-60000-b04e48b5",
-      "zhCNName": "Claimh Solas (G11)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G11)",
       "combatPower": 60000,
@@ -1717,7 +1717,7 @@
     },
     {
       "id": "claimh-solas-g11-90000-510f2507",
-      "zhCNName": "Claimh Solas (G11)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G11)",
       "combatPower": 90000,
@@ -1729,7 +1729,7 @@
     },
     {
       "id": "claimh-solas-g11-120000-b131bd0f",
-      "zhCNName": "Claimh Solas (G11)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G11)",
       "combatPower": 120000,
@@ -1741,7 +1741,7 @@
     },
     {
       "id": "claimh-solas-g9-9998-cfdd2cbb",
-      "zhCNName": "Claimh Solas (G9)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G9)",
       "combatPower": 9998,
@@ -1753,7 +1753,7 @@
     },
     {
       "id": "claimh-solas-g9-19998-029808fe",
-      "zhCNName": "Claimh Solas (G9)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G9)",
       "combatPower": 19998,
@@ -1765,7 +1765,7 @@
     },
     {
       "id": "claimh-solas-g9-29997-1d3e51d5",
-      "zhCNName": "Claimh Solas (G9)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G9)",
       "combatPower": 29997,
@@ -1777,7 +1777,7 @@
     },
     {
       "id": "claimh-solas-g9-39996-ddad86b0",
-      "zhCNName": "Claimh Solas (G9)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Claimh Solas (G9)",
       "combatPower": 39996,
@@ -1803,7 +1803,7 @@
     },
     {
       "id": "connous-lizard",
-      "zhCNName": "Connous Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Connous Lizard",
       "combatPower": 1500,
@@ -1817,7 +1817,7 @@
     },
     {
       "id": "country-rat",
-      "zhCNName": "Country Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Country Rat",
       "combatPower": 341,
@@ -1831,7 +1831,7 @@
     },
     {
       "id": "country-rat-hardmode",
-      "zhCNName": "Country Rat (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Country Rat (Hardmode)",
       "combatPower": 1345,
@@ -1845,7 +1845,7 @@
     },
     {
       "id": "crystal-wolf",
-      "zhCNName": "Crystal Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Crystal Wolf",
       "combatPower": 2300,
@@ -1859,7 +1859,7 @@
     },
     {
       "id": "cuilin-golem-3000-063c6239",
-      "zhCNName": "Cuilin Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cuilin Golem",
       "combatPower": 3000,
@@ -1871,7 +1871,7 @@
     },
     {
       "id": "cuilin-golem-6000-b60cfdce",
-      "zhCNName": "Cuilin Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cuilin Golem",
       "combatPower": 6000,
@@ -1883,7 +1883,7 @@
     },
     {
       "id": "cuilin-golem-9000-728ec1b1",
-      "zhCNName": "Cuilin Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cuilin Golem",
       "combatPower": 9000,
@@ -1895,7 +1895,7 @@
     },
     {
       "id": "cuilin-golem-12000-fd427e7b",
-      "zhCNName": "Cuilin Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cuilin Golem",
       "combatPower": 12000,
@@ -1907,7 +1907,7 @@
     },
     {
       "id": "cuilin-golem-15000-754822a3",
-      "zhCNName": "Cuilin Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Cuilin Golem",
       "combatPower": 15000,
@@ -1919,7 +1919,7 @@
     },
     {
       "id": "dark-blue-spider",
-      "zhCNName": "Dark Blue Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Blue Spider",
       "combatPower": 1005,
@@ -1933,7 +1933,7 @@
     },
     {
       "id": "dark-blue-spider-hardmode",
-      "zhCNName": "Dark Blue Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Blue Spider (Hardmode)",
       "combatPower": 2309,
@@ -1947,7 +1947,7 @@
     },
     {
       "id": "dark-commander-4000-d52dec98",
-      "zhCNName": "Dark Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 4000,
@@ -1959,7 +1959,7 @@
     },
     {
       "id": "dark-commander-6000-b9435760",
-      "zhCNName": "Dark Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 6000,
@@ -1971,7 +1971,7 @@
     },
     {
       "id": "dark-commander-8000-4e5dc164",
-      "zhCNName": "Dark Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 8000,
@@ -1983,7 +1983,7 @@
     },
     {
       "id": "dark-commander-12000-3b4f9839",
-      "zhCNName": "Dark Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 12000,
@@ -1995,7 +1995,7 @@
     },
     {
       "id": "dark-rat-man",
-      "zhCNName": "Dark Rat Man",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
@@ -2009,7 +2009,7 @@
     },
     {
       "id": "dark-red-porcupine",
-      "zhCNName": "Dark Red Porcupine",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dark Red Porcupine",
       "combatPower": 600,
@@ -2037,7 +2037,7 @@
     },
     {
       "id": "defense-training-dummy",
-      "zhCNName": "Defense Training Dummy",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Defense Training Dummy",
       "combatPower": 1118,
@@ -2051,7 +2051,7 @@
     },
     {
       "id": "demi-lich",
-      "zhCNName": "Demi Lich",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Demi Lich",
       "combatPower": 9250,
@@ -2065,7 +2065,7 @@
     },
     {
       "id": "demonic-ghoul",
-      "zhCNName": "Demonic Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Demonic Ghoul",
       "combatPower": 8000,
@@ -2077,7 +2077,7 @@
     },
     {
       "id": "dog",
-      "zhCNName": "Dog",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Dog",
       "combatPower": 480,
@@ -2094,7 +2094,7 @@
     },
     {
       "id": "doppelganger-generation-10-9999-a20725b7",
-      "zhCNName": "Doppelganger (Generation 10)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 9999,
@@ -2106,7 +2106,7 @@
     },
     {
       "id": "doppelganger-generation-10-19998-af02fef6",
-      "zhCNName": "Doppelganger (Generation 10)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 19998,
@@ -2118,7 +2118,7 @@
     },
     {
       "id": "doppelganger-generation-10-29997-1d1903cd",
-      "zhCNName": "Doppelganger (Generation 10)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 29997,
@@ -2130,7 +2130,7 @@
     },
     {
       "id": "doppelganger-generation-10-39996-733547a7",
-      "zhCNName": "Doppelganger (Generation 10)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 39996,
@@ -2142,7 +2142,7 @@
     },
     {
       "id": "doppelganger-monster-9999-762d7c82",
-      "zhCNName": "Doppelganger (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Monster)",
       "combatPower": 9999,
@@ -2154,7 +2154,7 @@
     },
     {
       "id": "doppelganger-monster-19998-5cba925b",
-      "zhCNName": "Doppelganger (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Monster)",
       "combatPower": 19998,
@@ -2166,7 +2166,7 @@
     },
     {
       "id": "doppelganger-monster-29997-f672e2a2",
-      "zhCNName": "Doppelganger (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Monster)",
       "combatPower": 29997,
@@ -2178,7 +2178,7 @@
     },
     {
       "id": "doppelganger-monster-39996-46257a7d",
-      "zhCNName": "Doppelganger (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Monster)",
       "combatPower": 39996,
@@ -2190,7 +2190,7 @@
     },
     {
       "id": "doppelganger-monster-59994-e1291e40",
-      "zhCNName": "Doppelganger (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger (Monster)",
       "combatPower": 59994,
@@ -2202,7 +2202,7 @@
     },
     {
       "id": "doppelganger-clone",
-      "zhCNName": "Doppelganger Clone",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Doppelganger Clone",
       "combatPower": 4800,
@@ -2214,7 +2214,7 @@
     },
     {
       "id": "egg-monster-2200-1bdf70a4",
-      "zhCNName": "Egg (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Egg (Monster)",
       "combatPower": 2200,
@@ -2226,7 +2226,7 @@
     },
     {
       "id": "egg-monster-4400-f467a7a2",
-      "zhCNName": "Egg (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Egg (Monster)",
       "combatPower": 4400,
@@ -2238,7 +2238,7 @@
     },
     {
       "id": "egg-monster-6600-6c849f4e",
-      "zhCNName": "Egg (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Egg (Monster)",
       "combatPower": 6600,
@@ -2250,7 +2250,7 @@
     },
     {
       "id": "egg-monster-8800-3857b6d6",
-      "zhCNName": "Egg (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Egg (Monster)",
       "combatPower": 8800,
@@ -2262,7 +2262,7 @@
     },
     {
       "id": "elf-guard",
-      "zhCNName": "Elf Guard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
@@ -2276,7 +2276,7 @@
     },
     {
       "id": "elsinore-rat-250-d172fe9e",
-      "zhCNName": "Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Elsinore Rat",
       "combatPower": 250,
@@ -2288,7 +2288,7 @@
     },
     {
       "id": "elsinore-rat-500-f465e6db",
-      "zhCNName": "Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Elsinore Rat",
       "combatPower": 500,
@@ -2300,7 +2300,7 @@
     },
     {
       "id": "elsinore-rat-750-0c08ebe9",
-      "zhCNName": "Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Elsinore Rat",
       "combatPower": 750,
@@ -2312,7 +2312,7 @@
     },
     {
       "id": "elsinore-rat-1000-a2a6b417",
-      "zhCNName": "Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Elsinore Rat",
       "combatPower": 1000,
@@ -2324,7 +2324,7 @@
     },
     {
       "id": "emerald-magic-golem",
-      "zhCNName": "Emerald Magic Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Emerald Magic Golem",
       "combatPower": 2400,
@@ -2338,7 +2338,7 @@
     },
     {
       "id": "esras-monster",
-      "zhCNName": "Esras (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Esras (Monster)",
       "combatPower": 2490,
@@ -2352,7 +2352,7 @@
     },
     {
       "id": "evil-eye-monolith-seven-nightmares",
-      "zhCNName": "Evil Eye Monolith (Seven Nightmares)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Evil Eye Monolith (Seven Nightmares)",
       "combatPower": 12000,
@@ -2364,7 +2364,7 @@
     },
     {
       "id": "fawn",
-      "zhCNName": "Fawn",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fawn",
       "combatPower": 1000,
@@ -2378,7 +2378,7 @@
     },
     {
       "id": "fenrir-2400-35757a2e",
-      "zhCNName": "Fenrir",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fenrir",
       "combatPower": 2400,
@@ -2390,7 +2390,7 @@
     },
     {
       "id": "fenrir-4800-727a6923",
-      "zhCNName": "Fenrir",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fenrir",
       "combatPower": 4800,
@@ -2402,7 +2402,7 @@
     },
     {
       "id": "feral-brown-wolf",
-      "zhCNName": "Feral Brown Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Feral Brown Wolf",
       "combatPower": 2529,
@@ -2416,7 +2416,7 @@
     },
     {
       "id": "fighter-slate",
-      "zhCNName": "Fighter Slate",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fighter Slate",
       "combatPower": 1800,
@@ -2433,7 +2433,7 @@
     },
     {
       "id": "fire-sprite",
-      "zhCNName": "Fire Sprite",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fire Sprite",
       "combatPower": 1097,
@@ -2450,7 +2450,7 @@
     },
     {
       "id": "fire-wyvern",
-      "zhCNName": "Fire Wyvern",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fire Wyvern",
       "combatPower": 3600,
@@ -2464,7 +2464,7 @@
     },
     {
       "id": "flour-2200-95fa0cf2",
-      "zhCNName": "Flour",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Flour",
       "combatPower": 2200,
@@ -2476,7 +2476,7 @@
     },
     {
       "id": "flour-4400-8c391686",
-      "zhCNName": "Flour",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Flour",
       "combatPower": 4400,
@@ -2488,7 +2488,7 @@
     },
     {
       "id": "flour-6600-7a704afd",
-      "zhCNName": "Flour",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Flour",
       "combatPower": 6600,
@@ -2500,7 +2500,7 @@
     },
     {
       "id": "flour-8800-db3a174b",
-      "zhCNName": "Flour",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Flour",
       "combatPower": 8800,
@@ -2572,7 +2572,7 @@
     },
     {
       "id": "form-of-harmony",
-      "zhCNName": "Form of Harmony",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Form of Harmony",
       "combatPower": 2000,
@@ -2584,7 +2584,7 @@
     },
     {
       "id": "fruit-monster-2200-26c73c4b",
-      "zhCNName": "Fruit (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fruit (Monster)",
       "combatPower": 2200,
@@ -2596,7 +2596,7 @@
     },
     {
       "id": "fruit-monster-4400-9e4f1fb4",
-      "zhCNName": "Fruit (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fruit (Monster)",
       "combatPower": 4400,
@@ -2608,7 +2608,7 @@
     },
     {
       "id": "fruit-monster-6600-f8e72ecc",
-      "zhCNName": "Fruit (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fruit (Monster)",
       "combatPower": 6600,
@@ -2620,7 +2620,7 @@
     },
     {
       "id": "fruit-monster-8800-528c3897",
-      "zhCNName": "Fruit (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Fruit (Monster)",
       "combatPower": 8800,
@@ -2632,7 +2632,7 @@
     },
     {
       "id": "ghost-armor",
-      "zhCNName": "Ghost Armor",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ghost Armor",
       "combatPower": 1090,
@@ -2649,7 +2649,7 @@
     },
     {
       "id": "ghoul-blue",
-      "zhCNName": "Ghoul (Blue)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ghoul (Blue)",
       "combatPower": 4260,
@@ -2663,7 +2663,7 @@
     },
     {
       "id": "ghoul-gray",
-      "zhCNName": "Ghoul (Gray)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ghoul (Gray)",
       "combatPower": 3810,
@@ -2677,7 +2677,7 @@
     },
     {
       "id": "ghoul-gray-basic",
-      "zhCNName": "Ghoul (Gray) (Basic)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ghoul (Gray) (Basic)",
       "combatPower": 2000,
@@ -2691,7 +2691,7 @@
     },
     {
       "id": "giant-bear-wolf",
-      "zhCNName": "Giant Bear Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Bear Wolf",
       "combatPower": 4500,
@@ -2719,7 +2719,7 @@
     },
     {
       "id": "giant-black-wolf",
-      "zhCNName": "Giant Black Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Black Wolf",
       "combatPower": 2680,
@@ -2733,7 +2733,7 @@
     },
     {
       "id": "giant-firefly",
-      "zhCNName": "Giant Firefly",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Firefly",
       "combatPower": 5000,
@@ -2748,7 +2748,7 @@
     },
     {
       "id": "giant-forest-rat",
-      "zhCNName": "Giant Forest Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Forest Rat",
       "combatPower": 910,
@@ -2762,7 +2762,7 @@
     },
     {
       "id": "giant-gold-forest-mushroom-spider",
-      "zhCNName": "Giant Gold Forest Mushroom Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Gold Forest Mushroom Spider",
       "combatPower": 4600,
@@ -2791,7 +2791,7 @@
     },
     {
       "id": "giant-golden-spiderling",
-      "zhCNName": "Giant Golden Spiderling",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Golden Spiderling",
       "combatPower": 400,
@@ -2805,7 +2805,7 @@
     },
     {
       "id": "giant-guard",
-      "zhCNName": "Giant Guard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
@@ -2819,7 +2819,7 @@
     },
     {
       "id": "giant-ice-sprite",
-      "zhCNName": "Giant Ice Sprite",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Ice Sprite",
       "combatPower": 2200,
@@ -2847,7 +2847,7 @@
     },
     {
       "id": "giant-jackal",
-      "zhCNName": "Giant Jackal",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Jackal",
       "combatPower": 1200,
@@ -2861,7 +2861,7 @@
     },
     {
       "id": "giant-jungle-millipede",
-      "zhCNName": "Giant Jungle Millipede",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Jungle Millipede",
       "combatPower": 1630,
@@ -2877,7 +2877,7 @@
     },
     {
       "id": "giant-moon-bunny",
-      "zhCNName": "Giant Moon Bunny",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Moon Bunny",
       "combatPower": 300,
@@ -2920,7 +2920,7 @@
     },
     {
       "id": "giant-red-spider-hardmode",
-      "zhCNName": "Giant Red Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Red Spider (Hardmode)",
       "combatPower": 6674,
@@ -2934,7 +2934,7 @@
     },
     {
       "id": "giant-red-eyed-ornata-spider",
-      "zhCNName": "Giant Red-eyed Ornata Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Red-eyed Ornata Spider",
       "combatPower": 4300,
@@ -2948,7 +2948,7 @@
     },
     {
       "id": "giant-sandworm",
-      "zhCNName": "Giant Sandworm",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Sandworm",
       "combatPower": 10000,
@@ -2962,7 +2962,7 @@
     },
     {
       "id": "giant-sandworm-old",
-      "zhCNName": "Giant Sandworm (Old)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Sandworm (Old)",
       "combatPower": 10000,
@@ -2976,7 +2976,7 @@
     },
     {
       "id": "giant-skeleton",
-      "zhCNName": "Giant Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Skeleton",
       "combatPower": 1298,
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "giant-snow-golem-4400-ea08527e",
-      "zhCNName": "Giant Snow Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Golem",
       "combatPower": 4400,
@@ -3002,7 +3002,7 @@
     },
     {
       "id": "giant-snow-golem-6600-07163f9d",
-      "zhCNName": "Giant Snow Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Golem",
       "combatPower": 6600,
@@ -3014,7 +3014,7 @@
     },
     {
       "id": "giant-snow-golem-8800-8fc3ff60",
-      "zhCNName": "Giant Snow Golem",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Golem",
       "combatPower": 8800,
@@ -3026,7 +3026,7 @@
     },
     {
       "id": "giant-snow-troll-1500-a40872df",
-      "zhCNName": "Giant Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Troll",
       "combatPower": 1500,
@@ -3038,7 +3038,7 @@
     },
     {
       "id": "giant-snow-troll-3000-0395b3e3",
-      "zhCNName": "Giant Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Troll",
       "combatPower": 3000,
@@ -3050,7 +3050,7 @@
     },
     {
       "id": "giant-snow-troll-4500-1adbad32",
-      "zhCNName": "Giant Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Troll",
       "combatPower": 4500,
@@ -3062,7 +3062,7 @@
     },
     {
       "id": "giant-snow-troll-6000-605d3a95",
-      "zhCNName": "Giant Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snow Troll",
       "combatPower": 6000,
@@ -3074,7 +3074,7 @@
     },
     {
       "id": "giant-snowfield-spider",
-      "zhCNName": "Giant Snowfield Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Snowfield Spider",
       "combatPower": 700,
@@ -3102,7 +3102,7 @@
     },
     {
       "id": "giant-spiderling",
-      "zhCNName": "Giant Spiderling",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Spiderling",
       "combatPower": 335,
@@ -3116,7 +3116,7 @@
     },
     {
       "id": "giant-white-spider",
-      "zhCNName": "Giant White Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant White Spider",
       "combatPower": 3350,
@@ -3130,7 +3130,7 @@
     },
     {
       "id": "giant-white-spider-hardmode",
-      "zhCNName": "Giant White Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant White Spider (Hardmode)",
       "combatPower": 7365,
@@ -3159,7 +3159,7 @@
     },
     {
       "id": "giant-wood-jackal",
-      "zhCNName": "Giant Wood Jackal",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Wood Jackal",
       "combatPower": 1700,
@@ -3173,7 +3173,7 @@
     },
     {
       "id": "giant-worm-1",
-      "zhCNName": "Giant Worm (1)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Worm (1)",
       "combatPower": 1768,
@@ -3189,7 +3189,7 @@
     },
     {
       "id": "giant-worm-2",
-      "zhCNName": "Giant Worm (2)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Worm (2)",
       "combatPower": 3320,
@@ -3203,7 +3203,7 @@
     },
     {
       "id": "giant-worm-3",
-      "zhCNName": "Giant Worm (3)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Worm (3)",
       "combatPower": 3580,
@@ -3217,7 +3217,7 @@
     },
     {
       "id": "giant-worm-4",
-      "zhCNName": "Giant Worm (4)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Giant Worm (4)",
       "combatPower": 3240,
@@ -3232,7 +3232,7 @@
     },
     {
       "id": "glowing-pot-belly-spider",
-      "zhCNName": "Glowing Pot-Belly Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Glowing Pot-Belly Spider",
       "combatPower": 2400,
@@ -3246,7 +3246,7 @@
     },
     {
       "id": "gold-forest-lizard",
-      "zhCNName": "Gold Forest Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gold Forest Lizard",
       "combatPower": 2100,
@@ -3260,7 +3260,7 @@
     },
     {
       "id": "gold-tailed-mongoose",
-      "zhCNName": "Gold-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gold-tailed Mongoose",
       "combatPower": 3400,
@@ -3274,7 +3274,7 @@
     },
     {
       "id": "golden-rat-man",
-      "zhCNName": "Golden Rat Man",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golden Rat Man",
       "combatPower": 1000,
@@ -3331,7 +3331,7 @@
     },
     {
       "id": "golem-black",
-      "zhCNName": "Golem (Black)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Black)",
       "combatPower": 4430,
@@ -3345,7 +3345,7 @@
     },
     {
       "id": "golem-blue",
-      "zhCNName": "Golem (Blue)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Blue)",
       "combatPower": 3780,
@@ -3359,7 +3359,7 @@
     },
     {
       "id": "golem-dark-green",
-      "zhCNName": "Golem (Dark Green)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dark Green)",
       "combatPower": 2758,
@@ -3373,7 +3373,7 @@
     },
     {
       "id": "golem-dorren-s-request-1100-a6cefed9",
-      "zhCNName": "Golem (Dorren's Request)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dorren's Request)",
       "combatPower": 1100,
@@ -3385,7 +3385,7 @@
     },
     {
       "id": "golem-dorren-s-request-2200-79b46c82",
-      "zhCNName": "Golem (Dorren's Request)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dorren's Request)",
       "combatPower": 2200,
@@ -3397,7 +3397,7 @@
     },
     {
       "id": "golem-dorren-s-request-3300-092f671a",
-      "zhCNName": "Golem (Dorren's Request)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dorren's Request)",
       "combatPower": 3300,
@@ -3409,7 +3409,7 @@
     },
     {
       "id": "golem-dorren-s-request-4400-7122d854",
-      "zhCNName": "Golem (Dorren's Request)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dorren's Request)",
       "combatPower": 4400,
@@ -3421,7 +3421,7 @@
     },
     {
       "id": "golem-dorren-s-request-5500-520d4974",
-      "zhCNName": "Golem (Dorren's Request)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Dorren's Request)",
       "combatPower": 5500,
@@ -3433,7 +3433,7 @@
     },
     {
       "id": "golem-light-blue",
-      "zhCNName": "Golem (Light Blue)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Light Blue)",
       "combatPower": 4558,
@@ -3447,7 +3447,7 @@
     },
     {
       "id": "golem-red-3940-288a9116",
-      "zhCNName": "Golem (Red)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Red)",
       "combatPower": 3940,
@@ -3461,7 +3461,7 @@
     },
     {
       "id": "golem-red-8486-4f4b82d5",
-      "zhCNName": "Golem (Red)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Red)",
       "combatPower": 8486,
@@ -3475,7 +3475,7 @@
     },
     {
       "id": "golem-small-black",
-      "zhCNName": "Golem (Small Black)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Golem (Small Black)",
       "combatPower": 3548,
@@ -3489,7 +3489,7 @@
     },
     {
       "id": "gray-gremlin",
-      "zhCNName": "Gray Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Gremlin",
       "combatPower": 931,
@@ -3506,7 +3506,7 @@
     },
     {
       "id": "gray-gremlin-peaca-abyss",
-      "zhCNName": "Gray Gremlin (Peaca Abyss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Gremlin (Peaca Abyss)",
       "combatPower": 7000,
@@ -3518,7 +3518,7 @@
     },
     {
       "id": "gray-jungle-wolf",
-      "zhCNName": "Gray Jungle Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Jungle Wolf",
       "combatPower": 999,
@@ -3532,7 +3532,7 @@
     },
     {
       "id": "gray-reindeer",
-      "zhCNName": "Gray Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Reindeer",
       "combatPower": 1100,
@@ -3546,7 +3546,7 @@
     },
     {
       "id": "gray-rock-scorpion",
-      "zhCNName": "Gray Rock Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Rock Scorpion",
       "combatPower": 1100,
@@ -3560,7 +3560,7 @@
     },
     {
       "id": "gray-town-rat-96-dbe01860",
-      "zhCNName": "Gray Town Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Town Rat",
       "combatPower": 96,
@@ -3574,7 +3574,7 @@
     },
     {
       "id": "gray-town-rat-349-767d545a",
-      "zhCNName": "Gray Town Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Town Rat",
       "combatPower": 349,
@@ -3589,7 +3589,7 @@
     },
     {
       "id": "gray-town-rat-hardmode",
-      "zhCNName": "Gray Town Rat (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Town Rat (Hardmode)",
       "combatPower": 1358,
@@ -3604,7 +3604,7 @@
     },
     {
       "id": "gray-werewolf",
-      "zhCNName": "Gray Werewolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Werewolf",
       "combatPower": 1600,
@@ -3618,7 +3618,7 @@
     },
     {
       "id": "gray-werewolf-hardmode",
-      "zhCNName": "Gray Werewolf (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray Werewolf (Hardmode)",
       "combatPower": 4023,
@@ -3651,7 +3651,7 @@
     },
     {
       "id": "gray-tailed-mongoose",
-      "zhCNName": "Gray-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gray-tailed Mongoose",
       "combatPower": 1000,
@@ -3681,7 +3681,7 @@
     },
     {
       "id": "great-mimic-hardmode",
-      "zhCNName": "Great Mimic (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Great Mimic (Hardmode)",
       "combatPower": 1974,
@@ -3695,7 +3695,7 @@
     },
     {
       "id": "green-forest-lizard",
-      "zhCNName": "Green Forest Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Forest Lizard",
       "combatPower": 800,
@@ -3710,7 +3710,7 @@
     },
     {
       "id": "green-gremlin-1113-d702f5da",
-      "zhCNName": "Green Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1113,
@@ -3728,7 +3728,7 @@
     },
     {
       "id": "green-gremlin-1161-421191db",
-      "zhCNName": "Green Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1161,
@@ -3742,7 +3742,7 @@
     },
     {
       "id": "green-gremlin-peaca-abyss",
-      "zhCNName": "Green Gremlin (Peaca Abyss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Gremlin (Peaca Abyss)",
       "combatPower": 7000,
@@ -3754,7 +3754,7 @@
     },
     {
       "id": "green-lizard-witch",
-      "zhCNName": "Green Lizard Witch",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Lizard Witch",
       "combatPower": 2800,
@@ -3768,7 +3768,7 @@
     },
     {
       "id": "green-snake",
-      "zhCNName": "Green Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Green Snake",
       "combatPower": 1850,
@@ -3782,7 +3782,7 @@
     },
     {
       "id": "gremlin-peaca-abyss",
-      "zhCNName": "Gremlin (Peaca Abyss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Gremlin (Peaca Abyss)",
       "combatPower": 7000,
@@ -3794,7 +3794,7 @@
     },
     {
       "id": "grim-reaper-2000-b3b00c3f",
-      "zhCNName": "Grim Reaper",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 2000,
@@ -3806,7 +3806,7 @@
     },
     {
       "id": "grim-reaper-4000-33e8b958",
-      "zhCNName": "Grim Reaper",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 4000,
@@ -3818,7 +3818,7 @@
     },
     {
       "id": "grim-reaper-6000-4663ed32",
-      "zhCNName": "Grim Reaper",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 6000,
@@ -3830,7 +3830,7 @@
     },
     {
       "id": "grim-reaper-8000-b2909df5",
-      "zhCNName": "Grim Reaper",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 8000,
@@ -3842,7 +3842,7 @@
     },
     {
       "id": "grumbill-brown-1200-baf4bdd9",
-      "zhCNName": "Grumbill (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Brown)",
       "combatPower": 1200,
@@ -3854,7 +3854,7 @@
     },
     {
       "id": "grumbill-brown-2400-39342035",
-      "zhCNName": "Grumbill (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Brown)",
       "combatPower": 2400,
@@ -3866,7 +3866,7 @@
     },
     {
       "id": "grumbill-brown-3600-b9911369",
-      "zhCNName": "Grumbill (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Brown)",
       "combatPower": 3600,
@@ -3878,7 +3878,7 @@
     },
     {
       "id": "grumbill-brown-4800-a8a9479c",
-      "zhCNName": "Grumbill (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Brown)",
       "combatPower": 4800,
@@ -3890,7 +3890,7 @@
     },
     {
       "id": "grumbill-brown-6000-2b537b4f",
-      "zhCNName": "Grumbill (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Brown)",
       "combatPower": 6000,
@@ -3902,7 +3902,7 @@
     },
     {
       "id": "grumbill-orange-800-530dc62a",
-      "zhCNName": "Grumbill (Orange)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Orange)",
       "combatPower": 800,
@@ -3914,7 +3914,7 @@
     },
     {
       "id": "grumbill-orange-1600-bfa00d3a",
-      "zhCNName": "Grumbill (Orange)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Orange)",
       "combatPower": 1600,
@@ -3926,7 +3926,7 @@
     },
     {
       "id": "grumbill-orange-2400-9e6ef18c",
-      "zhCNName": "Grumbill (Orange)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Orange)",
       "combatPower": 2400,
@@ -3938,7 +3938,7 @@
     },
     {
       "id": "grumbill-orange-3200-55ff438e",
-      "zhCNName": "Grumbill (Orange)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Orange)",
       "combatPower": 3200,
@@ -3950,7 +3950,7 @@
     },
     {
       "id": "grumbill-orange-4800-0edf114d",
-      "zhCNName": "Grumbill (Orange)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Orange)",
       "combatPower": 4800,
@@ -3962,7 +3962,7 @@
     },
     {
       "id": "grumbill-pink-1000-b44c04bc",
-      "zhCNName": "Grumbill (Pink)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Pink)",
       "combatPower": 1000,
@@ -3974,7 +3974,7 @@
     },
     {
       "id": "grumbill-pink-2000-a89c7cbc",
-      "zhCNName": "Grumbill (Pink)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Pink)",
       "combatPower": 2000,
@@ -3986,7 +3986,7 @@
     },
     {
       "id": "grumbill-pink-3000-f53f339e",
-      "zhCNName": "Grumbill (Pink)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Pink)",
       "combatPower": 3000,
@@ -3998,7 +3998,7 @@
     },
     {
       "id": "grumbill-pink-4000-62f9786c",
-      "zhCNName": "Grumbill (Pink)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Pink)",
       "combatPower": 4000,
@@ -4010,7 +4010,7 @@
     },
     {
       "id": "grumbill-pink-5000-4270e0cb",
-      "zhCNName": "Grumbill (Pink)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Grumbill (Pink)",
       "combatPower": 5000,
@@ -4022,7 +4022,7 @@
     },
     {
       "id": "guard-laghodessa",
-      "zhCNName": "Guard Laghodessa",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Guard Laghodessa",
       "combatPower": 2410,
@@ -4036,7 +4036,7 @@
     },
     {
       "id": "guard-skeleton-hellhound",
-      "zhCNName": "Guard Skeleton Hellhound",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Guard Skeleton Hellhound",
       "combatPower": 2240,
@@ -4050,7 +4050,7 @@
     },
     {
       "id": "guardian-of-ruins-enchanting",
-      "zhCNName": "Guardian of Ruins (Enchanting)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Guardian of Ruins (Enchanting)",
       "combatPower": 5000,
@@ -4064,7 +4064,7 @@
     },
     {
       "id": "guardian-of-ruins-mysterious",
-      "zhCNName": "Guardian of Ruins (Mysterious)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Guardian of Ruins (Mysterious)",
       "combatPower": 5000,
@@ -4078,7 +4078,7 @@
     },
     {
       "id": "guardian-pillar",
-      "zhCNName": "Guardian Pillar",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Guardian Pillar",
       "combatPower": 8000,
@@ -4090,7 +4090,7 @@
     },
     {
       "id": "head-hobgoblin",
-      "zhCNName": "Head Hobgoblin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Head Hobgoblin",
       "combatPower": 3000,
@@ -4104,7 +4104,7 @@
     },
     {
       "id": "head-hyena",
-      "zhCNName": "Head Hyena",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Head Hyena",
       "combatPower": 4600,
@@ -4119,7 +4119,7 @@
     },
     {
       "id": "heathcliff",
-      "zhCNName": "Heathcliff",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Heathcliff",
       "combatPower": 108000,
@@ -4131,7 +4131,7 @@
     },
     {
       "id": "hobgoblin-bowman",
-      "zhCNName": "Hobgoblin Bowman",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Bowman",
       "combatPower": 2000,
@@ -4146,7 +4146,7 @@
     },
     {
       "id": "hobgoblin-bowman-raft-strong",
-      "zhCNName": "Hobgoblin Bowman (Raft) (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Bowman (Raft) (Strong)",
       "combatPower": 2000,
@@ -4160,7 +4160,7 @@
     },
     {
       "id": "hobgoblin-bowman-raft-weak",
-      "zhCNName": "Hobgoblin Bowman (Raft) (Weak)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Bowman (Raft) (Weak)",
       "combatPower": 2000,
@@ -4174,7 +4174,7 @@
     },
     {
       "id": "hobgoblin-exorcist",
-      "zhCNName": "Hobgoblin Exorcist",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Exorcist",
       "combatPower": 2200,
@@ -4189,7 +4189,7 @@
     },
     {
       "id": "hobgoblin-exorcist-raft-weak",
-      "zhCNName": "Hobgoblin Exorcist (Raft) (Weak)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Exorcist (Raft) (Weak)",
       "combatPower": 2200,
@@ -4203,7 +4203,7 @@
     },
     {
       "id": "hobgoblin-warrior",
-      "zhCNName": "Hobgoblin Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Warrior",
       "combatPower": 2500,
@@ -4218,7 +4218,7 @@
     },
     {
       "id": "hobgoblin-warrior-raft",
-      "zhCNName": "Hobgoblin Warrior (Raft)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hobgoblin Warrior (Raft)",
       "combatPower": 2500,
@@ -4232,7 +4232,7 @@
     },
     {
       "id": "hollow-knight-4740-419e7bac",
-      "zhCNName": "Hollow Knight",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 4740,
@@ -4247,7 +4247,7 @@
     },
     {
       "id": "hollow-knight-5000-33a03a3a",
-      "zhCNName": "Hollow Knight",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 5000,
@@ -4261,7 +4261,7 @@
     },
     {
       "id": "horse-sprite",
-      "zhCNName": "Horse Sprite",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Horse Sprite",
       "combatPower": 1600,
@@ -4278,7 +4278,7 @@
     },
     {
       "id": "hot-spring-monkey",
-      "zhCNName": "Hot Spring Monkey",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Hot Spring Monkey",
       "combatPower": 1000,
@@ -4306,7 +4306,7 @@
     },
     {
       "id": "ice-slime",
-      "zhCNName": "Ice Slime",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Slime",
       "combatPower": 5000,
@@ -4318,7 +4318,7 @@
     },
     {
       "id": "ice-sprite",
-      "zhCNName": "Ice Sprite",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Sprite",
       "combatPower": 1097,
@@ -4335,7 +4335,7 @@
     },
     {
       "id": "ice-worm-black",
-      "zhCNName": "Ice Worm (Black)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Worm (Black)",
       "combatPower": 1200,
@@ -4349,7 +4349,7 @@
     },
     {
       "id": "ice-worm-blue",
-      "zhCNName": "Ice Worm (Blue)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Worm (Blue)",
       "combatPower": 1200,
@@ -4363,7 +4363,7 @@
     },
     {
       "id": "ice-worm-turquoise",
-      "zhCNName": "Ice Worm (Turquoise)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Worm (Turquoise)",
       "combatPower": 1200,
@@ -4377,7 +4377,7 @@
     },
     {
       "id": "ice-wyvern",
-      "zhCNName": "Ice Wyvern",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ice Wyvern",
       "combatPower": 3000,
@@ -4391,7 +4391,7 @@
     },
     {
       "id": "ifrit",
-      "zhCNName": "Ifrit",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ifrit",
       "combatPower": 10000,
@@ -4406,7 +4406,7 @@
     },
     {
       "id": "ifrit-old",
-      "zhCNName": "Ifrit (Old)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ifrit (Old)",
       "combatPower": 10000,
@@ -4420,7 +4420,7 @@
     },
     {
       "id": "iguana",
-      "zhCNName": "Iguana",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Iguana",
       "combatPower": 600,
@@ -4453,7 +4453,7 @@
     },
     {
       "id": "imp-arena",
-      "zhCNName": "Imp (Arena)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Imp (Arena)",
       "combatPower": 500,
@@ -4467,7 +4467,7 @@
     },
     {
       "id": "incubus",
-      "zhCNName": "Incubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
@@ -4499,7 +4499,7 @@
     },
     {
       "id": "jackal",
-      "zhCNName": "Jackal",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Jackal",
       "combatPower": 973,
@@ -4516,7 +4516,7 @@
     },
     {
       "id": "jungle-millipede",
-      "zhCNName": "Jungle Millipede",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Jungle Millipede",
       "combatPower": 940,
@@ -4531,7 +4531,7 @@
     },
     {
       "id": "just-revived-ghoul",
-      "zhCNName": "Just Revived Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Just Revived Ghoul",
       "combatPower": 3810,
@@ -4545,7 +4545,7 @@
     },
     {
       "id": "kid-zombie",
-      "zhCNName": "Kid Zombie",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Kid Zombie",
       "combatPower": 1000,
@@ -4559,7 +4559,7 @@
     },
     {
       "id": "king-connous-lizard",
-      "zhCNName": "King Connous Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "King Connous Lizard",
       "combatPower": 1900,
@@ -4589,7 +4589,7 @@
     },
     {
       "id": "king-zombie",
-      "zhCNName": "King Zombie",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "King Zombie",
       "combatPower": 10000,
@@ -4603,7 +4603,7 @@
     },
     {
       "id": "large-elsinore-rat-620-cd502250",
-      "zhCNName": "Large Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Large Elsinore Rat",
       "combatPower": 620,
@@ -4615,7 +4615,7 @@
     },
     {
       "id": "large-elsinore-rat-1240-bbc845e8",
-      "zhCNName": "Large Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Large Elsinore Rat",
       "combatPower": 1240,
@@ -4627,7 +4627,7 @@
     },
     {
       "id": "large-elsinore-rat-1860-9e7bbac1",
-      "zhCNName": "Large Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Large Elsinore Rat",
       "combatPower": 1860,
@@ -4639,7 +4639,7 @@
     },
     {
       "id": "large-elsinore-rat-2480-2ae7fe12",
-      "zhCNName": "Large Elsinore Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Large Elsinore Rat",
       "combatPower": 2480,
@@ -4651,7 +4651,7 @@
     },
     {
       "id": "larva-brown",
-      "zhCNName": "Larva (Brown)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Larva (Brown)",
       "combatPower": 3100,
@@ -4665,7 +4665,7 @@
     },
     {
       "id": "larva-green",
-      "zhCNName": "Larva (Green)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Larva (Green)",
       "combatPower": 2900,
@@ -4679,7 +4679,7 @@
     },
     {
       "id": "lebbaeus-monster",
-      "zhCNName": "Lebbaeus (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lebbaeus (Monster)",
       "combatPower": 5000,
@@ -4693,7 +4693,7 @@
     },
     {
       "id": "leprechaun-event",
-      "zhCNName": "Leprechaun (Event)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Leprechaun (Event)",
       "combatPower": 1800,
@@ -4707,7 +4707,7 @@
     },
     {
       "id": "lightning-slime",
-      "zhCNName": "Lightning Slime",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lightning Slime",
       "combatPower": 5000,
@@ -4719,7 +4719,7 @@
     },
     {
       "id": "lightning-wyvern",
-      "zhCNName": "Lightning Wyvern",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lightning Wyvern",
       "combatPower": 3300,
@@ -4733,7 +4733,7 @@
     },
     {
       "id": "lost-dog",
-      "zhCNName": "Lost Dog",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Dog",
       "combatPower": 600,
@@ -4747,7 +4747,7 @@
     },
     {
       "id": "lost-sahagin",
-      "zhCNName": "Lost Sahagin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Sahagin",
       "combatPower": 1850,
@@ -4761,7 +4761,7 @@
     },
     {
       "id": "lost-zombie-soldier-900-cf59ffb8",
-      "zhCNName": "Lost Zombie Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Zombie Soldier",
       "combatPower": 900,
@@ -4773,7 +4773,7 @@
     },
     {
       "id": "lost-zombie-soldier-1800-597ad47f",
-      "zhCNName": "Lost Zombie Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Zombie Soldier",
       "combatPower": 1800,
@@ -4785,7 +4785,7 @@
     },
     {
       "id": "lost-zombie-soldier-2700-24cca593",
-      "zhCNName": "Lost Zombie Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Zombie Soldier",
       "combatPower": 2700,
@@ -4797,7 +4797,7 @@
     },
     {
       "id": "lost-zombie-soldier-3600-8c098d1e",
-      "zhCNName": "Lost Zombie Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Lost Zombie Soldier",
       "combatPower": 3600,
@@ -4809,7 +4809,7 @@
     },
     {
       "id": "mag-mell-guard-cat-blue",
-      "zhCNName": "Mag Mell Guard Cat (Blue)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mag Mell Guard Cat (Blue)",
       "combatPower": 5000,
@@ -4835,7 +4835,7 @@
     },
     {
       "id": "mammoth-old",
-      "zhCNName": "Mammoth (Old)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mammoth (Old)",
       "combatPower": 10000,
@@ -4849,7 +4849,7 @@
     },
     {
       "id": "master-lich",
-      "zhCNName": "Master Lich",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Master Lich",
       "combatPower": 60000,
@@ -4863,7 +4863,7 @@
     },
     {
       "id": "mata-monster-3000-3b4c24d5",
-      "zhCNName": "Mata (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mata (Monster)",
       "combatPower": 3000,
@@ -4875,7 +4875,7 @@
     },
     {
       "id": "mata-monster-6000-5764c2af",
-      "zhCNName": "Mata (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mata (Monster)",
       "combatPower": 6000,
@@ -4887,7 +4887,7 @@
     },
     {
       "id": "mata-monster-9000-799a172a",
-      "zhCNName": "Mata (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mata (Monster)",
       "combatPower": 9000,
@@ -4899,7 +4899,7 @@
     },
     {
       "id": "mata-monster-12000-15ec045d",
-      "zhCNName": "Mata (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mata (Monster)",
       "combatPower": 12000,
@@ -4911,7 +4911,7 @@
     },
     {
       "id": "metal-bard-skeleton",
-      "zhCNName": "Metal Bard Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Metal Bard Skeleton",
       "combatPower": 2664,
@@ -4955,7 +4955,7 @@
     },
     {
       "id": "metal-skeleton-full-armor",
-      "zhCNName": "Metal Skeleton (Full Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Metal Skeleton (Full Armor)",
       "combatPower": 1800,
@@ -4969,7 +4969,7 @@
     },
     {
       "id": "metal-skeleton-heavy-armor",
-      "zhCNName": "Metal Skeleton (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Metal Skeleton (Heavy Armor)",
       "combatPower": 1786,
@@ -5027,7 +5027,7 @@
     },
     {
       "id": "mini-milk-cow",
-      "zhCNName": "Mini Milk Cow",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mini Milk Cow",
       "combatPower": 180,
@@ -5041,7 +5041,7 @@
     },
     {
       "id": "mirror-witch",
-      "zhCNName": "Mirror Witch",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Mirror Witch",
       "combatPower": 2800,
@@ -5056,7 +5056,7 @@
     },
     {
       "id": "nubes-millipede",
-      "zhCNName": "Nubes Millipede",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Nubes Millipede",
       "combatPower": 700,
@@ -5070,7 +5070,7 @@
     },
     {
       "id": "ogre",
-      "zhCNName": "Ogre",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ogre",
       "combatPower": 2400,
@@ -5100,7 +5100,7 @@
     },
     {
       "id": "ogre-warrior",
-      "zhCNName": "Ogre Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ogre Warrior",
       "combatPower": 2980,
@@ -5116,7 +5116,7 @@
     },
     {
       "id": "ogre-warrior-imp-s-dream-land",
-      "zhCNName": "Ogre Warrior (Imp's Dream Land)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Ogre Warrior (Imp's Dream Land)",
       "combatPower": 2980,
@@ -5145,7 +5145,7 @@
     },
     {
       "id": "old-ice-mimic",
-      "zhCNName": "Old Ice Mimic",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Old Ice Mimic",
       "combatPower": 500,
@@ -5173,7 +5173,7 @@
     },
     {
       "id": "otter",
-      "zhCNName": "Otter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Otter",
       "combatPower": 790,
@@ -5189,7 +5189,7 @@
     },
     {
       "id": "panther",
-      "zhCNName": "Panther",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Panther",
       "combatPower": 9000,
@@ -5201,7 +5201,7 @@
     },
     {
       "id": "peridot-crystal-bear-event",
-      "zhCNName": "Peridot Crystal Bear (Event)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Peridot Crystal Bear (Event)",
       "combatPower": 7000,
@@ -5215,7 +5215,7 @@
     },
     {
       "id": "phantom-red-mask",
-      "zhCNName": "Phantom Red Mask",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Phantom Red Mask",
       "combatPower": 800,
@@ -5229,7 +5229,7 @@
     },
     {
       "id": "phantom-white-mask",
-      "zhCNName": "Phantom White Mask",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Phantom White Mask",
       "combatPower": 1200,
@@ -5243,7 +5243,7 @@
     },
     {
       "id": "piece-of-meat-2200-aeb3c2fc",
-      "zhCNName": "Piece of Meat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Piece of Meat",
       "combatPower": 2200,
@@ -5255,7 +5255,7 @@
     },
     {
       "id": "piece-of-meat-4400-76c506e1",
-      "zhCNName": "Piece of Meat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Piece of Meat",
       "combatPower": 4400,
@@ -5267,7 +5267,7 @@
     },
     {
       "id": "piece-of-meat-6600-3af5e617",
-      "zhCNName": "Piece of Meat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Piece of Meat",
       "combatPower": 6600,
@@ -5279,7 +5279,7 @@
     },
     {
       "id": "piece-of-meat-8800-03511cc2",
-      "zhCNName": "Piece of Meat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Piece of Meat",
       "combatPower": 8800,
@@ -5291,7 +5291,7 @@
     },
     {
       "id": "pigeon",
-      "zhCNName": "Pigeon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pigeon",
       "combatPower": 1000,
@@ -5305,7 +5305,7 @@
     },
     {
       "id": "piked-horn-deer",
-      "zhCNName": "Piked Horn Deer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Piked Horn Deer",
       "combatPower": 1720,
@@ -5319,7 +5319,7 @@
     },
     {
       "id": "pink-new-gremlin",
-      "zhCNName": "Pink New Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pink New Gremlin",
       "combatPower": 3990,
@@ -5333,7 +5333,7 @@
     },
     {
       "id": "pink-succubus",
-      "zhCNName": "Pink Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pink Succubus",
       "combatPower": 4000,
@@ -5347,7 +5347,7 @@
     },
     {
       "id": "pirate-red-skeleton",
-      "zhCNName": "Pirate Red Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
@@ -5361,7 +5361,7 @@
     },
     {
       "id": "pirate-red-skeleton-hardmode",
-      "zhCNName": "Pirate Red Skeleton (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Red Skeleton (Hardmode)",
       "combatPower": 4600,
@@ -5375,7 +5375,7 @@
     },
     {
       "id": "pirate-red-skeleton-hook",
-      "zhCNName": "Pirate Red Skeleton (Hook)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Red Skeleton (Hook)",
       "combatPower": 1800,
@@ -5389,7 +5389,7 @@
     },
     {
       "id": "pirate-red-skeleton-hook-hardmode",
-      "zhCNName": "Pirate Red Skeleton (Hook) (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Red Skeleton (Hook) (Hardmode)",
       "combatPower": 4600,
@@ -5417,7 +5417,7 @@
     },
     {
       "id": "pirate-skeleton-hook",
-      "zhCNName": "Pirate Skeleton (Hook)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Skeleton (Hook)",
       "combatPower": 1649,
@@ -5432,7 +5432,7 @@
     },
     {
       "id": "pirate-skeleton-hook-hardmode",
-      "zhCNName": "Pirate Skeleton (Hook) (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Skeleton (Hook) (Hardmode)",
       "combatPower": 3438,
@@ -5446,7 +5446,7 @@
     },
     {
       "id": "pirate-skeleton-lord",
-      "zhCNName": "Pirate Skeleton (Lord)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pirate Skeleton (Lord)",
       "combatPower": 6000,
@@ -5458,7 +5458,7 @@
     },
     {
       "id": "pit-viper",
-      "zhCNName": "Pit Viper",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pit Viper",
       "combatPower": 2000,
@@ -5472,7 +5472,7 @@
     },
     {
       "id": "poison-succubus",
-      "zhCNName": "Poison Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Poison Succubus",
       "combatPower": 24864,
@@ -5501,7 +5501,7 @@
     },
     {
       "id": "pot-belly-spider-strong",
-      "zhCNName": "Pot-Belly Spider (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider (Strong)",
       "combatPower": 1600,
@@ -5515,7 +5515,7 @@
     },
     {
       "id": "pot-belly-spider-the-dubious",
-      "zhCNName": "Pot-Belly Spider (the Dubious)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider (the Dubious)",
       "combatPower": 1100,
@@ -5529,7 +5529,7 @@
     },
     {
       "id": "pot-belly-spider-with-glowing-fang",
-      "zhCNName": "Pot-Belly Spider with Glowing Fang",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider with Glowing Fang",
       "combatPower": 1800,
@@ -5543,7 +5543,7 @@
     },
     {
       "id": "pot-belly-spider-with-glowing-legs",
-      "zhCNName": "Pot-Belly Spider with Glowing Legs",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider with Glowing Legs",
       "combatPower": 1800,
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "pot-belly-spider-with-glowing-pot",
-      "zhCNName": "Pot-Belly Spider with Glowing Pot",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider with Glowing Pot",
       "combatPower": 1800,
@@ -5571,7 +5571,7 @@
     },
     {
       "id": "pot-belly-spider-with-glowing-venom-sac",
-      "zhCNName": "Pot-Belly Spider with Glowing Venom Sac",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Pot-Belly Spider with Glowing Venom Sac",
       "combatPower": 1800,
@@ -5585,7 +5585,7 @@
     },
     {
       "id": "python-soldier-strong",
-      "zhCNName": "Python Soldier (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Python Soldier (Strong)",
       "combatPower": 2550,
@@ -5597,7 +5597,7 @@
     },
     {
       "id": "quartz-crystal-bear-event",
-      "zhCNName": "Quartz Crystal Bear (Event)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Quartz Crystal Bear (Event)",
       "combatPower": 7000,
@@ -5611,7 +5611,7 @@
     },
     {
       "id": "raccoon",
-      "zhCNName": "Raccoon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Raccoon",
       "combatPower": 279,
@@ -5629,7 +5629,7 @@
     },
     {
       "id": "rat-man",
-      "zhCNName": "Rat Man",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Rat Man",
       "combatPower": 849,
@@ -5649,7 +5649,7 @@
     },
     {
       "id": "red-antler-reindeer",
-      "zhCNName": "Red Antler Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Antler Reindeer",
       "combatPower": 1100,
@@ -5663,7 +5663,7 @@
     },
     {
       "id": "red-forest-mushroom-spider",
-      "zhCNName": "Red Forest Mushroom Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Forest Mushroom Spider",
       "combatPower": 1100,
@@ -5678,7 +5678,7 @@
     },
     {
       "id": "red-jungle-wolf",
-      "zhCNName": "Red Jungle Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Jungle Wolf",
       "combatPower": 1400,
@@ -5692,7 +5692,7 @@
     },
     {
       "id": "red-poisonous-snake",
-      "zhCNName": "Red Poisonous Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Poisonous Snake",
       "combatPower": 2400,
@@ -5706,7 +5706,7 @@
     },
     {
       "id": "red-rat",
-      "zhCNName": "Red Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Rat",
       "combatPower": 1000,
@@ -5720,7 +5720,7 @@
     },
     {
       "id": "red-sand-scorpion",
-      "zhCNName": "Red Sand Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sand Scorpion",
       "combatPower": 550,
@@ -5734,7 +5734,7 @@
     },
     {
       "id": "red-skeleton",
-      "zhCNName": "Red Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Skeleton",
       "combatPower": 1274,
@@ -5778,7 +5778,7 @@
     },
     {
       "id": "red-skeleton-mini",
-      "zhCNName": "Red Skeleton (Mini)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Skeleton (Mini)",
       "combatPower": 1052,
@@ -5807,7 +5807,7 @@
     },
     {
       "id": "red-spider-abb-neagh",
-      "zhCNName": "Red Spider (Abb Neagh)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Spider (Abb Neagh)",
       "combatPower": 2547,
@@ -5819,7 +5819,7 @@
     },
     {
       "id": "red-spider-dungeon",
-      "zhCNName": "Red Spider (Dungeon)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Spider (Dungeon)",
       "combatPower": 631,
@@ -5833,7 +5833,7 @@
     },
     {
       "id": "red-spider-hardmode",
-      "zhCNName": "Red Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Spider (Hardmode)",
       "combatPower": 2158,
@@ -5849,7 +5849,7 @@
     },
     {
       "id": "red-spiderling",
-      "zhCNName": "Red Spiderling",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Spiderling",
       "combatPower": 303,
@@ -5863,7 +5863,7 @@
     },
     {
       "id": "red-spike-laghodessa",
-      "zhCNName": "Red Spike Laghodessa",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Spike Laghodessa",
       "combatPower": 1805,
@@ -5877,7 +5877,7 @@
     },
     {
       "id": "red-succubus",
-      "zhCNName": "Red Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Succubus",
       "combatPower": 2800,
@@ -5891,7 +5891,7 @@
     },
     {
       "id": "red-sulfur-spider-1120-1a2e9a39",
-      "zhCNName": "Red Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 1120,
@@ -5903,7 +5903,7 @@
     },
     {
       "id": "red-sulfur-spider-2240-882b2a7b",
-      "zhCNName": "Red Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 2240,
@@ -5915,7 +5915,7 @@
     },
     {
       "id": "red-sulfur-spider-3360-15b81b46",
-      "zhCNName": "Red Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 3360,
@@ -5927,7 +5927,7 @@
     },
     {
       "id": "red-sulfur-spider-4480-77c7a632",
-      "zhCNName": "Red Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 4480,
@@ -5939,7 +5939,7 @@
     },
     {
       "id": "red-sulfur-spider-6720-8981e3b7",
-      "zhCNName": "Red Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 6720,
@@ -5951,7 +5951,7 @@
     },
     {
       "id": "red-town-rat",
-      "zhCNName": "Red Town Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red Town Rat",
       "combatPower": 1360,
@@ -5965,7 +5965,7 @@
     },
     {
       "id": "red-eyed-ornata-spider",
-      "zhCNName": "Red-eyed Ornata Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Red-eyed Ornata Spider",
       "combatPower": 2400,
@@ -5979,7 +5979,7 @@
     },
     {
       "id": "river-sahagin-fighter",
-      "zhCNName": "River Sahagin Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "River Sahagin Fighter",
       "combatPower": 4040,
@@ -5994,7 +5994,7 @@
     },
     {
       "id": "river-sahagin-ranger",
-      "zhCNName": "River Sahagin Ranger",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "River Sahagin Ranger",
       "combatPower": 2660,
@@ -6009,7 +6009,7 @@
     },
     {
       "id": "royal-castle-rat-1893-d7511ea5",
-      "zhCNName": "Royal Castle Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Royal Castle Rat",
       "combatPower": 1893,
@@ -6021,7 +6021,7 @@
     },
     {
       "id": "royal-castle-rat-2520-fb0e355a",
-      "zhCNName": "Royal Castle Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Royal Castle Rat",
       "combatPower": 2520,
@@ -6033,7 +6033,7 @@
     },
     {
       "id": "sahagin-fighter",
-      "zhCNName": "Sahagin Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sahagin Fighter",
       "combatPower": 1600,
@@ -6047,7 +6047,7 @@
     },
     {
       "id": "sahagin-ranger",
-      "zhCNName": "Sahagin Ranger",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sahagin Ranger",
       "combatPower": 1200,
@@ -6061,7 +6061,7 @@
     },
     {
       "id": "sahagin-ranger-hardmode",
-      "zhCNName": "Sahagin Ranger (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sahagin Ranger (Hardmode)",
       "combatPower": 2860,
@@ -6076,7 +6076,7 @@
     },
     {
       "id": "sahagin-soldier",
-      "zhCNName": "Sahagin Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sahagin Soldier",
       "combatPower": 1200,
@@ -6090,7 +6090,7 @@
     },
     {
       "id": "sahagin-warrior-hardmode",
-      "zhCNName": "Sahagin Warrior (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sahagin Warrior (Hardmode)",
       "combatPower": 4040,
@@ -6104,7 +6104,7 @@
     },
     {
       "id": "salamander",
-      "zhCNName": "Salamander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Salamander",
       "combatPower": 5000,
@@ -6122,7 +6122,7 @@
     },
     {
       "id": "salamander-seven-nightmares",
-      "zhCNName": "Salamander (Seven Nightmares)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Salamander (Seven Nightmares)",
       "combatPower": 12000,
@@ -6134,7 +6134,7 @@
     },
     {
       "id": "sand-millipede",
-      "zhCNName": "Sand Millipede",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sand Millipede",
       "combatPower": 650,
@@ -6166,7 +6166,7 @@
     },
     {
       "id": "sandbag-puppet-bisque-doll",
-      "zhCNName": "Sandbag Puppet (Bisque Doll)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sandbag Puppet (Bisque Doll)",
       "combatPower": 2200,
@@ -6180,7 +6180,7 @@
     },
     {
       "id": "sandbag-puppet-dark-wooden-dummy",
-      "zhCNName": "Sandbag Puppet (Dark Wooden Dummy)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sandbag Puppet (Dark Wooden Dummy)",
       "combatPower": 2200,
@@ -6194,7 +6194,7 @@
     },
     {
       "id": "sapphire-crystal-bear-event",
-      "zhCNName": "Sapphire Crystal Bear (Event)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sapphire Crystal Bear (Event)",
       "combatPower": 7000,
@@ -6208,7 +6208,7 @@
     },
     {
       "id": "seafood-2200-ba45fa2d",
-      "zhCNName": "Seafood",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Seafood",
       "combatPower": 2200,
@@ -6220,7 +6220,7 @@
     },
     {
       "id": "seafood-4400-050249df",
-      "zhCNName": "Seafood",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Seafood",
       "combatPower": 4400,
@@ -6232,7 +6232,7 @@
     },
     {
       "id": "seafood-6600-232d02f8",
-      "zhCNName": "Seafood",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Seafood",
       "combatPower": 6600,
@@ -6244,7 +6244,7 @@
     },
     {
       "id": "seafood-8800-8e7d9a48",
-      "zhCNName": "Seafood",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Seafood",
       "combatPower": 8800,
@@ -6256,7 +6256,7 @@
     },
     {
       "id": "sentry-2400-455c95f5",
-      "zhCNName": "Sentry",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sentry",
       "combatPower": 2400,
@@ -6268,7 +6268,7 @@
     },
     {
       "id": "sentry-3600-f56a3936",
-      "zhCNName": "Sentry",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sentry",
       "combatPower": 3600,
@@ -6280,7 +6280,7 @@
     },
     {
       "id": "sephirot",
-      "zhCNName": "Sephirot",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sephirot",
       "combatPower": 20000,
@@ -6292,7 +6292,7 @@
     },
     {
       "id": "sewer-rat",
-      "zhCNName": "Sewer Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sewer Rat",
       "combatPower": 2000,
@@ -6304,7 +6304,7 @@
     },
     {
       "id": "shadow-archer-average-1050-48a0ed86",
-      "zhCNName": "Shadow Archer (Average)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Average)",
       "combatPower": 1050,
@@ -6316,7 +6316,7 @@
     },
     {
       "id": "shadow-archer-average-2100-e7c88c1e",
-      "zhCNName": "Shadow Archer (Average)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Average)",
       "combatPower": 2100,
@@ -6328,7 +6328,7 @@
     },
     {
       "id": "shadow-archer-average-3150-126bcab2",
-      "zhCNName": "Shadow Archer (Average)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Average)",
       "combatPower": 3150,
@@ -6340,7 +6340,7 @@
     },
     {
       "id": "shadow-archer-average-4200-f920f0ff",
-      "zhCNName": "Shadow Archer (Average)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Average)",
       "combatPower": 4200,
@@ -6352,7 +6352,7 @@
     },
     {
       "id": "shadow-archer-average-6300-76a603ec",
-      "zhCNName": "Shadow Archer (Average)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Average)",
       "combatPower": 6300,
@@ -6364,7 +6364,7 @@
     },
     {
       "id": "shadow-archer-strong-1299-9f1efa27",
-      "zhCNName": "Shadow Archer (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Strong)",
       "combatPower": 1299,
@@ -6376,7 +6376,7 @@
     },
     {
       "id": "shadow-archer-strong-2598-1f29534a",
-      "zhCNName": "Shadow Archer (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Strong)",
       "combatPower": 2598,
@@ -6388,7 +6388,7 @@
     },
     {
       "id": "shadow-archer-strong-3897-8ec32c15",
-      "zhCNName": "Shadow Archer (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Strong)",
       "combatPower": 3897,
@@ -6400,7 +6400,7 @@
     },
     {
       "id": "shadow-archer-strong-5196-070985e8",
-      "zhCNName": "Shadow Archer (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Strong)",
       "combatPower": 5196,
@@ -6412,7 +6412,7 @@
     },
     {
       "id": "shadow-archer-strong-6495-6ea00d33",
-      "zhCNName": "Shadow Archer (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Strong)",
       "combatPower": 6495,
@@ -6424,7 +6424,7 @@
     },
     {
       "id": "shadow-archer-weak",
-      "zhCNName": "Shadow Archer (Weak)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weak)",
       "combatPower": 3600,
@@ -6436,7 +6436,7 @@
     },
     {
       "id": "shadow-archer-weakest-800-d94d986f",
-      "zhCNName": "Shadow Archer (Weakest)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 800,
@@ -6448,7 +6448,7 @@
     },
     {
       "id": "shadow-archer-weakest-1600-1f497460",
-      "zhCNName": "Shadow Archer (Weakest)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 1600,
@@ -6460,7 +6460,7 @@
     },
     {
       "id": "shadow-archer-weakest-2400-2636412b",
-      "zhCNName": "Shadow Archer (Weakest)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 2400,
@@ -6472,7 +6472,7 @@
     },
     {
       "id": "shadow-archer-weakest-3200-06f79872",
-      "zhCNName": "Shadow Archer (Weakest)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 3200,
@@ -6484,7 +6484,7 @@
     },
     {
       "id": "shadow-archer-weakest-4000-fca5fdde",
-      "zhCNName": "Shadow Archer (Weakest)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 4000,
@@ -6496,7 +6496,7 @@
     },
     {
       "id": "shadow-commander-strong",
-      "zhCNName": "Shadow Commander (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Commander (Strong)",
       "combatPower": 7600,
@@ -6508,7 +6508,7 @@
     },
     {
       "id": "shadow-fighter-850-a74e71e2",
-      "zhCNName": "Shadow Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 850,
@@ -6520,7 +6520,7 @@
     },
     {
       "id": "shadow-fighter-1700-61d5dfb2",
-      "zhCNName": "Shadow Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 1700,
@@ -6532,7 +6532,7 @@
     },
     {
       "id": "shadow-fighter-2550-b9e7530e",
-      "zhCNName": "Shadow Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 2550,
@@ -6544,7 +6544,7 @@
     },
     {
       "id": "shadow-fighter-3400-79200931",
-      "zhCNName": "Shadow Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 3400,
@@ -6556,7 +6556,7 @@
     },
     {
       "id": "shadow-fighter-4250-66b50f2f",
-      "zhCNName": "Shadow Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 4250,
@@ -6568,7 +6568,7 @@
     },
     {
       "id": "shadow-fighter-armor",
-      "zhCNName": "Shadow Fighter (Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter (Armor)",
       "combatPower": 3800,
@@ -6580,7 +6580,7 @@
     },
     {
       "id": "shadow-fighter-strong",
-      "zhCNName": "Shadow Fighter (Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Fighter (Strong)",
       "combatPower": 5200,
@@ -6592,7 +6592,7 @@
     },
     {
       "id": "shadow-lancer-heavy-armor-1050-80d9d7b2",
-      "zhCNName": "Shadow Lancer (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 1050,
@@ -6604,7 +6604,7 @@
     },
     {
       "id": "shadow-lancer-heavy-armor-2100-27a6e854",
-      "zhCNName": "Shadow Lancer (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 2100,
@@ -6616,7 +6616,7 @@
     },
     {
       "id": "shadow-lancer-heavy-armor-3150-83a3dea1",
-      "zhCNName": "Shadow Lancer (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 3150,
@@ -6628,7 +6628,7 @@
     },
     {
       "id": "shadow-lancer-heavy-armor-4200-50a6a097",
-      "zhCNName": "Shadow Lancer (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 4200,
@@ -6640,7 +6640,7 @@
     },
     {
       "id": "shadow-lancer-heavy-armor-6300-21cb52ba",
-      "zhCNName": "Shadow Lancer (Heavy Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 6300,
@@ -6652,7 +6652,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-strong-900-f37bc949",
-      "zhCNName": "Shadow Lancer (Light Armor Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 900,
@@ -6664,7 +6664,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-strong-1800-b2291421",
-      "zhCNName": "Shadow Lancer (Light Armor Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 1800,
@@ -6676,7 +6676,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-strong-2700-4ca60027",
-      "zhCNName": "Shadow Lancer (Light Armor Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 2700,
@@ -6688,7 +6688,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-strong-3600-3e5aa4e2",
-      "zhCNName": "Shadow Lancer (Light Armor Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 3600,
@@ -6700,7 +6700,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-strong-4500-aceab6fa",
-      "zhCNName": "Shadow Lancer (Light Armor Strong)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 4500,
@@ -6712,7 +6712,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-800-93944fff",
-      "zhCNName": "Shadow Lancer (Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 800,
@@ -6724,7 +6724,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-1600-17f3b658",
-      "zhCNName": "Shadow Lancer (Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 1600,
@@ -6736,7 +6736,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-2400-523629fb",
-      "zhCNName": "Shadow Lancer (Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 2400,
@@ -6748,7 +6748,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-3200-e56883c6",
-      "zhCNName": "Shadow Lancer (Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 3200,
@@ -6760,7 +6760,7 @@
     },
     {
       "id": "shadow-lancer-light-armor-4000-76471abf",
-      "zhCNName": "Shadow Lancer (Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 4000,
@@ -6772,7 +6772,7 @@
     },
     {
       "id": "shadow-warrior-1249-20d6596d",
-      "zhCNName": "Shadow Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 1249,
@@ -6784,7 +6784,7 @@
     },
     {
       "id": "shadow-warrior-2498-42b329c9",
-      "zhCNName": "Shadow Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 2498,
@@ -6796,7 +6796,7 @@
     },
     {
       "id": "shadow-warrior-3747-981ae8d1",
-      "zhCNName": "Shadow Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 3747,
@@ -6808,7 +6808,7 @@
     },
     {
       "id": "shadow-warrior-4996-7e89899a",
-      "zhCNName": "Shadow Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 4996,
@@ -6820,7 +6820,7 @@
     },
     {
       "id": "shadow-warrior-7494-98ec26fc",
-      "zhCNName": "Shadow Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 7494,
@@ -6832,7 +6832,7 @@
     },
     {
       "id": "shadow-wizard-boss-2300-ae5cd5fa",
-      "zhCNName": "Shadow Wizard (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 2300,
@@ -6844,7 +6844,7 @@
     },
     {
       "id": "shadow-wizard-boss-4600-dc7f3553",
-      "zhCNName": "Shadow Wizard (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 4600,
@@ -6856,7 +6856,7 @@
     },
     {
       "id": "shadow-wizard-boss-6900-508fe5cb",
-      "zhCNName": "Shadow Wizard (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 6900,
@@ -6868,7 +6868,7 @@
     },
     {
       "id": "shadow-wizard-boss-9200-689dab87",
-      "zhCNName": "Shadow Wizard (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 9200,
@@ -6880,7 +6880,7 @@
     },
     {
       "id": "shadow-wizard-boss-13800-47a95ba7",
-      "zhCNName": "Shadow Wizard (Boss)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 13800,
@@ -6892,7 +6892,7 @@
     },
     {
       "id": "shadow-wizard-f-1300-ea5c1224",
-      "zhCNName": "Shadow Wizard (F)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (F)",
       "combatPower": 1300,
@@ -6904,7 +6904,7 @@
     },
     {
       "id": "shadow-wizard-f-2600-b077d200",
-      "zhCNName": "Shadow Wizard (F)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (F)",
       "combatPower": 2600,
@@ -6916,7 +6916,7 @@
     },
     {
       "id": "shadow-wizard-f-3900-b4e4ab06",
-      "zhCNName": "Shadow Wizard (F)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (F)",
       "combatPower": 3900,
@@ -6928,7 +6928,7 @@
     },
     {
       "id": "shadow-wizard-f-5200-b3f3681a",
-      "zhCNName": "Shadow Wizard (F)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (F)",
       "combatPower": 5200,
@@ -6940,7 +6940,7 @@
     },
     {
       "id": "shadow-wizard-f-7800-c2484b5a",
-      "zhCNName": "Shadow Wizard (F)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Shadow Wizard (F)",
       "combatPower": 7800,
@@ -6952,7 +6952,7 @@
     },
     {
       "id": "short-maned-hyena",
-      "zhCNName": "Short Maned Hyena",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Short Maned Hyena",
       "combatPower": 1700,
@@ -6966,7 +6966,7 @@
     },
     {
       "id": "short-maned-hyena-savannah",
-      "zhCNName": "Short Maned Hyena (Savannah)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Short Maned Hyena (Savannah)",
       "combatPower": 1300,
@@ -6980,7 +6980,7 @@
     },
     {
       "id": "sickle-laghodessa",
-      "zhCNName": "Sickle Laghodessa",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sickle Laghodessa",
       "combatPower": 1003,
@@ -6995,7 +6995,7 @@
     },
     {
       "id": "sickle-laghodessa-hardmode",
-      "zhCNName": "Sickle Laghodessa (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sickle Laghodessa (Hardmode)",
       "combatPower": 2305,
@@ -7009,7 +7009,7 @@
     },
     {
       "id": "siren",
-      "zhCNName": "Siren",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Siren",
       "combatPower": 2864,
@@ -7024,7 +7024,7 @@
     },
     {
       "id": "siren-hardmode",
-      "zhCNName": "Siren (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Siren (Hardmode)",
       "combatPower": 6441,
@@ -7038,7 +7038,7 @@
     },
     {
       "id": "skelemancer",
-      "zhCNName": "Skelemancer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skelemancer",
       "combatPower": 80000,
@@ -7053,7 +7053,7 @@
     },
     {
       "id": "skeleton",
-      "zhCNName": "Skeleton",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton",
       "combatPower": 1118,
@@ -7082,7 +7082,7 @@
     },
     {
       "id": "skeleton-hardmode",
-      "zhCNName": "Skeleton (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton (Hardmode)",
       "combatPower": 2588,
@@ -7126,7 +7126,7 @@
     },
     {
       "id": "skeleton-mini-captain",
-      "zhCNName": "Skeleton (Mini Captain)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton (Mini Captain)",
       "combatPower": 600,
@@ -7140,7 +7140,7 @@
     },
     {
       "id": "skeleton-mini-light-armor",
-      "zhCNName": "Skeleton (Mini Light Armor)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton (Mini Light Armor)",
       "combatPower": 1136,
@@ -7154,7 +7154,7 @@
     },
     {
       "id": "skeleton-hellhound",
-      "zhCNName": "Skeleton Hellhound",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Hellhound",
       "combatPower": 1426,
@@ -7168,7 +7168,7 @@
     },
     {
       "id": "skeleton-imp",
-      "zhCNName": "Skeleton Imp",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Imp",
       "combatPower": 1044,
@@ -7182,7 +7182,7 @@
     },
     {
       "id": "skeleton-laghodessa",
-      "zhCNName": "Skeleton Laghodessa",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Laghodessa",
       "combatPower": 2200,
@@ -7210,7 +7210,7 @@
     },
     {
       "id": "skeleton-squad-strong-explosion",
-      "zhCNName": "Skeleton Squad (Strong Explosion)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Squad (Strong Explosion)",
       "combatPower": 1800,
@@ -7224,7 +7224,7 @@
     },
     {
       "id": "skeleton-squad-weak-explosion",
-      "zhCNName": "Skeleton Squad (Weak Explosion)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Squad (Weak Explosion)",
       "combatPower": 1800,
@@ -7238,7 +7238,7 @@
     },
     {
       "id": "skeleton-wolf-abb-neagh",
-      "zhCNName": "Skeleton Wolf (Abb Neagh)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Wolf (Abb Neagh)",
       "combatPower": 3336,
@@ -7250,7 +7250,7 @@
     },
     {
       "id": "skeleton-wolf-advanced",
-      "zhCNName": "Skeleton Wolf (Advanced)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Wolf (Advanced)",
       "combatPower": 1600,
@@ -7264,7 +7264,7 @@
     },
     {
       "id": "skeleton-wolf-hardmode",
-      "zhCNName": "Skeleton Wolf (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Skeleton Wolf (Hardmode)",
       "combatPower": 2579,
@@ -7278,7 +7278,7 @@
     },
     {
       "id": "sleeping-ice-worm",
-      "zhCNName": "Sleeping Ice Worm",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Sleeping Ice Worm",
       "combatPower": 1200,
@@ -7306,7 +7306,7 @@
     },
     {
       "id": "small-ice-worm-black",
-      "zhCNName": "Small Ice Worm (Black)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Ice Worm (Black)",
       "combatPower": 600,
@@ -7320,7 +7320,7 @@
     },
     {
       "id": "small-shadow-commander-1400-693a2db1",
-      "zhCNName": "Small Shadow Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Shadow Commander",
       "combatPower": 1400,
@@ -7332,7 +7332,7 @@
     },
     {
       "id": "small-shadow-commander-2800-9ac51136",
-      "zhCNName": "Small Shadow Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Shadow Commander",
       "combatPower": 2800,
@@ -7344,7 +7344,7 @@
     },
     {
       "id": "small-shadow-commander-4200-859dd36d",
-      "zhCNName": "Small Shadow Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Shadow Commander",
       "combatPower": 4200,
@@ -7356,7 +7356,7 @@
     },
     {
       "id": "small-shadow-commander-5600-ba5644fa",
-      "zhCNName": "Small Shadow Commander",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Shadow Commander",
       "combatPower": 5600,
@@ -7368,7 +7368,7 @@
     },
     {
       "id": "small-sulfur-spider-800-36b5428c",
-      "zhCNName": "Small Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Sulfur Spider",
       "combatPower": 800,
@@ -7380,7 +7380,7 @@
     },
     {
       "id": "small-sulfur-spider-1600-8355b776",
-      "zhCNName": "Small Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Sulfur Spider",
       "combatPower": 1600,
@@ -7392,7 +7392,7 @@
     },
     {
       "id": "small-sulfur-spider-2400-fe8d0a9b",
-      "zhCNName": "Small Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Sulfur Spider",
       "combatPower": 2400,
@@ -7404,7 +7404,7 @@
     },
     {
       "id": "small-sulfur-spider-3200-817286dd",
-      "zhCNName": "Small Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Sulfur Spider",
       "combatPower": 3200,
@@ -7416,7 +7416,7 @@
     },
     {
       "id": "small-sulfur-spider-4000-f5cbb3bb",
-      "zhCNName": "Small Sulfur Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Sulfur Spider",
       "combatPower": 4000,
@@ -7428,7 +7428,7 @@
     },
     {
       "id": "small-troll",
-      "zhCNName": "Small Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Small Troll",
       "combatPower": 2184,
@@ -7442,7 +7442,7 @@
     },
     {
       "id": "smash-training-dummy",
-      "zhCNName": "Smash Training Dummy",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Smash Training Dummy",
       "combatPower": 1118,
@@ -7531,7 +7531,7 @@
     },
     {
       "id": "snow-troll-1000-0d7d906e",
-      "zhCNName": "Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 1000,
@@ -7543,7 +7543,7 @@
     },
     {
       "id": "snow-troll-2000-1038664c",
-      "zhCNName": "Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 2000,
@@ -7555,7 +7555,7 @@
     },
     {
       "id": "snow-troll-3000-3703b5ab",
-      "zhCNName": "Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 3000,
@@ -7567,7 +7567,7 @@
     },
     {
       "id": "snow-troll-4000-5986f6a8",
-      "zhCNName": "Snow Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 4000,
@@ -7593,7 +7593,7 @@
     },
     {
       "id": "snowfield-rat",
-      "zhCNName": "Snowfield Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snowfield Rat",
       "combatPower": 341,
@@ -7607,7 +7607,7 @@
     },
     {
       "id": "snowfield-spider",
-      "zhCNName": "Snowfield Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Snowfield Spider",
       "combatPower": 700,
@@ -7619,7 +7619,7 @@
     },
     {
       "id": "specter-fighter",
-      "zhCNName": "Specter Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Specter Fighter",
       "combatPower": 2200,
@@ -7636,7 +7636,7 @@
     },
     {
       "id": "specter-leader",
-      "zhCNName": "Specter Leader",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Specter Leader",
       "combatPower": 2200,
@@ -7653,7 +7653,7 @@
     },
     {
       "id": "specter-warrior",
-      "zhCNName": "Specter Warrior",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Specter Warrior",
       "combatPower": 2200,
@@ -7670,7 +7670,7 @@
     },
     {
       "id": "spice-2200-d40b3851",
-      "zhCNName": "Spice",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 2200,
@@ -7682,7 +7682,7 @@
     },
     {
       "id": "spice-4400-b84f7e3f",
-      "zhCNName": "Spice",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 4400,
@@ -7694,7 +7694,7 @@
     },
     {
       "id": "spice-6600-8ec35630",
-      "zhCNName": "Spice",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 6600,
@@ -7706,7 +7706,7 @@
     },
     {
       "id": "spice-8800-996067f4",
-      "zhCNName": "Spice",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 8800,
@@ -7718,7 +7718,7 @@
     },
     {
       "id": "spider-archer-hardmode",
-      "zhCNName": "Spider Archer (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Archer (Hardmode)",
       "combatPower": 5620,
@@ -7732,7 +7732,7 @@
     },
     {
       "id": "spider-fighter",
-      "zhCNName": "Spider Fighter",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Fighter",
       "combatPower": 3300,
@@ -7746,7 +7746,7 @@
     },
     {
       "id": "spider-fighter-hardmode",
-      "zhCNName": "Spider Fighter (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Fighter (Hardmode)",
       "combatPower": 5620,
@@ -7760,7 +7760,7 @@
     },
     {
       "id": "spider-ranger",
-      "zhCNName": "Spider Ranger",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Ranger",
       "combatPower": 3600,
@@ -7774,7 +7774,7 @@
     },
     {
       "id": "spider-ranger-hardmode",
-      "zhCNName": "Spider Ranger (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Ranger (Hardmode)",
       "combatPower": 6040,
@@ -7788,7 +7788,7 @@
     },
     {
       "id": "spider-warrior-hardmode",
-      "zhCNName": "Spider Warrior (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spider Warrior (Hardmode)",
       "combatPower": 6740,
@@ -7802,7 +7802,7 @@
     },
     {
       "id": "spike-laghodessa",
-      "zhCNName": "Spike Laghodessa",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spike Laghodessa",
       "combatPower": 1190,
@@ -7819,7 +7819,7 @@
     },
     {
       "id": "spike-laghodessa-hardmode",
-      "zhCNName": "Spike Laghodessa (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spike Laghodessa (Hardmode)",
       "combatPower": 2642,
@@ -7833,7 +7833,7 @@
     },
     {
       "id": "spiked-worm",
-      "zhCNName": "Spiked Worm",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Spiked Worm",
       "combatPower": 2300,
@@ -7847,7 +7847,7 @@
     },
     {
       "id": "stone-gargoyle",
-      "zhCNName": "Stone Gargoyle",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Gargoyle",
       "combatPower": 3000,
@@ -7861,7 +7861,7 @@
     },
     {
       "id": "stone-gargoyle-with-glowing-gloves",
-      "zhCNName": "Stone Gargoyle with Glowing Gloves",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Gargoyle with Glowing Gloves",
       "combatPower": 4000,
@@ -7875,7 +7875,7 @@
     },
     {
       "id": "stone-gargoyle-with-glowing-shoulder-accessory",
-      "zhCNName": "Stone Gargoyle with Glowing Shoulder Accessory",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Gargoyle with Glowing Shoulder Accessory",
       "combatPower": 4000,
@@ -7949,7 +7949,7 @@
     },
     {
       "id": "stone-mask",
-      "zhCNName": "Stone Mask",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Mask",
       "combatPower": 1000,
@@ -7998,7 +7998,7 @@
     },
     {
       "id": "stone-zombie-with-glowing-bracelet",
-      "zhCNName": "Stone Zombie with Glowing Bracelet",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Zombie with Glowing Bracelet",
       "combatPower": 2000,
@@ -8012,7 +8012,7 @@
     },
     {
       "id": "stone-zombie-with-glowing-circlet",
-      "zhCNName": "Stone Zombie with Glowing Circlet",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Zombie with Glowing Circlet",
       "combatPower": 2000,
@@ -8026,7 +8026,7 @@
     },
     {
       "id": "stone-zombie-with-glowing-eyes",
-      "zhCNName": "Stone Zombie with Glowing Eyes",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Zombie with Glowing Eyes",
       "combatPower": 2000,
@@ -8040,7 +8040,7 @@
     },
     {
       "id": "stone-zombie-with-glowing-headband",
-      "zhCNName": "Stone Zombie with Glowing Headband",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Zombie with Glowing Headband",
       "combatPower": 2000,
@@ -8054,7 +8054,7 @@
     },
     {
       "id": "stone-zombie-with-glowing-shoulder-accessory",
-      "zhCNName": "Stone Zombie with Glowing Shoulder Accessory",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stone Zombie with Glowing Shoulder Accessory",
       "combatPower": 2000,
@@ -8068,7 +8068,7 @@
     },
     {
       "id": "strange-book-631-f4bab7ba",
-      "zhCNName": "Strange Book",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Strange Book",
       "combatPower": 631,
@@ -8080,7 +8080,7 @@
     },
     {
       "id": "strange-book-1262-0d185e96",
-      "zhCNName": "Strange Book",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Strange Book",
       "combatPower": 1262,
@@ -8092,7 +8092,7 @@
     },
     {
       "id": "strange-book-1893-1acd8b36",
-      "zhCNName": "Strange Book",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Strange Book",
       "combatPower": 1893,
@@ -8104,7 +8104,7 @@
     },
     {
       "id": "strange-book-2524-5a8fe95e",
-      "zhCNName": "Strange Book",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Strange Book",
       "combatPower": 2524,
@@ -8116,7 +8116,7 @@
     },
     {
       "id": "strange-book-3786-7723ebf0",
-      "zhCNName": "Strange Book",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Strange Book",
       "combatPower": 3786,
@@ -8128,7 +8128,7 @@
     },
     {
       "id": "striped-hyena",
-      "zhCNName": "Striped Hyena",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Striped Hyena",
       "combatPower": 1100,
@@ -8143,7 +8143,7 @@
     },
     {
       "id": "striped-hyena-savannah",
-      "zhCNName": "Striped Hyena (Savannah)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Striped Hyena (Savannah)",
       "combatPower": 1100,
@@ -8157,7 +8157,7 @@
     },
     {
       "id": "stripeless-hyena",
-      "zhCNName": "Stripeless Hyena",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Stripeless Hyena",
       "combatPower": 1000,
@@ -8171,7 +8171,7 @@
     },
     {
       "id": "succubus-fiend",
-      "zhCNName": "Succubus Fiend",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Succubus Fiend",
       "combatPower": 39424,
@@ -8186,7 +8186,7 @@
     },
     {
       "id": "succubus-kristell",
-      "zhCNName": "Succubus Kristell",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Succubus Kristell",
       "combatPower": 1250,
@@ -8224,7 +8224,7 @@
     },
     {
       "id": "temple-knight-dual-wield",
-      "zhCNName": "Temple Knight (Dual Wield)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Temple Knight (Dual Wield)",
       "combatPower": 1180,
@@ -8238,7 +8238,7 @@
     },
     {
       "id": "tethra-monster",
-      "zhCNName": "Tethra (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Tethra (Monster)",
       "combatPower": 1893,
@@ -8250,7 +8250,7 @@
     },
     {
       "id": "town-square-rat-250-54be630a",
-      "zhCNName": "Town Square Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Town Square Rat",
       "combatPower": 250,
@@ -8262,7 +8262,7 @@
     },
     {
       "id": "town-square-rat-500-8ca4c14a",
-      "zhCNName": "Town Square Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Town Square Rat",
       "combatPower": 500,
@@ -8274,7 +8274,7 @@
     },
     {
       "id": "town-square-rat-750-82926a92",
-      "zhCNName": "Town Square Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Town Square Rat",
       "combatPower": 750,
@@ -8286,7 +8286,7 @@
     },
     {
       "id": "town-square-rat-1000-e113200f",
-      "zhCNName": "Town Square Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Town Square Rat",
       "combatPower": 1000,
@@ -8298,7 +8298,7 @@
     },
     {
       "id": "training-basic-dummy",
-      "zhCNName": "Training Basic Dummy",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Training Basic Dummy",
       "combatPower": 1118,
@@ -8312,7 +8312,7 @@
     },
     {
       "id": "training-counter-dummy",
-      "zhCNName": "Training Counter Dummy",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Training Counter Dummy",
       "combatPower": 1118,
@@ -8326,7 +8326,7 @@
     },
     {
       "id": "training-windmill-dummy",
-      "zhCNName": "Training Windmill Dummy",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Training Windmill Dummy",
       "combatPower": 1118,
@@ -8340,7 +8340,7 @@
     },
     {
       "id": "treasure-mimic-hardmode",
-      "zhCNName": "Treasure Mimic (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Treasure Mimic (Hardmode)",
       "combatPower": 2505,
@@ -8354,7 +8354,7 @@
     },
     {
       "id": "trickster-monster",
-      "zhCNName": "Trickster (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Trickster (Monster)",
       "combatPower": 1800,
@@ -8368,7 +8368,7 @@
     },
     {
       "id": "troll",
-      "zhCNName": "Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Troll",
       "combatPower": 1720,
@@ -8382,7 +8382,7 @@
     },
     {
       "id": "tundra-reindeer",
-      "zhCNName": "Tundra Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Tundra Reindeer",
       "combatPower": 1700,
@@ -8396,7 +8396,7 @@
     },
     {
       "id": "vegetable-2200-66fb977f",
-      "zhCNName": "Vegetable",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 2200,
@@ -8408,7 +8408,7 @@
     },
     {
       "id": "vegetable-4400-402c2c9b",
-      "zhCNName": "Vegetable",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 4400,
@@ -8420,7 +8420,7 @@
     },
     {
       "id": "vegetable-6600-fc457ca9",
-      "zhCNName": "Vegetable",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 6600,
@@ -8432,7 +8432,7 @@
     },
     {
       "id": "vegetable-8800-2dd24a20",
-      "zhCNName": "Vegetable",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 8800,
@@ -8444,7 +8444,7 @@
     },
     {
       "id": "venomous-rock-scorpion",
-      "zhCNName": "Venomous Rock Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Venomous Rock Scorpion",
       "combatPower": 1700,
@@ -8459,7 +8459,7 @@
     },
     {
       "id": "venomous-sand-scorpion",
-      "zhCNName": "Venomous Sand Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Venomous Sand Scorpion",
       "combatPower": 950,
@@ -8473,7 +8473,7 @@
     },
     {
       "id": "verona-dark-skeleton-soldier-1286-3f416192",
-      "zhCNName": "Verona Dark Skeleton Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 1286,
@@ -8485,7 +8485,7 @@
     },
     {
       "id": "verona-dark-skeleton-soldier-2572-e8f1c99d",
-      "zhCNName": "Verona Dark Skeleton Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 2572,
@@ -8497,7 +8497,7 @@
     },
     {
       "id": "verona-dark-skeleton-soldier-3858-5049c405",
-      "zhCNName": "Verona Dark Skeleton Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 3858,
@@ -8509,7 +8509,7 @@
     },
     {
       "id": "verona-dark-skeleton-soldier-5144-e48ff56f",
-      "zhCNName": "Verona Dark Skeleton Soldier",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 5144,
@@ -8521,7 +8521,7 @@
     },
     {
       "id": "verona-ghoul-1200-6a20775e",
-      "zhCNName": "Verona Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Ghoul",
       "combatPower": 1200,
@@ -8533,7 +8533,7 @@
     },
     {
       "id": "verona-ghoul-2400-4e4439b9",
-      "zhCNName": "Verona Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Ghoul",
       "combatPower": 2400,
@@ -8545,7 +8545,7 @@
     },
     {
       "id": "verona-ghoul-3600-e06929d7",
-      "zhCNName": "Verona Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Ghoul",
       "combatPower": 3600,
@@ -8557,7 +8557,7 @@
     },
     {
       "id": "verona-ghoul-4800-2bba608e",
-      "zhCNName": "Verona Ghoul",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Verona Ghoul",
       "combatPower": 4800,
@@ -8569,7 +8569,7 @@
     },
     {
       "id": "violent-dire-wolf",
-      "zhCNName": "Violent Dire Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Violent Dire Wolf",
       "combatPower": 3500,
@@ -8581,7 +8581,7 @@
     },
     {
       "id": "violent-neid",
-      "zhCNName": "Violent Neid",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Violent Neid",
       "combatPower": 3500,
@@ -8595,7 +8595,7 @@
     },
     {
       "id": "volcano-lizard-green",
-      "zhCNName": "Volcano Lizard (Green)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Volcano Lizard (Green)",
       "combatPower": 1750,
@@ -8609,7 +8609,7 @@
     },
     {
       "id": "volcano-lizard-red",
-      "zhCNName": "Volcano Lizard (Red)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Volcano Lizard (Red)",
       "combatPower": 1830,
@@ -8624,7 +8624,7 @@
     },
     {
       "id": "volcano-rock-scorpion",
-      "zhCNName": "Volcano Rock Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Volcano Rock Scorpion",
       "combatPower": 1950,
@@ -8638,7 +8638,7 @@
     },
     {
       "id": "volcano-wolf",
-      "zhCNName": "Volcano Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Volcano Wolf",
       "combatPower": 940,
@@ -8652,7 +8652,7 @@
     },
     {
       "id": "water-monster-2200-0c4dacac",
-      "zhCNName": "Water (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Water (Monster)",
       "combatPower": 2200,
@@ -8664,7 +8664,7 @@
     },
     {
       "id": "water-monster-4400-ab3ba5a2",
-      "zhCNName": "Water (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Water (Monster)",
       "combatPower": 4400,
@@ -8676,7 +8676,7 @@
     },
     {
       "id": "water-monster-6600-f79dc3ec",
-      "zhCNName": "Water (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Water (Monster)",
       "combatPower": 6600,
@@ -8688,7 +8688,7 @@
     },
     {
       "id": "water-monster-8800-23cc7e41",
-      "zhCNName": "Water (Monster)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Water (Monster)",
       "combatPower": 8800,
@@ -8700,7 +8700,7 @@
     },
     {
       "id": "water-crow",
-      "zhCNName": "Water Crow",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Water Crow",
       "combatPower": 1000,
@@ -8714,7 +8714,7 @@
     },
     {
       "id": "weak-ghost",
-      "zhCNName": "Weak Ghost",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Weak Ghost",
       "combatPower": 800,
@@ -8728,7 +8728,7 @@
     },
     {
       "id": "wendigo",
-      "zhCNName": "Wendigo",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wendigo",
       "combatPower": 2200,
@@ -8743,7 +8743,7 @@
     },
     {
       "id": "werewolf",
-      "zhCNName": "Werewolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Werewolf",
       "combatPower": 1575,
@@ -8761,7 +8761,7 @@
     },
     {
       "id": "white-desert-spider",
-      "zhCNName": "White Desert Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Desert Spider",
       "combatPower": 1300,
@@ -8790,7 +8790,7 @@
     },
     {
       "id": "white-dire-wolf-cub",
-      "zhCNName": "White Dire Wolf Cub",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Dire Wolf Cub",
       "combatPower": 857,
@@ -8805,7 +8805,7 @@
     },
     {
       "id": "white-mummy-servant",
-      "zhCNName": "White Mummy Servant",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Mummy Servant",
       "combatPower": 3500,
@@ -8819,7 +8819,7 @@
     },
     {
       "id": "white-new-gremlin",
-      "zhCNName": "White New Gremlin",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White New Gremlin",
       "combatPower": 4140,
@@ -8833,7 +8833,7 @@
     },
     {
       "id": "white-poison-snake",
-      "zhCNName": "White Poison Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Poison Snake",
       "combatPower": 1500,
@@ -8847,7 +8847,7 @@
     },
     {
       "id": "white-prison-zombie",
-      "zhCNName": "White Prison Zombie",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Prison Zombie",
       "combatPower": 10000,
@@ -8861,7 +8861,7 @@
     },
     {
       "id": "white-python",
-      "zhCNName": "White Python",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Python",
       "combatPower": 1600,
@@ -8875,7 +8875,7 @@
     },
     {
       "id": "white-reindeer",
-      "zhCNName": "White Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Reindeer",
       "combatPower": 1100,
@@ -8889,7 +8889,7 @@
     },
     {
       "id": "white-rock-scorpion",
-      "zhCNName": "White Rock Scorpion",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Rock Scorpion",
       "combatPower": 1300,
@@ -8903,7 +8903,7 @@
     },
     {
       "id": "white-snake-1005-9bb7af14",
-      "zhCNName": "White Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Snake",
       "combatPower": 1005,
@@ -8917,7 +8917,7 @@
     },
     {
       "id": "white-snake-1086-6d959ac6",
-      "zhCNName": "White Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Snake",
       "combatPower": 1086,
@@ -8934,7 +8934,7 @@
     },
     {
       "id": "white-snake-hardmode",
-      "zhCNName": "White Snake (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Snake (Hardmode)",
       "combatPower": 2454,
@@ -8967,7 +8967,7 @@
     },
     {
       "id": "white-spider-dungeon",
-      "zhCNName": "White Spider (Dungeon)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Spider (Dungeon)",
       "combatPower": 301,
@@ -8981,7 +8981,7 @@
     },
     {
       "id": "white-spider-hardmode",
-      "zhCNName": "White Spider (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Spider (Hardmode)",
       "combatPower": 1281,
@@ -8995,7 +8995,7 @@
     },
     {
       "id": "white-spider-wasp",
-      "zhCNName": "White Spider Wasp",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Spider Wasp",
       "combatPower": 1900,
@@ -9009,7 +9009,7 @@
     },
     {
       "id": "white-spiderling-hardmode",
-      "zhCNName": "White Spiderling (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Spiderling (Hardmode)",
       "combatPower": 1102,
@@ -9023,7 +9023,7 @@
     },
     {
       "id": "white-succubus",
-      "zhCNName": "White Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Succubus",
       "combatPower": 4000,
@@ -9037,7 +9037,7 @@
     },
     {
       "id": "white-warg",
-      "zhCNName": "White Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Warg",
       "combatPower": 1500,
@@ -9065,7 +9065,7 @@
     },
     {
       "id": "white-wolf-arena",
-      "zhCNName": "White Wolf (Arena)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White Wolf (Arena)",
       "combatPower": 700,
@@ -9079,7 +9079,7 @@
     },
     {
       "id": "white-spot-desert-spider",
-      "zhCNName": "White-spot Desert Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White-spot Desert Spider",
       "combatPower": 1900,
@@ -9093,7 +9093,7 @@
     },
     {
       "id": "white-striped-desert-spider",
-      "zhCNName": "White-striped Desert Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "White-striped Desert Spider",
       "combatPower": 2100,
@@ -9108,7 +9108,7 @@
     },
     {
       "id": "wight-3700-7241842e",
-      "zhCNName": "Wight",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 3700,
@@ -9122,7 +9122,7 @@
     },
     {
       "id": "wight-4000-f3d2054a",
-      "zhCNName": "Wight",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 4000,
@@ -9136,7 +9136,7 @@
     },
     {
       "id": "wild-gray-wolf",
-      "zhCNName": "Wild Gray Wolf",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wild Gray Wolf",
       "combatPower": 2680,
@@ -9150,7 +9150,7 @@
     },
     {
       "id": "wild-troll",
-      "zhCNName": "Wild Troll",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wild Troll",
       "combatPower": 3650,
@@ -9164,7 +9164,7 @@
     },
     {
       "id": "wisp-1510-0b481c4e",
-      "zhCNName": "Wisp",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wisp",
       "combatPower": 1510,
@@ -9183,7 +9183,7 @@
     },
     {
       "id": "wisp-1559-351dcb8f",
-      "zhCNName": "Wisp",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wisp",
       "combatPower": 1559,
@@ -9197,7 +9197,7 @@
     },
     {
       "id": "wisp-hardmode",
-      "zhCNName": "Wisp (Hardmode)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wisp (Hardmode)",
       "combatPower": 3869,
@@ -9211,7 +9211,7 @@
     },
     {
       "id": "wolf-striped-desert-spider",
-      "zhCNName": "Wolf-striped Desert Spider",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wolf-striped Desert Spider",
       "combatPower": 5000,
@@ -9225,7 +9225,7 @@
     },
     {
       "id": "wood-jackal",
-      "zhCNName": "Wood Jackal",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Wood Jackal",
       "combatPower": 840,
@@ -9239,7 +9239,7 @@
     },
     {
       "id": "yellow-spider-wasp",
-      "zhCNName": "Yellow Spider Wasp",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Yellow Spider Wasp",
       "combatPower": 1500,
@@ -9253,7 +9253,7 @@
     },
     {
       "id": "yellow-succubus",
-      "zhCNName": "Yellow Succubus",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Yellow Succubus",
       "combatPower": 4000,
@@ -9267,7 +9267,7 @@
     },
     {
       "id": "yeti",
-      "zhCNName": "Yeti",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Yeti",
       "combatPower": 10000,
@@ -9287,7 +9287,7 @@
     },
     {
       "id": "yeti-old",
-      "zhCNName": "Yeti (Old)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Yeti (Old)",
       "combatPower": 10000,
@@ -9301,7 +9301,7 @@
     },
     {
       "id": "young-black-porcupine",
-      "zhCNName": "Young Black Porcupine",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Black Porcupine",
       "combatPower": 300,
@@ -9315,7 +9315,7 @@
     },
     {
       "id": "young-black-raccoon",
-      "zhCNName": "Young Black Raccoon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Black Raccoon",
       "combatPower": 796,
@@ -9329,7 +9329,7 @@
     },
     {
       "id": "young-black-warg",
-      "zhCNName": "Young Black Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Black Warg",
       "combatPower": 800,
@@ -9343,7 +9343,7 @@
     },
     {
       "id": "young-blue-python",
-      "zhCNName": "Young Blue Python",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Blue Python",
       "combatPower": 1000,
@@ -9357,7 +9357,7 @@
     },
     {
       "id": "young-brown-porcupine",
-      "zhCNName": "Young Brown Porcupine",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Brown Porcupine",
       "combatPower": 250,
@@ -9371,7 +9371,7 @@
     },
     {
       "id": "young-brown-reindeer",
-      "zhCNName": "Young Brown Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Brown Reindeer",
       "combatPower": 700,
@@ -9385,7 +9385,7 @@
     },
     {
       "id": "young-brown-warg",
-      "zhCNName": "Young Brown Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Brown Warg",
       "combatPower": 800,
@@ -9399,7 +9399,7 @@
     },
     {
       "id": "young-brown-tailed-mongoose",
-      "zhCNName": "Young Brown-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Brown-tailed Mongoose",
       "combatPower": 500,
@@ -9414,7 +9414,7 @@
     },
     {
       "id": "young-cactus-lizard",
-      "zhCNName": "Young Cactus Lizard",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Cactus Lizard",
       "combatPower": 1500,
@@ -9428,7 +9428,7 @@
     },
     {
       "id": "young-country-rat",
-      "zhCNName": "Young Country Rat",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Country Rat",
       "combatPower": 160,
@@ -9442,7 +9442,7 @@
     },
     {
       "id": "young-gray-raccoon",
-      "zhCNName": "Young Gray Raccoon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Gray Raccoon",
       "combatPower": 101,
@@ -9457,7 +9457,7 @@
     },
     {
       "id": "young-gray-reindeer",
-      "zhCNName": "Young Gray Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Gray Reindeer",
       "combatPower": 800,
@@ -9471,7 +9471,7 @@
     },
     {
       "id": "young-gray-tailed-mongoose",
-      "zhCNName": "Young Gray-tailed Mongoose",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Gray-tailed Mongoose",
       "combatPower": 600,
@@ -9485,7 +9485,7 @@
     },
     {
       "id": "young-raccoon",
-      "zhCNName": "Young Raccoon",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Raccoon",
       "combatPower": 46,
@@ -9503,7 +9503,7 @@
     },
     {
       "id": "young-red-antler-reindeer",
-      "zhCNName": "Young Red Antler Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Red Antler Reindeer",
       "combatPower": 900,
@@ -9517,7 +9517,7 @@
     },
     {
       "id": "young-red-poisonous-snake",
-      "zhCNName": "Young Red Poisonous Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Red Poisonous Snake",
       "combatPower": 1500,
@@ -9531,7 +9531,7 @@
     },
     {
       "id": "young-sand-millipede",
-      "zhCNName": "Young Sand Millipede",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Sand Millipede",
       "combatPower": 450,
@@ -9546,7 +9546,7 @@
     },
     {
       "id": "young-stone-mask",
-      "zhCNName": "Young Stone Mask",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Stone Mask",
       "combatPower": 600,
@@ -9560,7 +9560,7 @@
     },
     {
       "id": "young-tundra-reindeer",
-      "zhCNName": "Young Tundra Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young Tundra Reindeer",
       "combatPower": 900,
@@ -9574,7 +9574,7 @@
     },
     {
       "id": "young-white-poisonous-snake",
-      "zhCNName": "Young White Poisonous Snake",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young White Poisonous Snake",
       "combatPower": 1500,
@@ -9588,7 +9588,7 @@
     },
     {
       "id": "young-white-reindeer",
-      "zhCNName": "Young White Reindeer",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young White Reindeer",
       "combatPower": 1050,
@@ -9602,7 +9602,7 @@
     },
     {
       "id": "young-white-warg",
-      "zhCNName": "Young White Warg",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Young White Warg",
       "combatPower": 1200,
@@ -9616,7 +9616,7 @@
     },
     {
       "id": "zebra",
-      "zhCNName": "Zebra",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Zebra",
       "combatPower": 1420,
@@ -9645,7 +9645,7 @@
     },
     {
       "id": "zombie-female",
-      "zhCNName": "Zombie (Female)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Zombie (Female)",
       "combatPower": 1000,
@@ -9659,7 +9659,7 @@
     },
     {
       "id": "zombie-male",
-      "zhCNName": "Zombie (Male)",
+      "zhCNName": "",
       "zhTWName": "",
       "enName": "Zombie (Male)",
       "combatPower": 1000,

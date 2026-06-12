@@ -492,7 +492,7 @@
             <td>${escapeHtml(monster.zhTWName || '')}</td>
             <td>${escapeHtml(monster.enName || '')}</td>
             <td>${Number(monster.combatPower).toFixed(0)}</td>
-            <td>${escapeHtml(formatMonsterRankLabel(monster.rank))}</td>
+            <td data-monster-rank-label>${escapeHtml(formatMonsterRankLabel(monster.rank))}</td>
             <td>${escapeHtml(formatMonsterLocation(monster))}</td>
             <td>${escapeHtml(translationStatusLabel(monster.translationStatus))}</td>
           </tr>`).join('')}
@@ -519,18 +519,7 @@
   }
 
   function formatMonsterRankLabel(rank) {
-    const specLabels = {
-      weakest: 'Weakest',
-      weak: 'Weak',
-      normal: '同级',
-      strong: 'Strong',
-      awful: 'Awful',
-      boss: 'Boss',
-    };
-
-    const specLabel = specLabels[rank.id] || rank.id;
-
-    return `${specLabel} / ${rank.label}`;
+    return rank.label || rank.id;
   }
 
   function translationStatusLabel(status) {
