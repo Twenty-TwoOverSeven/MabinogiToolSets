@@ -512,7 +512,9 @@
   }
 
   function formatMonsterLocation(monster) {
-    const locations = monster.locations && monster.locations.length > 0 ? monster.locations.join('、') : '';
+    const displayLocations =
+      monster.zhCNLocations && monster.zhCNLocations.length > 0 ? monster.zhCNLocations : monster.locations || [];
+    const locations = displayLocations.length > 0 ? displayLocations.join('、') : '';
     const source = [monster.introducedBy, monster.source].filter(Boolean).join(' / ');
 
     return locations || source || '未知';

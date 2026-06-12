@@ -9,6 +9,7 @@
       "enName": "(Apprentice Capable) Demi Lich",
       "combatPower": 16000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -21,6 +22,7 @@
       "enName": "(Dynamic Lands) Ancient Tree Spirit (Colorless)",
       "combatPower": 5000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -35,6 +37,9 @@
       "locations": [
         "Treasure Dungeon"
       ],
+      "zhCNLocations": [
+        "Treasure 地下城"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -42,16 +47,19 @@
     },
     {
       "id": "arachne",
-      "zhCNName": "",
+      "zhCNName": "阿拉克尼",
       "zhTWName": "",
       "enName": "Arachne",
       "combatPower": 6000,
       "locations": [
         "Alby Advanced (Boss)"
       ],
+      "zhCNLocations": [
+        "伊比高级（BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -62,6 +70,9 @@
       "combatPower": 9400,
       "locations": [
         "Alby Advanced Hardmode (Boss)"
+      ],
+      "zhCNLocations": [
+        "伊比高级困难模式（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -75,6 +86,7 @@
       "enName": "Arat Deer",
       "combatPower": 800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -87,6 +99,7 @@
       "enName": "Arat Deer",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -99,6 +112,7 @@
       "enName": "Arat Deer",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -111,6 +125,7 @@
       "enName": "Arat Deer",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -123,6 +138,7 @@
       "enName": "Arat Deer",
       "combatPower": 4000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -130,16 +146,19 @@
     },
     {
       "id": "arc-lich",
-      "zhCNName": "",
+      "zhCNName": "亚克 理奇",
       "zhTWName": "",
       "enName": "Arc Lich",
       "combatPower": 30000,
       "locations": [
         "Connous (Metus)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（梅图斯）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -149,6 +168,7 @@
       "enName": "Archelon",
       "combatPower": 10000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -156,7 +176,7 @@
     },
     {
       "id": "archer-slate",
-      "zhCNName": "",
+      "zhCNName": "板岩弓手",
       "zhTWName": "",
       "enName": "Archer Slate",
       "combatPower": 1900,
@@ -166,9 +186,15 @@
         "Longa Enchanting Arrow",
         "Iria (Exploration Treasure Box)"
       ],
+      "zhCNLocations": [
+        "梅兹普通",
+        "梅兹最终Hit",
+        "伦迦Enchanting Arrow",
+        "伊利亚（探险宝箱）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -178,6 +204,7 @@
       "enName": "Ascended Python",
       "combatPower": 10000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -192,6 +219,9 @@
       "locations": [
         "Snaky Energy"
       ],
+      "zhCNLocations": [
+        "蛇之气息"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -199,12 +229,15 @@
     },
     {
       "id": "banner-imp",
-      "zhCNName": "旗帜小恶魔",
+      "zhCNName": "优等生小鬼",
       "zhTWName": "旗幟小惡魔",
       "enName": "Banner Imp",
       "combatPower": 536,
       "locations": [
         "Barri Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -213,7 +246,7 @@
     },
     {
       "id": "bard-skeleton",
-      "zhCNName": "",
+      "zhCNName": "吟游骷髅",
       "zhTWName": "",
       "enName": "Bard Skeleton",
       "combatPower": 900,
@@ -221,74 +254,83 @@
         "Math Advanced",
         "Ciar Advanced"
       ],
+      "zhCNLocations": [
+        "玛斯高级",
+        "赛尔高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "basilisk-2400-e2eaace3",
-      "zhCNName": "",
+      "zhCNName": "蜥蜴妖",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 2400,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "basilisk-4800-f50d59d7",
-      "zhCNName": "",
+      "zhCNName": "蜥蜴妖",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 4800,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "basilisk-7200-abec5d0b",
-      "zhCNName": "",
+      "zhCNName": "蜥蜴妖",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 7200,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "basilisk-9600-b81fb917",
-      "zhCNName": "",
+      "zhCNName": "蜥蜴妖",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 9600,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "basilisk-12000-1eb35abc",
-      "zhCNName": "",
+      "zhCNName": "蜥蜴妖",
       "zhTWName": "",
       "enName": "Basilisk",
       "combatPower": 12000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "bear-sprite",
-      "zhCNName": "",
+      "zhCNName": "熊光羽",
       "zhTWName": "",
       "enName": "Bear Sprite",
       "combatPower": 1600,
@@ -298,9 +340,15 @@
         "Dugald Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "杜加德城堡地下城",
+        "斯利亚布库林城地下城"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -311,6 +359,9 @@
       "combatPower": 3700,
       "locations": [
         "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "伊比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -326,6 +377,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -339,6 +393,9 @@
       "combatPower": 3400,
       "locations": [
         "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "伊比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -354,6 +411,9 @@
       "locations": [
         "Cursed Labyrinth"
       ],
+      "zhCNLocations": [
+        "被诅咒的地下迷宫"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -368,6 +428,9 @@
       "locations": [
         "Zardine (southwest of Calida Lake)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（southwest of Calida Lake）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
       "translationStatus": "missing",
@@ -375,7 +438,7 @@
     },
     {
       "id": "black-dire-wolf",
-      "zhCNName": "",
+      "zhCNName": "黑色恶狼",
       "zhTWName": "",
       "enName": "Black Dire Wolf",
       "combatPower": 933,
@@ -384,9 +447,14 @@
         "Taillteann",
         "Abb Neagh"
       ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔汀",
+        "阿布内尔"
+      ],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -399,6 +467,11 @@
         "Dugald Aisle",
         "Taillteann",
         "Abb Neagh"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔汀",
+        "阿布内尔"
       ],
       "introducedBy": "G9",
       "isEvent": false,
@@ -415,6 +488,10 @@
         "Rano (Karu Forest",
         "Tree Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（卡鲁森林",
+        "树纹）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -422,30 +499,36 @@
     },
     {
       "id": "black-leopard",
-      "zhCNName": "",
+      "zhCNName": "黑豹",
       "zhTWName": "",
       "enName": "Black Leopard",
       "combatPower": 1900,
       "locations": [
         "Zardine (Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（Raspa Volcano）"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-mummy-servant",
-      "zhCNName": "",
+      "zhCNName": "黑色木乃伊学者",
       "zhTWName": "",
       "enName": "Black Mummy Servant",
       "combatPower": 3000,
       "locations": [
         "Longa Mysterious Arrow (Floor 2)"
       ],
+      "zhCNLocations": [
+        "伦迦神秘Arrow（Floor 2）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -456,6 +539,9 @@
       "combatPower": 4140,
       "locations": [
         "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -469,6 +555,7 @@
       "enName": "Black Panther",
       "combatPower": 9000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -476,26 +563,32 @@
     },
     {
       "id": "black-poison-snake",
-      "zhCNName": "",
+      "zhCNName": "黑色毒蛇",
       "zhTWName": "",
       "enName": "Black Poison Snake",
       "combatPower": 1500,
       "locations": [
         "Fiodh Advanced"
       ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-poisonous-spider",
-      "zhCNName": "黑毒蜘蛛",
+      "zhCNName": "黑色毒蜘蛛",
       "zhTWName": "黑毒蜘蛛",
       "enName": "Black Poisonous Spider",
       "combatPower": 3300,
       "locations": [
         "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "伊比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -511,6 +604,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -518,26 +614,32 @@
     },
     {
       "id": "black-porcupine",
-      "zhCNName": "",
+      "zhCNName": "黑色豪猪",
       "zhTWName": "",
       "enName": "Black Porcupine",
       "combatPower": 500,
       "locations": [
         "Connous (East Longa Desert Neres Plateau)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（东部伦迦沙漠内勒斯台地）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-prison-zombie",
-      "zhCNName": "黑色监狱僵尸",
+      "zhCNName": "黑色冰霜蛇神",
       "zhTWName": "黑色監獄殭屍",
       "enName": "Black Prison Zombie",
       "combatPower": 10000,
       "locations": [
         "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "肯奴斯（梅图斯）"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -546,7 +648,7 @@
     },
     {
       "id": "black-python",
-      "zhCNName": "",
+      "zhCNName": "黑蛇",
       "zhTWName": "",
       "enName": "Black Python",
       "combatPower": 1200,
@@ -554,23 +656,30 @@
         "Longa Topaz",
         "Longa Enchanting Arrow"
       ],
+      "zhCNLocations": [
+        "伦迦黄宝石",
+        "伦迦Enchanting Arrow"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-sand-scorpion",
-      "zhCNName": "",
+      "zhCNName": "黑色沙漠蝎",
       "zhTWName": "",
       "enName": "Black Sand Scorpion",
       "combatPower": 750,
       "locations": [
         "Connous (Northwest of the L in \"Longa Desert\")"
       ],
+      "zhCNLocations": [
+        "肯奴斯（西北部 of the L in \"伦迦沙漠\"）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -582,6 +691,10 @@
       "locations": [
         "Rundal Siren",
         "Rundal Boss Trial"
+      ],
+      "zhCNLocations": [
+        "伦达赛连",
+        "伦达BOSS Trial"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -597,6 +710,9 @@
       "locations": [
         "Rundal Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达高级困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -604,16 +720,19 @@
     },
     {
       "id": "black-snake",
-      "zhCNName": "",
+      "zhCNName": "黑蛇",
       "zhTWName": "",
       "enName": "Black Snake",
       "combatPower": 1400,
       "locations": [
         "Ciar Intermediate"
       ],
+      "zhCNLocations": [
+        "赛尔中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -625,6 +744,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -632,16 +754,19 @@
     },
     {
       "id": "black-soldier",
-      "zhCNName": "",
+      "zhCNName": "暗黑斗士",
       "zhTWName": "",
       "enName": "Black Soldier",
       "combatPower": 2362,
       "locations": [
         "Dugald Aisle (Location)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "杜加德走廊（Location）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -660,6 +785,16 @@
         "Rundal Advanced",
         "Rundal Dungeon (Temple Knights Lair)"
       ],
+      "zhCNLocations": [
+        "巴里普通",
+        "阿尔贝普通",
+        "阿尔贝绿色",
+        "菲奥纳普通",
+        "菲奥纳（Violet）",
+        "伦达普通",
+        "伦达高级",
+        "伦达地下城（Temple Knights Lair）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -667,16 +802,19 @@
     },
     {
       "id": "black-succubus",
-      "zhCNName": "",
+      "zhCNName": "黑色女妖",
       "zhTWName": "",
       "enName": "Black Succubus",
       "combatPower": 1610,
       "locations": [
         "Rabbie Normal (Solo Boss)"
       ],
+      "zhCNLocations": [
+        "拉比普通（单人BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -688,6 +826,9 @@
       "locations": [
         "Rabbie Advanced"
       ],
+      "zhCNLocations": [
+        "拉比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -695,43 +836,46 @@
     },
     {
       "id": "black-sulfur-spider-950-05893a5a",
-      "zhCNName": "",
+      "zhCNName": "黑色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 950,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-sulfur-spider-1900-94afdd2e",
-      "zhCNName": "",
+      "zhCNName": "黑色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 1900,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-sulfur-spider-2850-602b306c",
-      "zhCNName": "",
+      "zhCNName": "黑色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Black Sulfur Spider",
       "combatPower": 2850,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-town-rat",
-      "zhCNName": "",
+      "zhCNName": "黑鼠",
       "zhTWName": "",
       "enName": "Black Town Rat",
       "combatPower": 278,
@@ -740,37 +884,48 @@
         "Albey Green",
         "Albey Red"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝普通",
+        "阿尔贝绿色",
+        "阿尔贝红色"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-warg",
-      "zhCNName": "",
+      "zhCNName": "黑色森林狼",
       "zhTWName": "",
       "enName": "Black Warg",
       "combatPower": 1100,
       "locations": [
         "Physis (Sella Beach)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（Sella 海滨）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "black-warrior",
-      "zhCNName": "",
+      "zhCNName": "暗黑武士",
       "zhTWName": "",
       "enName": "Black Warrior",
       "combatPower": 3810,
       "locations": [
         "Dugald Aisle (Location)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "杜加德走廊（Location）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -781,6 +936,9 @@
       "combatPower": 1790,
       "locations": [
         "Gairech Hills (Locations) (Field Boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨（Locations）（野外BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -796,6 +954,9 @@
       "locations": [
         "Tir Chonaill"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -810,6 +971,9 @@
       "locations": [
         "Rano (North of the Maiz Prairie lettering)"
       ],
+      "zhCNLocations": [
+        "拉诺（北部 of the 梅兹平原 lettering）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -822,6 +986,7 @@
       "enName": "Blinker",
       "combatPower": 300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -834,6 +999,7 @@
       "enName": "Blinker",
       "combatPower": 600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -846,6 +1012,7 @@
       "enName": "Blinker",
       "combatPower": 900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -858,6 +1025,7 @@
       "enName": "Blinker",
       "combatPower": 1200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -870,6 +1038,7 @@
       "enName": "Blinker",
       "combatPower": 1800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -883,6 +1052,9 @@
       "combatPower": 1218,
       "locations": [
         "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "伊比中级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -899,6 +1071,10 @@
         "Rano (Karu Forest",
         "north of Snake Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（卡鲁森林",
+        "北侧蛇纹）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -906,16 +1082,19 @@
     },
     {
       "id": "blue-lizard-witch",
-      "zhCNName": "",
+      "zhCNName": "蓝色魔女",
       "zhTWName": "",
       "enName": "Blue Lizard Witch",
       "combatPower": 3000,
       "locations": [
         "Longa Mysterious (F3)"
       ],
+      "zhCNLocations": [
+        "伦迦神秘（F3）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -927,6 +1106,9 @@
       "locations": [
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -934,16 +1116,19 @@
     },
     {
       "id": "blue-python",
-      "zhCNName": "",
+      "zhCNName": "蓝蛇",
       "zhTWName": "",
       "enName": "Blue Python",
       "combatPower": 1400,
       "locations": [
         "Longa Amethyst"
       ],
+      "zhCNLocations": [
+        "伦迦紫水晶"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -955,6 +1140,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -962,35 +1150,41 @@
     },
     {
       "id": "blue-sand-scorpion",
-      "zhCNName": "",
+      "zhCNName": "蓝色沙漠蝎",
       "zhTWName": "",
       "enName": "Blue Sand Scorpion",
       "combatPower": 650,
       "locations": [
         "Connous (North between the A & D in \"Longa Desert\")"
       ],
+      "zhCNLocations": [
+        "肯奴斯（北部 between the A & D in \"伦迦沙漠\"）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "blue-snake-595-9432a328",
-      "zhCNName": "",
+      "zhCNName": "青蛇",
       "zhTWName": "",
       "enName": "Blue Snake",
       "combatPower": 595,
       "locations": [
         "Fiodh Normal"
       ],
+      "zhCNLocations": [
+        "菲奥纳普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "blue-snake-812-2f44433f",
-      "zhCNName": "",
+      "zhCNName": "青蛇",
       "zhTWName": "",
       "enName": "Blue Snake",
       "combatPower": 812,
@@ -999,9 +1193,14 @@
         "Albey Red",
         "Albey Goddess"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝普通",
+        "阿尔贝红色",
+        "阿尔贝女神"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1013,6 +1212,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1020,30 +1222,36 @@
     },
     {
       "id": "blue-warg",
-      "zhCNName": "",
+      "zhCNName": "蓝色森林狼",
       "zhTWName": "",
       "enName": "Blue Warg",
       "combatPower": 950,
       "locations": [
         "Physis (Southwest of Flightless Bird Mark)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（西南部 of Flightless Bird 标记）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "blue-werewolf",
-      "zhCNName": "",
+      "zhCNName": "蓝狼人",
       "zhTWName": "",
       "enName": "Blue Werewolf",
       "combatPower": 1600,
       "locations": [
         "Fiodh Intermediate"
       ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1054,6 +1262,9 @@
       "combatPower": 913,
       "locations": [
         "Alby Basic"
+      ],
+      "zhCNLocations": [
+        "伊比初级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1069,6 +1280,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1082,6 +1296,9 @@
       "combatPower": 700,
       "locations": [
         "Rano (South of the \"Maiz Prairie\" lettering)"
+      ],
+      "zhCNLocations": [
+        "拉诺（南部 of the \"梅兹平原\" lettering）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -1098,6 +1315,10 @@
         "Tir Chonaill (Another World) (During Generation 16: From Beyond)",
         "Taillteann (During Generation 16: Secret Meeting)"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔（Another World）（During Generation 16: From Beyond）",
+        "塔汀（During Generation 16: Secret Meeting）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1110,6 +1331,7 @@
       "enName": "Bran",
       "combatPower": 2300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1122,6 +1344,7 @@
       "enName": "Bran",
       "combatPower": 4600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1134,6 +1357,7 @@
       "enName": "Bran",
       "combatPower": 6900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1146,6 +1370,7 @@
       "enName": "Bran",
       "combatPower": 9200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1153,7 +1378,7 @@
     },
     {
       "id": "brown-dire-wolf",
-      "zhCNName": "棕色恐狼",
+      "zhCNName": "棕恶狼",
       "zhTWName": "棕色恐狼",
       "enName": "Brown Dire Wolf",
       "combatPower": 725,
@@ -1163,6 +1388,13 @@
         "Osna Sail",
         "Gairech Hills",
         "Taillteann"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "奥斯纳赛尔",
+        "盖尔茨",
+        "塔汀"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1179,6 +1411,11 @@
         "Tir Chonaill",
         "Dunbarton",
         "Osna Sail"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "奥斯纳赛尔"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1197,6 +1434,12 @@
         "East of Human Landmark (Lost)",
         "Karu Forest (Northern Mana Tunnel)"
       ],
+      "zhCNLocations": [
+        "拉诺（穆游沙漠）",
+        "NE Corner of 梅兹平原",
+        "东部 of Human Landmark（Lost）",
+        "卡鲁森林（Northern 魔法之门）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1212,6 +1455,10 @@
         "Rano (Karu Forest",
         "North of the Snake Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（卡鲁森林",
+        "北部 of the 蛇纹）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1219,7 +1466,7 @@
     },
     {
       "id": "brown-gremlin",
-      "zhCNName": "",
+      "zhCNName": "棕色鬼魔",
       "zhTWName": "",
       "enName": "Brown Gremlin",
       "combatPower": 594,
@@ -1228,56 +1475,70 @@
         "Albey Silver",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证",
+        "阿尔贝银色",
+        "阿尔贝女神"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "brown-lizard-witch",
-      "zhCNName": "",
+      "zhCNName": "褐色魔女",
       "zhTWName": "",
       "enName": "Brown Lizard Witch",
       "combatPower": 2600,
       "locations": [
         "Longa Mysterious"
       ],
+      "zhCNLocations": [
+        "伦迦神秘"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "brown-porcupine",
-      "zhCNName": "",
+      "zhCNName": "褐色豪猪",
       "zhTWName": "",
       "enName": "Brown Porcupine",
       "combatPower": 400,
       "locations": [
         "Connous (North of last \"E\" in Longa Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（北部 of last \"E\" in 伦迦沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "brown-snake-517-8535647b",
-      "zhCNName": "",
+      "zhCNName": "棕蛇",
       "zhTWName": "",
       "enName": "Brown Snake",
       "combatPower": 517,
       "locations": [
         "Fiodh Normal"
       ],
+      "zhCNLocations": [
+        "菲奥纳普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "brown-snake-591-87d3e24a",
-      "zhCNName": "",
+      "zhCNName": "棕蛇",
       "zhTWName": "",
       "enName": "Brown Snake",
       "combatPower": 591,
@@ -1286,9 +1547,14 @@
         "Albey Goddess",
         "Fiodh (Violet)"
       ],
+      "zhCNLocations": [
+        "阿尔贝红色",
+        "阿尔贝女神",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1300,6 +1566,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1307,7 +1576,7 @@
     },
     {
       "id": "brown-town-rat",
-      "zhCNName": "",
+      "zhCNName": "棕鼠",
       "zhTWName": "",
       "enName": "Brown Town Rat",
       "combatPower": 279,
@@ -1315,23 +1584,30 @@
         "Ciar Beginner",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "赛尔新手",
+        "阿尔贝女神"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "brown-warg",
-      "zhCNName": "",
+      "zhCNName": "棕色森林狼",
       "zhTWName": "",
       "enName": "Brown Warg",
       "combatPower": 950,
       "locations": [
         "Physis (Near Whirlpool Mark)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（附近Whirlpool 标记）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1342,6 +1618,9 @@
       "combatPower": 1000,
       "locations": [
         "Corrib Valley"
+      ],
+      "zhCNLocations": [
+        "科利布山谷"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -1357,6 +1636,9 @@
       "locations": [
         "Ciar Boss Trial"
       ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1371,6 +1653,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1384,6 +1669,9 @@
       "combatPower": 1243,
       "locations": [
         "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "伊比中级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1400,6 +1688,10 @@
         "Alby Basic",
         "Alby Intermediate"
       ],
+      "zhCNLocations": [
+        "伊比初级",
+        "伊比中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1407,16 +1699,19 @@
     },
     {
       "id": "cactus-lizard",
-      "zhCNName": "",
+      "zhCNName": "仙人掌蜥蜴",
       "zhTWName": "",
       "enName": "Cactus Lizard",
       "combatPower": 1500,
       "locations": [
         "Muyu Desert"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "穆游沙漠"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1428,6 +1723,9 @@
       "locations": [
         "Kaypi Canyon"
       ],
+      "zhCNLocations": [
+        "凯皮峡谷"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1435,7 +1733,7 @@
     },
     {
       "id": "candle-spider",
-      "zhCNName": "",
+      "zhCNName": "洋蜡蜘蛛",
       "zhTWName": "",
       "enName": "Candle Spider",
       "combatPower": 1000,
@@ -1444,9 +1742,14 @@
         "Sen Mag Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "斯利亚布库林城地下城"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1457,6 +1760,9 @@
       "combatPower": 2200,
       "locations": [
         "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -1472,6 +1778,9 @@
       "locations": [
         "Rundal Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达高级困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1479,12 +1788,15 @@
     },
     {
       "id": "captain-skeleton",
-      "zhCNName": "骷髅队长",
+      "zhCNName": "海盗船长骷髅",
       "zhTWName": "骷髏隊長",
       "enName": "Captain Skeleton",
       "combatPower": 1815,
       "locations": [
         "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -1500,6 +1812,9 @@
       "locations": [
         "Rundal Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达高级困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1514,6 +1829,9 @@
       "locations": [
         "Fiodh Advanced"
       ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1526,6 +1844,7 @@
       "enName": "Cave Sahagin Fighter",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1540,6 +1859,9 @@
       "locations": [
         "Scathach Caverns"
       ],
+      "zhCNLocations": [
+        "斯卡哈Caverns"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1552,6 +1874,7 @@
       "enName": "Cave Sahagin Mage (Shadow)",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1566,6 +1889,9 @@
       "locations": [
         "Scathach Caverns"
       ],
+      "zhCNLocations": [
+        "斯卡哈Caverns"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1578,6 +1904,7 @@
       "enName": "Cave Sahagin Warrior (Shadow)",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1590,6 +1917,7 @@
       "enName": "Cerberus",
       "combatPower": 1375,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1602,6 +1930,7 @@
       "enName": "Cerberus",
       "combatPower": 2750,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1614,6 +1943,7 @@
       "enName": "Cerberus",
       "combatPower": 4125,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1626,6 +1956,7 @@
       "enName": "Cerberus",
       "combatPower": 5500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1638,6 +1969,7 @@
       "enName": "Cerberus",
       "combatPower": 6875,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1645,50 +1977,54 @@
     },
     {
       "id": "cheese-2200-efa76368",
-      "zhCNName": "",
+      "zhCNName": "奶酪",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 2200,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "cheese-4400-c8e5064f",
-      "zhCNName": "",
+      "zhCNName": "奶酪",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 4400,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "cheese-6600-4b1dcb06",
-      "zhCNName": "",
+      "zhCNName": "奶酪",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 6600,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "cheese-8800-0286e23f",
-      "zhCNName": "",
+      "zhCNName": "奶酪",
       "zhTWName": "",
       "enName": "Cheese",
       "combatPower": 8800,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1698,6 +2034,7 @@
       "enName": "Claimh Solas (G11)",
       "combatPower": 30000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1710,6 +2047,7 @@
       "enName": "Claimh Solas (G11)",
       "combatPower": 60000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1722,6 +2060,7 @@
       "enName": "Claimh Solas (G11)",
       "combatPower": 90000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1734,6 +2073,7 @@
       "enName": "Claimh Solas (G11)",
       "combatPower": 120000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1746,6 +2086,7 @@
       "enName": "Claimh Solas (G9)",
       "combatPower": 9998,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1758,6 +2099,7 @@
       "enName": "Claimh Solas (G9)",
       "combatPower": 19998,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1770,6 +2112,7 @@
       "enName": "Claimh Solas (G9)",
       "combatPower": 29997,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1782,6 +2125,7 @@
       "enName": "Claimh Solas (G9)",
       "combatPower": 39996,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1789,12 +2133,15 @@
     },
     {
       "id": "coffin-mimic",
-      "zhCNName": "棺材宝箱怪",
+      "zhCNName": "食人箱",
       "zhTWName": "棺材寶箱怪",
       "enName": "Coffin Mimic",
       "combatPower": 1316,
       "locations": [
         "G12 Peaca Secret Lair Dungeon"
+      ],
+      "zhCNLocations": [
+        "G12 皮卡Secret Lair 地下城"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -1803,30 +2150,36 @@
     },
     {
       "id": "connous-lizard",
-      "zhCNName": "",
+      "zhCNName": "肯奴斯蜥蜴",
       "zhTWName": "",
       "enName": "Connous Lizard",
       "combatPower": 1500,
       "locations": [
         "Connous (Rupes Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（Rupes 沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "country-rat",
-      "zhCNName": "",
+      "zhCNName": "田鼠",
       "zhTWName": "",
       "enName": "Country Rat",
       "combatPower": 341,
       "locations": [
         "Rabbie Tarlach's Glasses Case roleplay"
       ],
+      "zhCNLocations": [
+        "拉比塔拉克's Glasses Case roleplay"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -1837,6 +2190,9 @@
       "combatPower": 1345,
       "locations": [
         "Alby Normal Hardmode"
+      ],
+      "zhCNLocations": [
+        "伊比普通困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1852,6 +2208,9 @@
       "locations": [
         "Avalon (South of Outskirts of Avalon moongate)"
       ],
+      "zhCNLocations": [
+        "阿瓦隆（阿瓦隆外围月门南侧）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1864,6 +2223,7 @@
       "enName": "Cuilin Golem",
       "combatPower": 3000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1876,6 +2236,7 @@
       "enName": "Cuilin Golem",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1888,6 +2249,7 @@
       "enName": "Cuilin Golem",
       "combatPower": 9000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1900,6 +2262,7 @@
       "enName": "Cuilin Golem",
       "combatPower": 12000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1912,6 +2275,7 @@
       "enName": "Cuilin Golem",
       "combatPower": 15000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1925,6 +2289,9 @@
       "combatPower": 1005,
       "locations": [
         "Alby Basic"
+      ],
+      "zhCNLocations": [
+        "伊比初级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -1940,6 +2307,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -1947,88 +2317,101 @@
     },
     {
       "id": "dark-commander-4000-d52dec98",
-      "zhCNName": "",
+      "zhCNName": "黑暗首领",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 4000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-commander-6000-b9435760",
-      "zhCNName": "",
+      "zhCNName": "黑暗首领",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 6000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-commander-8000-4e5dc164",
-      "zhCNName": "",
+      "zhCNName": "黑暗首领",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 8000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-commander-12000-3b4f9839",
-      "zhCNName": "",
+      "zhCNName": "黑暗首领",
       "zhTWName": "",
       "enName": "Dark Commander",
       "combatPower": 12000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-rat-man",
-      "zhCNName": "",
+      "zhCNName": "暗黑鼠人",
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
       "locations": [
         "Ciar Advanced"
       ],
+      "zhCNLocations": [
+        "赛尔高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-red-porcupine",
-      "zhCNName": "",
+      "zhCNName": "深红色豪猪",
       "zhTWName": "",
       "enName": "Dark Red Porcupine",
       "combatPower": 600,
       "locations": [
         "Connous (South Errans Canyon)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（南部Errans 峡谷）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "dark-skeleton",
-      "zhCNName": "黑暗骷髅",
+      "zhCNName": "暗黑骷髅",
       "zhTWName": "黑暗骷髏",
       "enName": "Dark Skeleton",
       "combatPower": 1286,
       "locations": [
         "Barri G2 Final (Boss Room)"
+      ],
+      "zhCNLocations": [
+        "巴里G2 最终（BOSS Room）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -2044,6 +2427,9 @@
       "locations": [
         "Beginner Battle Class I: Defense and Smash"
       ],
+      "zhCNLocations": [
+        "新手Battle Class I: Defense and Smash"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2051,16 +2437,19 @@
     },
     {
       "id": "demi-lich",
-      "zhCNName": "",
+      "zhCNName": "死尸",
       "zhTWName": "",
       "enName": "Demi Lich",
       "combatPower": 9250,
       "locations": [
         "Peaca Normal (Boss)"
       ],
+      "zhCNLocations": [
+        "皮卡普通（BOSS）"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2070,6 +2459,7 @@
       "enName": "Demonic Ghoul",
       "combatPower": 8000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2077,7 +2467,7 @@
     },
     {
       "id": "dog",
-      "zhCNName": "",
+      "zhCNName": "狗",
       "zhTWName": "",
       "enName": "Dog",
       "combatPower": 480,
@@ -2087,9 +2477,15 @@
         "Filia",
         "Rano"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "菲利亚",
+        "拉诺"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2099,6 +2495,7 @@
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 9999,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2111,6 +2508,7 @@
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 19998,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2123,6 +2521,7 @@
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 29997,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2135,6 +2534,7 @@
       "enName": "Doppelganger (Generation 10)",
       "combatPower": 39996,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2147,6 +2547,7 @@
       "enName": "Doppelganger (Monster)",
       "combatPower": 9999,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2159,6 +2560,7 @@
       "enName": "Doppelganger (Monster)",
       "combatPower": 19998,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2171,6 +2573,7 @@
       "enName": "Doppelganger (Monster)",
       "combatPower": 29997,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2183,6 +2586,7 @@
       "enName": "Doppelganger (Monster)",
       "combatPower": 39996,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2195,6 +2599,7 @@
       "enName": "Doppelganger (Monster)",
       "combatPower": 59994,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2207,6 +2612,7 @@
       "enName": "Doppelganger Clone",
       "combatPower": 4800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2219,6 +2625,7 @@
       "enName": "Egg (Monster)",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2231,6 +2638,7 @@
       "enName": "Egg (Monster)",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2243,6 +2651,7 @@
       "enName": "Egg (Monster)",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2255,6 +2664,7 @@
       "enName": "Egg (Monster)",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2262,16 +2672,19 @@
     },
     {
       "id": "elf-guard",
-      "zhCNName": "",
+      "zhCNName": "<mini>NPC</mini> 精灵警卫",
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
       "locations": [
         "Filia"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "菲利亚"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2281,6 +2694,7 @@
       "enName": "Elsinore Rat",
       "combatPower": 250,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2293,6 +2707,7 @@
       "enName": "Elsinore Rat",
       "combatPower": 500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2305,6 +2720,7 @@
       "enName": "Elsinore Rat",
       "combatPower": 750,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2317,6 +2733,7 @@
       "enName": "Elsinore Rat",
       "combatPower": 1000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2324,16 +2741,19 @@
     },
     {
       "id": "emerald-magic-golem",
-      "zhCNName": "",
+      "zhCNName": "翡翠魔法石巨人",
       "zhTWName": "",
       "enName": "Emerald Magic Golem",
       "combatPower": 2400,
       "locations": [
         "Longa Emerald"
       ],
+      "zhCNLocations": [
+        "伦迦翡翠"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2344,6 +2764,9 @@
       "combatPower": 2490,
       "locations": [
         "Esras' Dungeon (Boss)"
+      ],
+      "zhCNLocations": [
+        "Esras' 地下城（BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -2357,6 +2780,7 @@
       "enName": "Evil Eye Monolith (Seven Nightmares)",
       "combatPower": 12000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2371,6 +2795,9 @@
       "locations": [
         "Corrib Valley"
       ],
+      "zhCNLocations": [
+        "科利布山谷"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2378,26 +2805,28 @@
     },
     {
       "id": "fenrir-2400-35757a2e",
-      "zhCNName": "",
+      "zhCNName": "芬里厄",
       "zhTWName": "",
       "enName": "Fenrir",
       "combatPower": 2400,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "fenrir-4800-727a6923",
-      "zhCNName": "",
+      "zhCNName": "芬里厄",
       "zhTWName": "",
       "enName": "Fenrir",
       "combatPower": 4800,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2409,6 +2838,9 @@
       "locations": [
         "Scathach Beach"
       ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2416,7 +2848,7 @@
     },
     {
       "id": "fighter-slate",
-      "zhCNName": "",
+      "zhCNName": "板岩战士",
       "zhTWName": "",
       "enName": "Fighter Slate",
       "combatPower": 1800,
@@ -2426,14 +2858,20 @@
         "Longa Enchanting Arrow",
         "Iria (Exploration Treasure Box)"
       ],
+      "zhCNLocations": [
+        "梅兹普通",
+        "梅兹最终Hit",
+        "伦迦Enchanting Arrow",
+        "伊利亚（探险宝箱）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "fire-sprite",
-      "zhCNName": "",
+      "zhCNName": "火光羽",
       "zhTWName": "",
       "enName": "Fire Sprite",
       "combatPower": 1097,
@@ -2443,23 +2881,32 @@
         "Coill Elemental",
         "Ceo Island (Location)"
       ],
+      "zhCNLocations": [
+        "克丽尔普通",
+        "克丽尔Passive Defense",
+        "克丽尔Elemental",
+        "凯欧岛（Location）"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "fire-wyvern",
-      "zhCNName": "",
+      "zhCNName": "火双足飞龙",
       "zhTWName": "",
       "enName": "Fire Wyvern",
       "combatPower": 3600,
       "locations": [
         "Zardine (skies over Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2469,6 +2916,7 @@
       "enName": "Flour",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2481,6 +2929,7 @@
       "enName": "Flour",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2493,6 +2942,7 @@
       "enName": "Flour",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2505,6 +2955,7 @@
       "enName": "Flour",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2517,6 +2968,7 @@
       "enName": "Forest Golem",
       "combatPower": 1800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2529,6 +2981,7 @@
       "enName": "Forest Golem",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2541,6 +2994,7 @@
       "enName": "Forest Golem",
       "combatPower": 5400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2553,6 +3007,7 @@
       "enName": "Forest Golem",
       "combatPower": 7200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2565,6 +3020,7 @@
       "enName": "Forest Golem",
       "combatPower": 9000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2577,6 +3033,7 @@
       "enName": "Form of Harmony",
       "combatPower": 2000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2589,6 +3046,7 @@
       "enName": "Fruit (Monster)",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2601,6 +3059,7 @@
       "enName": "Fruit (Monster)",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2613,6 +3072,7 @@
       "enName": "Fruit (Monster)",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2625,6 +3085,7 @@
       "enName": "Fruit (Monster)",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2632,7 +3093,7 @@
     },
     {
       "id": "ghost-armor",
-      "zhCNName": "",
+      "zhCNName": "幽灵铠甲",
       "zhTWName": "",
       "enName": "Ghost Armor",
       "combatPower": 1090,
@@ -2642,9 +3103,15 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "玛斯Mores",
+        "玛斯Shiela",
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2655,6 +3122,9 @@
       "combatPower": 4260,
       "locations": [
         "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -2670,6 +3140,9 @@
       "locations": [
         "Peaca Normal"
       ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2683,6 +3156,9 @@
       "combatPower": 2000,
       "locations": [
         "Peaca Basic"
+      ],
+      "zhCNLocations": [
+        "皮卡初级"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -2698,6 +3174,9 @@
       "locations": [
         "Fiodh Advanced"
       ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2712,6 +3191,9 @@
       "locations": [
         "Alby Intermediate"
       ],
+      "zhCNLocations": [
+        "伊比中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2719,16 +3201,19 @@
     },
     {
       "id": "giant-black-wolf",
-      "zhCNName": "",
+      "zhCNName": "巨黑狼",
       "zhTWName": "",
       "enName": "Giant Black Wolf",
       "combatPower": 2680,
       "locations": [
         "Tir Chonaill (Location)"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔（Location）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2740,6 +3225,10 @@
       "locations": [
         "Peaca Basic",
         "History's Curtain Call"
+      ],
+      "zhCNLocations": [
+        "皮卡初级",
+        "历史的谢幕"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -2754,6 +3243,9 @@
       "combatPower": 910,
       "locations": [
         "Fiodh Intermediate"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -2770,6 +3262,10 @@
         "Rano (Southern Karu Forest",
         "slightly northeast of the Snake Mark Mana Tunnel)"
       ],
+      "zhCNLocations": [
+        "拉诺（Southern 卡鲁森林",
+        "稍偏东北 of the 蛇纹魔法之门）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2777,12 +3273,15 @@
     },
     {
       "id": "giant-golden-spider",
-      "zhCNName": "巨大金蜘蛛",
+      "zhCNName": "巨型黄金蜘蛛",
       "zhTWName": "巨大金蜘蛛",
       "enName": "Giant Golden Spider",
       "combatPower": 5000,
       "locations": [
         "Alby Advanced (Boss)"
+      ],
+      "zhCNLocations": [
+        "伊比高级（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -2798,6 +3297,9 @@
       "locations": [
         "Alby Malcolm's Ring (Boss)"
       ],
+      "zhCNLocations": [
+        "伊比Malcolm's Ring（BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2805,40 +3307,49 @@
     },
     {
       "id": "giant-guard",
-      "zhCNName": "",
+      "zhCNName": "<mini>NPC</mini> 巨人警卫",
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
       "locations": [
         "Vales"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "巴勒斯"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "giant-ice-sprite",
-      "zhCNName": "",
+      "zhCNName": "巨大冰光羽",
       "zhTWName": "",
       "enName": "Giant Ice Sprite",
       "combatPower": 2200,
       "locations": [
         "Coill Elemental"
       ],
+      "zhCNLocations": [
+        "克丽尔Elemental"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "giant-imp",
-      "zhCNName": "巨大小恶魔",
+      "zhCNName": "巨大小鬼",
       "zhTWName": "巨大小惡魔",
       "enName": "Giant Imp",
       "combatPower": 2920,
       "locations": [
         "Fiodh Intermediate (4person Boss)"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级（4person BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -2847,21 +3358,24 @@
     },
     {
       "id": "giant-jackal",
-      "zhCNName": "",
+      "zhCNName": "巨大豺狗",
       "zhTWName": "",
       "enName": "Giant Jackal",
       "combatPower": 1200,
       "locations": [
         "Fiodh Intermediate"
       ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "giant-jungle-millipede",
-      "zhCNName": "",
+      "zhCNName": "巨大密林百脚虫",
       "zhTWName": "",
       "enName": "Giant Jungle Millipede",
       "combatPower": 1630,
@@ -2870,9 +3384,14 @@
         "South Cenae Meadows Mana Tunnel",
         "Via Exploration"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "附近赫尔巴密林魔法之门",
+        "南部Cenae Meadows 魔法之门",
+        "通过探险"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2884,6 +3403,9 @@
       "locations": [
         "Only during the Mabinogi 2nd Anniversary Event at Ladeca (an event map area)"
       ],
+      "zhCNLocations": [
+        "Only during the Mabinogi 2nd 周年活动 at Ladeca（an event map area）"
+      ],
       "introducedBy": "unknown",
       "isEvent": true,
       "translationStatus": "missing",
@@ -2891,14 +3413,17 @@
     },
     {
       "id": "giant-ogre",
-      "zhCNName": "巨大食人魔",
+      "zhCNName": "巨食人魔",
       "zhTWName": "巨大食人魔",
       "enName": "Giant Ogre",
       "combatPower": 2730,
       "locations": [
         "Gairech Hills and Reighinalt (Location)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "盖尔茨 and Reighinalt（Location）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -2912,6 +3437,10 @@
       "locations": [
         "Alby Basic (Boss)",
         "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "伊比初级（BOSS）",
+        "伊比中级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -2927,6 +3456,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2940,6 +3472,9 @@
       "combatPower": 4300,
       "locations": [
         "Beach of Scathach"
+      ],
+      "zhCNLocations": [
+        "海滨 of 斯卡哈"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -2955,6 +3490,9 @@
       "locations": [
         "Rano (Central Muyu Desert)"
       ],
+      "zhCNLocations": [
+        "拉诺（中央穆游沙漠）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2969,6 +3507,9 @@
       "locations": [
         "Summoned by Monster Summoning Urn"
       ],
+      "zhCNLocations": [
+        "由其召唤： Monster Summoning Urn"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -2976,16 +3517,19 @@
     },
     {
       "id": "giant-skeleton",
-      "zhCNName": "",
+      "zhCNName": "巨骷髅",
       "zhTWName": "",
       "enName": "Giant Skeleton",
       "combatPower": 1298,
       "locations": [
         "Math Normal"
       ],
+      "zhCNLocations": [
+        "玛斯普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -2995,6 +3539,7 @@
       "enName": "Giant Snow Golem",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3007,6 +3552,7 @@
       "enName": "Giant Snow Golem",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3019,6 +3565,7 @@
       "enName": "Giant Snow Golem",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3031,6 +3578,7 @@
       "enName": "Giant Snow Troll",
       "combatPower": 1500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3043,6 +3591,7 @@
       "enName": "Giant Snow Troll",
       "combatPower": 3000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3055,6 +3604,7 @@
       "enName": "Giant Snow Troll",
       "combatPower": 4500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3067,6 +3617,7 @@
       "enName": "Giant Snow Troll",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3079,6 +3630,7 @@
       "enName": "Giant Snowfield Spider",
       "combatPower": 700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3086,7 +3638,7 @@
     },
     {
       "id": "giant-spider",
-      "zhCNName": "巨大蜘蛛",
+      "zhCNName": "巨蜘蛛",
       "zhTWName": "巨大蜘蛛",
       "enName": "Giant Spider",
       "combatPower": 1688,
@@ -3094,6 +3646,11 @@
         "Alby Normal (Boss)",
         "Alby Basic",
         "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "伊比普通（BOSS）",
+        "伊比初级",
+        "伊比中级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3109,6 +3666,9 @@
       "locations": [
         "Alby Beginner (Boss)"
       ],
+      "zhCNLocations": [
+        "伊比新手（BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3116,16 +3676,19 @@
     },
     {
       "id": "giant-white-spider",
-      "zhCNName": "",
+      "zhCNName": "巨大白蜘蛛",
       "zhTWName": "",
       "enName": "Giant White Spider",
       "combatPower": 3350,
       "locations": [
         "Alby Intermediate"
       ],
+      "zhCNLocations": [
+        "伊比中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3136,6 +3699,9 @@
       "combatPower": 7365,
       "locations": [
         "Alby Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3152,6 +3718,10 @@
         "Ciar Mythril Armor with the Spirit's Blessing (Boss)",
         "Tir Chonaill (Location)"
       ],
+      "zhCNLocations": [
+        "赛尔Mythril Armor with the Spirit's Blessing（BOSS）",
+        "迪尔科内尔（Location）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -3159,16 +3729,19 @@
     },
     {
       "id": "giant-wood-jackal",
-      "zhCNName": "",
+      "zhCNName": "巨大 木豺狗",
       "zhTWName": "",
       "enName": "Giant Wood Jackal",
       "combatPower": 1700,
       "locations": [
         "Fiodh Advanced"
       ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3181,6 +3754,11 @@
         "Barri Brown Fomor Pass (Miniboss)",
         "Baol G3 Final",
         "Tir Chonaill (Another World)"
+      ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证（Miniboss）",
+        "巴尔G3 最终",
+        "迪尔科内尔（Another World）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3196,6 +3774,9 @@
       "locations": [
         "Baol G3 Final"
       ],
+      "zhCNLocations": [
+        "巴尔G3 最终"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3209,6 +3790,9 @@
       "combatPower": 3580,
       "locations": [
         "Baol G3 Final"
+      ],
+      "zhCNLocations": [
+        "巴尔G3 最终"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -3225,6 +3809,10 @@
         "Barri Intermediate",
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里中级",
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3238,6 +3826,9 @@
       "combatPower": 2400,
       "locations": [
         "Karu Glowing Pot-Belly Spider's Statue (Boss)"
+      ],
+      "zhCNLocations": [
+        "卡鲁Glowing Pot-Belly Spider's Statue（BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -3253,6 +3844,9 @@
       "locations": [
         "Rano (Center of Karu Forest)"
       ],
+      "zhCNLocations": [
+        "拉诺（Center of 卡鲁森林）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3267,20 +3861,8 @@
       "locations": [
         "Rano (east of Human Mark)"
       ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "golden-rat-man",
-      "zhCNName": "",
-      "zhTWName": "",
-      "enName": "Golden Rat Man",
-      "combatPower": 1000,
-      "locations": [
-        "Nekojima (Nezumijima",
-        "Rat Island)"
+      "zhCNLocations": [
+        "拉诺（east of Human 标记）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -3288,13 +3870,35 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "golden-rat-man",
+      "zhCNName": "黄金鼠人",
+      "zhTWName": "",
+      "enName": "Golden Rat Man",
+      "combatPower": 1000,
+      "locations": [
+        "Nekojima (Nezumijima",
+        "Rat Island)"
+      ],
+      "zhCNLocations": [
+        "猫岛（Nezumijima",
+        "老鼠岛）"
+      ],
+      "introducedBy": "G13",
+      "isEvent": false,
+      "translationStatus": "confirmed",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "golem-2548-cc54571c",
-      "zhCNName": "魔像",
+      "zhCNName": "石巨人",
       "zhTWName": "魔像",
       "enName": "Golem",
       "combatPower": 2548,
       "locations": [
         "Ciar Boss Trial"
+      ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3303,12 +3907,15 @@
     },
     {
       "id": "golem-4876-ac3aabae",
-      "zhCNName": "魔像",
+      "zhCNName": "石巨人",
       "zhTWName": "魔像",
       "enName": "Golem",
       "combatPower": 4876,
       "locations": [
         "Ciar Normal Hardmode (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛尔普通困难模式（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3317,12 +3924,15 @@
     },
     {
       "id": "golem-5000-d05e0093",
-      "zhCNName": "魔像",
+      "zhCNName": "石巨人",
       "zhTWName": "魔像",
       "enName": "Golem",
       "combatPower": 5000,
       "locations": [
         "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛尔普通（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3338,6 +3948,9 @@
       "locations": [
         "Ceo Island"
       ],
+      "zhCNLocations": [
+        "凯欧岛"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3351,6 +3964,9 @@
       "combatPower": 3780,
       "locations": [
         "Ciar Boss Trial"
+      ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3366,6 +3982,9 @@
       "locations": [
         "Albey Silver (Boss)"
       ],
+      "zhCNLocations": [
+        "阿尔贝银色（BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3378,6 +3997,7 @@
       "enName": "Golem (Dorren's Request)",
       "combatPower": 1100,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3390,6 +4010,7 @@
       "enName": "Golem (Dorren's Request)",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3402,6 +4023,7 @@
       "enName": "Golem (Dorren's Request)",
       "combatPower": 3300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3414,6 +4036,7 @@
       "enName": "Golem (Dorren's Request)",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3426,6 +4049,7 @@
       "enName": "Golem (Dorren's Request)",
       "combatPower": 5500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3439,6 +4063,9 @@
       "combatPower": 4558,
       "locations": [
         "Ciar Boss Trial"
+      ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3454,6 +4081,9 @@
       "locations": [
         "Ciar Boss Trial"
       ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3467,6 +4097,9 @@
       "combatPower": 8486,
       "locations": [
         "Ciar Advanced Hardmode (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛尔高级困难模式（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3482,6 +4115,9 @@
       "locations": [
         "Ciar Boss Trial"
       ],
+      "zhCNLocations": [
+        "赛尔BOSS Trial"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3489,7 +4125,7 @@
     },
     {
       "id": "gray-gremlin",
-      "zhCNName": "",
+      "zhCNName": "灰色鬼魔",
       "zhTWName": "",
       "enName": "Gray Gremlin",
       "combatPower": 931,
@@ -3499,9 +4135,15 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证",
+        "阿尔贝银色",
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3511,6 +4153,7 @@
       "enName": "Gray Gremlin (Peaca Abyss)",
       "combatPower": 7000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3525,6 +4168,9 @@
       "locations": [
         "Courcle (Herba Jungle)"
       ],
+      "zhCNLocations": [
+        "克拉格（赫尔巴密林）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3532,49 +4178,58 @@
     },
     {
       "id": "gray-reindeer",
-      "zhCNName": "",
+      "zhCNName": "灰鹿",
       "zhTWName": "",
       "enName": "Gray Reindeer",
       "combatPower": 1100,
       "locations": [
         "Physis (Sella Beach)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（Sella 海滨）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "gray-rock-scorpion",
-      "zhCNName": "",
+      "zhCNName": "灰色颜色蝎子",
       "zhTWName": "",
       "enName": "Gray Rock Scorpion",
       "combatPower": 1100,
       "locations": [
         "Connous (Rupes Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（Rupes 沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "gray-town-rat-96-dbe01860",
-      "zhCNName": "",
+      "zhCNName": "灰鼠",
       "zhTWName": "",
       "enName": "Gray Town Rat",
       "combatPower": 96,
       "locations": [
         "Ciar Normal"
       ],
+      "zhCNLocations": [
+        "赛尔普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "gray-town-rat-349-767d545a",
-      "zhCNName": "",
+      "zhCNName": "灰鼠",
       "zhTWName": "",
       "enName": "Gray Town Rat",
       "combatPower": 349,
@@ -3582,9 +4237,13 @@
         "Ciar Beginner",
         "Dunbarton (Southern Field)"
       ],
+      "zhCNLocations": [
+        "赛尔新手",
+        "敦巴伦（Southern 野外）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3597,6 +4256,10 @@
         "Ciar Normal Hardmode",
         "Rundal Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔普通困难模式",
+        "伦达普通困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3604,16 +4267,19 @@
     },
     {
       "id": "gray-werewolf",
-      "zhCNName": "",
+      "zhCNName": "灰狼人",
       "zhTWName": "",
       "enName": "Gray Werewolf",
       "combatPower": 1600,
       "locations": [
         "Alby Intermediate"
       ],
+      "zhCNLocations": [
+        "伊比中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3624,6 +4290,9 @@
       "combatPower": 4023,
       "locations": [
         "Alby Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3644,6 +4313,14 @@
         "Abb Neagh",
         "Morva Aisle"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "塔汀",
+        "阿布内尔",
+        "莫尔巴走廊"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -3659,6 +4336,10 @@
         "Rano (Northeastern Maiz Prairie)",
         "Connous (southeast of Filia)"
       ],
+      "zhCNLocations": [
+        "拉诺（Northeastern 梅兹平原）",
+        "肯奴斯（southeast of 菲利亚）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3666,13 +4347,17 @@
     },
     {
       "id": "great-mimic",
-      "zhCNName": "巨大宝箱怪",
+      "zhCNName": "巨宝箱怪",
       "zhTWName": "巨大寶箱怪",
       "enName": "Great Mimic",
       "combatPower": 819,
       "locations": [
         "Barri Spirit Fossil",
         "Barri Mythril Mine"
+      ],
+      "zhCNLocations": [
+        "巴里Spirit Fossil",
+        "巴里Mythril Mine"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3687,6 +4372,9 @@
       "combatPower": 1974,
       "locations": [
         "Ciar Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -3703,6 +4391,10 @@
         "Rano (Karu Forest",
         "northeast Maiz Prairie)"
       ],
+      "zhCNLocations": [
+        "拉诺（卡鲁森林",
+        "northeast 梅兹平原）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3710,7 +4402,7 @@
     },
     {
       "id": "green-gremlin-1113-d702f5da",
-      "zhCNName": "",
+      "zhCNName": "绿色鬼魔",
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1113,
@@ -3721,23 +4413,33 @@
         "Albey Goddess",
         "Coill Passive Defense"
       ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证",
+        "阿尔贝银色",
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神",
+        "克丽尔Passive Defense"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "green-gremlin-1161-421191db",
-      "zhCNName": "",
+      "zhCNName": "绿色鬼魔",
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1161,
       "locations": [
         "Fiodh Normal"
       ],
+      "zhCNLocations": [
+        "菲奥纳普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3747,6 +4449,7 @@
       "enName": "Green Gremlin (Peaca Abyss)",
       "combatPower": 7000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3754,30 +4457,36 @@
     },
     {
       "id": "green-lizard-witch",
-      "zhCNName": "",
+      "zhCNName": "绿色魔女",
       "zhTWName": "",
       "enName": "Green Lizard Witch",
       "combatPower": 2800,
       "locations": [
         "Longa Mysterious (F2)"
       ],
+      "zhCNLocations": [
+        "伦迦神秘（F2）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "green-snake",
-      "zhCNName": "",
+      "zhCNName": "绿蛇",
       "zhTWName": "",
       "enName": "Green Snake",
       "combatPower": 1850,
       "locations": [
         "Ciar Advanced"
       ],
+      "zhCNLocations": [
+        "赛尔高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3787,6 +4496,7 @@
       "enName": "Gremlin (Peaca Abyss)",
       "combatPower": 7000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G3",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3794,50 +4504,54 @@
     },
     {
       "id": "grim-reaper-2000-b3b00c3f",
-      "zhCNName": "",
+      "zhCNName": "死神",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 2000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "grim-reaper-4000-33e8b958",
-      "zhCNName": "",
+      "zhCNName": "死神",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 4000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "grim-reaper-6000-4663ed32",
-      "zhCNName": "",
+      "zhCNName": "死神",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 6000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "grim-reaper-8000-b2909df5",
-      "zhCNName": "",
+      "zhCNName": "死神",
       "zhTWName": "",
       "enName": "Grim Reaper",
       "combatPower": 8000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -3847,6 +4561,7 @@
       "enName": "Grumbill (Brown)",
       "combatPower": 1200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3859,6 +4574,7 @@
       "enName": "Grumbill (Brown)",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3871,6 +4587,7 @@
       "enName": "Grumbill (Brown)",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3883,6 +4600,7 @@
       "enName": "Grumbill (Brown)",
       "combatPower": 4800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3895,6 +4613,7 @@
       "enName": "Grumbill (Brown)",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3907,6 +4626,7 @@
       "enName": "Grumbill (Orange)",
       "combatPower": 800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3919,6 +4639,7 @@
       "enName": "Grumbill (Orange)",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3931,6 +4652,7 @@
       "enName": "Grumbill (Orange)",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3943,6 +4665,7 @@
       "enName": "Grumbill (Orange)",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3955,6 +4678,7 @@
       "enName": "Grumbill (Orange)",
       "combatPower": 4800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3967,6 +4691,7 @@
       "enName": "Grumbill (Pink)",
       "combatPower": 1000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3979,6 +4704,7 @@
       "enName": "Grumbill (Pink)",
       "combatPower": 2000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -3991,6 +4717,7 @@
       "enName": "Grumbill (Pink)",
       "combatPower": 3000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4003,6 +4730,7 @@
       "enName": "Grumbill (Pink)",
       "combatPower": 4000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4015,6 +4743,7 @@
       "enName": "Grumbill (Pink)",
       "combatPower": 5000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4022,16 +4751,19 @@
     },
     {
       "id": "guard-laghodessa",
-      "zhCNName": "",
+      "zhCNName": "警卫肥蜘蛛",
       "zhTWName": "",
       "enName": "Guard Laghodessa",
       "combatPower": 2410,
       "locations": [
         "Baol Infiltration"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "巴尔潜入"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4042,6 +4774,9 @@
       "combatPower": 2240,
       "locations": [
         "Baol Infiltration"
+      ],
+      "zhCNLocations": [
+        "巴尔潜入"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4057,6 +4792,9 @@
       "locations": [
         "Longa Enchanting Arrow (Boss)"
       ],
+      "zhCNLocations": [
+        "伦迦Enchanting Arrow（BOSS）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4071,6 +4809,9 @@
       "locations": [
         "Longa Mysterious (Boss)"
       ],
+      "zhCNLocations": [
+        "伦迦神秘（BOSS）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4083,6 +4824,7 @@
       "enName": "Guardian Pillar",
       "combatPower": 8000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4096,6 +4838,9 @@
       "combatPower": 3000,
       "locations": [
         "Courcle (Exploration)"
+      ],
+      "zhCNLocations": [
+        "克拉格（探险）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4112,6 +4857,10 @@
         "Rano (Muyu Desert",
         "Northeast of the word \"Desert\" in Muyu Desert)"
       ],
+      "zhCNLocations": [
+        "拉诺（穆游沙漠",
+        "东北部 of the word \"沙漠\" in 穆游沙漠）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4124,6 +4873,7 @@
       "enName": "Heathcliff",
       "combatPower": 108000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4139,6 +4889,10 @@
         "Courcle (Lappa",
         "Exploration)"
       ],
+      "zhCNLocations": [
+        "克拉格（Lappa",
+        "探险）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4153,6 +4907,9 @@
       "locations": [
         "Courcle (Rafting Course)"
       ],
+      "zhCNLocations": [
+        "克拉格（Rafting Course）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4166,6 +4923,9 @@
       "combatPower": 2000,
       "locations": [
         "Courcle (Rafting Course)"
+      ],
+      "zhCNLocations": [
+        "克拉格（Rafting Course）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4182,6 +4942,10 @@
         "Courcle (Lappa",
         "Exploration)"
       ],
+      "zhCNLocations": [
+        "克拉格（Lappa",
+        "探险）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4195,6 +4959,9 @@
       "combatPower": 2200,
       "locations": [
         "Courcle (Rafting Course)"
+      ],
+      "zhCNLocations": [
+        "克拉格（Rafting Course）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4211,6 +4978,10 @@
         "Courcle (Lappa",
         "Exploration)"
       ],
+      "zhCNLocations": [
+        "克拉格（Lappa",
+        "探险）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4225,6 +4996,9 @@
       "locations": [
         "Courcle (Rafting Course)"
       ],
+      "zhCNLocations": [
+        "克拉格（Rafting Course）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4232,7 +5006,7 @@
     },
     {
       "id": "hollow-knight-4740-419e7bac",
-      "zhCNName": "",
+      "zhCNName": "地下骑士",
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 4740,
@@ -4240,28 +5014,35 @@
         "Scary Library",
         "Peaca"
       ],
+      "zhCNLocations": [
+        "Scary 图书馆",
+        "皮卡"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "hollow-knight-5000-33a03a3a",
-      "zhCNName": "",
+      "zhCNName": "地下骑士",
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 5000,
       "locations": [
         "Peaca Basic"
       ],
+      "zhCNLocations": [
+        "皮卡初级"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "horse-sprite",
-      "zhCNName": "",
+      "zhCNName": "马光羽",
       "zhTWName": "",
       "enName": "Horse Sprite",
       "combatPower": 1600,
@@ -4271,33 +5052,45 @@
         "Dugald Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "杜加德城堡地下城",
+        "斯利亚布库林城地下城"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "hot-spring-monkey",
-      "zhCNName": "",
+      "zhCNName": "温泉猴子",
       "zhTWName": "",
       "enName": "Hot Spring Monkey",
       "combatPower": 1000,
       "locations": [
         "Zardine (Hot Springs)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（Hot Springs）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "ice-mimic",
-      "zhCNName": "冰宝箱怪",
+      "zhCNName": "冰制宝箱",
       "zhTWName": "冰寶箱怪",
       "enName": "Ice Mimic",
       "combatPower": 1200,
       "locations": [
         "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "帕鲁Snow Crystal"
       ],
       "introducedBy": "G5",
       "isEvent": false,
@@ -4311,6 +5104,7 @@
       "enName": "Ice Slime",
       "combatPower": 5000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4318,7 +5112,7 @@
     },
     {
       "id": "ice-sprite",
-      "zhCNName": "",
+      "zhCNName": "冰光羽",
       "zhTWName": "",
       "enName": "Ice Sprite",
       "combatPower": 1097,
@@ -4328,9 +5122,15 @@
         "Coill Elemental",
         "Ceo Island (Location)"
       ],
+      "zhCNLocations": [
+        "克丽尔普通",
+        "克丽尔Passive Defense",
+        "克丽尔Elemental",
+        "凯欧岛（Location）"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4341,6 +5141,9 @@
       "combatPower": 1200,
       "locations": [
         "Physis (northwest of Silva Forest)"
+      ],
+      "zhCNLocations": [
+        "彼辛斯（northwest of Silva 森林）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4356,6 +5159,9 @@
       "locations": [
         "Physis (Sella Beach)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Sella 海滨）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4370,6 +5176,9 @@
       "locations": [
         "Physis (North of the Reindeer Mark)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（北部 of the Reindeer 标记）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4377,21 +5186,24 @@
     },
     {
       "id": "ice-wyvern",
-      "zhCNName": "",
+      "zhCNName": "冰双足飞龙",
       "zhTWName": "",
       "enName": "Ice Wyvern",
       "combatPower": 3000,
       "locations": [
         "Zardine (skies over Raspa Volcano and Hot Springs)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano and Hot Springs）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "ifrit",
-      "zhCNName": "",
+      "zhCNName": "火神",
       "zhTWName": "",
       "enName": "Ifrit",
       "combatPower": 10000,
@@ -4399,9 +5211,13 @@
         "Connous (Central Longa Desert)",
         "Connous Underground Maze (Center)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（伦迦沙漠中央）",
+        "肯奴斯Underground Maze（Center）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4412,6 +5228,9 @@
       "combatPower": 10000,
       "locations": [
         "Summoned by Monster Summoning Urn"
+      ],
+      "zhCNLocations": [
+        "由其召唤： Monster Summoning Urn"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4427,6 +5246,9 @@
       "locations": [
         "Mykines Cliff in the Dominion of Belvast"
       ],
+      "zhCNLocations": [
+        "Mykines 悬崖 in the Dominion of 贝尔法斯特"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4434,7 +5256,7 @@
     },
     {
       "id": "imp",
-      "zhCNName": "小恶魔",
+      "zhCNName": "小鬼",
       "zhTWName": "小惡魔",
       "enName": "Imp",
       "combatPower": 1044,
@@ -4445,6 +5267,14 @@
         "Albey Red",
         "Albey Goddess",
         "Dunbarton (Northwest)"
+      ],
+      "zhCNLocations": [
+        "巴里Mythril Mine",
+        "巴里Paladin Training",
+        "巴里Spirit",
+        "阿尔贝红色",
+        "阿尔贝女神",
+        "敦巴伦（西北部）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -4460,6 +5290,9 @@
       "locations": [
         "Rabbie Battle Arena"
       ],
+      "zhCNLocations": [
+        "拉比Battle 竞技场"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4467,7 +5300,7 @@
     },
     {
       "id": "incubus",
-      "zhCNName": "",
+      "zhCNName": "男妖",
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
@@ -4477,20 +5310,30 @@
         "Dugald Castle Dungeon (Solo)",
         "Sliab Cuilin Castle Dungeon (Solo)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿布内尔城地下城（单人）",
+        "仙魔城堡地下城（单人）",
+        "杜加德城堡地下城（单人）",
+        "斯利亚布库林城地下城（单人）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "invisible-imp",
-      "zhCNName": "隐形小恶魔",
+      "zhCNName": "透明小鬼",
       "zhTWName": "隱形小惡魔",
       "enName": "Invisible Imp",
       "combatPower": 1044,
       "locations": [
         "Coill Awakening",
         "Coill Elemental"
+      ],
+      "zhCNLocations": [
+        "克丽尔Awakening",
+        "克丽尔Elemental"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -4499,7 +5342,7 @@
     },
     {
       "id": "jackal",
-      "zhCNName": "",
+      "zhCNName": "豺狗",
       "zhTWName": "",
       "enName": "Jackal",
       "combatPower": 973,
@@ -4509,14 +5352,20 @@
         "Coill Normal",
         "Coill Passive Defense"
       ],
+      "zhCNLocations": [
+        "菲奥纳普通",
+        "菲奥纳（Violet）",
+        "克丽尔普通",
+        "克丽尔Passive Defense"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "jungle-millipede",
-      "zhCNName": "",
+      "zhCNName": "密林百脚虫",
       "zhTWName": "",
       "enName": "Jungle Millipede",
       "combatPower": 940,
@@ -4524,9 +5373,13 @@
         "Courcle (Herba Jungle Central",
         "Exploration)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "克拉格（赫尔巴密林中央",
+        "探险）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4537,6 +5390,9 @@
       "combatPower": 3810,
       "locations": [
         "G12 Peaca Secret Lair Dungeon"
+      ],
+      "zhCNLocations": [
+        "G12 皮卡Secret Lair 地下城"
       ],
       "introducedBy": "G3",
       "isEvent": false,
@@ -4552,6 +5408,9 @@
       "locations": [
         "Muyu Desert"
       ],
+      "zhCNLocations": [
+        "穆游沙漠"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4566,6 +5425,9 @@
       "locations": [
         "Connous (Rupes Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（Rupes 沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4573,7 +5435,7 @@
     },
     {
       "id": "king-mimic",
-      "zhCNName": "国王宝箱怪",
+      "zhCNName": "宝箱怪王",
       "zhTWName": "國王寶箱怪",
       "enName": "King Mimic",
       "combatPower": 1069,
@@ -4581,6 +5443,11 @@
         "Barri Brown Fomor Pass",
         "Albey Green",
         "Baol Final"
+      ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证",
+        "阿尔贝绿色",
+        "巴尔最终"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -4596,6 +5463,9 @@
       "locations": [
         "Muyu Desert (fort at midnight)"
       ],
+      "zhCNLocations": [
+        "穆游沙漠（fort at midnight）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4608,6 +5478,7 @@
       "enName": "Large Elsinore Rat",
       "combatPower": 620,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4620,6 +5491,7 @@
       "enName": "Large Elsinore Rat",
       "combatPower": 1240,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4632,6 +5504,7 @@
       "enName": "Large Elsinore Rat",
       "combatPower": 1860,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4644,6 +5517,7 @@
       "enName": "Large Elsinore Rat",
       "combatPower": 2480,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4657,6 +5531,9 @@
       "combatPower": 3100,
       "locations": [
         "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "伊比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -4672,6 +5549,9 @@
       "locations": [
         "Alby Advanced"
       ],
+      "zhCNLocations": [
+        "伊比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4685,6 +5565,9 @@
       "combatPower": 5000,
       "locations": [
         "Elatha's Memory RP"
+      ],
+      "zhCNLocations": [
+        "Elatha's 记忆RP"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -4700,6 +5583,9 @@
       "locations": [
         "Only during the St. Patrick's Day Event (2010) as the boss in the Special Four Leaf Clover Dungeon version of Rabbie Dungeon"
       ],
+      "zhCNLocations": [
+        "Only during the St. Patrick's Day 活动（2010） as the boss in the Special Four Leaf Clover 地下城 version of 拉比地下城"
+      ],
       "introducedBy": "G1",
       "isEvent": true,
       "translationStatus": "missing",
@@ -4712,6 +5598,7 @@
       "enName": "Lightning Slime",
       "combatPower": 5000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4719,16 +5606,19 @@
     },
     {
       "id": "lightning-wyvern",
-      "zhCNName": "",
+      "zhCNName": "雷双足飞龙",
       "zhTWName": "",
       "enName": "Lightning Wyvern",
       "combatPower": 3300,
       "locations": [
         "Zardine (skies over Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4739,6 +5629,9 @@
       "combatPower": 600,
       "locations": [
         "Tara"
+      ],
+      "zhCNLocations": [
+        "塔拉"
       ],
       "introducedBy": "G10",
       "isEvent": false,
@@ -4754,6 +5647,9 @@
       "locations": [
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4766,6 +5662,7 @@
       "enName": "Lost Zombie Soldier",
       "combatPower": 900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4778,6 +5675,7 @@
       "enName": "Lost Zombie Soldier",
       "combatPower": 1800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4790,6 +5688,7 @@
       "enName": "Lost Zombie Soldier",
       "combatPower": 2700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4802,6 +5701,7 @@
       "enName": "Lost Zombie Soldier",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4814,6 +5714,7 @@
       "enName": "Mag Mell Guard Cat (Blue)",
       "combatPower": 5000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4821,12 +5722,15 @@
     },
     {
       "id": "magic-golem",
-      "zhCNName": "魔法魔像",
+      "zhCNName": "魔法石巨人",
       "zhTWName": "魔法魔像",
       "enName": "Magic Golem",
       "combatPower": 1800,
       "locations": [
         "Longa Mysterious Arrow (Boss)"
+      ],
+      "zhCNLocations": [
+        "伦迦神秘Arrow（BOSS）"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -4842,6 +5746,9 @@
       "locations": [
         "Summoned by Monster Summoning Urn"
       ],
+      "zhCNLocations": [
+        "由其召唤： Monster Summoning Urn"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4849,16 +5756,19 @@
     },
     {
       "id": "master-lich",
-      "zhCNName": "",
+      "zhCNName": "怪物死尸",
       "zhTWName": "",
       "enName": "Master Lich",
       "combatPower": 60000,
       "locations": [
         "Peaca Intermediate"
       ],
+      "zhCNLocations": [
+        "皮卡中级"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4868,6 +5778,7 @@
       "enName": "Mata (Monster)",
       "combatPower": 3000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4880,6 +5791,7 @@
       "enName": "Mata (Monster)",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4892,6 +5804,7 @@
       "enName": "Mata (Monster)",
       "combatPower": 9000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4904,6 +5817,7 @@
       "enName": "Mata (Monster)",
       "combatPower": 12000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4911,16 +5825,19 @@
     },
     {
       "id": "metal-bard-skeleton",
-      "zhCNName": "",
+      "zhCNName": "金属吟游骷髅",
       "zhTWName": "",
       "enName": "Metal Bard Skeleton",
       "combatPower": 2664,
       "locations": [
         "Math Advanced"
       ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -4934,7 +5851,12 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝银色",
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -4947,6 +5869,9 @@
       "combatPower": 3000,
       "locations": [
         "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛尔普通（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -4961,6 +5886,9 @@
       "combatPower": 1800,
       "locations": [
         "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "拉比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -4977,6 +5905,10 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -4991,6 +5923,9 @@
       "locations": [
         "Ciar Normal"
       ],
+      "zhCNLocations": [
+        "赛尔普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5004,6 +5939,9 @@
       "combatPower": 259,
       "locations": [
         "Fiodh Normal"
+      ],
+      "zhCNLocations": [
+        "菲奥纳普通"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -5020,6 +5958,10 @@
         "Barri Mythril Mine",
         "Coill Elemental"
       ],
+      "zhCNLocations": [
+        "巴里Mythril Mine",
+        "克丽尔Elemental"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5034,6 +5976,9 @@
       "locations": [
         "Only during the Mabinogi 2nd Anniversary Event at Ladeca (an event map area)"
       ],
+      "zhCNLocations": [
+        "Only during the Mabinogi 2nd 周年活动 at Ladeca（an event map area）"
+      ],
       "introducedBy": "unknown",
       "isEvent": true,
       "translationStatus": "missing",
@@ -5041,7 +5986,7 @@
     },
     {
       "id": "mirror-witch",
-      "zhCNName": "",
+      "zhCNName": "镜子魔女",
       "zhTWName": "",
       "enName": "Mirror Witch",
       "combatPower": 2800,
@@ -5049,37 +5994,47 @@
         "Par Ruins Snow Crystal (Boss)",
         "Par Ruins Mirror of Memory (Boss)"
       ],
+      "zhCNLocations": [
+        "帕鲁遗迹Snow Crystal（BOSS）",
+        "帕鲁遗迹Mirror of Memory（BOSS）"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "nubes-millipede",
-      "zhCNName": "",
+      "zhCNName": "诺贝思双孔",
       "zhTWName": "",
       "enName": "Nubes Millipede",
       "combatPower": 700,
       "locations": [
         "Solea Underground (South)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "索里埃Underground（南部）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "ogre",
-      "zhCNName": "",
+      "zhCNName": "食人魔",
       "zhTWName": "",
       "enName": "Ogre",
       "combatPower": 2400,
       "locations": [
         "Gairech Hills"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "盖尔茨"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5092,6 +6047,11 @@
         "Abb Neagh Castle Dungeon",
         "Sen Mag Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "斯利亚布库林城地下城"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5109,6 +6069,11 @@
         "Barri Spirit Fossil (Boss)",
         "Barri Hidden Dungeon (Boss)"
       ],
+      "zhCNLocations": [
+        "巴里Mythril Mine（BOSS）",
+        "巴里Spirit Fossil（BOSS）",
+        "巴里Hidden 地下城（BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5122,6 +6087,9 @@
       "combatPower": 2980,
       "locations": [
         "Imp's Dream Land Event"
+      ],
+      "zhCNLocations": [
+        "Imp's Dream Land 活动"
       ],
       "introducedBy": "unknown",
       "isEvent": true,
@@ -5138,6 +6106,10 @@
         "Barri Spirit Dungeon (Boss)",
         "Barri Hidden Dungeon (Boss)"
       ],
+      "zhCNLocations": [
+        "巴里Spirit 地下城（BOSS）",
+        "巴里Hidden 地下城（BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5145,26 +6117,32 @@
     },
     {
       "id": "old-ice-mimic",
-      "zhCNName": "",
+      "zhCNName": "破旧的冰制宝箱",
       "zhTWName": "",
       "enName": "Old Ice Mimic",
       "combatPower": 500,
       "locations": [
         "Par Normal"
       ],
+      "zhCNLocations": [
+        "帕鲁普通"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "old-mimic",
-      "zhCNName": "古老宝箱怪",
+      "zhCNName": "旧宝箱怪",
       "zhTWName": "古老寶箱怪",
       "enName": "Old Mimic",
       "combatPower": 281,
       "locations": [
         "Alby Beginner"
+      ],
+      "zhCNLocations": [
+        "伊比新手"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -5173,7 +6151,7 @@
     },
     {
       "id": "otter",
-      "zhCNName": "",
+      "zhCNName": "水獭",
       "zhTWName": "",
       "enName": "Otter",
       "combatPower": 790,
@@ -5182,9 +6160,14 @@
         "Near the Herba Jungle West Mana Tunnel",
         "Near the Pantay Swamp Raft Mana Tunnel"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "北部 of the Cor Village 魔法之门",
+        "附近 the 赫尔巴密林西部魔法之门",
+        "附近 the 潘泰沼泽Raft 魔法之门"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5194,6 +6177,7 @@
       "enName": "Panther",
       "combatPower": 9000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5207,6 +6191,9 @@
       "combatPower": 7000,
       "locations": [
         "Dunbarton (Northwest Fields)"
+      ],
+      "zhCNLocations": [
+        "敦巴伦（西北部Fields）"
       ],
       "introducedBy": "G1",
       "isEvent": true,
@@ -5222,6 +6209,9 @@
       "locations": [
         "Dugald Castle Dungeon (First floor)"
       ],
+      "zhCNLocations": [
+        "杜加德城堡地下城（First floor）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5236,6 +6226,9 @@
       "locations": [
         "Dugald Castle Dungeon (Third floor)"
       ],
+      "zhCNLocations": [
+        "杜加德城堡地下城（Third floor）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5248,6 +6241,7 @@
       "enName": "Piece of Meat",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5260,6 +6254,7 @@
       "enName": "Piece of Meat",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5272,6 +6267,7 @@
       "enName": "Piece of Meat",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5284,6 +6280,7 @@
       "enName": "Piece of Meat",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5297,6 +6294,9 @@
       "combatPower": 1000,
       "locations": [
         "Path to Tara Moongate"
+      ],
+      "zhCNLocations": [
+        "Path to 塔拉月门"
       ],
       "introducedBy": "G10",
       "isEvent": false,
@@ -5312,6 +6312,9 @@
       "locations": [
         "Zardine (West of Calida Lake)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（西部 of Calida Lake）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5326,6 +6329,9 @@
       "locations": [
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5333,30 +6339,36 @@
     },
     {
       "id": "pink-succubus",
-      "zhCNName": "",
+      "zhCNName": "粉红色女妖",
       "zhTWName": "",
       "enName": "Pink Succubus",
       "combatPower": 4000,
       "locations": [
         "Rabbie Advanced (Solo Boss)"
       ],
+      "zhCNLocations": [
+        "拉比高级（单人BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "pirate-red-skeleton",
-      "zhCNName": "",
+      "zhCNName": "海盗红骷髅",
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
       "locations": [
         "Rundal Advanced"
       ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5367,6 +6379,9 @@
       "combatPower": 4600,
       "locations": [
         "Rundal Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "伦达高级困难模式"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -5382,6 +6397,9 @@
       "locations": [
         "Rundal Advanced"
       ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5396,6 +6414,9 @@
       "locations": [
         "Rundal Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达高级困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5409,6 +6430,9 @@
       "combatPower": 1351,
       "locations": [
         "Rundal Normal"
+      ],
+      "zhCNLocations": [
+        "伦达普通"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -5425,6 +6449,10 @@
         "Rundal Normal",
         "Rundal Siren"
       ],
+      "zhCNLocations": [
+        "伦达普通",
+        "伦达赛连"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5439,6 +6467,9 @@
       "locations": [
         "Rundal Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达普通困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5451,6 +6482,7 @@
       "enName": "Pirate Skeleton (Lord)",
       "combatPower": 6000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5465,6 +6497,9 @@
       "locations": [
         "Snaky Energy"
       ],
+      "zhCNLocations": [
+        "蛇之气息"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5472,16 +6507,19 @@
     },
     {
       "id": "poison-succubus",
-      "zhCNName": "",
+      "zhCNName": "毒女妖",
       "zhTWName": "",
       "enName": "Poison Succubus",
       "combatPower": 24864,
       "locations": [
         "Mirror Rabbie Phantasm Dungeon"
       ],
+      "zhCNLocations": [
+        "Mirror 拉比Phantasm 地下城"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5493,6 +6531,10 @@
       "locations": [
         "Karu Forest Ruins",
         "Iria (Treasure Chest)"
+      ],
+      "zhCNLocations": [
+        "卡鲁森林遗迹",
+        "伊利亚（Treasure 宝箱）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5508,6 +6550,9 @@
       "locations": [
         "Karu Glowing Pot Belly Spider"
       ],
+      "zhCNLocations": [
+        "卡鲁Glowing Pot Belly Spider"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5521,6 +6566,9 @@
       "combatPower": 1100,
       "locations": [
         "Karu Forest Ruins"
+      ],
+      "zhCNLocations": [
+        "卡鲁森林遗迹"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5536,6 +6584,9 @@
       "locations": [
         "Karu Pot-Belly Spider's Fang Boss"
       ],
+      "zhCNLocations": [
+        "卡鲁Pot-Belly Spider's Fang BOSS"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5549,6 +6600,9 @@
       "combatPower": 1800,
       "locations": [
         "Karu Pot Belly Spider Leg (Boss)"
+      ],
+      "zhCNLocations": [
+        "卡鲁Pot Belly Spider Leg（BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5564,6 +6618,9 @@
       "locations": [
         "Karu Pot-Belly Spider Pot-Belly (Boss)"
       ],
+      "zhCNLocations": [
+        "卡鲁Pot-Belly Spider Pot-Belly（BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5578,6 +6635,9 @@
       "locations": [
         "Karu Pot-Belly Spider's Venom Sac (Boss)"
       ],
+      "zhCNLocations": [
+        "卡鲁Pot-Belly Spider's Venom Sac（BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5590,6 +6650,7 @@
       "enName": "Python Soldier (Strong)",
       "combatPower": 2550,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5604,6 +6665,9 @@
       "locations": [
         "Dunbarton (Northwest Fields)"
       ],
+      "zhCNLocations": [
+        "敦巴伦（西北部Fields）"
+      ],
       "introducedBy": "G1",
       "isEvent": true,
       "translationStatus": "missing",
@@ -5611,7 +6675,7 @@
     },
     {
       "id": "raccoon",
-      "zhCNName": "",
+      "zhCNName": "浣熊",
       "zhTWName": "",
       "enName": "Raccoon",
       "combatPower": 279,
@@ -5622,14 +6686,21 @@
         "Sliab Cuilin",
         "Corrib Valley"
       ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔汀",
+        "阿布内尔",
+        "斯利亚布库林",
+        "科利布山谷"
+      ],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "rat-man",
-      "zhCNName": "",
+      "zhCNName": "鼠人",
       "zhTWName": "",
       "enName": "Rat Man",
       "combatPower": 849,
@@ -5642,9 +6713,18 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝普通",
+        "阿尔贝绿色",
+        "阿尔贝蓝色",
+        "阿尔贝红色",
+        "阿尔贝银色",
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5655,6 +6735,9 @@
       "combatPower": 1100,
       "locations": [
         "Physis (Northwest of Silva Forest)"
+      ],
+      "zhCNLocations": [
+        "彼辛斯（西北部 of Silva 森林）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5671,6 +6754,10 @@
         "Rano (Karu Forest",
         "north of Snake Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（卡鲁森林",
+        "北侧蛇纹）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5684,6 +6771,9 @@
       "combatPower": 1400,
       "locations": [
         "Courcle (Lappa)"
+      ],
+      "zhCNLocations": [
+        "克拉格（Lappa）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5699,6 +6789,9 @@
       "locations": [
         "Scathach Beach"
       ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5713,6 +6806,9 @@
       "locations": [
         "Scathach Beach"
       ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5720,21 +6816,24 @@
     },
     {
       "id": "red-sand-scorpion",
-      "zhCNName": "",
+      "zhCNName": "红色沙漠蝎",
       "zhTWName": "",
       "enName": "Red Sand Scorpion",
       "combatPower": 550,
       "locations": [
         "Connous (South of Errans Canyon North of the N in Longa Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（南部 of Errans 峡谷北部 of the N in 伦迦沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-skeleton",
-      "zhCNName": "",
+      "zhCNName": "红骷髅",
       "zhTWName": "",
       "enName": "Red Skeleton",
       "combatPower": 1274,
@@ -5742,9 +6841,13 @@
         "Albey Red",
         "Albey Goddess"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝红色",
+        "阿尔贝女神"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5755,6 +6858,9 @@
       "combatPower": 1600,
       "locations": [
         "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "拉比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -5771,6 +6877,10 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5784,6 +6894,9 @@
       "combatPower": 1052,
       "locations": [
         "Math Paladin Training"
+      ],
+      "zhCNLocations": [
+        "玛斯Paladin Training"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -5800,6 +6913,10 @@
         "Tir Chonaill graveyard",
         "Dunbarton"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔 graveyard",
+        "敦巴伦"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5812,6 +6929,7 @@
       "enName": "Red Spider (Abb Neagh)",
       "combatPower": 2547,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5825,6 +6943,9 @@
       "combatPower": 631,
       "locations": [
         "Fiodh Normal"
+      ],
+      "zhCNLocations": [
+        "菲奥纳普通"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -5842,6 +6963,11 @@
         "Ciar Normal Hardmode",
         "Rundal Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比普通困难模式",
+        "赛尔普通困难模式",
+        "伦达普通困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5856,6 +6982,9 @@
       "locations": [
         "Alby Beginner"
       ],
+      "zhCNLocations": [
+        "伊比新手"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -5863,104 +6992,118 @@
     },
     {
       "id": "red-spike-laghodessa",
-      "zhCNName": "",
+      "zhCNName": "红肥蜘蛛",
       "zhTWName": "",
       "enName": "Red Spike Laghodessa",
       "combatPower": 1805,
       "locations": [
         "Ciar Advanced"
       ],
+      "zhCNLocations": [
+        "赛尔高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-succubus",
-      "zhCNName": "",
+      "zhCNName": "红色女妖",
       "zhTWName": "",
       "enName": "Red Succubus",
       "combatPower": 2800,
       "locations": [
         "Rabbie Basic (Solo Boss)"
       ],
+      "zhCNLocations": [
+        "拉比初级（单人BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-sulfur-spider-1120-1a2e9a39",
-      "zhCNName": "",
+      "zhCNName": "红色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 1120,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-sulfur-spider-2240-882b2a7b",
-      "zhCNName": "",
+      "zhCNName": "红色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 2240,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-sulfur-spider-3360-15b81b46",
-      "zhCNName": "",
+      "zhCNName": "红色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 3360,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-sulfur-spider-4480-77c7a632",
-      "zhCNName": "",
+      "zhCNName": "红色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 4480,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-sulfur-spider-6720-8981e3b7",
-      "zhCNName": "",
+      "zhCNName": "红色硫磺蜘蛛",
       "zhTWName": "",
       "enName": "Red Sulfur Spider",
       "combatPower": 6720,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "red-town-rat",
-      "zhCNName": "",
+      "zhCNName": "红鼠",
       "zhTWName": "",
       "enName": "Red Town Rat",
       "combatPower": 1360,
       "locations": [
         "Ciar Advanced"
       ],
+      "zhCNLocations": [
+        "赛尔高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -5971,6 +7114,9 @@
       "combatPower": 2400,
       "locations": [
         "Scathach Beach"
+      ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -5987,6 +7133,10 @@
         "Scathach Beach",
         "Scathach Caverns"
       ],
+      "zhCNLocations": [
+        "斯卡哈海滨",
+        "斯卡哈Caverns"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6002,6 +7152,10 @@
         "Beach of Scathach",
         "Scathach Beach"
       ],
+      "zhCNLocations": [
+        "海滨 of 斯卡哈",
+        "斯卡哈海滨"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6014,6 +7168,7 @@
       "enName": "Royal Castle Rat",
       "combatPower": 1893,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6026,6 +7181,7 @@
       "enName": "Royal Castle Rat",
       "combatPower": 2520,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6040,6 +7196,9 @@
       "locations": [
         "Rundal Siren"
       ],
+      "zhCNLocations": [
+        "伦达赛连"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6053,6 +7212,9 @@
       "combatPower": 1200,
       "locations": [
         "Rundal Basic"
+      ],
+      "zhCNLocations": [
+        "伦达初级"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -6069,6 +7231,10 @@
         "Rundal Basic Hardmode",
         "Rundal Siren Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达初级困难模式",
+        "伦达赛连困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6082,6 +7248,9 @@
       "combatPower": 1200,
       "locations": [
         "Rundal Basic"
+      ],
+      "zhCNLocations": [
+        "伦达初级"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -6097,6 +7266,9 @@
       "locations": [
         "Rundal Siren Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达赛连困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6104,7 +7276,7 @@
     },
     {
       "id": "salamander",
-      "zhCNName": "",
+      "zhCNName": "火蛇",
       "zhTWName": "",
       "enName": "Salamander",
       "combatPower": 5000,
@@ -6115,9 +7287,16 @@
         "Episodes 3",
         "4 and 5"
       ],
+      "zhCNLocations": [
+        "肯奴斯Underground Maze",
+        "由其召唤： 伊弗利特",
+        "莎士比亚篇 2",
+        "第 3 章",
+        "4 and 5"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6127,6 +7306,7 @@
       "enName": "Salamander (Seven Nightmares)",
       "combatPower": 12000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6134,7 +7314,7 @@
     },
     {
       "id": "sand-millipede",
-      "zhCNName": "",
+      "zhCNName": "沙漠百脚虫",
       "zhTWName": "",
       "enName": "Sand Millipede",
       "combatPower": 650,
@@ -6142,9 +7322,13 @@
         "Connous Northeast of Filia",
         "by the Lizard Mark"
       ],
+      "zhCNLocations": [
+        "肯奴斯东北部 of 菲利亚",
+        "在蜥蜴纹"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6158,6 +7342,12 @@
         "Longa Emerald",
         "Longa Topaz",
         "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦紫水晶",
+        "伦迦翡翠",
+        "伦迦黄宝石",
+        "伦迦Enchanting Arrow"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -6173,6 +7363,9 @@
       "locations": [
         "Emain Macha (Square)"
       ],
+      "zhCNLocations": [
+        "艾明马恰（Square）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6186,6 +7379,9 @@
       "combatPower": 2200,
       "locations": [
         "Emain Macha (Square)"
+      ],
+      "zhCNLocations": [
+        "艾明马恰（Square）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -6201,6 +7397,9 @@
       "locations": [
         "Dunbarton (Northwest Fields)"
       ],
+      "zhCNLocations": [
+        "敦巴伦（西北部Fields）"
+      ],
       "introducedBy": "G1",
       "isEvent": true,
       "translationStatus": "missing",
@@ -6213,6 +7412,7 @@
       "enName": "Seafood",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6225,6 +7425,7 @@
       "enName": "Seafood",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6237,6 +7438,7 @@
       "enName": "Seafood",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6249,6 +7451,7 @@
       "enName": "Seafood",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6261,6 +7464,7 @@
       "enName": "Sentry",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6273,6 +7477,7 @@
       "enName": "Sentry",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6285,6 +7490,7 @@
       "enName": "Sephirot",
       "combatPower": 20000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6292,14 +7498,15 @@
     },
     {
       "id": "sewer-rat",
-      "zhCNName": "",
+      "zhCNName": "下水道老鼠",
       "zhTWName": "",
       "enName": "Sewer Rat",
       "combatPower": 2000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6309,6 +7516,7 @@
       "enName": "Shadow Archer (Average)",
       "combatPower": 1050,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6321,6 +7529,7 @@
       "enName": "Shadow Archer (Average)",
       "combatPower": 2100,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6333,6 +7542,7 @@
       "enName": "Shadow Archer (Average)",
       "combatPower": 3150,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6345,6 +7555,7 @@
       "enName": "Shadow Archer (Average)",
       "combatPower": 4200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6357,6 +7568,7 @@
       "enName": "Shadow Archer (Average)",
       "combatPower": 6300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6369,6 +7581,7 @@
       "enName": "Shadow Archer (Strong)",
       "combatPower": 1299,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6381,6 +7594,7 @@
       "enName": "Shadow Archer (Strong)",
       "combatPower": 2598,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6393,6 +7607,7 @@
       "enName": "Shadow Archer (Strong)",
       "combatPower": 3897,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6405,6 +7620,7 @@
       "enName": "Shadow Archer (Strong)",
       "combatPower": 5196,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6417,6 +7633,7 @@
       "enName": "Shadow Archer (Strong)",
       "combatPower": 6495,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6429,6 +7646,7 @@
       "enName": "Shadow Archer (Weak)",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6441,6 +7659,7 @@
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6453,6 +7672,7 @@
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6465,6 +7685,7 @@
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6477,6 +7698,7 @@
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6489,6 +7711,7 @@
       "enName": "Shadow Archer (Weakest)",
       "combatPower": 4000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6501,6 +7724,7 @@
       "enName": "Shadow Commander (Strong)",
       "combatPower": 7600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6508,62 +7732,67 @@
     },
     {
       "id": "shadow-fighter-850-a74e71e2",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 850,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-fighter-1700-61d5dfb2",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 1700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-fighter-2550-b9e7530e",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 2550,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-fighter-3400-79200931",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 3400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-fighter-4250-66b50f2f",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Fighter",
       "combatPower": 4250,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6573,6 +7802,7 @@
       "enName": "Shadow Fighter (Armor)",
       "combatPower": 3800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6585,6 +7815,7 @@
       "enName": "Shadow Fighter (Strong)",
       "combatPower": 5200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6597,6 +7828,7 @@
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 1050,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6609,6 +7841,7 @@
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 2100,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6621,6 +7854,7 @@
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 3150,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6633,6 +7867,7 @@
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 4200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6645,6 +7880,7 @@
       "enName": "Shadow Lancer (Heavy Armor)",
       "combatPower": 6300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6657,6 +7893,7 @@
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6669,6 +7906,7 @@
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 1800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6681,6 +7919,7 @@
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 2700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6693,6 +7932,7 @@
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6705,6 +7945,7 @@
       "enName": "Shadow Lancer (Light Armor Strong)",
       "combatPower": 4500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6717,6 +7958,7 @@
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6729,6 +7971,7 @@
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6741,6 +7984,7 @@
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6753,6 +7997,7 @@
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6765,6 +8010,7 @@
       "enName": "Shadow Lancer (Light Armor)",
       "combatPower": 4000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6772,62 +8018,67 @@
     },
     {
       "id": "shadow-warrior-1249-20d6596d",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 1249,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-warrior-2498-42b329c9",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 2498,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-warrior-3747-981ae8d1",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 3747,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-warrior-4996-7e89899a",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 4996,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "shadow-warrior-7494-98ec26fc",
-      "zhCNName": "",
+      "zhCNName": "暗影战士",
       "zhTWName": "",
       "enName": "Shadow Warrior",
       "combatPower": 7494,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6837,6 +8088,7 @@
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 2300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6849,6 +8101,7 @@
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 4600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6861,6 +8114,7 @@
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 6900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6873,6 +8127,7 @@
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 9200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6885,6 +8140,7 @@
       "enName": "Shadow Wizard (Boss)",
       "combatPower": 13800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6897,6 +8153,7 @@
       "enName": "Shadow Wizard (F)",
       "combatPower": 1300,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6909,6 +8166,7 @@
       "enName": "Shadow Wizard (F)",
       "combatPower": 2600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6921,6 +8179,7 @@
       "enName": "Shadow Wizard (F)",
       "combatPower": 3900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6933,6 +8192,7 @@
       "enName": "Shadow Wizard (F)",
       "combatPower": 5200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6945,6 +8205,7 @@
       "enName": "Shadow Wizard (F)",
       "combatPower": 7800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6952,16 +8213,19 @@
     },
     {
       "id": "short-maned-hyena",
-      "zhCNName": "",
+      "zhCNName": "短鬃毛土狼",
       "zhTWName": "",
       "enName": "Short Maned Hyena",
       "combatPower": 1700,
       "locations": [
         "Muyu Desert"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "穆游沙漠"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -6973,6 +8237,9 @@
       "locations": [
         "Courcle (Savannah) South-west of Mountain Crest mark"
       ],
+      "zhCNLocations": [
+        "克拉格（Savannah） 南部-west of Mountain Crest mark"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -6980,7 +8247,7 @@
     },
     {
       "id": "sickle-laghodessa",
-      "zhCNName": "",
+      "zhCNName": "镰刀蛛",
       "zhTWName": "",
       "enName": "Sickle Laghodessa",
       "combatPower": 1003,
@@ -6988,9 +8255,13 @@
         "Barri Brown Fomor Pass",
         "Albey Dungeon (All except Blue and Red)"
       ],
+      "zhCNLocations": [
+        "巴里Brown 魔族通行证",
+        "阿尔贝地下城（除蓝色、红色外）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7002,6 +8273,9 @@
       "locations": [
         "Ciar Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7009,7 +8283,7 @@
     },
     {
       "id": "siren",
-      "zhCNName": "",
+      "zhCNName": "赛连",
       "zhTWName": "",
       "enName": "Siren",
       "combatPower": 2864,
@@ -7017,9 +8291,13 @@
         "Rundal Siren",
         "Rundal Boss Trial"
       ],
+      "zhCNLocations": [
+        "伦达赛连",
+        "伦达BOSS Trial"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7030,6 +8308,9 @@
       "combatPower": 6441,
       "locations": [
         "Rundal Siren Hardmode"
+      ],
+      "zhCNLocations": [
+        "伦达赛连困难模式"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -7046,6 +8327,10 @@
         "Rabbie Phantasm",
         "Rabbie Phantasm Mirror"
       ],
+      "zhCNLocations": [
+        "拉比Phantasm",
+        "拉比Phantasm Mirror"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7053,7 +8338,7 @@
     },
     {
       "id": "skeleton",
-      "zhCNName": "",
+      "zhCNName": "骷髅",
       "zhTWName": "",
       "enName": "Skeleton",
       "combatPower": 1118,
@@ -7061,9 +8346,13 @@
         "Albey Blue",
         "Gairech Hills (Dragon Ruins)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "阿尔贝蓝色",
+        "盖尔茨（Dragon 遗迹）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7074,6 +8363,9 @@
       "combatPower": 1400,
       "locations": [
         "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "拉比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7088,6 +8380,9 @@
       "combatPower": 2588,
       "locations": [
         "Rundal Normal Hardmode"
+      ],
+      "zhCNLocations": [
+        "伦达普通困难模式"
       ],
       "introducedBy": "G2",
       "isEvent": false,
@@ -7104,6 +8399,10 @@
         "Albey Black Orb",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "阿尔贝黑色宝珠",
+        "阿尔贝女神"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7119,6 +8418,10 @@
         "Albey Red",
         "Albey Goddess"
       ],
+      "zhCNLocations": [
+        "阿尔贝红色",
+        "阿尔贝女神"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7132,6 +8435,9 @@
       "combatPower": 600,
       "locations": [
         "?"
+      ],
+      "zhCNLocations": [
+        "未知"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -7147,6 +8453,9 @@
       "locations": [
         "Math Paladin Training"
       ],
+      "zhCNLocations": [
+        "玛斯Paladin Training"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7161,6 +8470,9 @@
       "locations": [
         "Math Advanced (Removed with Re:Fine Update)"
       ],
+      "zhCNLocations": [
+        "玛斯高级（Removed with Re:Fine Update）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7168,42 +8480,51 @@
     },
     {
       "id": "skeleton-imp",
-      "zhCNName": "",
+      "zhCNName": "小鬼骷髅",
       "zhTWName": "",
       "enName": "Skeleton Imp",
       "combatPower": 1044,
       "locations": [
         "Rabbie Advanced"
       ],
+      "zhCNLocations": [
+        "拉比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "skeleton-laghodessa",
-      "zhCNName": "",
+      "zhCNName": "骷髅蜘蛛",
       "zhTWName": "",
       "enName": "Skeleton Laghodessa",
       "combatPower": 2200,
       "locations": [
         "Rabbie Advanced"
       ],
+      "zhCNLocations": [
+        "拉比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "skeleton-soldier",
-      "zhCNName": "骷髅士兵",
+      "zhCNName": "骷髅战士",
       "zhTWName": "骷髏士兵",
       "enName": "Skeleton Soldier",
       "combatPower": 1754,
       "locations": [
         "Gairech Hill and Reighinalt (Location)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "盖尔茨Hill and Reighinalt（Location）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -7216,6 +8537,9 @@
       "combatPower": 1800,
       "locations": [
         "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "拉比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7231,6 +8555,9 @@
       "locations": [
         "Rabbie Advanced"
       ],
+      "zhCNLocations": [
+        "拉比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7243,6 +8570,7 @@
       "enName": "Skeleton Wolf (Abb Neagh)",
       "combatPower": 3336,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7256,6 +8584,9 @@
       "combatPower": 1600,
       "locations": [
         "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "拉比高级"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7271,6 +8602,9 @@
       "locations": [
         "Rundal Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达普通困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7285,6 +8619,9 @@
       "locations": [
         "Physis (Lunae Valley)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Lunae 山谷）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7292,12 +8629,15 @@
     },
     {
       "id": "small-golem",
-      "zhCNName": "小魔像",
+      "zhCNName": "小石巨人",
       "zhTWName": "小魔像",
       "enName": "Small Golem",
       "combatPower": 2000,
       "locations": [
         "Ciar Beginner (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛尔新手（BOSS）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7313,6 +8653,9 @@
       "locations": [
         "Par Normal"
       ],
+      "zhCNLocations": [
+        "帕鲁普通"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7325,6 +8668,7 @@
       "enName": "Small Shadow Commander",
       "combatPower": 1400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7337,6 +8681,7 @@
       "enName": "Small Shadow Commander",
       "combatPower": 2800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7349,6 +8694,7 @@
       "enName": "Small Shadow Commander",
       "combatPower": 4200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7361,6 +8707,7 @@
       "enName": "Small Shadow Commander",
       "combatPower": 5600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7373,6 +8720,7 @@
       "enName": "Small Sulfur Spider",
       "combatPower": 800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7385,6 +8733,7 @@
       "enName": "Small Sulfur Spider",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7397,6 +8746,7 @@
       "enName": "Small Sulfur Spider",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7409,6 +8759,7 @@
       "enName": "Small Sulfur Spider",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7421,6 +8772,7 @@
       "enName": "Small Sulfur Spider",
       "combatPower": 4000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7428,16 +8780,19 @@
     },
     {
       "id": "small-troll",
-      "zhCNName": "",
+      "zhCNName": "小洞穴巨人",
       "zhTWName": "",
       "enName": "Small Troll",
       "combatPower": 2184,
       "locations": [
         "Math Advanced"
       ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7448,6 +8803,9 @@
       "combatPower": 1118,
       "locations": [
         "Beginner Battle Class I: Defense and Smash"
+      ],
+      "zhCNLocations": [
+        "新手Battle Class I: Defense and Smash"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -7461,6 +8819,7 @@
       "enName": "Snow Golem",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7473,6 +8832,7 @@
       "enName": "Snow Golem",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7485,6 +8845,7 @@
       "enName": "Snow Golem",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7497,6 +8858,7 @@
       "enName": "Snow Golem",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7509,6 +8871,7 @@
       "enName": "Snow Golem",
       "combatPower": 11000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7524,6 +8887,10 @@
         "Par Normal",
         "Par Snow Crystal"
       ],
+      "zhCNLocations": [
+        "帕鲁普通",
+        "帕鲁Snow Crystal"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7531,50 +8898,54 @@
     },
     {
       "id": "snow-troll-1000-0d7d906e",
-      "zhCNName": "",
+      "zhCNName": "雪巨魔",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 1000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "snow-troll-2000-1038664c",
-      "zhCNName": "",
+      "zhCNName": "雪巨魔",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 2000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "snow-troll-3000-3703b5ab",
-      "zhCNName": "",
+      "zhCNName": "雪巨魔",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 3000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "snow-troll-4000-5986f6a8",
-      "zhCNName": "",
+      "zhCNName": "雪巨魔",
       "zhTWName": "",
       "enName": "Snow Troll",
       "combatPower": 4000,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7585,6 +8956,9 @@
       "combatPower": 1500,
       "locations": [
         "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "帕鲁Snow Crystal"
       ],
       "introducedBy": "G5",
       "isEvent": false,
@@ -7600,6 +8974,9 @@
       "locations": [
         "Physis Exploration (Barba Region)"
       ],
+      "zhCNLocations": [
+        "彼辛斯探险（Barba Region）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7612,6 +8989,7 @@
       "enName": "Snowfield Spider",
       "combatPower": 700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7628,6 +9006,12 @@
         "Sen Mag Castle Dungeon",
         "Dugald Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "杜加德城堡地下城",
+        "斯利亚布库林城地下城"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -7646,6 +9030,12 @@
         "Dugald Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
       ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "杜加德城堡地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7663,6 +9053,12 @@
         "Dugald Castle Dungeon",
         "Sliab Cuilin Castle Dungeon"
       ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "仙魔城堡地下城",
+        "杜加德城堡地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7670,50 +9066,54 @@
     },
     {
       "id": "spice-2200-d40b3851",
-      "zhCNName": "",
+      "zhCNName": "佐料",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 2200,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "spice-4400-b84f7e3f",
-      "zhCNName": "",
+      "zhCNName": "佐料",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 4400,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "spice-6600-8ec35630",
-      "zhCNName": "",
+      "zhCNName": "佐料",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 6600,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "spice-8800-996067f4",
-      "zhCNName": "",
+      "zhCNName": "佐料",
       "zhTWName": "",
       "enName": "Spice",
       "combatPower": 8800,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7724,6 +9124,9 @@
       "combatPower": 5620,
       "locations": [
         "Alby Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7739,6 +9142,9 @@
       "locations": [
         "Alby Advanced"
       ],
+      "zhCNLocations": [
+        "伊比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7753,6 +9159,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7760,16 +9169,19 @@
     },
     {
       "id": "spider-ranger",
-      "zhCNName": "",
+      "zhCNName": "蜘蛛骑兵",
       "zhTWName": "",
       "enName": "Spider Ranger",
       "combatPower": 3600,
       "locations": [
         "Alby Advanced"
       ],
+      "zhCNLocations": [
+        "伊比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7780,6 +9192,9 @@
       "combatPower": 6040,
       "locations": [
         "Alby Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7795,6 +9210,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7802,7 +9220,7 @@
     },
     {
       "id": "spike-laghodessa",
-      "zhCNName": "",
+      "zhCNName": "肥蜘蛛",
       "zhTWName": "",
       "enName": "Spike Laghodessa",
       "combatPower": 1190,
@@ -7812,9 +9230,15 @@
         "Albey Blue",
         "Albey Red"
       ],
+      "zhCNLocations": [
+        "拉比初级",
+        "阿尔贝女神",
+        "阿尔贝蓝色",
+        "阿尔贝红色"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7825,6 +9249,9 @@
       "combatPower": 2642,
       "locations": [
         "Ciar Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -7840,6 +9267,9 @@
       "locations": [
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7847,16 +9277,19 @@
     },
     {
       "id": "stone-gargoyle",
-      "zhCNName": "",
+      "zhCNName": "石像翼魔",
       "zhTWName": "",
       "enName": "Stone Gargoyle",
       "combatPower": 3000,
       "locations": [
         "Maiz Normal"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "梅兹普通"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -7867,6 +9300,9 @@
       "combatPower": 4000,
       "locations": [
         "Maiz Stone Gargoyle Glove"
+      ],
+      "zhCNLocations": [
+        "梅兹Stone Gargoyle Glove"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -7882,6 +9318,9 @@
       "locations": [
         "Maiz Stone Gargoyle Pauldron"
       ],
+      "zhCNLocations": [
+        "梅兹Stone Gargoyle Pauldron"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -7894,6 +9333,7 @@
       "enName": "Stone Golem",
       "combatPower": 1600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7906,6 +9346,7 @@
       "enName": "Stone Golem",
       "combatPower": 3200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7918,6 +9359,7 @@
       "enName": "Stone Golem",
       "combatPower": 4800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7930,6 +9372,7 @@
       "enName": "Stone Golem",
       "combatPower": 6400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7942,6 +9385,7 @@
       "enName": "Stone Golem",
       "combatPower": 8000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7949,7 +9393,7 @@
     },
     {
       "id": "stone-mask",
-      "zhCNName": "",
+      "zhCNName": "石像口罩",
       "zhTWName": "",
       "enName": "Stone Mask",
       "combatPower": 1000,
@@ -7959,14 +9403,20 @@
         "Longa Topaz",
         "Longa Enchanting Arrow"
       ],
+      "zhCNLocations": [
+        "伦迦紫水晶",
+        "伦迦翡翠",
+        "伦迦黄宝石",
+        "伦迦Enchanting Arrow"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "stone-mimic",
-      "zhCNName": "石头宝箱怪",
+      "zhCNName": "石像宝箱怪",
       "zhTWName": "石頭寶箱怪",
       "enName": "Stone Mimic",
       "combatPower": 600,
@@ -7974,14 +9424,18 @@
         "Karu Forest Ruins",
         "Maiz Prairie Ruins"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "卡鲁森林遗迹",
+        "梅兹平原遗迹"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "stone-zombie",
-      "zhCNName": "石头僵尸",
+      "zhCNName": "石像蛇神",
       "zhTWName": "石頭殭屍",
       "enName": "Stone Zombie",
       "combatPower": 1100,
@@ -7991,7 +9445,13 @@
         "Karu Final Hit",
         "Saga Episode 2"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "卡鲁普通",
+        "卡鲁Stone Zombie",
+        "卡鲁最终Hit",
+        "莎士比亚篇章 2"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -8004,6 +9464,9 @@
       "combatPower": 2000,
       "locations": [
         "Karu Stone Zombie (Bracelet Boss)"
+      ],
+      "zhCNLocations": [
+        "卡鲁Stone Zombie（Bracelet BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8019,6 +9482,9 @@
       "locations": [
         "Karu Stone Zombie Circlet (Boss)"
       ],
+      "zhCNLocations": [
+        "卡鲁Stone Zombie Circlet（BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8032,6 +9498,9 @@
       "combatPower": 2000,
       "locations": [
         "Karu Stone Zombie (Eye Boss)"
+      ],
+      "zhCNLocations": [
+        "卡鲁Stone Zombie（Eye BOSS）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8047,6 +9516,9 @@
       "locations": [
         "Karu Stone Zombie Headband (Boss)"
       ],
+      "zhCNLocations": [
+        "卡鲁Stone Zombie Headband（BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8061,6 +9533,9 @@
       "locations": [
         "Karu Stone Zombie (Shoulder Accessory Boss)"
       ],
+      "zhCNLocations": [
+        "卡鲁Stone Zombie（Shoulder Accessory BOSS）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8073,6 +9548,7 @@
       "enName": "Strange Book",
       "combatPower": 631,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8085,6 +9561,7 @@
       "enName": "Strange Book",
       "combatPower": 1262,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8097,6 +9574,7 @@
       "enName": "Strange Book",
       "combatPower": 1893,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8109,6 +9587,7 @@
       "enName": "Strange Book",
       "combatPower": 2524,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8121,6 +9600,7 @@
       "enName": "Strange Book",
       "combatPower": 3786,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8136,6 +9616,10 @@
         "Rano (Muyu Desert",
         "South of Sheep Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（穆游沙漠",
+        "南部 of Sheep 标记）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8150,6 +9634,9 @@
       "locations": [
         "Courcle (Savannah) South-west of Mountain Crest mark"
       ],
+      "zhCNLocations": [
+        "克拉格（Savannah） 南部-west of Mountain Crest mark"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8163,6 +9650,9 @@
       "combatPower": 1000,
       "locations": [
         "Rano (South of the word \"Desert\" in Muyu Desert)"
+      ],
+      "zhCNLocations": [
+        "拉诺（南部 of the word \"沙漠\" in 穆游沙漠）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8179,6 +9669,10 @@
         "Rabbie Phantasm",
         "Rabbie Phantasm Mirror"
       ],
+      "zhCNLocations": [
+        "拉比Phantasm",
+        "拉比Phantasm Mirror"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8186,16 +9680,19 @@
     },
     {
       "id": "succubus-kristell",
-      "zhCNName": "",
+      "zhCNName": "女妖 克莉斯特",
       "zhTWName": "",
       "enName": "Succubus Kristell",
       "combatPower": 1250,
       "locations": [
         "Tarlach's Glasses Pouch (Boss)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "塔拉克眼镜袋（BOSS）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8205,7 +9702,8 @@
       "enName": "Sulfur Spider",
       "combatPower": 2340,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -8217,7 +9715,8 @@
       "enName": "Sulfur Spider",
       "combatPower": 3120,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -8231,6 +9730,9 @@
       "locations": [
         "Rundal Dungeon (Temple Knights Lair)"
       ],
+      "zhCNLocations": [
+        "伦达地下城（Temple Knights Lair）"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8243,6 +9745,7 @@
       "enName": "Tethra (Monster)",
       "combatPower": 1893,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8255,6 +9758,7 @@
       "enName": "Town Square Rat",
       "combatPower": 250,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8267,6 +9771,7 @@
       "enName": "Town Square Rat",
       "combatPower": 500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8279,6 +9784,7 @@
       "enName": "Town Square Rat",
       "combatPower": 750,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8291,6 +9797,7 @@
       "enName": "Town Square Rat",
       "combatPower": 1000,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8304,6 +9811,9 @@
       "combatPower": 1118,
       "locations": [
         "Beginner Battle Class I: Defense and Smash"
+      ],
+      "zhCNLocations": [
+        "新手Battle Class I: Defense and Smash"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8319,6 +9829,9 @@
       "locations": [
         "Beginner Battle Class II: Counterattack and Windmill"
       ],
+      "zhCNLocations": [
+        "新手Battle Class II: Counterattack and Windmill"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8332,6 +9845,9 @@
       "combatPower": 1118,
       "locations": [
         "Beginner Battle Class II: Counterattack and Windmill"
+      ],
+      "zhCNLocations": [
+        "新手Battle Class II: Counterattack and Windmill"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -8347,6 +9863,9 @@
       "locations": [
         "Rundal Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伦达普通困难模式"
+      ],
       "introducedBy": "G2",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8361,6 +9880,9 @@
       "locations": [
         "Cursed Labyrinth"
       ],
+      "zhCNLocations": [
+        "被诅咒的地下迷宫"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8368,16 +9890,19 @@
     },
     {
       "id": "troll",
-      "zhCNName": "",
+      "zhCNName": "洞穴巨人",
       "zhTWName": "",
       "enName": "Troll",
       "combatPower": 1720,
       "locations": [
         "Gairech Hills (Reighinalt)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "盖尔茨（Reighinalt）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8389,6 +9914,9 @@
       "locations": [
         "Silva Forest"
       ],
+      "zhCNLocations": [
+        "Silva 森林"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8396,50 +9924,54 @@
     },
     {
       "id": "vegetable-2200-66fb977f",
-      "zhCNName": "",
+      "zhCNName": "蔬菜",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 2200,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "vegetable-4400-402c2c9b",
-      "zhCNName": "",
+      "zhCNName": "蔬菜",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 4400,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "vegetable-6600-fc457ca9",
-      "zhCNName": "",
+      "zhCNName": "蔬菜",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 6600,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "vegetable-8800-2dd24a20",
-      "zhCNName": "",
+      "zhCNName": "蔬菜",
       "zhTWName": "",
       "enName": "Vegetable",
       "combatPower": 8800,
       "locations": [],
-      "introducedBy": "unknown",
+      "zhCNLocations": [],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8451,6 +9983,10 @@
       "locations": [
         "Connous (Rupes Desert",
         "Neres Plateau)"
+      ],
+      "zhCNLocations": [
+        "肯奴斯（Rupes 沙漠",
+        "内勒斯台地）"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -8466,6 +10002,9 @@
       "locations": [
         "Connous (Near the Scorpion Mark)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（附近 the Scorpion 标记）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8478,6 +10017,7 @@
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 1286,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8490,6 +10030,7 @@
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 2572,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8502,6 +10043,7 @@
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 3858,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8514,6 +10056,7 @@
       "enName": "Verona Dark Skeleton Soldier",
       "combatPower": 5144,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8526,6 +10069,7 @@
       "enName": "Verona Ghoul",
       "combatPower": 1200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8538,6 +10082,7 @@
       "enName": "Verona Ghoul",
       "combatPower": 2400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8550,6 +10095,7 @@
       "enName": "Verona Ghoul",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8562,6 +10108,7 @@
       "enName": "Verona Ghoul",
       "combatPower": 4800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8574,6 +10121,7 @@
       "enName": "Violent Dire Wolf",
       "combatPower": 3500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8586,6 +10134,9 @@
       "enName": "Violent Neid",
       "combatPower": 3500,
       "locations": [
+        "G22 To rise against misfortune"
+      ],
+      "zhCNLocations": [
         "G22 To rise against misfortune"
       ],
       "introducedBy": "unknown",
@@ -8602,6 +10153,9 @@
       "locations": [
         "Zardine (Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（Raspa Volcano）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8617,6 +10171,10 @@
         "Threat in Renes",
         "Zardine (Pera Volcano near Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "Threat in 雷内斯",
+        "扎尔丁（Pera Volcano 附近Raspa Volcano）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8624,30 +10182,36 @@
     },
     {
       "id": "volcano-rock-scorpion",
-      "zhCNName": "",
+      "zhCNName": "火山岩蝎子",
       "zhTWName": "",
       "enName": "Volcano Rock Scorpion",
       "combatPower": 1950,
       "locations": [
         "Zardine (Raspa Volcano)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（Raspa Volcano）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "volcano-wolf",
-      "zhCNName": "",
+      "zhCNName": "火山狼",
       "zhTWName": "",
       "enName": "Volcano Wolf",
       "combatPower": 940,
       "locations": [
         "Zardine (Next to Hot Springs)"
       ],
+      "zhCNLocations": [
+        "扎尔丁（Next to Hot Springs）"
+      ],
       "introducedBy": "G8",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8657,6 +10221,7 @@
       "enName": "Water (Monster)",
       "combatPower": 2200,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8669,6 +10234,7 @@
       "enName": "Water (Monster)",
       "combatPower": 4400,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8681,6 +10247,7 @@
       "enName": "Water (Monster)",
       "combatPower": 6600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8693,6 +10260,7 @@
       "enName": "Water (Monster)",
       "combatPower": 8800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8707,6 +10275,9 @@
       "locations": [
         "Path from Tara to Blago Prairie"
       ],
+      "zhCNLocations": [
+        "Path from 塔拉 to Blago 平原"
+      ],
       "introducedBy": "G10",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8714,21 +10285,24 @@
     },
     {
       "id": "weak-ghost",
-      "zhCNName": "",
+      "zhCNName": "약한 고스트",
       "zhTWName": "",
       "enName": "Weak Ghost",
       "combatPower": 800,
       "locations": [
         "(Chest Event)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "宝箱活动"
+      ],
+      "introducedBy": "G13",
       "isEvent": true,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "wendigo",
-      "zhCNName": "",
+      "zhCNName": "袁迪",
       "zhTWName": "",
       "enName": "Wendigo",
       "combatPower": 2200,
@@ -8736,14 +10310,18 @@
         "Par Snow Crystal (Boss)",
         "Par Ruins Mirror of Memory (Boss)"
       ],
+      "zhCNLocations": [
+        "帕鲁Snow Crystal（BOSS）",
+        "帕鲁遗迹Mirror of Memory（BOSS）"
+      ],
       "introducedBy": "G5",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "werewolf",
-      "zhCNName": "",
+      "zhCNName": "狼人",
       "zhTWName": "",
       "enName": "Werewolf",
       "combatPower": 1575,
@@ -8754,9 +10332,16 @@
         "Albey Black Orb",
         "Fiodh (Violet)"
       ],
+      "zhCNLocations": [
+        "阿尔贝普通",
+        "阿尔贝红色",
+        "阿尔贝银色",
+        "阿尔贝黑色宝珠",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8768,6 +10353,9 @@
       "locations": [
         "Rano (Northern Muyu Desert)"
       ],
+      "zhCNLocations": [
+        "拉诺（Northern 穆游沙漠）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8775,7 +10363,7 @@
     },
     {
       "id": "white-dire-wolf",
-      "zhCNName": "白色恐狼",
+      "zhCNName": "白色恶狼",
       "zhTWName": "白色恐狼",
       "enName": "White Dire Wolf",
       "combatPower": 1015,
@@ -8783,7 +10371,11 @@
         "Dugald Aisle",
         "Gairech Hills"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "杜加德走廊",
+        "盖尔茨"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "mabinogi-world"
@@ -8798,6 +10390,10 @@
         "Dugald Aisle",
         "Gairech Hills"
       ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "盖尔茨"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8805,16 +10401,19 @@
     },
     {
       "id": "white-mummy-servant",
-      "zhCNName": "",
+      "zhCNName": "白色木乃伊学者",
       "zhTWName": "",
       "enName": "White Mummy Servant",
       "combatPower": 3500,
       "locations": [
         "Longa Mysterious Arrow (Floor 3)"
       ],
+      "zhCNLocations": [
+        "伦迦神秘Arrow（Floor 3）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8826,6 +10425,9 @@
       "locations": [
         "Barri Advanced"
       ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8833,91 +10435,109 @@
     },
     {
       "id": "white-poison-snake",
-      "zhCNName": "",
+      "zhCNName": "白色毒蛇",
       "zhTWName": "",
       "enName": "White Poison Snake",
       "combatPower": 1500,
       "locations": [
         "Fiodh Advanced"
       ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-prison-zombie",
-      "zhCNName": "",
+      "zhCNName": "白色冰霜蛇神",
       "zhTWName": "",
       "enName": "White Prison Zombie",
       "combatPower": 10000,
       "locations": [
         "Connous (Metus)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（梅图斯）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-python",
-      "zhCNName": "",
+      "zhCNName": "白蛇",
       "zhTWName": "",
       "enName": "White Python",
       "combatPower": 1600,
       "locations": [
         "Longa Emerald"
       ],
+      "zhCNLocations": [
+        "伦迦翡翠"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-reindeer",
-      "zhCNName": "",
+      "zhCNName": "白鹿",
       "zhTWName": "",
       "enName": "White Reindeer",
       "combatPower": 1100,
       "locations": [
         "Physis (Lunae Valley)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（Lunae 山谷）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-rock-scorpion",
-      "zhCNName": "",
+      "zhCNName": "白色岩石蝎",
       "zhTWName": "",
       "enName": "White Rock Scorpion",
       "combatPower": 1300,
       "locations": [
         "Connous (Rupes Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（Rupes 沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-snake-1005-9bb7af14",
-      "zhCNName": "",
+      "zhCNName": "白蛇",
       "zhTWName": "",
       "enName": "White Snake",
       "combatPower": 1005,
       "locations": [
         "Fiodh Normal"
       ],
+      "zhCNLocations": [
+        "菲奥纳普通"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-snake-1086-6d959ac6",
-      "zhCNName": "",
+      "zhCNName": "白蛇",
       "zhTWName": "",
       "enName": "White Snake",
       "combatPower": 1086,
@@ -8927,9 +10547,15 @@
         "Albey Goddess",
         "Fiodh (Violet)"
       ],
+      "zhCNLocations": [
+        "阿尔贝红色",
+        "阿尔贝银色",
+        "阿尔贝女神",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -8940,6 +10566,9 @@
       "combatPower": 2454,
       "locations": [
         "Ciar Advanced Hardmode"
+      ],
+      "zhCNLocations": [
+        "赛尔高级困难模式"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -8960,6 +10589,14 @@
         "Connous (near the Lizard Mark and Spider Mark)",
         "Connous Underground Maze"
       ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "艾明马恰",
+        "索里埃",
+        "肯奴斯（附近 the 蜥蜴纹 and Spider 标记）",
+        "肯奴斯Underground Maze"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8973,6 +10610,9 @@
       "combatPower": 301,
       "locations": [
         "Alby Normal"
+      ],
+      "zhCNLocations": [
+        "伊比普通"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -8988,6 +10628,9 @@
       "locations": [
         "Alby Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比普通困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -8995,16 +10638,19 @@
     },
     {
       "id": "white-spider-wasp",
-      "zhCNName": "",
+      "zhCNName": "白马蜂",
       "zhTWName": "",
       "enName": "White Spider Wasp",
       "combatPower": 1900,
       "locations": [
         "Alby Advanced"
       ],
+      "zhCNLocations": [
+        "伊比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -9016,6 +10662,9 @@
       "locations": [
         "Alby Normal Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比普通困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9023,30 +10672,36 @@
     },
     {
       "id": "white-succubus",
-      "zhCNName": "",
+      "zhCNName": "白色女妖",
       "zhTWName": "",
       "enName": "White Succubus",
       "combatPower": 4000,
       "locations": [
         "Rabbie Advanced (Solo Boss)"
       ],
+      "zhCNLocations": [
+        "拉比高级（单人BOSS）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "white-warg",
-      "zhCNName": "",
+      "zhCNName": "白色森林狼",
       "zhTWName": "",
       "enName": "White Warg",
       "combatPower": 1500,
       "locations": [
         "Physis (Lunae Valley North of Winged Horse Mark)"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯（Lunae 山谷北部 of Winged Horse 标记）"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -9057,6 +10712,9 @@
       "combatPower": 829,
       "locations": [
         "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -9072,6 +10730,9 @@
       "locations": [
         "Rabbie Battle Arena"
       ],
+      "zhCNLocations": [
+        "拉比Battle 竞技场"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9085,6 +10746,9 @@
       "combatPower": 1900,
       "locations": [
         "Rano (Northwestern and Southeastern Muyu Desert)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Northwestern and Southeastern 穆游沙漠）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9101,6 +10765,10 @@
         "Rano (Muyu Desert",
         "South of Sheep Mark)"
       ],
+      "zhCNLocations": [
+        "拉诺（穆游沙漠",
+        "南部 of Sheep 标记）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9108,30 +10776,36 @@
     },
     {
       "id": "wight-3700-7241842e",
-      "zhCNName": "",
+      "zhCNName": "食尸鬼",
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 3700,
       "locations": [
         "Peaca Normal"
       ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "wight-4000-f3d2054a",
-      "zhCNName": "",
+      "zhCNName": "食尸鬼",
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 4000,
       "locations": [
         "Peaca Basic"
       ],
+      "zhCNLocations": [
+        "皮卡初级"
+      ],
       "introducedBy": "G3",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -9142,6 +10816,9 @@
       "combatPower": 2680,
       "locations": [
         "Scathach Beach (Forest of Temptation)"
+      ],
+      "zhCNLocations": [
+        "斯卡哈海滨（森林 of Temptation）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9156,6 +10833,9 @@
       "combatPower": 3650,
       "locations": [
         "Scathach Beach"
+      ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9176,6 +10856,14 @@
         "Dunbarton",
         "Gairech Hills"
       ],
+      "zhCNLocations": [
+        "巴里黑色魔族通行证（BOSS）",
+        "巴里Brown 魔族通行证（BOSS）",
+        "阿尔贝红色",
+        "杜加德走廊",
+        "敦巴伦",
+        "盖尔茨"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9189,6 +10877,9 @@
       "combatPower": 1559,
       "locations": [
         "Fiodh Normal"
+      ],
+      "zhCNLocations": [
+        "菲奥纳普通"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -9204,6 +10895,9 @@
       "locations": [
         "Alby Advanced Hardmode"
       ],
+      "zhCNLocations": [
+        "伊比高级困难模式"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9218,6 +10912,9 @@
       "locations": [
         "Rano (Central Muyu Desert)"
       ],
+      "zhCNLocations": [
+        "拉诺（中央穆游沙漠）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9225,49 +10922,58 @@
     },
     {
       "id": "wood-jackal",
-      "zhCNName": "",
+      "zhCNName": "木豺狗",
       "zhTWName": "",
       "enName": "Wood Jackal",
       "combatPower": 840,
       "locations": [
         "Fiodh Intermediate"
       ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "yellow-spider-wasp",
-      "zhCNName": "",
+      "zhCNName": "黄马蜂",
       "zhTWName": "",
       "enName": "Yellow Spider Wasp",
       "combatPower": 1500,
       "locations": [
         "Alby Advanced"
       ],
+      "zhCNLocations": [
+        "伊比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "yellow-succubus",
-      "zhCNName": "",
+      "zhCNName": "黄色女妖",
       "zhTWName": "",
       "enName": "Yellow Succubus",
       "combatPower": 4000,
       "locations": [
         "Rabbie Advanced"
       ],
+      "zhCNLocations": [
+        "拉比高级"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
       "id": "yeti",
-      "zhCNName": "",
+      "zhCNName": "雪人",
       "zhTWName": "",
       "enName": "Yeti",
       "combatPower": 10000,
@@ -9280,9 +10986,18 @@
         "North of Sella Beach",
         "South of Sella Beach"
       ],
-      "introducedBy": "unknown",
+      "zhCNLocations": [
+        "彼辛斯",
+        "西部 of the Unflyable Bird 标记",
+        "西北部 of Silva 森林",
+        "东南部 of Lunae 山谷",
+        "南部 of Fruited Tree Landmark",
+        "北部 of Sella 海滨",
+        "南部 of Sella 海滨"
+      ],
+      "introducedBy": "G13",
       "isEvent": false,
-      "translationStatus": "missing",
+      "translationStatus": "confirmed",
       "source": "mabinogi-world"
     },
     {
@@ -9293,6 +11008,9 @@
       "combatPower": 10000,
       "locations": [
         "Summoned by Monster Summoning Urn"
+      ],
+      "zhCNLocations": [
+        "由其召唤： Monster Summoning Urn"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9308,6 +11026,9 @@
       "locations": [
         "Connous (East Longa Desert)"
       ],
+      "zhCNLocations": [
+        "肯奴斯（东部伦迦沙漠）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9321,6 +11042,9 @@
       "combatPower": 796,
       "locations": [
         "Dunbarton (Eastern and Northern Fields)"
+      ],
+      "zhCNLocations": [
+        "敦巴伦（Eastern and Northern Fields）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -9336,6 +11060,9 @@
       "locations": [
         "Physis (Sella Beach)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Sella 海滨）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9349,6 +11076,9 @@
       "combatPower": 1000,
       "locations": [
         "Longa Normal"
+      ],
+      "zhCNLocations": [
+        "伦迦普通"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -9364,6 +11094,9 @@
       "locations": [
         "Connous"
       ],
+      "zhCNLocations": [
+        "肯奴斯"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9378,6 +11111,9 @@
       "locations": [
         "Physis (Barba Basin)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Barba Basin）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9391,6 +11127,9 @@
       "combatPower": 800,
       "locations": [
         "Physis (Near Whirlpool Mark)"
+      ],
+      "zhCNLocations": [
+        "彼辛斯（附近Whirlpool 标记）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9407,6 +11146,10 @@
         "Rano (outside Qilla Base Camp)",
         "Connous (East of Filia)"
       ],
+      "zhCNLocations": [
+        "拉诺（外部Qilla Base Camp）",
+        "肯奴斯（东部 of 菲利亚）"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9421,6 +11164,9 @@
       "locations": [
         "Muyu Desert"
       ],
+      "zhCNLocations": [
+        "穆游沙漠"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9434,6 +11180,9 @@
       "combatPower": 160,
       "locations": [
         "Alby Malcolm's Ring"
+      ],
+      "zhCNLocations": [
+        "伊比Malcolm's Ring"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -9450,6 +11199,10 @@
         "Gairech Hills",
         "Dunbarton (spawns with field boss)"
       ],
+      "zhCNLocations": [
+        "盖尔茨",
+        "敦巴伦（spawns with field boss）"
+      ],
       "introducedBy": "G1",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9464,6 +11217,9 @@
       "locations": [
         "Physis (Sella Beach)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Sella 海滨）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9477,6 +11233,9 @@
       "combatPower": 600,
       "locations": [
         "Rano (outside Qilla Base Camp)"
+      ],
+      "zhCNLocations": [
+        "拉诺（外部Qilla Base Camp）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9496,6 +11255,13 @@
         "Abb Neagh",
         "Sliab Cuilin"
       ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "森林 of Souls",
+        "塔汀",
+        "阿布内尔",
+        "斯利亚布库林"
+      ],
       "introducedBy": "G9",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9510,6 +11276,9 @@
       "locations": [
         "Physis (Northwest of Silva Forest)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（西北部 of Silva 森林）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9523,6 +11292,9 @@
       "combatPower": 1500,
       "locations": [
         "Scathach Beach"
+      ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9539,6 +11311,10 @@
         "Connous Northeast of Filia",
         "by the Lizard Mark"
       ],
+      "zhCNLocations": [
+        "肯奴斯东北部 of 菲利亚",
+        "在蜥蜴纹"
+      ],
       "introducedBy": "G4",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9552,6 +11328,9 @@
       "combatPower": 600,
       "locations": [
         "Longa Normal"
+      ],
+      "zhCNLocations": [
+        "伦迦普通"
       ],
       "introducedBy": "G4",
       "isEvent": false,
@@ -9567,6 +11346,9 @@
       "locations": [
         "Silva Forest"
       ],
+      "zhCNLocations": [
+        "Silva 森林"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9580,6 +11362,9 @@
       "combatPower": 1500,
       "locations": [
         "Scathach Beach"
+      ],
+      "zhCNLocations": [
+        "斯卡哈海滨"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9595,6 +11380,9 @@
       "locations": [
         "Physis (Lunae Valley)"
       ],
+      "zhCNLocations": [
+        "彼辛斯（Lunae 山谷）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9609,19 +11397,8 @@
       "locations": [
         "Physis (Reus River)"
       ],
-      "introducedBy": "unknown",
-      "isEvent": false,
-      "translationStatus": "missing",
-      "source": "mabinogi-world"
-    },
-    {
-      "id": "zebra",
-      "zhCNName": "",
-      "zhTWName": "",
-      "enName": "Zebra",
-      "combatPower": 1420,
-      "locations": [
-        "Courcle (Cenae Meadows)"
+      "zhCNLocations": [
+        "彼辛斯（Reus River）"
       ],
       "introducedBy": "unknown",
       "isEvent": false,
@@ -9629,14 +11406,35 @@
       "source": "mabinogi-world"
     },
     {
+      "id": "zebra",
+      "zhCNName": "斑马",
+      "zhTWName": "",
+      "enName": "Zebra",
+      "combatPower": 1420,
+      "locations": [
+        "Courcle (Cenae Meadows)"
+      ],
+      "zhCNLocations": [
+        "克拉格（塞奈草原）"
+      ],
+      "introducedBy": "G13",
+      "isEvent": false,
+      "translationStatus": "confirmed",
+      "source": "mabinogi-world"
+    },
+    {
       "id": "zombie",
-      "zhCNName": "僵尸",
+      "zhCNName": "丧尸",
       "zhTWName": "殭屍",
       "enName": "Zombie",
       "combatPower": 2090,
       "locations": [
         "Tir Chonaill (Another World)",
         "Dunbarton (Halloween 2008 Event)"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔（Another World）",
+        "敦巴伦（万圣节 2008 活动）"
       ],
       "introducedBy": "G1",
       "isEvent": false,
@@ -9652,6 +11450,9 @@
       "locations": [
         "Muyu Desert (fort)"
       ],
+      "zhCNLocations": [
+        "穆游沙漠（fort）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9666,6 +11467,9 @@
       "locations": [
         "Muyu Desert (fort)"
       ],
+      "zhCNLocations": [
+        "穆游沙漠（fort）"
+      ],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "missing",
@@ -9678,6 +11482,7 @@
       "enName": "Zombie Soldier",
       "combatPower": 900,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9690,6 +11495,7 @@
       "enName": "Zombie Soldier",
       "combatPower": 1800,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9702,6 +11508,7 @@
       "enName": "Zombie Soldier",
       "combatPower": 2700,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9714,6 +11521,7 @@
       "enName": "Zombie Soldier",
       "combatPower": 3600,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9726,6 +11534,7 @@
       "enName": "Zombie Soldier",
       "combatPower": 4500,
       "locations": [],
+      "zhCNLocations": [],
       "introducedBy": "unknown",
       "isEvent": false,
       "translationStatus": "confirmed",

@@ -190,7 +190,9 @@
       return true;
     }
 
-    return (monster.locations || []).some((location) => normalizeSearchText(location).includes(query));
+    return [...(monster.locations || []), ...(monster.zhCNLocations || [])].some((location) =>
+      normalizeSearchText(location).includes(query),
+    );
   }
 
   function normalizeSearchText(value) {

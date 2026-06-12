@@ -26,7 +26,8 @@
       zhTWName: '紅蜘蛛',
       enName: 'Red Spider',
       combatPower: 140,
-      locations: ['艾菲地下城'],
+      locations: ['Alby Dungeon'],
+      zhCNLocations: ['伊比地下城'],
       introducedBy: 'G1',
       isEvent: false,
       translationStatus: 'autoConverted',
@@ -196,7 +197,8 @@
     expectEqual(filterMonsters(monsters, filter({ nameQuery: '红蜘蛛' }))[0].id, 'red-spider');
     expectEqual(filterMonsters(monsters, filter({ nameQuery: '紅蜘蛛' }))[0].id, 'red-spider');
     expectEqual(filterMonsters(monsters, filter({ nameQuery: 'gray' }))[0].id, 'gray-wolf');
-    expectEqual(filterMonsters(monsters, filter({ locationQuery: '艾菲' }))[0].id, 'red-spider');
+    expectEqual(filterMonsters(monsters, filter({ locationQuery: 'alby' }))[0].id, 'red-spider');
+    expectEqual(filterMonsters(monsters, filter({ locationQuery: '伊比' }))[0].id, 'red-spider');
   });
 
   test('monster filter can limit by translation status', () => {

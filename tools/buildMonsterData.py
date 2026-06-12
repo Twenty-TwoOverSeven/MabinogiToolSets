@@ -12,6 +12,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
@@ -170,9 +171,222 @@ VERSION_HINTS = [
 
 EVENT_HINTS = ("event", "halloween", "christmas", "anniversary")
 
+LOCATION_EXACT_ZH_CN = {
+    "?": "未知",
+    "(Chest Event)": "宝箱活动",
+    "Avalon (South of Outskirts of Avalon moongate)": "阿瓦隆（阿瓦隆外围月门南侧）",
+    "Albey Dungeon (All except Blue and Red)": "阿尔贝地下城（除蓝色、红色外）",
+    "Connous (Central Longa Desert)": "肯奴斯（伦迦沙漠中央）",
+    "Courcle (Cenae Meadows)": "克拉格（塞奈草原）",
+    "Dunbarton (Dunbarton Library during G1 Final Quest)": "敦巴伦（G1 最终任务的敦巴伦图书馆）",
+    "Tir Chonaill (Past)": "迪尔科内尔（过去）",
+}
+
+LOCATION_TERM_ZH_CN = {
+    "Abb Neagh Castle Dungeon": "阿布内尔城地下城",
+    "Abb Neagh Castle": "阿布内尔城",
+    "Abb Neagh": "阿布内尔",
+    "Alby": "伊比",
+    "Albey": "阿尔贝",
+    "Avalon": "阿瓦隆",
+    "Avon": "埃文",
+    "Baol": "巴尔",
+    "Barri": "巴里",
+    "Bangor": "班格",
+    "Ciar": "赛尔",
+    "Ceo Island": "凯欧岛",
+    "Coill": "克丽尔",
+    "Connous": "肯奴斯",
+    "Corrib Valley": "科利布山谷",
+    "Corrib": "科利布",
+    "Courcle": "克拉格",
+    "Cursed Labyrinth": "被诅咒的地下迷宫",
+    "Episodes 3": "第 3 章",
+    "Dugald Aisle": "杜加德走廊",
+    "Dugald Castle Dungeon": "杜加德城堡地下城",
+    "Dunbarton": "敦巴伦",
+    "Emain Macha": "艾明马恰",
+    "Filia": "菲利亚",
+    "Fiodh": "菲奥纳",
+    "Gairech Hills": "盖尔茨",
+    "Gairech": "盖尔茨",
+    "Herba Jungle": "赫尔巴密林",
+    "Iria": "伊利亚",
+    "Kaypi Canyon": "凯皮峡谷",
+    "Karu Forest": "卡鲁森林",
+    "Karu": "卡鲁",
+    "Longa Desert": "伦迦沙漠",
+    "Longa": "伦迦",
+    "Maiz Prairie": "梅兹平原",
+    "Maiz": "梅兹",
+    "Math": "玛斯",
+    "Metus": "梅图斯",
+    "Morva Aisle": "莫尔巴走廊",
+    "Muyu Desert": "穆游沙漠",
+    "Neres Plateau": "内勒斯台地",
+    "Nekojima": "猫岛",
+    "Osna Sail": "奥斯纳赛尔",
+    "Outskirts of Avalon": "阿瓦隆外围",
+    "Pantay Swamp": "潘泰沼泽",
+    "Par": "帕鲁",
+    "Peaca": "皮卡",
+    "Physis": "彼辛斯",
+    "Rabbie": "拉比",
+    "Rano": "拉诺",
+    "Rat Island": "老鼠岛",
+    "Renes": "雷内斯",
+    "Rundal": "伦达",
+    "Scathach Beach": "斯卡哈海滨",
+    "Scathach": "斯卡哈",
+    "Sen Mag Castle Dungeon": "仙魔城堡地下城",
+    "Sen Mag": "仙魔平原",
+    "Sliab Cuilin": "斯利亚布库林",
+    "Snake Mark": "蛇纹",
+    "Snaky Energy": "蛇之气息",
+    "Solea": "索里埃",
+    "Taillteann": "塔汀",
+    "Tara": "塔拉",
+    "Tarlach's Glasses Pouch": "塔拉克眼镜袋",
+    "Tarlach": "塔拉克",
+    "Tir Chonaill": "迪尔科内尔",
+    "Vales": "巴勒斯",
+    "Zardine": "扎尔丁",
+    "Belvast": "贝尔法斯特",
+    "Ifrit": "伊弗利特",
+    "History's Curtain Call": "历史的谢幕",
+    "Saga Episode": "莎士比亚篇章",
+    "Saga": "莎士比亚篇",
+    "Shadow Mission": "影子任务",
+    "Theater Mission": "剧场任务",
+    "Theater Missions": "剧场任务",
+    "Dungeon": "地下城",
+    "Ruins": "遗迹",
+    "Castle": "城",
+    "Library": "图书馆",
+    "Moongate": "月门",
+    "moongate": "月门",
+    "Field": "野外",
+    "Forest": "森林",
+    "Desert": "沙漠",
+    "Prairie": "平原",
+    "Beach": "海滨",
+    "Cave": "洞穴",
+    "Arena": "竞技场",
+    "Cliff": "悬崖",
+    "Canyon": "峡谷",
+    "Valley": "山谷",
+    "Jungle": "密林",
+    "Swamp": "沼泽",
+    "Island": "岛",
+    "Plateau": "台地",
+    "Beginner": "新手",
+    "Basic": "初级",
+    "Intermediate": "中级",
+    "Advanced": "高级",
+    "Hardmode": "困难模式",
+    "Hard Mode": "困难模式",
+    "Normal": "普通",
+    "Lower": "低级",
+    "Low": "低级",
+    "Boss": "BOSS",
+    "Final": "最终",
+    "Solo": "单人",
+    "Goddess": "女神",
+    "Infiltration": "潜入",
+    "Siren": "赛连",
+    "Mysterious": "神秘",
+    "Black Fomor Pass": "黑色魔族通行证",
+    "Fomor Pass": "魔族通行证",
+    "Red Gem": "红宝石",
+    "Blue Gem": "蓝宝石",
+    "Yellow Gem": "黄宝石",
+    "Green Gem": "绿宝石",
+    "Emerald": "翡翠",
+    "Amethyst": "紫水晶",
+    "Topaz": "黄宝石",
+    "Ruby": "红宝石",
+    "Jasper": "碧玉",
+    "Black Orb": "黑色宝珠",
+    "Blue Orb": "蓝色宝珠",
+    "Green Orb": "绿色宝珠",
+    "Red Orb": "红色宝珠",
+    "Silver Orb": "银色宝珠",
+    "Black": "黑色",
+    "Blue": "蓝色",
+    "Green": "绿色",
+    "Red": "红色",
+    "Silver": "银色",
+    "Golden": "黄金",
+    "Event": "活动",
+    "Halloween": "万圣节",
+    "Christmas": "圣诞节",
+    "Anniversary": "周年",
+    "Chest": "宝箱",
+    "Quest": "任务",
+    "Mission": "任务",
+    "Memory RP": "记忆 RP",
+    "Summoned by": "由其召唤：",
+    "Via Exploration": "通过探险",
+    "Exploration Treasure Box": "探险宝箱",
+    "Exploration": "探险",
+    "Mana Tunnel": "魔法之门",
+    "Lizard Mark": "蜥蜴纹",
+    "Tree Mark": "树纹",
+    "Mark": "标记",
+    "north of": "北侧",
+    "by the": "在",
+    "Near": "附近",
+    "near": "附近",
+    "Entrance": "入口",
+    "Central": "中央",
+    "North": "北部",
+    "South": "南部",
+    "East": "东部",
+    "West": "西部",
+    "Northeast": "东北部",
+    "Northwest": "西北部",
+    "Southeast": "东南部",
+    "Southwest": "西南部",
+    "slightly northeast": "稍偏东北",
+    "slightly": "稍偏",
+    "Past": "过去",
+    "inside": "内部",
+    "Inside": "内部",
+    "outside": "外部",
+    "Outside": "外部",
+}
+
+G13_ZH_CN_OVERRIDES = {
+    "Arachne": "阿拉克尼",
+    "Bard Skeleton": "吟游骷髅",
+    "Black Leopard": "黑豹",
+    "Black Succubus": "黑色女妖",
+    "Captain Skeleton": "海盗船长骷髅",
+    "Dark Rat Man": "暗黑鼠人",
+    "Emerald Magic Golem": "翡翠魔法石巨人",
+    "Giant Golden Spider": "巨型黄金蜘蛛",
+    "Giant Ice Sprite": "巨大冰光羽",
+    "Giant Imp": "巨大小鬼",
+    "Giant Red Spider": "巨大红蜘蛛",
+    "Giant Spider": "巨型蜘蛛",
+    "Golem": "石巨人",
+    "Gray Gremlin": "灰色鬼魔",
+    "Master Lich": "怪物死尸",
+    "Metal Bard Skeleton": "金属吟游骷髅",
+    "Metal Skeleton": "金属骷髅",
+    "Mirror Witch": "镜子魔女",
+    "Red Succubus": "红色女妖",
+    "Siren": "赛连",
+    "Small Golem": "小石巨人",
+    "Stone Gargoyle": "石像翼魔",
+    "Wendigo": "袁迪",
+    "Werewolf": "狼人",
+}
+
 
 def main() -> None:
     args = parse_args()
+    G13_ZH_CN_OVERRIDES.update(load_g13_race_name_overrides(args.g13_race_xml, args.g13_race_localization))
 
     if args.fetch:
         raw_rows = fetch_monster_rows()
@@ -202,11 +416,64 @@ def parse_args() -> argparse.Namespace:
         dest="fetch",
         help="Fetch Mabinogi World Wiki and refresh the committed raw source JSON before generating runtime data.",
     )
+    parser.add_argument(
+        "--g13-race-xml",
+        type=Path,
+        help="Optional G13 client data/db/race.xml path. Used with --g13-race-localization for official Simplified Chinese monster names.",
+    )
+    parser.add_argument(
+        "--g13-race-localization",
+        type=Path,
+        help="Optional G13 language3 data/local/xml/race.japan.txt path. Used with --g13-race-xml.",
+    )
     return parser.parse_args()
 
 
+def load_g13_race_name_overrides(race_xml: Path | None, race_localization: Path | None) -> dict[str, str]:
+    if not race_xml and not race_localization:
+        return {}
+
+    if not race_xml or not race_localization:
+        raise ValueError("--g13-race-xml and --g13-race-localization must be provided together")
+
+    if not race_xml.exists():
+        raise FileNotFoundError(race_xml)
+
+    if not race_localization.exists():
+        raise FileNotFoundError(race_localization)
+
+    zh_by_id: dict[str, str] = {}
+    for line in read_text_with_fallback(race_localization).splitlines():
+        match = re.match(r"^(\d+)\t(.+)$", line)
+        if match:
+            zh_by_id[match.group(1)] = match.group(2).strip()
+
+    overrides: dict[str, str] = {}
+    root = ET.parse(race_xml).getroot()
+    for race in root.findall("./RaceList/Race"):
+        en_name = str(race.attrib.get("EnglishName") or "").strip()
+        local_name = str(race.attrib.get("LocalName") or "")
+        match = re.search(r"xml\.race\.(\d+)", local_name)
+        if en_name and match:
+            zh_name = zh_by_id.get(match.group(1), "")
+            if zh_name and en_name not in overrides:
+                overrides[en_name] = zh_name
+
+    return overrides
+
+
+def read_text_with_fallback(path: Path) -> str:
+    for encoding in ("utf-8-sig", "utf-16", "utf-16-le", "gb18030"):
+        try:
+            return path.read_text(encoding=encoding)
+        except UnicodeError:
+            continue
+
+    return path.read_text()
+
+
 def load_raw_records() -> list[dict[str, Any]]:
-    payload = json.loads(RAW_OUTPUT.read_text(encoding="utf-8"))
+    payload = json.loads(RAW_OUTPUT.read_text(encoding="utf-8-sig"))
     records = payload.get("records", [])
 
     if not isinstance(records, list):
@@ -428,13 +695,57 @@ def clean_text(value: str) -> str:
     return text.strip()
 
 
+def translate_locations(locations: list[str]) -> list[str]:
+    translated: list[str] = []
+    seen: set[str] = set()
+
+    for location in locations:
+        translated_location = translate_location(location)
+        key = translated_location.lower()
+        if translated_location and key not in seen:
+            translated.append(translated_location)
+            seen.add(key)
+
+    return translated
+
+
+def translate_location(location: str) -> str:
+    text = clean_text(location)
+
+    if not text:
+        return ""
+
+    if text in LOCATION_EXACT_ZH_CN:
+        return LOCATION_EXACT_ZH_CN[text]
+
+    translated = text
+    for en_term, zh_term in sorted(LOCATION_TERM_ZH_CN.items(), key=lambda item: len(item[0]), reverse=True):
+        translated = replace_location_term(translated, en_term, zh_term)
+
+    translated = re.sub(r"\s+", " ", translated).strip()
+    translated = re.sub(r"(?<=[\u4e00-\u9fff）])\s+(?=[\u4e00-\u9fffA-Z])", "", translated)
+    translated = translated.replace(" (", "（").replace(")", "）")
+    translated = translated.replace(" / ", " / ")
+
+    return translated
+
+
+def replace_location_term(text: str, en_term: str, zh_term: str) -> str:
+    if re.search(r"[A-Za-z0-9]$", en_term):
+        pattern = rf"(?<![A-Za-z0-9]){re.escape(en_term)}(?![A-Za-z0-9])"
+    else:
+        pattern = re.escape(en_term)
+
+    return re.sub(pattern, zh_term, text)
+
+
 def slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return slug or "monster"
 
 
 def translate_name(en_name: str) -> tuple[str, str, str]:
-    zh_cn_name = ZH_CN_OVERRIDES.get(en_name)
+    zh_cn_name = G13_ZH_CN_OVERRIDES.get(en_name) or ZH_CN_OVERRIDES.get(en_name)
     zh_tw_name = ZH_TW_OVERRIDES.get(en_name)
 
     if zh_cn_name or zh_tw_name:
@@ -449,6 +760,9 @@ def infer_introduced_by(en_name: str, locations: list[str]) -> str:
     for generation, hints in VERSION_HINTS:
         if any(hint in haystack for hint in hints):
             return generation
+
+    if en_name in G13_ZH_CN_OVERRIDES:
+        return "G13"
 
     return "unknown"
 
@@ -469,11 +783,13 @@ def derive_runtime_source_record(record: dict[str, Any]) -> dict[str, Any]:
     en_name = str(record["enName"])
     locations = [str(location) for location in record.get("locations", [])]
     zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
+    zh_cn_locations = translate_locations(locations)
 
     return {
         **record,
         "zhCNName": zh_cn_name,
         "zhTWName": zh_tw_name,
+        "zhCNLocations": zh_cn_locations,
         "introducedBy": infer_introduced_by(en_name, locations),
         "isEvent": infer_is_event(en_name, locations),
         "translationStatus": translation_status,
@@ -488,6 +804,7 @@ def runtime_record(record: dict[str, Any]) -> dict[str, Any]:
         "enName": record["enName"],
         "combatPower": record["combatPower"],
         "locations": record["locations"],
+        "zhCNLocations": record.get("zhCNLocations", []),
         "introducedBy": record["introducedBy"],
         "isEvent": record["isEvent"],
         "translationStatus": record["translationStatus"],
