@@ -631,6 +631,10 @@
   }
 
   function focusSelector(element) {
+    if (element.dataset.tab) {
+      return `[data-tab="${cssEscape(element.dataset.tab)}"]`;
+    }
+
     if (element.dataset.field) {
       return `[data-field="${cssEscape(element.dataset.field)}"]`;
     }
@@ -653,6 +657,22 @@
 
     if (element.dataset.monsterLocationQuery !== undefined) {
       return '[data-monster-location-query]';
+    }
+
+    if (element.dataset.monsterRank !== undefined) {
+      return `[data-monster-rank][value="${cssEscape(element.value)}"]`;
+    }
+
+    if (element.dataset.monsterDataScope !== undefined) {
+      return '[data-monster-data-scope]';
+    }
+
+    if (element.dataset.monsterIncludeUnknown !== undefined) {
+      return '[data-monster-include-unknown]';
+    }
+
+    if (element.dataset.monsterTranslationStatus !== undefined) {
+      return '[data-monster-translation-status]';
     }
 
     if (element.dataset.rankFor) {

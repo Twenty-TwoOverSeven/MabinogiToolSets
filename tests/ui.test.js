@@ -227,6 +227,50 @@
     localStorage.clear();
   });
 
+  test('monster rank checkbox keeps focus after filter redraw', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const rankCheckbox = root.querySelector('[data-monster-rank][value="weakest"]');
+    rankCheckbox.focus();
+    rankCheckbox.checked = false;
+    rankCheckbox.dispatchEvent(new Event('change', { bubbles: true }));
+
+    const restoredCheckbox = root.querySelector('[data-monster-rank][value="weakest"]');
+    expectEqual(document.activeElement, restoredCheckbox);
+    expectEqual(restoredCheckbox.checked, false);
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster data scope select keeps focus after filter redraw', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const dataScopeSelect = root.querySelector('[data-monster-data-scope]');
+    dataScopeSelect.focus();
+    dataScopeSelect.value = 'all';
+    dataScopeSelect.dispatchEvent(new Event('change', { bubbles: true }));
+
+    const restoredSelect = root.querySelector('[data-monster-data-scope]');
+    expectEqual(document.activeElement, restoredSelect);
+    expectEqual(restoredSelect.value, 'all');
+
+    root.remove();
+    localStorage.clear();
+  });
+
   test('monster tab can search generated monster records', () => {
     const root = document.createElement('div');
     document.body.appendChild(root);
