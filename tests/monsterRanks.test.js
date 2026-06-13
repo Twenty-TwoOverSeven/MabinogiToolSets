@@ -208,12 +208,13 @@
     expectEqual(result[0].id, 'red-spider');
   });
 
-  test('missing monster translations keep Chinese fields blank', () => {
-    const missing = window.MabinogiCP.MONSTER_RECORDS.find((monster) => monster.translationStatus === 'missing');
+  test('generated G13 local monster records keep official Simplified Chinese names', () => {
+    const grayWolf = window.MabinogiCP.MONSTER_RECORDS.find((monster) => monster.raceClassName === 'GrayWolf');
 
-    expectEqual(Boolean(missing), true);
-    expectEqual(missing.zhCNName, '');
-    expectEqual(missing.zhTWName, '');
+    expectEqual(Boolean(grayWolf), true);
+    expectEqual(grayWolf.zhCNName, '灰狼');
+    expectEqual(grayWolf.translationStatus, 'confirmed');
+    expectEqual(grayWolf.source, 'g13-local');
   });
 
   function filter(overrides = {}) {

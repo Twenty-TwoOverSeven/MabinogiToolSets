@@ -19,6 +19,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_OUTPUT = ROOT / "data" / "raw" / "mabinogi-world-monster-cp.json"
+G13_RAW_OUTPUT = ROOT / "data" / "raw" / "g13-local-monster-cp.json"
 JS_OUTPUT = ROOT / "src" / "monsters" / "monsterRecords.js"
 
 SOURCE_PAGE_URL = "https://wiki.mabinogiworld.com/view/List_of_Monster_CP"
@@ -386,15 +387,26 @@ G13_ZH_CN_OVERRIDES = {
 
 def main() -> None:
     args = parse_args()
-    G13_ZH_CN_OVERRIDES.update(load_g13_race_name_overrides(args.g13_race_xml, args.g13_race_localization))
 
-    if args.fetch:
+    if args.source == "g13-local":
+        normalized_records = normalize_g13_local_records(
+            args.g13_monster_xml,
+            args.g13_race_xml,
+            args.g13_race_localization,
+        )
+        verify_records(normalized_records)
+        write_g13_raw_records(normalized_records, args.g13_monster_xml, args.g13_race_xml, args.g13_race_localization)
+        print(f"Wrote {len(normalized_records)} records to {G13_RAW_OUTPUT.relative_to(ROOT).as_posix()}")
+    else:
+        G13_ZH_CN_OVERRIDES.update(load_g13_race_name_overrides(args.g13_race_xml, args.g13_race_localization))
+
+    if args.source == "mabinogi-world" and args.fetch:
         raw_rows = fetch_monster_rows()
         normalized_records = normalize_rows(raw_rows)
         verify_records(normalized_records)
         write_raw_records(normalized_records)
         print(f"Wrote {len(normalized_records)} records to {RAW_OUTPUT.relative_to(ROOT).as_posix()}")
-    else:
+    elif args.source == "mabinogi-world":
         normalized_records = load_raw_records()
 
     normalized_records = [derive_runtime_source_record(record) for record in normalized_records]
@@ -410,6 +422,12 @@ def main() -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build browser monster combat power records.")
     parser.add_argument(
+        "--source",
+        choices=("mabinogi-world", "g13-local"),
+        default="mabinogi-world",
+        help="Source to use for generated runtime monster records.",
+    )
+    parser.add_argument(
         "--fetch",
         "--refresh-source",
         action="store_true",
@@ -419,12 +437,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--g13-race-xml",
         type=Path,
-        help="Optional G13 client data/db/race.xml path. Used with --g13-race-localization for official Simplified Chinese monster names.",
+        help="Optional G13 data/db/race.xml path. Required for --source g13-local; otherwise used with --g13-race-localization for official Simplified Chinese monster names.",
+    )
+    parser.add_argument(
+        "--g13-monster-xml",
+        type=Path,
+        help="Optional G13 server data/db/monster.xml path. Required for --source g13-local.",
     )
     parser.add_argument(
         "--g13-race-localization",
         type=Path,
-        help="Optional G13 language3 data/local/xml/race.japan.txt path. Used with --g13-race-xml.",
+        help="Optional G13 language3 data/local/xml/race.japan.txt path. Required for --source g13-local; otherwise used with --g13-race-xml.",
     )
     return parser.parse_args()
 
@@ -493,6 +516,142 @@ def write_raw_records(normalized_records: list[dict[str, Any]]) -> None:
 
     RAW_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     RAW_OUTPUT.write_text(json.dumps(raw_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def write_g13_raw_records(
+    normalized_records: list[dict[str, Any]],
+    monster_xml: Path | None,
+    race_xml: Path | None,
+    race_localization: Path | None,
+) -> None:
+    raw_payload = {
+        "source": "g13-local",
+        "sourceFiles": {
+            "monsterXml": monster_xml.name if monster_xml else "",
+            "raceXml": race_xml.name if race_xml else "",
+            "raceLocalization": race_localization.name if race_localization else "",
+        },
+        "recordCount": len(normalized_records),
+        "records": normalized_records,
+    }
+
+    G13_RAW_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    G13_RAW_OUTPUT.write_text(json.dumps(raw_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None, race_localization: Path | None) -> list[dict[str, Any]]:
+    if not monster_xml or not race_xml or not race_localization:
+        raise ValueError("--source g13-local requires --g13-monster-xml, --g13-race-xml, and --g13-race-localization")
+
+    for path in (monster_xml, race_xml, race_localization):
+        if not path.exists():
+            raise FileNotFoundError(path)
+
+    zh_by_id = load_numbered_localization(race_localization)
+    races_by_id = load_races_by_id(race_xml, zh_by_id)
+    root = ET.parse(monster_xml).getroot()
+    records: list[dict[str, Any]] = []
+
+    for monster in root.findall("./MonsterList/Monster"):
+        race_id = str(monster.attrib.get("RaceID") or "").strip()
+        race = races_by_id.get(race_id, {})
+        class_name = str(monster.attrib.get("RaceClassName") or race.get("className") or "").strip()
+        en_name = str(race.get("enName") or class_name or f"Race {race_id}").strip()
+        zh_cn_name = str(race.get("zhCNName") or "").strip()
+        combat_power = parse_number(monster.attrib.get("CombatPower2")) or parse_number(monster.attrib.get("CombatPower"))
+
+        if not race_id or not class_name or combat_power is None:
+            continue
+
+        records.append(
+            {
+                "id": f"g13-{race_id}-{slugify(class_name)}",
+                "raceId": int(race_id) if race_id.isdigit() else race_id,
+                "raceClassName": class_name,
+                "zhCNName": zh_cn_name,
+                "zhTWName": "",
+                "enName": en_name,
+                "combatPower": combat_power,
+                "baseCombatPower": parse_number(monster.attrib.get("CombatPower")),
+                "combatPower2": parse_number(monster.attrib.get("CombatPower2")),
+                "level": parse_number(monster.attrib.get("Level")),
+                "life": parse_number(monster.attrib.get("Life")),
+                "attackMin": parse_number(monster.attrib.get("AttMin")),
+                "attackMax": parse_number(monster.attrib.get("AttMax")),
+                "defense": parse_number(monster.attrib.get("Defense")),
+                "protect": parse_number(monster.attrib.get("Protect")),
+                "bonusExp": parse_number(monster.attrib.get("BonusExp")),
+                "locations": [],
+                "zhCNLocations": [],
+                "introducedBy": "G13",
+                "isEvent": infer_g13_local_event(class_name, en_name, zh_cn_name),
+                "translationStatus": "confirmed" if zh_cn_name else "missing",
+                "source": "g13-local",
+            }
+        )
+
+    records.sort(key=lambda record: (str(record["zhCNName"] or record["enName"]).lower(), str(record["raceClassName"]).lower()))
+    return records
+
+
+def load_numbered_localization(path: Path) -> dict[str, str]:
+    values: dict[str, str] = {}
+
+    for line in read_g13_localization_text(path).splitlines():
+        match = re.match(r"^(\d+)\t(.+)$", line)
+        if match:
+            values[match.group(1)] = match.group(2).strip()
+
+    return values
+
+
+def read_g13_localization_text(path: Path) -> str:
+    for encoding in ("gb18030", "utf-8-sig", "utf-16", "utf-16-le"):
+        try:
+            return path.read_text(encoding=encoding)
+        except UnicodeError:
+            continue
+
+    return path.read_text()
+
+
+def load_races_by_id(race_xml: Path, zh_by_id: dict[str, str]) -> dict[str, dict[str, str]]:
+    races: dict[str, dict[str, str]] = {}
+    root = ET.parse(race_xml).getroot()
+
+    for race in root.findall("./RaceList/Race"):
+        race_id = str(race.attrib.get("ID") or "").strip()
+        local_name = str(race.attrib.get("LocalName") or "")
+        local_match = re.search(r"xml\.race\.(\d+)", local_name)
+        zh_cn_name = zh_by_id.get(local_match.group(1), "") if local_match else ""
+
+        if race_id:
+            races[race_id] = {
+                "className": str(race.attrib.get("ClassName") or "").strip(),
+                "enName": str(race.attrib.get("EnglishName") or "").strip(),
+                "zhCNName": zh_cn_name,
+            }
+
+    return races
+
+
+def parse_number(value: Any) -> int | float | None:
+    text = str(value or "").strip()
+
+    if not text:
+        return None
+
+    try:
+        number = float(text)
+    except ValueError:
+        return None
+
+    return int(number) if number.is_integer() else number
+
+
+def infer_g13_local_event(class_name: str, en_name: str, zh_cn_name: str) -> bool:
+    text = " ".join([class_name, en_name, zh_cn_name]).lower()
+    return any(hint in text for hint in EVENT_HINTS)
 
 
 def fetch_monster_rows() -> list[dict[str, Any]]:
@@ -626,7 +785,7 @@ def verify_records(records: list[dict[str, Any]]) -> None:
     if len(ids) != len(set(ids)):
         raise ValueError("Generated monster records contain duplicate ids")
 
-    if len(keys) != len(set(keys)):
+    if not records_are_g13_local(records) and len(keys) != len(set(keys)):
         raise ValueError("Generated monster records contain duplicate normalized keys")
 
     zombies = [record for record in records if record["enName"] == "Zombie"]
@@ -782,7 +941,16 @@ def is_event_text(value: str) -> bool:
 def derive_runtime_source_record(record: dict[str, Any]) -> dict[str, Any]:
     en_name = str(record["enName"])
     locations = [str(location) for location in record.get("locations", [])]
-    zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
+    if record.get("source") == "g13-local":
+        zh_cn_name = str(record.get("zhCNName") or "")
+        zh_tw_name = str(record.get("zhTWName") or "")
+        translation_status = str(record.get("translationStatus") or ("confirmed" if zh_cn_name else "missing"))
+        introduced_by = str(record.get("introducedBy") or "G13")
+        is_event = bool(record.get("isEvent"))
+    else:
+        zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
+        introduced_by = infer_introduced_by(en_name, locations)
+        is_event = infer_is_event(en_name, locations)
     zh_cn_locations = translate_locations(locations)
 
     return {
@@ -790,14 +958,14 @@ def derive_runtime_source_record(record: dict[str, Any]) -> dict[str, Any]:
         "zhCNName": zh_cn_name,
         "zhTWName": zh_tw_name,
         "zhCNLocations": zh_cn_locations,
-        "introducedBy": infer_introduced_by(en_name, locations),
-        "isEvent": infer_is_event(en_name, locations),
+        "introducedBy": introduced_by,
+        "isEvent": is_event,
         "translationStatus": translation_status,
     }
 
 
 def runtime_record(record: dict[str, Any]) -> dict[str, Any]:
-    return {
+    runtime = {
         "id": record["id"],
         "zhCNName": record["zhCNName"],
         "zhTWName": record["zhTWName"],
@@ -810,6 +978,28 @@ def runtime_record(record: dict[str, Any]) -> dict[str, Any]:
         "translationStatus": record["translationStatus"],
         "source": record["source"],
     }
+
+    for key in (
+        "raceId",
+        "raceClassName",
+        "baseCombatPower",
+        "combatPower2",
+        "level",
+        "life",
+        "attackMin",
+        "attackMax",
+        "defense",
+        "protect",
+        "bonusExp",
+    ):
+        if key in record:
+            runtime[key] = record[key]
+
+    return runtime
+
+
+def records_are_g13_local(records: list[dict[str, Any]]) -> bool:
+    return bool(records) and all(record.get("source") == "g13-local" for record in records)
 
 
 def render_js(records: list[dict[str, Any]]) -> str:
