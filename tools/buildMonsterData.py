@@ -690,8 +690,62 @@ def normalize_g13_local_records(
             }
         )
 
+    records = dedupe_g13_local_records(records)
     records.sort(key=lambda record: (str(record["zhCNName"] or record["enName"]).lower(), str(record["raceClassName"]).lower()))
     return records
+
+
+def dedupe_g13_local_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    best_by_key: dict[tuple[str, str, int | float, tuple[str, ...]], dict[str, Any]] = {}
+
+    for record in records:
+        key = g13_visible_duplicate_key(record)
+        current = best_by_key.get(key)
+
+        if current is None or g13_dedupe_sort_key(record) < g13_dedupe_sort_key(current):
+            best_by_key[key] = record
+
+    return list(best_by_key.values())
+
+
+def g13_visible_duplicate_key(record: dict[str, Any]) -> tuple[str, str, int | float, tuple[str, ...]]:
+    locations = record.get("zhCNLocations") or record.get("locations") or []
+
+    return (
+        normalize_key_text(str(record.get("zhCNName") or "")),
+        normalize_key_text(str(record.get("enName") or "")),
+        record.get("combatPower") or 0,
+        tuple(normalize_key_text(str(location)) for location in locations),
+    )
+
+
+def g13_dedupe_sort_key(record: dict[str, Any]) -> tuple[int, int, int, int, str]:
+    class_name = str(record.get("raceClassName") or "")
+    locations = record.get("zhCNLocations") or record.get("locations") or []
+
+    return (
+        0 if locations else 1,
+        g13_internal_variant_score(class_name),
+        0 if str(record.get("zhCNName") or "").strip() else 1,
+        len(class_name),
+        class_name.lower(),
+    )
+
+
+def g13_internal_variant_score(class_name: str) -> int:
+    text = class_name.lower()
+    score = 0
+
+    if re.search(r"promotion|arena|cutscene|bossmission|storyquest|partner|phase|flying|_npc", text):
+        score += 10
+
+    if re.search(r"\d+$", text):
+        score += 2
+
+    if re.search(r"_[abc]$", text):
+        score += 1
+
+    return score
 
 
 def get_g13_locations(
