@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-12T16:52:57.235Z",
+  "profiles": [
+    {
+      "id": "7d54f9e3-fefa-4faf-b983-b7ea1ee1e8f4",
+      "name": "Biscuit",
+      "race": "人类",
+      "title": "",
+      "stats": {
+        "life": 71,
+        "mana": 32,
+        "stamina": 44,
+        "strength": 53,
+        "intelligence": 11,
+        "dexterity": 37,
+        "will": 79,
+        "luck": 56
+      },
+      "skills": [
+        {
+          "skillId": "smash",
+          "rank": "F"
+        },
+        {
+          "skillId": "defense",
+          "rank": "F"
+        },
+        {
+          "skillId": "counterattack",
+          "rank": "练习"
+        },
+        {
+          "skillId": "windmill",
+          "rank": "6"
+        },
+        {
+          "skillId": "ranged_combat_mastery",
+          "rank": "F"
+        },
+        {
+          "skillId": "rest",
+          "rank": "F"
+        },
+        {
+          "skillId": "melee_combat_mastery",
+          "rank": "F"
+        },
+        {
+          "skillId": "critical_hit",
+          "rank": "F"
+        },
+        {
+          "skillId": "sword_mastery",
+          "rank": "F"
+        },
+        {
+          "skillId": "blunt_mastery",
+          "rank": "F"
+        },
+        {
+          "skillId": "bow_mastery",
+          "rank": "F"
+        }
+      ]
+    }
+  ]
+}

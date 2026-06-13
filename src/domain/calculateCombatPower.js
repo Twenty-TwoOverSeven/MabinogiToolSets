@@ -2,9 +2,9 @@
   const app = (window.MabinogiCP = window.MabinogiCP || {});
 
   const STAT_MULTIPLIERS = [
-    { key: 'life', label: '生命力', multiplier: 0.5 },
-    { key: 'mana', label: '魔法值', multiplier: 0.33 },
-    { key: 'stamina', label: '体力值', multiplier: 0.33 },
+    { key: 'life', label: '生命力', multiplier: 1 },
+    { key: 'mana', label: '魔法值', multiplier: 0.5 },
+    { key: 'stamina', label: '体力值', multiplier: 0.5 },
     { key: 'strength', label: '力量', multiplier: 1 },
     { key: 'intelligence', label: '智力', multiplier: 0.2 },
     { key: 'dexterity', label: '敏捷', multiplier: 0.1 },
