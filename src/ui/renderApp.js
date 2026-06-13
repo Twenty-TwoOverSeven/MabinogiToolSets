@@ -214,16 +214,10 @@
       });
 
       const nameInput = root.querySelector('[data-monster-name-query]');
-      nameInput.addEventListener('input', (event) => {
-        monsterFilters = { ...monsterFilters, nameQuery: event.target.value };
-        draw();
-      });
+      bindMonsterTextFilter(nameInput, 'nameQuery');
 
       const locationInput = root.querySelector('[data-monster-location-query]');
-      locationInput.addEventListener('input', (event) => {
-        monsterFilters = { ...monsterFilters, locationQuery: event.target.value };
-        draw();
-      });
+      bindMonsterTextFilter(locationInput, 'locationQuery');
 
       root.querySelector('[data-monster-data-scope]').addEventListener('change', (event) => {
         monsterFilters = { ...monsterFilters, dataScope: event.target.value };
@@ -235,9 +229,27 @@
         draw();
       });
 
-      root.querySelector('[data-monster-translation-status]').addEventListener('change', (event) => {
-        monsterFilters = { ...monsterFilters, translationStatus: event.target.value };
+    }
+
+    function bindMonsterTextFilter(input, key) {
+      let isComposing = false;
+
+      input.addEventListener('compositionstart', () => {
+        isComposing = true;
+      });
+
+      input.addEventListener('compositionend', (event) => {
+        isComposing = false;
+        monsterFilters = { ...monsterFilters, [key]: event.target.value };
         draw();
+      });
+
+      input.addEventListener('input', (event) => {
+        monsterFilters = { ...monsterFilters, [key]: event.target.value };
+
+        if (!isComposing) {
+          draw();
+        }
       });
     }
 
@@ -404,14 +416,6 @@
               <option value="all" ${filters.dataScope === 'all' ? 'selected' : ''}>全部已知数据</option>
             </select>
           </label>
-          <label>译名状态
-            <select data-monster-translation-status>
-              <option value="all" ${filters.translationStatus === 'all' ? 'selected' : ''}>全部</option>
-              <option value="confirmed" ${filters.translationStatus === 'confirmed' ? 'selected' : ''}>已确认</option>
-              <option value="autoConverted" ${filters.translationStatus === 'autoConverted' ? 'selected' : ''}>自动转换</option>
-              <option value="missing" ${filters.translationStatus === 'missing' ? 'selected' : ''}>缺失</option>
-            </select>
-          </label>
           <label class="checkbox-label">
             <input data-monster-include-unknown type="checkbox" ${filters.includeUnknownIntroducedBy ? 'checked' : ''} />
             包含未知世代
@@ -465,7 +469,7 @@
       return '';
     }
 
-    return '<p class="monster-data-scope-note" data-monster-data-scope-note>全部已知数据可能包含后期、版本未知或译名未校对记录。</p>';
+    return '<p class="monster-data-scope-note" data-monster-data-scope-note>全部已知数据可能包含后期、版本未知或活动记录。</p>';
   }
 
   function renderMonsterResults(monsters) {
@@ -483,7 +487,6 @@
             <th>CP</th>
             <th>相对强度</th>
             <th>地点或来源</th>
-            <th>译名状态</th>
           </tr>
         </thead>
         <tbody>
@@ -494,7 +497,6 @@
             <td>${Number(monster.combatPower).toFixed(0)}</td>
             <td data-monster-rank-label>${escapeHtml(formatMonsterRankLabel(monster.rank))}</td>
             <td>${escapeHtml(formatMonsterLocation(monster))}</td>
-            <td>${escapeHtml(translationStatusLabel(monster.translationStatus))}</td>
           </tr>`).join('')}
         </tbody>
       </table>
@@ -514,25 +516,12 @@
   function formatMonsterLocation(monster) {
     const displayLocations =
       monster.zhCNLocations && monster.zhCNLocations.length > 0 ? monster.zhCNLocations : monster.locations || [];
-    const locations = displayLocations.length > 0 ? displayLocations.join('、') : '';
-    const source = [monster.introducedBy, monster.source].filter(Boolean).join(' / ');
 
-    return locations || source || '未知';
+    return displayLocations.length > 0 ? displayLocations.join('、') : '未知';
   }
 
   function formatMonsterRankLabel(rank) {
     return rank.label || rank.id;
-  }
-
-  function translationStatusLabel(status) {
-    const labels = {
-      all: '全部',
-      confirmed: '已确认',
-      autoConverted: '自动转换',
-      missing: '缺失',
-    };
-
-    return labels[status] || status || '未知';
   }
 
   function statLabel(key) {
@@ -660,10 +649,6 @@
 
     if (element.dataset.monsterIncludeUnknown !== undefined) {
       return '[data-monster-include-unknown]';
-    }
-
-    if (element.dataset.monsterTranslationStatus !== undefined) {
-      return '[data-monster-translation-status]';
     }
 
     if (element.dataset.rankFor) {

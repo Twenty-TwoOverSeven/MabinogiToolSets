@@ -13,6 +13,7 @@ import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -21,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_OUTPUT = ROOT / "data" / "raw" / "mabinogi-world-monster-cp.json"
 G13_RAW_OUTPUT = ROOT / "data" / "raw" / "g13-local-monster-cp.json"
 JS_OUTPUT = ROOT / "src" / "monsters" / "monsterRecords.js"
+DEFAULT_G13_LOCATION_HTML = ROOT / "tempdata" / "Combat Power_Monster CP Ratings_Regular Monsters - Mabinogi World Wiki.html"
 
 SOURCE_PAGE_URL = "https://wiki.mabinogiworld.com/view/List_of_Monster_CP"
 API_ENDPOINT = "https://wiki.mabinogiworld.com/api.php"
@@ -171,6 +173,75 @@ VERSION_HINTS = [
 ]
 
 EVENT_HINTS = ("event", "halloween", "christmas", "anniversary")
+
+G13_LOCATION_EXACT_ZH_CN = {
+    "Tir Chonaill graveyard": "迪尔科内尔墓地",
+    "Tir Chonaill (Another World)": "迪尔科内尔（另一个世界）",
+}
+
+G13_LOCATION_TERM_ZH_CN = {
+    "Abb Neagh Castle Dungeon": "阿布内尔城地下城",
+    "Abb Neagh Castle": "阿布内尔城",
+    "Abb Neagh": "阿布内尔",
+    "Alby Advanced Hardmode": "艾菲高级困难",
+    "Alby Advanced": "艾菲高级",
+    "Alby Normal Hardmode": "艾菲普通困难",
+    "Alby Normal": "艾菲普通",
+    "Alby": "艾菲",
+    "Albey": "阿尔贝",
+    "Avon": "埃文",
+    "Barri Advanced": "巴里高级",
+    "Barri Normal": "巴里普通",
+    "Barri": "巴里",
+    "Ciar Advanced Hardmode": "赛维尔高级困难",
+    "Ciar Advanced": "赛维尔高级",
+    "Ciar Intermediate": "赛维尔中级",
+    "Ciar Normal": "赛维尔普通",
+    "Ciar": "赛维尔",
+    "Coill": "科尔",
+    "Connous": "科诺斯",
+    "Dugald Aisle": "杜加德走廊",
+    "Dunbarton": "敦巴伦",
+    "Emain Macha": "艾明马夏",
+    "Fiodh Advanced": "菲奥纳高级",
+    "Fiodh Intermediate": "菲奥纳中级",
+    "Fiodh Normal": "菲奥纳普通",
+    "Fiodh": "菲奥纳",
+    "Gairech Hills": "盖尔茨丘陵",
+    "Gairech": "盖尔茨",
+    "Iria": "伊利亚",
+    "Longa": "伦迦",
+    "Math Advanced": "玛斯高级",
+    "Math": "玛斯",
+    "Morva Aisle": "莫尔巴走廊",
+    "Peaca Basic": "皮卡初级",
+    "Peaca Normal": "皮卡普通",
+    "Peaca": "皮卡",
+    "Physis": "菲西斯",
+    "Rabbie Advanced": "莱比高级",
+    "Rabbie Battle Arena": "莱比竞技场",
+    "Rabbie Normal": "莱比普通",
+    "Rabbie": "莱比",
+    "Rano": "拉诺",
+    "Rundal Advanced Hardmode": "伦达高级困难",
+    "Rundal Advanced": "伦达高级",
+    "Rundal Normal": "伦达普通",
+    "Rundal": "伦达",
+    "Sliab Cuilin Castle Dungeon": "斯利亚布库林城地下城",
+    "Sliab Cuilin": "斯利亚布库林",
+    "Taillteann": "塔尔汀",
+    "Tara": "塔拉",
+    "Tir Chonaill": "迪尔科内尔",
+    "Zardine": "扎尔丁",
+    "Boss": "BOSS",
+    "Hardmode": "困难",
+    "Normal": "普通",
+    "Advanced": "高级",
+    "Intermediate": "中级",
+    "Basic": "初级",
+    "Dungeon": "地下城",
+    "graveyard": "墓地",
+}
 
 LOCATION_EXACT_ZH_CN = {
     "?": "未知",
@@ -393,9 +464,16 @@ def main() -> None:
             args.g13_monster_xml,
             args.g13_race_xml,
             args.g13_race_localization,
+            args.g13_location_html,
         )
         verify_records(normalized_records)
-        write_g13_raw_records(normalized_records, args.g13_monster_xml, args.g13_race_xml, args.g13_race_localization)
+        write_g13_raw_records(
+            normalized_records,
+            args.g13_monster_xml,
+            args.g13_race_xml,
+            args.g13_race_localization,
+            args.g13_location_html,
+        )
         print(f"Wrote {len(normalized_records)} records to {G13_RAW_OUTPUT.relative_to(ROOT).as_posix()}")
     else:
         G13_ZH_CN_OVERRIDES.update(load_g13_race_name_overrides(args.g13_race_xml, args.g13_race_localization))
@@ -448,6 +526,12 @@ def parse_args() -> argparse.Namespace:
         "--g13-race-localization",
         type=Path,
         help="Optional G13 language3 data/local/xml/race.japan.txt path. Required for --source g13-local; otherwise used with --g13-race-xml.",
+    )
+    parser.add_argument(
+        "--g13-location-html",
+        type=Path,
+        default=DEFAULT_G13_LOCATION_HTML if DEFAULT_G13_LOCATION_HTML.exists() else None,
+        help="Optional saved Mabinogi World Regular Monsters HTML page used only to enrich G13 monster locations.",
     )
     return parser.parse_args()
 
@@ -523,6 +607,7 @@ def write_g13_raw_records(
     monster_xml: Path | None,
     race_xml: Path | None,
     race_localization: Path | None,
+    location_html: Path | None,
 ) -> None:
     raw_payload = {
         "source": "g13-local",
@@ -530,6 +615,7 @@ def write_g13_raw_records(
             "monsterXml": monster_xml.name if monster_xml else "",
             "raceXml": race_xml.name if race_xml else "",
             "raceLocalization": race_localization.name if race_localization else "",
+            "locationReference": location_html.name if location_html else "",
         },
         "recordCount": len(normalized_records),
         "records": normalized_records,
@@ -539,7 +625,12 @@ def write_g13_raw_records(
     G13_RAW_OUTPUT.write_text(json.dumps(raw_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None, race_localization: Path | None) -> list[dict[str, Any]]:
+def normalize_g13_local_records(
+    monster_xml: Path | None,
+    race_xml: Path | None,
+    race_localization: Path | None,
+    location_html: Path | None,
+) -> list[dict[str, Any]]:
     if not monster_xml or not race_xml or not race_localization:
         raise ValueError("--source g13-local requires --g13-monster-xml, --g13-race-xml, and --g13-race-localization")
 
@@ -549,6 +640,7 @@ def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None,
 
     zh_by_id = load_numbered_localization(race_localization)
     races_by_id = load_races_by_id(race_xml, zh_by_id)
+    wiki_locations = load_wiki_locations_by_g13_key(location_html)
     root = ET.parse(monster_xml).getroot()
     records: list[dict[str, Any]] = []
 
@@ -558,10 +650,18 @@ def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None,
         class_name = str(monster.attrib.get("RaceClassName") or race.get("className") or "").strip()
         en_name = str(race.get("enName") or class_name or f"Race {race_id}").strip()
         zh_cn_name = str(race.get("zhCNName") or "").strip()
-        combat_power = parse_number(monster.attrib.get("CombatPower2")) or parse_number(monster.attrib.get("CombatPower"))
+        base_combat_power = parse_number(monster.attrib.get("CombatPower"))
+        combat_power2 = parse_number(monster.attrib.get("CombatPower2"))
+        combat_power = combat_power2 or base_combat_power
 
         if not race_id or not class_name or combat_power is None:
             continue
+
+        if is_excluded_g13_local_monster(class_name, en_name, zh_cn_name, race):
+            continue
+
+        locations = get_g13_locations(wiki_locations, en_name, class_name, [combat_power, base_combat_power])
+        zh_cn_locations = translate_g13_locations(locations)
 
         records.append(
             {
@@ -572,8 +672,8 @@ def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None,
                 "zhTWName": "",
                 "enName": en_name,
                 "combatPower": combat_power,
-                "baseCombatPower": parse_number(monster.attrib.get("CombatPower")),
-                "combatPower2": parse_number(monster.attrib.get("CombatPower2")),
+                "baseCombatPower": base_combat_power,
+                "combatPower2": combat_power2,
                 "level": parse_number(monster.attrib.get("Level")),
                 "life": parse_number(monster.attrib.get("Life")),
                 "attackMin": parse_number(monster.attrib.get("AttMin")),
@@ -581,8 +681,8 @@ def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None,
                 "defense": parse_number(monster.attrib.get("Defense")),
                 "protect": parse_number(monster.attrib.get("Protect")),
                 "bonusExp": parse_number(monster.attrib.get("BonusExp")),
-                "locations": [],
-                "zhCNLocations": [],
+                "locations": locations,
+                "zhCNLocations": zh_cn_locations,
                 "introducedBy": "G13",
                 "isEvent": infer_g13_local_event(class_name, en_name, zh_cn_name),
                 "translationStatus": "confirmed" if zh_cn_name else "missing",
@@ -592,6 +692,252 @@ def normalize_g13_local_records(monster_xml: Path | None, race_xml: Path | None,
 
     records.sort(key=lambda record: (str(record["zhCNName"] or record["enName"]).lower(), str(record["raceClassName"]).lower()))
     return records
+
+
+def get_g13_locations(
+    locations_by_key: dict[tuple[str, int | float], list[str]],
+    en_name: str,
+    class_name: str,
+    combat_powers: list[int | float | None],
+) -> list[str]:
+    for name in g13_location_lookup_names(en_name, class_name):
+        for combat_power in combat_powers:
+            if combat_power is None:
+                continue
+
+            locations = locations_by_key.get((normalize_key_text(name), combat_power), [])
+            if locations:
+                return locations
+
+    return []
+
+
+def g13_location_lookup_names(en_name: str, class_name: str) -> list[str]:
+    names: list[str] = []
+
+    for name in (en_name, class_name.replace("_", " ")):
+        for candidate in saved_monster_name_variants(name):
+            if candidate and candidate not in names:
+                names.append(candidate)
+
+    return names
+
+
+def load_wiki_locations_by_g13_key(location_html: Path | None) -> dict[tuple[str, int | float], list[str]]:
+    locations_by_key: dict[tuple[str, int | float], list[str]] = {}
+
+    if not RAW_OUTPUT.exists():
+        raw_records: list[dict[str, Any]] = []
+    else:
+        try:
+            raw_records = load_raw_records()
+        except (json.JSONDecodeError, ValueError):
+            raw_records = []
+
+    for record in raw_records:
+        en_name = normalize_key_text(str(record.get("enName") or ""))
+        combat_power = record.get("combatPower")
+        locations = [str(location) for location in record.get("locations", []) if str(location).strip()]
+
+        if not en_name or not isinstance(combat_power, (int, float)) or not locations:
+            continue
+
+        key = (en_name, combat_power)
+        existing = locations_by_key.setdefault(key, [])
+        for location in locations:
+            if location not in existing:
+                existing.append(location)
+
+    for row in load_saved_regular_monster_location_rows(location_html):
+        combat_power = row.get("combatPower")
+        locations = [str(location) for location in row.get("locations", []) if str(location).strip()]
+
+        if not isinstance(combat_power, (int, float)) or not locations:
+            continue
+
+        for name in saved_monster_name_variants(str(row.get("enName") or "")):
+            key_name = normalize_key_text(name)
+            if not key_name:
+                continue
+
+            key = (key_name, combat_power)
+            existing = locations_by_key.setdefault(key, [])
+            for location in locations:
+                if location not in existing:
+                    existing.append(location)
+
+    return locations_by_key
+
+
+class SavedRegularMonsterLocationParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.rows: list[list[dict[str, Any]]] = []
+        self.in_tr = False
+        self.in_td = False
+        self.current_row: list[dict[str, Any]] = []
+        self.current_cell: dict[str, Any] | None = None
+        self.current_item: list[str] | None = None
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        del attrs
+
+        if tag == "tr":
+            self.in_tr = True
+            self.current_row = []
+        elif tag == "td" and self.in_tr:
+            self.in_td = True
+            self.current_cell = {"text": [], "items": []}
+        elif tag == "li" and self.in_td:
+            self.current_item = []
+        elif tag == "br" and self.in_td and self.current_cell is not None:
+            self.current_cell["text"].append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.in_td or self.current_cell is None:
+            return
+
+        self.current_cell["text"].append(data)
+
+        if self.current_item is not None:
+            self.current_item.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "li" and self.in_td and self.current_cell is not None:
+            item = clean_text("".join(self.current_item or []))
+            if item:
+                self.current_cell["items"].append(item)
+            self.current_item = None
+        elif tag == "td" and self.in_td and self.current_cell is not None:
+            self.current_row.append(self.current_cell)
+            self.current_cell = None
+            self.current_item = None
+            self.in_td = False
+        elif tag == "tr" and self.in_tr:
+            if self.current_row:
+                self.rows.append(self.current_row)
+            self.current_row = []
+            self.in_tr = False
+
+
+def load_saved_regular_monster_location_rows(location_html: Path | None) -> list[dict[str, Any]]:
+    if not location_html:
+        return []
+
+    if not location_html.exists():
+        raise FileNotFoundError(location_html)
+
+    parser = SavedRegularMonsterLocationParser()
+    parser.feed(read_text_with_fallback(location_html))
+
+    rows: list[dict[str, Any]] = []
+    for cells in parser.rows:
+        if len(cells) < 4:
+            continue
+
+        en_name = extract_saved_monster_name(cells[0])
+        combat_power = parse_saved_combat_power(cell_text(cells[1]))
+        locations = extract_saved_locations(cells[2], cells[3])
+
+        if en_name and combat_power is not None and locations:
+            rows.append({"enName": en_name, "combatPower": combat_power, "locations": locations})
+
+    return rows
+
+
+def extract_saved_monster_name(cell: dict[str, Any]) -> str:
+    text = re.split(r"\s*\(\s*edit\s*\)", cell_text(cell), maxsplit=1, flags=re.IGNORECASE)[0]
+    return clean_text(text)
+
+
+def parse_saved_combat_power(text: str) -> int | float | None:
+    numbers = re.findall(r"\d[\d,]*(?:\.\d+)?", text)
+    if not numbers:
+        return None
+
+    value = numbers[-1].replace(",", "")
+    return parse_number(value)
+
+
+def extract_saved_locations(*cells: dict[str, Any]) -> list[str]:
+    locations: list[str] = []
+    seen: set[str] = set()
+
+    for cell in cells:
+        raw_items = cell.get("items") or [cell_text(cell)]
+        for item in raw_items:
+            location = clean_saved_location_item(str(item))
+            key = location.lower()
+            if location and key not in seen:
+                locations.append(location)
+                seen.add(key)
+
+    return locations
+
+
+def clean_saved_location_item(value: str) -> str:
+    text = clean_text(value)
+
+    if not text or text.lower() == "none":
+        return ""
+
+    text = re.sub(r"\s*\((?:Location|Locations)\)\s*", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text).strip(" ,;")
+
+    return "" if text.lower() == "none" else text
+
+
+def cell_text(cell: dict[str, Any]) -> str:
+    return clean_text("".join(str(part) for part in cell.get("text", [])))
+
+
+def saved_monster_name_variants(name: str) -> list[str]:
+    text = clean_text(name.replace("_", " "))
+
+    if not text:
+        return []
+
+    variants = [text]
+    without_monster_disambiguation = re.sub(r"\s*\((?:Monster)\)\s*$", "", text, flags=re.IGNORECASE).strip()
+
+    if without_monster_disambiguation and without_monster_disambiguation not in variants:
+        variants.append(without_monster_disambiguation)
+
+    return variants
+
+
+def translate_g13_locations(locations: list[str]) -> list[str]:
+    translated: list[str] = []
+    seen: set[str] = set()
+
+    for location in locations:
+        translated_location = translate_g13_location(location)
+        key = translated_location.lower()
+        if translated_location and key not in seen:
+            translated.append(translated_location)
+            seen.add(key)
+
+    return translated
+
+
+def translate_g13_location(location: str) -> str:
+    text = clean_text(location)
+
+    if not text:
+        return ""
+
+    if text in G13_LOCATION_EXACT_ZH_CN:
+        return G13_LOCATION_EXACT_ZH_CN[text]
+
+    translated = text
+    for en_term, zh_term in sorted(G13_LOCATION_TERM_ZH_CN.items(), key=lambda item: len(item[0]), reverse=True):
+        translated = replace_location_term(translated, en_term, zh_term)
+
+    translated = re.sub(r"\s+", " ", translated).strip()
+    translated = re.sub(r"\s*\(([^)]+)\)", r"（\1）", translated)
+    translated = translated.replace(" / ", " / ")
+
+    return translated
 
 
 def load_numbered_localization(path: Path) -> dict[str, str]:
@@ -630,9 +976,46 @@ def load_races_by_id(race_xml: Path, zh_by_id: dict[str, str]) -> dict[str, dict
                 "className": str(race.attrib.get("ClassName") or "").strip(),
                 "enName": str(race.attrib.get("EnglishName") or "").strip(),
                 "zhCNName": zh_cn_name,
+                "stringId": str(race.attrib.get("StringID") or "").strip(),
+                "raceDesc": str(race.attrib.get("RaceDesc") or "").strip(),
+                "isNPC": str(race.attrib.get("IsNPC") or "").strip(),
+                "isGoodNPC": str(race.attrib.get("IsGoodNPC") or "").strip(),
             }
 
     return races
+
+
+def is_excluded_g13_local_monster(class_name: str, en_name: str, zh_cn_name: str, race: dict[str, str]) -> bool:
+    text = " ".join(
+        [
+            class_name,
+            en_name,
+            zh_cn_name,
+            str(race.get("stringId") or ""),
+            str(race.get("raceDesc") or ""),
+        ]
+    ).lower()
+    class_key = class_name.lower()
+
+    if re.search(r"(?:^|_)test(?:_|$)|dummy|_default$", class_key):
+        return True
+
+    if re.search(r"event|halloween|whiteday|christmas|huskyevent|japan_event", text):
+        return True
+
+    if re.search(r"summoned|(?:^|_)summon(?:_|[a-z]*$)", class_key):
+        return True
+
+    if re.search(r"(?:^|_)rp(?:_|$)|/rp/", text):
+        return True
+
+    if re.search(r"(?:^|_)g(?:1|2|3|4|5|6|7|8|9|10|11|12|13)(?:_|$|rp)", class_key):
+        return True
+
+    if class_key.startswith("dungeonnpc") or class_key.startswith("npc_"):
+        return True
+
+    return False
 
 
 def parse_number(value: Any) -> int | float | None:
@@ -947,11 +1330,12 @@ def derive_runtime_source_record(record: dict[str, Any]) -> dict[str, Any]:
         translation_status = str(record.get("translationStatus") or ("confirmed" if zh_cn_name else "missing"))
         introduced_by = str(record.get("introducedBy") or "G13")
         is_event = bool(record.get("isEvent"))
+        zh_cn_locations = [str(location) for location in record.get("zhCNLocations", [])]
     else:
         zh_cn_name, zh_tw_name, translation_status = translate_name(en_name)
         introduced_by = infer_introduced_by(en_name, locations)
         is_event = infer_is_event(en_name, locations)
-    zh_cn_locations = translate_locations(locations)
+        zh_cn_locations = translate_locations(locations)
 
     return {
         **record,

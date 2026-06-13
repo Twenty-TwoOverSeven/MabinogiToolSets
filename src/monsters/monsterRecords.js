@@ -3,109 +3,17 @@
 
   app.MONSTER_RECORDS = [
     {
-      "id": "g13-10218-test-kobold-ice-shield",
-      "zhCNName": "(_临时)使用冰魔法防护的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Ice_Shield",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10218,
-      "raceClassName": "Test_Kobold_Ice_Shield",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10217-test-kobold-fire-shield",
-      "zhCNName": "(_临时)使用火魔法防护的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Fire_Shield",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10217,
-      "raceClassName": "Test_Kobold_Fire_Shield",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10219-test-kobold-bow-shield",
-      "zhCNName": "(_临时)使用自然魔法防护的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Bow_Shield",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10219,
-      "raceClassName": "Test_Kobold_Bow_Shield",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10216-test-kobold-lightning-shield",
-      "zhCNName": "(_临时)使用雷魔法防护的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Lightning_Shield",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10216,
-      "raceClassName": "Test_Kobold_Lightning_Shield",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
       "id": "g13-160601-dragoncavebalrog",
       "zhCNName": "(임시)용굴 발록",
       "zhTWName": "",
       "enName": "Balrog",
       "combatPower": 3200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (halfway between Raspa and Pera Volcanoes)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（halfway between Raspa and Pera Volcanoes）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -123,37 +31,17 @@
       "bonusExp": 1400
     },
     {
-      "id": "g13-160014-grumbila-whiteday",
-      "zhCNName": "100战150败 小影魔",
-      "zhTWName": "",
-      "enName": "Grumbil A",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 160014,
-      "raceClassName": "GrumbilA_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 25,
-      "life": 70,
-      "attackMin": 5,
-      "attackMax": 15,
-      "defense": 1,
-      "protect": 3,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-100501-giantguard1",
       "zhCNName": "<mini>NPC</mini> 巨人警卫",
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Vales"
+      ],
+      "zhCNLocations": [
+        "Vales"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -176,8 +64,12 @@
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Vales"
+      ],
+      "zhCNLocations": [
+        "Vales"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -200,8 +92,12 @@
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Vales"
+      ],
+      "zhCNLocations": [
+        "Vales"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -224,8 +120,12 @@
       "zhTWName": "",
       "enName": "Giant Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Vales"
+      ],
+      "zhCNLocations": [
+        "Vales"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -267,37 +167,17 @@
       "bonusExp": 5000
     },
     {
-      "id": "g13-301-dungeonnpc-1",
-      "zhCNName": "<mini>NPC</mini> 特鲁",
-      "zhTWName": "",
-      "enName": "Dungeon Merchant",
-      "combatPower": 631,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 301,
-      "raceClassName": "DungeonNPC_1",
-      "baseCombatPower": 580,
-      "combatPower2": 631,
-      "level": 5,
-      "life": 90,
-      "attackMin": 8,
-      "attackMax": 20,
-      "defense": 1,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-18401-elfguard1",
       "zhCNName": "<mini>NPC</mini> 精灵警卫",
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Filia"
+      ],
+      "zhCNLocations": [
+        "Filia"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -320,8 +200,12 @@
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Filia"
+      ],
+      "zhCNLocations": [
+        "Filia"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -344,8 +228,12 @@
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Filia"
+      ],
+      "zhCNLocations": [
+        "Filia"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -368,8 +256,12 @@
       "zhTWName": "",
       "enName": "Elf Guard",
       "combatPower": 1000000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Filia"
+      ],
+      "zhCNLocations": [
+        "Filia"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -409,102 +301,6 @@
       "defense": 3,
       "protect": 50,
       "bonusExp": 5000
-    },
-    {
-      "id": "g13-1003-dungeonnpc-lostkid",
-      "zhCNName": "<mini>NPC</mini> 迷路的村庄小孩子",
-      "zhTWName": "",
-      "enName": "Lost Kid",
-      "combatPower": 250,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 1003,
-      "raceClassName": "DungeonNPC_LostKid",
-      "baseCombatPower": 250,
-      "combatPower2": 250,
-      "level": 1,
-      "life": 10000,
-      "attackMin": 1,
-      "attackMax": 1,
-      "defense": 1,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-1002-dungeonnpc-lostresident",
-      "zhCNName": "<mini>NPC</mini> 迷路的村民",
-      "zhTWName": "",
-      "enName": "Lost Resident",
-      "combatPower": 250,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 1002,
-      "raceClassName": "DungeonNPC_LostResident",
-      "baseCombatPower": 250,
-      "combatPower2": 250,
-      "level": 5,
-      "life": 10000,
-      "attackMin": 1,
-      "attackMax": 3,
-      "defense": 1,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-13009-test-sahuagin-lost-selfdestructor",
-      "zhCNName": "_凶暴鱼头怪(主动自爆)",
-      "zhTWName": "",
-      "enName": "Lost Sahuagin",
-      "combatPower": 1850,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 13009,
-      "raceClassName": "Test_Sahuagin_Lost_SelfDestructor",
-      "baseCombatPower": 1850,
-      "combatPower2": 1850,
-      "level": 20,
-      "life": 250,
-      "attackMin": 20,
-      "attackMax": 40,
-      "defense": 5,
-      "protect": 20,
-      "bonusExp": 800
-    },
-    {
-      "id": "g13-13008-test-sahuagin-lost",
-      "zhCNName": "_凶暴鱼头怪(被动自爆)",
-      "zhTWName": "",
-      "enName": "Lost Sahuagin",
-      "combatPower": 1850,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 13008,
-      "raceClassName": "Test_Sahuagin_Lost",
-      "baseCombatPower": 1850,
-      "combatPower2": 1850,
-      "level": 20,
-      "life": 150,
-      "attackMin": 20,
-      "attackMax": 40,
-      "defense": 5,
-      "protect": 20,
-      "bonusExp": 900
     },
     {
       "id": "g13-108-c4-nighthost",
@@ -656,8 +452,14 @@
       "zhTWName": "",
       "enName": "Zombie",
       "combatPower": 2090,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill (Another World)",
+        "Dunbarton (Halloween 2008 Event)"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔（另一个世界）",
+        "敦巴伦（Halloween 2008 Event）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -680,8 +482,14 @@
       "zhTWName": "",
       "enName": "Zombie",
       "combatPower": 2090,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill (Another World)",
+        "Dunbarton (Halloween 2008 Event)"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔（另一个世界）",
+        "敦巴伦（Halloween 2008 Event）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -704,8 +512,12 @@
       "zhTWName": "",
       "enName": "Arc Lich",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -728,8 +540,12 @@
       "zhTWName": "",
       "enName": "Bisque Doll",
       "combatPower": 2200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "Dugald Castle 地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1112,8 +928,12 @@
       "zhTWName": "",
       "enName": "Cactus Lizard",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Muyu Desert"
+      ],
+      "zhCNLocations": [
+        "Muyu Desert"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1160,8 +980,12 @@
       "zhTWName": "",
       "enName": "Brown Ixion",
       "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (East of Pera Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（East of Pera Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1184,8 +1008,12 @@
       "zhTWName": "",
       "enName": "Banner Imp",
       "combatPower": 536,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1208,8 +1036,12 @@
       "zhTWName": "",
       "enName": "Banner Imp",
       "combatPower": 536,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1232,8 +1064,12 @@
       "zhTWName": "",
       "enName": "Banner Imp",
       "combatPower": 536,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1256,8 +1092,12 @@
       "zhTWName": "",
       "enName": "Banner Imp",
       "combatPower": 536,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1328,8 +1168,12 @@
       "zhTWName": "",
       "enName": "Pawn",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1376,8 +1220,14 @@
       "zhTWName": "",
       "enName": "Chandelier Spider",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon",
+        "Dugald Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "Dugald Castle 地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1443,150 +1293,6 @@
       "bonusExp": 200
     },
     {
-      "id": "g13-180006-femalezombie02",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180006,
-      "raceClassName": "FemaleZombie02",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180012-femalezombie03",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180012,
-      "raceClassName": "FemaleZombie03",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180017-femalezombie04",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180017,
-      "raceClassName": "FemaleZombie04",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180005-malezombie02",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180005,
-      "raceClassName": "MaleZombie02",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180011-malezombie03",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180011,
-      "raceClassName": "MaleZombie03",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180016-malezombie04",
-      "zhCNName": "僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180016,
-      "raceClassName": "MaleZombie04",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-180004-femalezombiearomor",
       "zhCNName": "僵尸士兵",
       "zhTWName": "",
@@ -1633,30 +1339,6 @@
       "defense": 0,
       "protect": 40,
       "bonusExp": 160
-    },
-    {
-      "id": "g13-180010-bosszombie",
-      "zhCNName": "僵尸王",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180010,
-      "raceClassName": "BossZombie",
-      "baseCombatPower": 10000,
-      "combatPower2": 10000,
-      "level": 75,
-      "life": 10000,
-      "attackMin": 100,
-      "attackMax": 200,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
     },
     {
       "id": "g13-540001-claimhsolas01",
@@ -1832,8 +1514,12 @@
       "zhTWName": "",
       "enName": "Red Dragon",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (North of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（North of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1856,8 +1542,12 @@
       "zhTWName": "",
       "enName": "Red Dragon",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (North of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（North of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -1923,30 +1613,6 @@
       "bonusExp": 1
     },
     {
-      "id": "g13-110005-cock-event",
-      "zhCNName": "公鸡",
-      "zhTWName": "",
-      "enName": "Cock",
-      "combatPower": 150,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110005,
-      "raceClassName": "Cock_Event",
-      "baseCombatPower": 150,
-      "combatPower2": 150,
-      "level": 4,
-      "life": 60,
-      "attackMin": 1,
-      "attackMax": 7,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
       "id": "g13-990024-neamhain-prop",
       "zhCNName": "内文",
       "zhTWName": "",
@@ -1976,8 +1642,22 @@
       "zhTWName": "",
       "enName": "Ice Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental",
+        "Ceo Island (Location)",
+        "Ceo Island",
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental",
+        "Ceo Island（Location）",
+        "Ceo Island",
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2000,8 +1680,22 @@
       "zhTWName": "",
       "enName": "Ice Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental",
+        "Ceo Island (Location)",
+        "Ceo Island",
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental",
+        "Ceo Island（Location）",
+        "Ceo Island",
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2024,8 +1718,12 @@
       "zhTWName": "",
       "enName": "Ice Mimic",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "Par Snow Crystal"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2048,8 +1746,12 @@
       "zhTWName": "",
       "enName": "Ice Wyvern",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano and Hot Springs)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano and Hot Springs）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2072,8 +1774,12 @@
       "zhTWName": "",
       "enName": "Ice Wyvern",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano and Hot Springs)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano and Hot Springs）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2096,8 +1802,12 @@
       "zhTWName": "",
       "enName": "Ice Wyvern",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano and Hot Springs)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano and Hot Springs）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2360,8 +2070,12 @@
       "zhTWName": "",
       "enName": "Ice Bear",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "Par Snow Crystal"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2408,8 +2122,12 @@
       "zhTWName": "",
       "enName": "Shrieker",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "Par Snow Crystal"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2480,8 +2198,12 @@
       "zhTWName": "",
       "enName": "Prison Flying Sword",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -2931,126 +2653,6 @@
       "bonusExp": 1100
     },
     {
-      "id": "g13-10171-goblinarcher-whiteday",
-      "zhCNName": "单身哥布林弓箭手",
-      "zhTWName": "",
-      "enName": "Goblin Archer",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10171,
-      "raceClassName": "GoblinArcher_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 5,
-      "life": 60,
-      "attackMin": 8,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-180025-solozombie-whiteday",
-      "zhCNName": "单身的僵尸",
-      "zhTWName": "",
-      "enName": "Armor Zombie",
-      "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180025,
-      "raceClassName": "SoloZombie_Whiteday",
-      "baseCombatPower": 1000,
-      "combatPower2": 1400,
-      "level": 10,
-      "life": 500,
-      "attackMin": 10,
-      "attackMax": 22,
-      "defense": 0,
-      "protect": 40,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-10620-imp-whiteday",
-      "zhCNName": "单身的小鬼",
-      "zhTWName": "",
-      "enName": "Imp",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10620,
-      "raceClassName": "Imp_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 12,
-      "life": 80,
-      "attackMin": 1,
-      "attackMax": 40,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-900010-pumpkin",
-      "zhCNName": "南瓜",
-      "zhTWName": "",
-      "enName": "Pumpkin",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900010,
-      "raceClassName": "Pumpkin",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 1234,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-900011-pumpkin-soldier",
-      "zhCNName": "南瓜",
-      "zhTWName": "",
-      "enName": "Pumpkin",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900011,
-      "raceClassName": "Pumpkin_soldier",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 120,
-      "attackMin": 1,
-      "attackMax": 1,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-1107-astrologer",
       "zhCNName": "占星师",
       "zhTWName": "",
@@ -3416,8 +3018,12 @@
       "zhTWName": "",
       "enName": "Rook",
       "combatPower": 2300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -3457,102 +3063,6 @@
       "defense": 3,
       "protect": 50,
       "bonusExp": 5000
-    },
-    {
-      "id": "g13-10090-revolution-soldier1-g13",
-      "zhCNName": "卫兵",
-      "zhTWName": "",
-      "enName": "Castle Guard",
-      "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10090,
-      "raceClassName": "Revolution_Soldier1_G13",
-      "baseCombatPower": 1200,
-      "combatPower2": 1200,
-      "level": 10,
-      "life": 80,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 80
-    },
-    {
-      "id": "g13-10091-revolution-soldier2-g13",
-      "zhCNName": "卫兵",
-      "zhTWName": "",
-      "enName": "Castle Guard",
-      "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10091,
-      "raceClassName": "Revolution_Soldier2_G13",
-      "baseCombatPower": 1200,
-      "combatPower2": 1200,
-      "level": 10,
-      "life": 80,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 80
-    },
-    {
-      "id": "g13-180022-femalezombiearomor-whiteday",
-      "zhCNName": "参军300年的僵尸士兵",
-      "zhTWName": "",
-      "enName": "Armor Zombie",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180022,
-      "raceClassName": "FemaleZombieAromor_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 90,
-      "attackMin": 12,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 40,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-180021-malezombiearomor-whiteday",
-      "zhCNName": "参军300年的僵尸士兵",
-      "zhTWName": "",
-      "enName": "Armor Zombie",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180021,
-      "raceClassName": "MaleZombieAromor_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 90,
-      "attackMin": 10,
-      "attackMax": 22,
-      "defense": 0,
-      "protect": 40,
-      "bonusExp": 100
     },
     {
       "id": "g13-17703-hollow-knight-peaca-middle",
@@ -3872,8 +3382,12 @@
       "zhTWName": "",
       "enName": "Pocket Mouse",
       "combatPower": 747,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -3968,8 +3482,14 @@
       "zhTWName": "",
       "enName": "Bard Skeleton",
       "combatPower": 900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced",
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级",
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -3992,8 +3512,14 @@
       "zhTWName": "",
       "enName": "Bard Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced",
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级",
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -4952,8 +4478,16 @@
       "zhTWName": "",
       "enName": "Goblin",
       "combatPower": 631,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Normal",
+        "Barri Normal",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔普通",
+        "巴里普通",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -4966,54 +4500,6 @@
       "life": 90,
       "attackMin": 8,
       "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-900015-goblin-cake-hat",
-      "zhCNName": "哥布林",
-      "zhTWName": "",
-      "enName": "Goblin",
-      "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900015,
-      "raceClassName": "Goblin_Cake_Hat",
-      "baseCombatPower": 1800,
-      "combatPower2": 1800,
-      "level": 10,
-      "life": 100,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 80
-    },
-    {
-      "id": "g13-10177-goblin-g13",
-      "zhCNName": "哥布林",
-      "zhTWName": "",
-      "enName": "Goblin",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10177,
-      "raceClassName": "Goblin_G13",
-      "baseCombatPower": 450,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 90,
-      "attackMin": 5,
-      "attackMax": 16,
       "defense": 0,
       "protect": 0,
       "bonusExp": 100
@@ -5048,8 +4534,16 @@
       "zhTWName": "",
       "enName": "Goblin",
       "combatPower": 631,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Normal",
+        "Barri Normal",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔普通",
+        "巴里普通",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5120,8 +4614,12 @@
       "zhTWName": "",
       "enName": "Goblin Swordman",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Final Hit (Boss)"
+      ],
+      "zhCNLocations": [
+        "Karu Final Hit（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5144,8 +4642,12 @@
       "zhTWName": "",
       "enName": "Goblin Swordman",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Final Hit (Boss)"
+      ],
+      "zhCNLocations": [
+        "Karu Final Hit（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5216,8 +4718,12 @@
       "zhTWName": "",
       "enName": "Goblin Keeper",
       "combatPower": 900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Solea Underground"
+      ],
+      "zhCNLocations": [
+        "Solea Underground"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5355,37 +4861,17 @@
       "bonusExp": 440
     },
     {
-      "id": "g13-10170-goblin-whiteday",
-      "zhCNName": "哭了一整夜的哥布林",
-      "zhTWName": "",
-      "enName": "Goblin",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10170,
-      "raceClassName": "Goblin_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 5,
-      "life": 60,
-      "attackMin": 8,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-106201-ghast",
       "zhCNName": "嘉仕达",
       "zhTWName": "",
       "enName": "Ghast",
       "combatPower": 7000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Intermediate"
+      ],
+      "zhCNLocations": [
+        "皮卡 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5667,78 +5153,6 @@
       "bonusExp": 1250
     },
     {
-      "id": "g13-10079-g12-shrineknights-archer",
-      "zhCNName": "圣殿骑士团军官",
-      "zhTWName": "",
-      "enName": "Shrine Knight",
-      "combatPower": 1118,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10079,
-      "raceClassName": "G12_ShrineKnights_archer",
-      "baseCombatPower": 900,
-      "combatPower2": 1118,
-      "level": 40,
-      "life": 250,
-      "attackMin": 15,
-      "attackMax": 35,
-      "defense": 3,
-      "protect": 3,
-      "bonusExp": 620
-    },
-    {
-      "id": "g13-10077-g12-shrineknights-fighter1",
-      "zhCNName": "圣殿骑士团军官",
-      "zhTWName": "",
-      "enName": "Shrine Knight",
-      "combatPower": 1118,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10077,
-      "raceClassName": "G12_ShrineKnights_fighter1",
-      "baseCombatPower": 900,
-      "combatPower2": 1118,
-      "level": 26,
-      "life": 200,
-      "attackMin": 5,
-      "attackMax": 20,
-      "defense": 5,
-      "protect": 3,
-      "bonusExp": 260
-    },
-    {
-      "id": "g13-10078-g12-shrineknights-fighter2",
-      "zhCNName": "圣殿骑士团军官",
-      "zhTWName": "",
-      "enName": "Shrine Knight",
-      "combatPower": 1118,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10078,
-      "raceClassName": "G12_ShrineKnights_fighter2",
-      "baseCombatPower": 900,
-      "combatPower2": 1118,
-      "level": 24,
-      "life": 160,
-      "attackMin": 3,
-      "attackMax": 15,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 240
-    },
-    {
       "id": "g13-1103-santab",
       "zhCNName": "圣诞老人",
       "zhTWName": "",
@@ -5864,8 +5278,14 @@
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 4740,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Scary Library",
+        "Peaca"
+      ],
+      "zhCNLocations": [
+        "Scary Library",
+        "皮卡"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5888,8 +5308,12 @@
       "zhTWName": "",
       "enName": "Hollow Knight",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Basic"
+      ],
+      "zhCNLocations": [
+        "皮卡初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5912,8 +5336,14 @@
       "zhTWName": "",
       "enName": "Hellhound",
       "combatPower": 1826,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal (Boss)",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通（BOSS）",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -5931,37 +5361,19 @@
       "bonusExp": 800
     },
     {
-      "id": "g13-20202-hellhound-huskyevent",
-      "zhCNName": "地狱犬",
-      "zhTWName": "",
-      "enName": "Hellhound",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20202,
-      "raceClassName": "HellHound_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 24,
-      "life": 120,
-      "attackMin": 13,
-      "attackMax": 25,
-      "defense": 7,
-      "protect": 5,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-20018-skeletonhellhound",
       "zhCNName": "地狱骷髅犬",
       "zhTWName": "",
       "enName": "Skeleton HellHound",
       "combatPower": 1426,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced (Removed with Re:Fine Update)",
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级（Removed with Re:Fine Update）",
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -6032,8 +5444,12 @@
       "zhTWName": "",
       "enName": "Kobold",
       "combatPower": 822,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -6049,30 +5465,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 150
-    },
-    {
-      "id": "g13-900016-kobold-cake-hat",
-      "zhCNName": "地精",
-      "zhTWName": "",
-      "enName": "Kobold",
-      "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900016,
-      "raceClassName": "Kobold_Cake_Hat",
-      "baseCombatPower": 1900,
-      "combatPower2": 1900,
-      "level": 10,
-      "life": 100,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 85
     },
     {
       "id": "g13-90019-coffin-mimic-peaca-middle",
@@ -6147,30 +5539,6 @@
       "bonusExp": 350
     },
     {
-      "id": "g13-130050-castlegolem-g13",
-      "zhCNName": "城墙 石巨人",
-      "zhTWName": "",
-      "enName": "Castle Golem",
-      "combatPower": 4430,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130050,
-      "raceClassName": "CastleGolem_G13",
-      "baseCombatPower": 2000,
-      "combatPower2": 4430,
-      "level": 10,
-      "life": 300,
-      "attackMin": 15,
-      "attackMax": 25,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 350
-    },
-    {
       "id": "g13-18112-bad-alchemist",
       "zhCNName": "堕落的炼金术士",
       "zhTWName": "",
@@ -6188,30 +5556,6 @@
       "combatPower2": 1300,
       "level": 31,
       "life": 1200,
-      "attackMin": 15,
-      "attackMax": 30,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 500
-    },
-    {
-      "id": "g13-18124-bad-alchemist-g12",
-      "zhCNName": "堕落的炼金术士",
-      "zhTWName": "",
-      "enName": "Bad Alchemist",
-      "combatPower": 1150,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 18124,
-      "raceClassName": "Bad_Alchemist_G12",
-      "baseCombatPower": 1150,
-      "combatPower2": 1150,
-      "level": 31,
-      "life": 300,
       "attackMin": 15,
       "attackMax": 30,
       "defense": 10,
@@ -6339,30 +5683,6 @@
       "bonusExp": 170
     },
     {
-      "id": "g13-18115-darkalchemist-summongolem",
-      "zhCNName": "堕落的炼金术士",
-      "zhTWName": "",
-      "enName": "Bad Alchemist",
-      "combatPower": 1300,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 18115,
-      "raceClassName": "DarkAlchemist_summonGolem",
-      "baseCombatPower": 1300,
-      "combatPower2": 1300,
-      "level": 11,
-      "life": 180,
-      "attackMin": 15,
-      "attackMax": 35,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 170
-    },
-    {
       "id": "g13-18121-bad-alchemist-corpse",
       "zhCNName": "堕落的炼金术士尸体",
       "zhTWName": "",
@@ -6408,30 +5728,6 @@
       "attackMax": 100,
       "defense": 100,
       "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-312-taunes-g13-test",
-      "zhCNName": "塔尼斯",
-      "zhTWName": "",
-      "enName": "Taunes",
-      "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 312,
-      "raceClassName": "Taunes_g13_test",
-      "baseCombatPower": 2000,
-      "combatPower2": 2000,
-      "level": 40,
-      "life": 600,
-      "attackMin": 5,
-      "attackMax": 14,
-      "defense": 5,
-      "protect": 5,
       "bonusExp": 0
     },
     {
@@ -6747,133 +6043,17 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-990031-bigclayball1",
-      "zhCNName": "大土块",
-      "zhTWName": "",
-      "enName": "Big Clay Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990031,
-      "raceClassName": "BigClayball1",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990033-bigclayball2",
-      "zhCNName": "大土块",
-      "zhTWName": "",
-      "enName": "Big Clay Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990033,
-      "raceClassName": "BigClayball2",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990035-bigclayball3",
-      "zhCNName": "大土块",
-      "zhTWName": "",
-      "enName": "Big Clay Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990035,
-      "raceClassName": "BigClayball3",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990037-bigclayball4",
-      "zhCNName": "大土块",
-      "zhTWName": "",
-      "enName": "Big Clay Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990037,
-      "raceClassName": "BigClayball4",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990039-bigclayball5",
-      "zhCNName": "大土块",
-      "zhTWName": "",
-      "enName": "Big Clay Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990039,
-      "raceClassName": "BigClayball5",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-106301-master-lich",
       "zhCNName": "大师级理奇",
       "zhTWName": "",
       "enName": "Master lich",
       "combatPower": 60000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Intermediate"
+      ],
+      "zhCNLocations": [
+        "皮卡 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -7155,126 +6335,6 @@
       "bonusExp": 980
     },
     {
-      "id": "g13-990030-bigsnowball1",
-      "zhCNName": "大雪球",
-      "zhTWName": "",
-      "enName": "Big Snow Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990030,
-      "raceClassName": "BigSnowball1",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990032-bigsnowball2",
-      "zhCNName": "大雪球",
-      "zhTWName": "",
-      "enName": "Big Snow Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990032,
-      "raceClassName": "BigSnowball2",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990034-bigsnowball3",
-      "zhCNName": "大雪球",
-      "zhTWName": "",
-      "enName": "Big Snow Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990034,
-      "raceClassName": "BigSnowball3",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990036-bigsnowball4",
-      "zhCNName": "大雪球",
-      "zhTWName": "",
-      "enName": "Big Snow Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990036,
-      "raceClassName": "BigSnowball4",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-990038-bigsnowball5",
-      "zhCNName": "大雪球",
-      "zhTWName": "",
-      "enName": "Big Snow Ball",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 990038,
-      "raceClassName": "BigSnowball5",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-610001-flying-book",
       "zhCNName": "奇怪的书",
       "zhTWName": "",
@@ -7292,30 +6352,6 @@
       "combatPower2": 631,
       "level": 5,
       "life": 250,
-      "attackMin": 8,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-610003-flying-book-g13",
-      "zhCNName": "奇怪的书",
-      "zhTWName": "",
-      "enName": "Queer Book",
-      "combatPower": 631,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 610003,
-      "raceClassName": "Flying_Book_G13",
-      "baseCombatPower": 580,
-      "combatPower2": 631,
-      "level": 5,
-      "life": 60,
       "attackMin": 8,
       "attackMax": 20,
       "defense": 0,
@@ -7441,30 +6477,6 @@
       "defense": 30,
       "protect": 60,
       "bonusExp": 4500
-    },
-    {
-      "id": "g13-2-morrighan-default",
-      "zhCNName": "女神 茉莉安",
-      "zhTWName": "",
-      "enName": "Morrighan",
-      "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 2,
-      "raceClassName": "Morrighan_Default",
-      "baseCombatPower": 100,
-      "combatPower2": 9999,
-      "level": 100,
-      "life": 100,
-      "attackMin": 100,
-      "attackMax": 100,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
     },
     {
       "id": "g13-65-neamhain",
@@ -7683,30 +6695,6 @@
       "bonusExp": 1
     },
     {
-      "id": "g13-110003-cow-event",
-      "zhCNName": "奶牛",
-      "zhTWName": "",
-      "enName": "Cow",
-      "combatPower": 180,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110003,
-      "raceClassName": "Cow_Event",
-      "baseCombatPower": 180,
-      "combatPower2": 180,
-      "level": 5,
-      "life": 90,
-      "attackMin": 0,
-      "attackMax": 15,
-      "defense": 3,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
       "id": "g13-10909-cheese-cookdungeon",
       "zhCNName": "奶酪",
       "zhTWName": "",
@@ -7777,54 +6765,6 @@
       "defense": 5,
       "protect": 8,
       "bonusExp": 100
-    },
-    {
-      "id": "g13-313-atrata-g13-test",
-      "zhCNName": "娅特拉",
-      "zhTWName": "",
-      "enName": "Atrata",
-      "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 313,
-      "raceClassName": "Atrata_g13_test",
-      "baseCombatPower": 2000,
-      "combatPower2": 2000,
-      "level": 40,
-      "life": 250,
-      "attackMin": 0,
-      "attackMax": 8,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-1-nao-default",
-      "zhCNName": "娜儿",
-      "zhTWName": "",
-      "enName": "Nao",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 1,
-      "raceClassName": "Nao_Default",
-      "baseCombatPower": 100,
-      "combatPower2": 100,
-      "level": 100,
-      "life": 100,
-      "attackMin": 100,
-      "attackMax": 100,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
     },
     {
       "id": "g13-430401-aonbarr",
@@ -8264,8 +7204,30 @@
       "zhTWName": "",
       "enName": "Mimic",
       "combatPower": 693,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Mythril Mine",
+        "Coill Elemental",
+        "Alby Normal",
+        "Ciar Beginner",
+        "Ciar Normal",
+        "Rabbie Normal",
+        "Math Normal",
+        "Fiodh Normal",
+        "Barri Normal",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "巴里 Mythril Mine",
+        "科尔 Elemental",
+        "艾菲普通",
+        "赛维尔 Beginner",
+        "赛维尔普通",
+        "莱比普通",
+        "玛斯 普通",
+        "菲奥纳普通",
+        "巴里普通",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8288,8 +7250,20 @@
       "zhTWName": "",
       "enName": "King Mimic",
       "combatPower": 1069,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Green",
+        "Baol Final",
+        "Rabbie Basic",
+        "Barri Basic"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 Green",
+        "Baol Final",
+        "莱比 初级",
+        "巴里 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8305,30 +7279,6 @@
       "defense": 4,
       "protect": 4,
       "bonusExp": 160
-    },
-    {
-      "id": "g13-10224-kobold-whiteday",
-      "zhCNName": "寂寞的地精",
-      "zhTWName": "",
-      "enName": "Kobold",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10224,
-      "raceClassName": "Kobold_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 12,
-      "life": 70,
-      "attackMin": 12,
-      "attackMax": 33,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
     },
     {
       "id": "g13-10153-hobgoblinleader",
@@ -8768,8 +7718,12 @@
       "zhTWName": "",
       "enName": "Jungle Bear",
       "combatPower": 2070,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (between the two Mana Tunnels south of Cor)"
+      ],
+      "zhCNLocations": [
+        "Courcle（between the two Mana Tunnels south of Cor）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8792,8 +7746,16 @@
       "zhTWName": "",
       "enName": "Jungle Millipede",
       "combatPower": 940,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Herba Jungle Central",
+        "Exploration)",
+        "Courcle (Herba Jungle, Exploration)"
+      ],
+      "zhCNLocations": [
+        "Courcle (Herba Jungle Central",
+        "Exploration)",
+        "Courcle（Herba Jungle, Exploration）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8816,8 +7778,12 @@
       "zhTWName": "",
       "enName": "Jungle Cobra",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (east of Pantay Swamp)"
+      ],
+      "zhCNLocations": [
+        "Courcle（east of Pantay Swamp）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8835,37 +7801,35 @@
       "bonusExp": 555
     },
     {
-      "id": "g13-130049-smallgolem-g13",
-      "zhCNName": "小 石巨人",
-      "zhTWName": "",
-      "enName": "Small Golem",
-      "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130049,
-      "raceClassName": "SmallGolem_G13",
-      "baseCombatPower": 2000,
-      "combatPower2": 2000,
-      "level": 20,
-      "life": 250,
-      "attackMin": 15,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 600
-    },
-    {
       "id": "g13-90007-arena-mimic",
       "zhCNName": "小丑",
       "zhTWName": "",
       "enName": "Mimic",
       "combatPower": 693,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Mythril Mine",
+        "Coill Elemental",
+        "Alby Normal",
+        "Ciar Beginner",
+        "Ciar Normal",
+        "Rabbie Normal",
+        "Math Normal",
+        "Fiodh Normal",
+        "Barri Normal",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "巴里 Mythril Mine",
+        "科尔 Elemental",
+        "艾菲普通",
+        "赛维尔 Beginner",
+        "赛维尔普通",
+        "莱比普通",
+        "玛斯 普通",
+        "菲奥纳普通",
+        "巴里普通",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -8979,30 +7943,6 @@
       "bonusExp": 80
     },
     {
-      "id": "g13-900013-littlenian",
-      "zhCNName": "小年兽",
-      "zhTWName": "",
-      "enName": "Little Nian",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900013,
-      "raceClassName": "LittleNian",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 308,
-      "attackMin": 1,
-      "attackMax": 3,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-10114-goblinarcherkid",
       "zhCNName": "小弓手哥布林",
       "zhTWName": "",
@@ -9025,54 +7965,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 90
-    },
-    {
-      "id": "g13-160012-grumbil-g12-after",
-      "zhCNName": "小影魔",
-      "zhTWName": "",
-      "enName": "Grumbil",
-      "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 160012,
-      "raceClassName": "Grumbil_G12_after",
-      "baseCombatPower": 1200,
-      "combatPower2": 1200,
-      "level": 25,
-      "life": 15000,
-      "attackMin": 60,
-      "attackMax": 120,
-      "defense": 11,
-      "protect": 11,
-      "bonusExp": 5000
-    },
-    {
-      "id": "g13-160011-grumbil-g12-before",
-      "zhCNName": "小影魔",
-      "zhTWName": "",
-      "enName": "Grumbil",
-      "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 160011,
-      "raceClassName": "Grumbil_G12_before",
-      "baseCombatPower": 1200,
-      "combatPower2": 1200,
-      "level": 25,
-      "life": 550,
-      "attackMin": 15,
-      "attackMax": 38,
-      "defense": 11,
-      "protect": 11,
-      "bonusExp": 600
     },
     {
       "id": "g13-160013-grumbil-wappen",
@@ -9296,8 +8188,12 @@
       "zhTWName": "",
       "enName": "Small Troll",
       "combatPower": 2184,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9680,8 +8576,12 @@
       "zhTWName": "",
       "enName": "Small Golem",
       "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Beginner (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Beginner（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -9824,8 +8724,22 @@
       "zhTWName": "",
       "enName": "Will O' The Wisp",
       "combatPower": 1510,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Black Fomor Pass (Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "Albey Red",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Gairech Hills"
+      ],
+      "zhCNLocations": [
+        "巴里 Black Fomor Pass（BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "阿尔贝 Red",
+        "杜加德走廊",
+        "敦巴伦",
+        "盖尔茨丘陵"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -10208,8 +9122,26 @@
       "zhTWName": "",
       "enName": "Imp",
       "combatPower": 1044,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Mythril Mine",
+        "Barri Paladin Training",
+        "Barri Spirit",
+        "Albey Red",
+        "Albey Goddess",
+        "Dunbarton (Northwest)",
+        "Barri Normal",
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里 Mythril Mine",
+        "巴里 Paladin Training",
+        "巴里 Spirit",
+        "阿尔贝 Red",
+        "阿尔贝 Goddess",
+        "敦巴伦（Northwest）",
+        "巴里普通",
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -10227,37 +9159,31 @@
       "bonusExp": 450
     },
     {
-      "id": "g13-900014-imp-cake-hat",
-      "zhCNName": "小鬼",
-      "zhTWName": "",
-      "enName": "Imp",
-      "combatPower": 2500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900014,
-      "raceClassName": "Imp_Cake_Hat",
-      "baseCombatPower": 2500,
-      "combatPower2": 2500,
-      "level": 10,
-      "life": 80,
-      "attackMin": 3,
-      "attackMax": 12,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 150
-    },
-    {
       "id": "g13-10608-imp-goodnpc",
       "zhCNName": "小鬼",
       "zhTWName": "",
       "enName": "Imp",
       "combatPower": 1044,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Mythril Mine",
+        "Barri Paladin Training",
+        "Barri Spirit",
+        "Albey Red",
+        "Albey Goddess",
+        "Dunbarton (Northwest)",
+        "Barri Normal",
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里 Mythril Mine",
+        "巴里 Paladin Training",
+        "巴里 Spirit",
+        "阿尔贝 Red",
+        "阿尔贝 Goddess",
+        "敦巴伦（Northwest）",
+        "巴里普通",
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -10280,8 +9206,12 @@
       "zhTWName": "",
       "enName": "Skeleton Imp",
       "combatPower": 1044,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "莱比高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -10395,78 +9325,6 @@
       "bonusExp": 75
     },
     {
-      "id": "g13-180008-summonerzombie01",
-      "zhCNName": "少女僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180008,
-      "raceClassName": "SummonerZombie01",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180014-summonerzombie02",
-      "zhCNName": "少女僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180014,
-      "raceClassName": "SummonerZombie02",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180019-summonerzombie03",
-      "zhCNName": "少女僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180019,
-      "raceClassName": "SummonerZombie03",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-450401-pointedhorneddeer",
       "zhCNName": "尖角鹿",
       "zhTWName": "",
@@ -10496,8 +9354,12 @@
       "zhTWName": "",
       "enName": "Coyote",
       "combatPower": 859,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Sidhe Sneachta"
+      ],
+      "zhCNLocations": [
+        "Sidhe Sneachta"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -10609,30 +9471,6 @@
       "defense": 10,
       "protect": 5,
       "bonusExp": 70
-    },
-    {
-      "id": "g13-130026-rockgolemsummoned",
-      "zhCNName": "岩石巨人",
-      "zhTWName": "",
-      "enName": "Rock Golem",
-      "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130026,
-      "raceClassName": "RockGolemSummoned",
-      "baseCombatPower": 500,
-      "combatPower2": 500,
-      "level": 34,
-      "life": 100,
-      "attackMin": 0,
-      "attackMax": 35,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 0
     },
     {
       "id": "g13-100505-giantguard5",
@@ -11024,8 +9862,12 @@
       "zhTWName": "",
       "enName": "Giant Bandersnatch",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Normal"
+      ],
+      "zhCNLocations": [
+        "Par 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11096,8 +9938,12 @@
       "zhTWName": "",
       "enName": "Giant Wood Jackal",
       "combatPower": 1700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Advanced"
+      ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11120,8 +9966,12 @@
       "zhTWName": "",
       "enName": "Giant Brown Bear",
       "combatPower": 2500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Advanced"
+      ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11216,8 +10066,12 @@
       "zhTWName": "",
       "enName": "Giant Skeleton HellHound",
       "combatPower": 2780,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced (Boss)"
+      ],
+      "zhCNLocations": [
+        "玛斯高级（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11288,8 +10142,18 @@
       "zhTWName": "",
       "enName": "Giant Jungle Millipede",
       "combatPower": 1630,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Near Herba Jungle Mana Tunnel",
+        "South Cenae Meadows Mana Tunnel",
+        "Via Exploration",
+        "Courcle (near the Herba Jungle Mana Tunnel, Southwest of the Cenae Meadows and via Exploration)"
+      ],
+      "zhCNLocations": [
+        "Near Herba Jungle Mana Tunnel",
+        "South Cenae Meadows Mana Tunnel",
+        "Via Exploration",
+        "Courcle（near the Herba Jungle Mana Tunnel, Southwest of the Cenae Meadows and via Exploration）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11312,8 +10176,14 @@
       "zhTWName": "",
       "enName": "Giant Imp",
       "combatPower": 2920,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Intermediate (4person Boss)",
+        "Fiodh Intermediate (4-person Boss)"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级（4person BOSS）",
+        "菲奥纳中级（4-person BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11408,8 +10278,14 @@
       "zhTWName": "",
       "enName": "Giant Headless",
       "combatPower": 2884,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal",
+        "Baol Final"
+      ],
+      "zhCNLocations": [
+        "科尔 普通",
+        "Baol Final"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11504,8 +10380,12 @@
       "zhTWName": "",
       "enName": "Giant Fire Sprite",
       "combatPower": 2592,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "科尔 普通（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11528,8 +10408,12 @@
       "zhTWName": "",
       "enName": "Giant Lion",
       "combatPower": 20000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Central Cenae Meadows)"
+      ],
+      "zhCNLocations": [
+        "Courcle（Central Cenae Meadows）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11576,8 +10460,16 @@
       "zhTWName": "",
       "enName": "Giant White Wolf",
       "combatPower": 2529,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Mythril Armor with the Spirit's Blessing (Boss)",
+        "Tir Chonaill (Location)",
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Mythril Armor with the Spirit's Blessing（BOSS）",
+        "迪尔科内尔（Location）",
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11600,8 +10492,16 @@
       "zhTWName": "",
       "enName": "Giant White Wolf",
       "combatPower": 2529,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Mythril Armor with the Spirit's Blessing (Boss)",
+        "Tir Chonaill (Location)",
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Mythril Armor with the Spirit's Blessing（BOSS）",
+        "迪尔科内尔（Location）",
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11624,8 +10524,16 @@
       "zhTWName": "",
       "enName": "Giant White Wolf",
       "combatPower": 2529,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Mythril Armor with the Spirit's Blessing (Boss)",
+        "Tir Chonaill (Location)",
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Mythril Armor with the Spirit's Blessing（BOSS）",
+        "迪尔科内尔（Location）",
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -11639,30 +10547,6 @@
       "attackMin": 18,
       "attackMax": 58,
       "defense": 6,
-      "protect": 0,
-      "bonusExp": 800
-    },
-    {
-      "id": "g13-18-rp-boss-giantwhitewolf",
-      "zhCNName": "巨大白狼",
-      "zhTWName": "",
-      "enName": "Giant White Wolf",
-      "combatPower": 2446,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 18,
-      "raceClassName": "RP_boss_GiantWhiteWolf",
-      "baseCombatPower": 2000,
-      "combatPower2": 2446,
-      "level": 18,
-      "life": 800,
-      "attackMin": 34,
-      "attackMax": 72,
-      "defense": 5,
       "protect": 0,
       "bonusExp": 800
     },
@@ -11720,8 +10604,12 @@
       "zhTWName": "",
       "enName": "Giant White Spider",
       "combatPower": 3350,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12032,8 +10920,14 @@
       "zhTWName": "",
       "enName": "Giant Red Spider",
       "combatPower": 3430,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Basic (Boss)",
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲 初级（BOSS）",
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12248,8 +11142,12 @@
       "zhTWName": "",
       "enName": "Giant Jackal",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Intermediate"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12368,8 +11266,16 @@
       "zhTWName": "",
       "enName": "Giant Lightning Sprite",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced (Boss)",
+        "Ciar Boss Trial",
+        "Rabbie Advanced (Party Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级（BOSS）",
+        "赛维尔 BOSS Trial",
+        "莱比高级（Party BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12392,8 +11298,16 @@
       "zhTWName": "",
       "enName": "Giant Lightning Sprite",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced (Boss)",
+        "Ciar Boss Trial",
+        "Rabbie Advanced (Party Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级（BOSS）",
+        "赛维尔 BOSS Trial",
+        "莱比高级（Party BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12560,8 +11474,12 @@
       "zhTWName": "",
       "enName": "Giant Black Spider",
       "combatPower": 3470,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12608,8 +11526,20 @@
       "zhTWName": "",
       "enName": "Great Mimic",
       "combatPower": 819,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Spirit Fossil",
+        "Barri Mythril Mine",
+        "Ciar Basic",
+        "Barri Normal",
+        "Barri Basic"
+      ],
+      "zhCNLocations": [
+        "巴里 Spirit Fossil",
+        "巴里 Mythril Mine",
+        "赛维尔 初级",
+        "巴里普通",
+        "巴里 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12656,8 +11586,12 @@
       "zhTWName": "",
       "enName": "Giant Bear",
       "combatPower": 3074,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12680,8 +11614,12 @@
       "zhTWName": "",
       "enName": "Giant Bear",
       "combatPower": 3074,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12704,8 +11642,16 @@
       "zhTWName": "",
       "enName": "Giant Spider",
       "combatPower": 1688,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Normal (Boss)",
+        "Alby Basic",
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲普通（BOSS）",
+        "艾菲 初级",
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12728,8 +11674,12 @@
       "zhTWName": "",
       "enName": "Giant Bat",
       "combatPower": 1070,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Basic"
+      ],
+      "zhCNLocations": [
+        "艾菲 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12776,8 +11726,14 @@
       "zhTWName": "",
       "enName": "Giant Ogre",
       "combatPower": 2730,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills and Reighinalt (Location)",
+        "Gairech Hills and Reighinalt"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵 and Reighinalt（Location）",
+        "盖尔茨丘陵 and Reighinalt"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12800,8 +11756,14 @@
       "zhTWName": "",
       "enName": "Giant Ogre",
       "combatPower": 2730,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills and Reighinalt (Location)",
+        "Gairech Hills and Reighinalt"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵 and Reighinalt（Location）",
+        "盖尔茨丘陵 and Reighinalt"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12824,8 +11786,12 @@
       "zhTWName": "",
       "enName": "Giant Skeleton",
       "combatPower": 1298,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12848,8 +11814,14 @@
       "zhTWName": "",
       "enName": "Giant Black Wolf",
       "combatPower": 2680,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill (Location)",
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔（Location）",
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -12872,8 +11844,14 @@
       "zhTWName": "",
       "enName": "Giant Black Wolf",
       "combatPower": 2680,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill (Location)",
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔（Location）",
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -13275,102 +12253,6 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-10092-revolution-civilian1-g13",
-      "zhCNName": "平民",
-      "zhTWName": "",
-      "enName": "Human Soldier",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10092,
-      "raceClassName": "Revolution_Civilian1_G13",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 10,
-      "life": 150,
-      "attackMin": 2,
-      "attackMax": 12,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 50
-    },
-    {
-      "id": "g13-10093-revolution-civilian2-g13",
-      "zhCNName": "平民",
-      "zhTWName": "",
-      "enName": "Human Soldier",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10093,
-      "raceClassName": "Revolution_Civilian2_G13",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 10,
-      "life": 150,
-      "attackMin": 2,
-      "attackMax": 12,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 50
-    },
-    {
-      "id": "g13-10094-revolution-civilian3-g13",
-      "zhCNName": "平民",
-      "zhTWName": "",
-      "enName": "Human Soldier",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10094,
-      "raceClassName": "Revolution_Civilian3_G13",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 10,
-      "life": 150,
-      "attackMin": 2,
-      "attackMax": 12,
-      "defense": 10,
-      "protect": 5,
-      "bonusExp": 50
-    },
-    {
-      "id": "g13-900012-nian",
-      "zhCNName": "年兽",
-      "zhTWName": "",
-      "enName": "Nian",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900012,
-      "raceClassName": "Nian",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 3702,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-251202-cactuslizardkid",
       "zhCNName": "幼小仙人掌蜥蜴",
       "zhTWName": "",
@@ -13393,78 +12275,6 @@
       "defense": 0,
       "protect": 18,
       "bonusExp": 650
-    },
-    {
-      "id": "g13-180007-runnerzombie01",
-      "zhCNName": "幼小僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180007,
-      "raceClassName": "RunnerZombie01",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 5,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180013-runnerzombie02",
-      "zhCNName": "幼小僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180013,
-      "raceClassName": "RunnerZombie02",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 5,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180018-runnerzombie03",
-      "zhCNName": "幼小僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180018,
-      "raceClassName": "RunnerZombie03",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 5,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
     },
     {
       "id": "g13-30022-giantspiderkid-tutorial",
@@ -14715,102 +13525,6 @@
       "bonusExp": 2000
     },
     {
-      "id": "g13-17605-summoned-ghost",
-      "zhCNName": "幽灵",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 3320,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 17605,
-      "raceClassName": "Summoned_Ghost",
-      "baseCombatPower": 1800,
-      "combatPower2": 3320,
-      "level": 50,
-      "life": 1600,
-      "attackMin": 60,
-      "attackMax": 100,
-      "defense": 40,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-17608-summoned-ghost2",
-      "zhCNName": "幽灵",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 17608,
-      "raceClassName": "Summoned_Ghost2",
-      "baseCombatPower": 1500,
-      "combatPower2": 3000,
-      "level": 50,
-      "life": 1600,
-      "attackMin": 60,
-      "attackMax": 100,
-      "defense": 40,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-80308-ghostcloaker-g13",
-      "zhCNName": "幽灵 披风老妖",
-      "zhTWName": "",
-      "enName": "Ghost Cloaker",
-      "combatPower": 900,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 80308,
-      "raceClassName": "GhostCloaker_G13",
-      "baseCombatPower": 680,
-      "combatPower2": 900,
-      "level": 10,
-      "life": 50,
-      "attackMin": 4,
-      "attackMax": 11,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 350
-    },
-    {
-      "id": "g13-100097-halloween-ghost-son2",
-      "zhCNName": "幽灵儿子",
-      "zhTWName": "",
-      "enName": "Ghost Son",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100097,
-      "raceClassName": "Halloween_Ghost_Son2",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-15001-ghostarmyleader",
       "zhCNName": "幽灵军头领",
       "zhTWName": "",
@@ -14833,54 +13547,6 @@
       "defense": 10,
       "protect": 30,
       "bonusExp": 2200
-    },
-    {
-      "id": "g13-100098-halloween-ghost-daughter2",
-      "zhCNName": "幽灵女儿",
-      "zhTWName": "",
-      "enName": "Ghost Daughter",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100098,
-      "raceClassName": "Halloween_Ghost_Daughter2",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100096-halloween-ghost-mother2",
-      "zhCNName": "幽灵妈妈",
-      "zhTWName": "",
-      "enName": "Ghost Mom",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100096,
-      "raceClassName": "Halloween_Ghost_Mother2",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
     },
     {
       "id": "g13-15004-ghostarmyarcher",
@@ -14912,8 +13578,12 @@
       "zhTWName": "",
       "enName": "Ghost Cloaker",
       "combatPower": 3800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Basic"
+      ],
+      "zhCNLocations": [
+        "皮卡初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -14960,8 +13630,12 @@
       "zhTWName": "",
       "enName": "Bomb Steed",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15003,30 +13677,6 @@
       "bonusExp": 1900
     },
     {
-      "id": "g13-100095-halloween-ghost-father2",
-      "zhCNName": "幽灵爸爸",
-      "zhTWName": "",
-      "enName": "Ghost Daddy",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100095,
-      "raceClassName": "Halloween_Ghost_Father2",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-17624-ghost-peaca-middle",
       "zhCNName": "幽灵王",
       "zhTWName": "",
@@ -15056,8 +13706,18 @@
       "zhTWName": "",
       "enName": "Ghost Armor",
       "combatPower": 1090,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Mores",
+        "Math Shiela",
+        "Albey Black Orb",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "玛斯 Mores",
+        "玛斯 Shiela",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15080,8 +13740,20 @@
       "zhTWName": "",
       "enName": "Goblin Archer",
       "combatPower": 634,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Normal",
+        "Rabbie Normal (Party Boss)",
+        "Barri Normal",
+        "Albey Green",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔普通",
+        "莱比普通（Party BOSS）",
+        "巴里普通",
+        "阿尔贝 Green",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15099,37 +13771,25 @@
       "bonusExp": 100
     },
     {
-      "id": "g13-10178-goblinarcher-g13",
-      "zhCNName": "弓手哥布林",
-      "zhTWName": "",
-      "enName": "Goblin Archer",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10178,
-      "raceClassName": "GoblinArcher_G13",
-      "baseCombatPower": 450,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 95,
-      "attackMin": 5,
-      "attackMax": 16,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-10175-goblinarcher-towerdefence",
       "zhCNName": "弓手哥布林",
       "zhTWName": "",
       "enName": "Goblin Archer",
       "combatPower": 634,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Normal",
+        "Rabbie Normal (Party Boss)",
+        "Barri Normal",
+        "Albey Green",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔普通",
+        "莱比普通（Party BOSS）",
+        "巴里普通",
+        "阿尔贝 Green",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15176,8 +13836,12 @@
       "zhTWName": "",
       "enName": "Kobold Archer",
       "combatPower": 827,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15416,8 +14080,12 @@
       "zhTWName": "",
       "enName": "Sheep Wolf",
       "combatPower": 1539,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Osna Sail"
+      ],
+      "zhCNLocations": [
+        "Osna Sail"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -15435,91 +14103,25 @@
       "bonusExp": 700
     },
     {
-      "id": "g13-20031-sheepwolf-huskyevent",
-      "zhCNName": "披着羊皮的狼",
-      "zhTWName": "",
-      "enName": "Sheep Wolf",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20031,
-      "raceClassName": "SheepWolf_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 20,
-      "life": 90,
-      "attackMin": 10,
-      "attackMax": 20,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-80301-cloaker",
       "zhCNName": "披风老妖",
       "zhTWName": "",
       "enName": "Cloker",
       "combatPower": 3580,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Scary Library",
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "Scary Library",
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
       "source": "g13-local",
       "raceId": 80301,
       "raceClassName": "Cloaker",
-      "baseCombatPower": 2000,
-      "combatPower2": 3580,
-      "level": 22,
-      "life": 2600,
-      "attackMin": 30,
-      "attackMax": 60,
-      "defense": 50,
-      "protect": 30,
-      "bonusExp": 1000
-    },
-    {
-      "id": "g13-80307-cloaker-g13",
-      "zhCNName": "披风老妖",
-      "zhTWName": "",
-      "enName": "Cloker",
-      "combatPower": 750,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 80307,
-      "raceClassName": "Cloaker_G13",
-      "baseCombatPower": 570,
-      "combatPower2": 750,
-      "level": 10,
-      "life": 50,
-      "attackMin": 4,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 250
-    },
-    {
-      "id": "g13-80309-cloaker-g13-no-effect",
-      "zhCNName": "披风老妖",
-      "zhTWName": "",
-      "enName": "Cloker",
-      "combatPower": 3580,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 80309,
-      "raceClassName": "Cloaker_G13_no_effect",
       "baseCombatPower": 2000,
       "combatPower2": 3580,
       "level": 22,
@@ -15649,30 +14251,6 @@
       "defense": 0,
       "protect": 10,
       "bonusExp": 560
-    },
-    {
-      "id": "g13-120027-ratboss2-g13-noai-mail",
-      "zhCNName": "拿走书信的 王城鼠",
-      "zhTWName": "",
-      "enName": "Big Stage Rat",
-      "combatPower": 620,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 120027,
-      "raceClassName": "RatBoss2_G13_NoAI_Mail",
-      "baseCombatPower": 580,
-      "combatPower2": 620,
-      "level": 10,
-      "life": 50,
-      "attackMin": 9,
-      "attackMax": 25,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
     },
     {
       "id": "g13-10011-jenna",
@@ -15819,30 +14397,6 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-10073-jenna-cutscene-g11",
-      "zhCNName": "捷娜_G11_效果",
-      "zhTWName": "",
-      "enName": "Jenna",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10073,
-      "raceClassName": "Jenna_Cutscene_G11",
-      "baseCombatPower": 100,
-      "combatPower2": 100,
-      "level": 10,
-      "life": 150,
-      "attackMin": 20,
-      "attackMax": 70,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-18107-tiamat",
       "zhCNName": "提亚马特",
       "zhTWName": "",
@@ -15920,8 +14474,12 @@
       "zhTWName": "",
       "enName": "Zebra",
       "combatPower": 1420,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Cenae Meadows)"
+      ],
+      "zhCNLocations": [
+        "Courcle（Cenae Meadows）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -16059,30 +14617,6 @@
       "bonusExp": 3000
     },
     {
-      "id": "g13-520202-shadowskeleton-whiteday",
-      "zhCNName": "无敌单身部队骷髅士兵",
-      "zhTWName": "",
-      "enName": "Shadow Skeleton",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 520202,
-      "raceClassName": "ShadowSkeleton_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 5,
-      "life": 100,
-      "attackMin": 12,
-      "attackMax": 20,
-      "defense": 5,
-      "protect": 5,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-20605-immaculatehyena",
       "zhCNName": "无纹土狼",
       "zhTWName": "",
@@ -16112,8 +14646,14 @@
       "zhTWName": "",
       "enName": "Old Mimic",
       "combatPower": 281,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Beginner",
+        "Alby Normal"
+      ],
+      "zhCNLocations": [
+        "艾菲 Beginner",
+        "艾菲普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -16160,8 +14700,14 @@
       "zhTWName": "",
       "enName": "Old Mimic",
       "combatPower": 281,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Beginner",
+        "Alby Normal"
+      ],
+      "zhCNLocations": [
+        "艾菲 Beginner",
+        "艾菲普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17115,30 +15661,6 @@
       "bonusExp": 390
     },
     {
-      "id": "g13-21006-abandoneddoga-huskyevent",
-      "zhCNName": "暗影犬",
-      "zhTWName": "",
-      "enName": "Abandoned Dog A",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 21006,
-      "raceClassName": "AbandonedDogA_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 20,
-      "life": 100,
-      "attackMin": 15,
-      "attackMax": 26,
-      "defense": 0,
-      "protect": 8,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-21004-abandoneddogb",
       "zhCNName": "暗影犬",
       "zhTWName": "",
@@ -17259,30 +15781,6 @@
       "bonusExp": 220
     },
     {
-      "id": "g13-450203-wilddeera-g12",
-      "zhCNName": "暗影角鹿",
-      "zhTWName": "",
-      "enName": "Wild Deer A",
-      "combatPower": 1700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 450203,
-      "raceClassName": "WildDeerA_G12",
-      "baseCombatPower": 1700,
-      "combatPower2": 1700,
-      "level": 10,
-      "life": 3000,
-      "attackMin": 20,
-      "attackMax": 35,
-      "defense": 0,
-      "protect": 8,
-      "bonusExp": 2100
-    },
-    {
       "id": "g13-40119-shadowboar",
       "zhCNName": "暗影野猪",
       "zhTWName": "",
@@ -17305,30 +15803,6 @@
       "defense": 10,
       "protect": 15,
       "bonusExp": 370
-    },
-    {
-      "id": "g13-40120-shadowboar-g12",
-      "zhCNName": "暗影野猪",
-      "zhTWName": "",
-      "enName": "Arat Wild Boar",
-      "combatPower": 1825,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 40120,
-      "raceClassName": "ShadowBoar_G12",
-      "baseCombatPower": 1825,
-      "combatPower2": 1825,
-      "level": 29,
-      "life": 3900,
-      "attackMin": 14,
-      "attackMax": 26,
-      "defense": 10,
-      "protect": 18,
-      "bonusExp": 2200
     },
     {
       "id": "g13-40121-shadowboar-wappen",
@@ -17408,8 +15882,16 @@
       "zhTWName": "",
       "enName": "Black Wizard",
       "combatPower": 1790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Field Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "G9 Shadow Mission The Hero of Mag Tuireadh (Sub-boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Field BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "G9 Shadow Mission The Hero of Mag Tuireadh（Sub-boss）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17432,8 +15914,16 @@
       "zhTWName": "",
       "enName": "Black Wizard",
       "combatPower": 1790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Field Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "G9 Shadow Mission The Hero of Mag Tuireadh (Sub-boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Field BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "G9 Shadow Mission The Hero of Mag Tuireadh（Sub-boss）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17456,8 +15946,16 @@
       "zhTWName": "",
       "enName": "Black Wizard",
       "combatPower": 1790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Field Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "G9 Shadow Mission The Hero of Mag Tuireadh (Sub-boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Field BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "G9 Shadow Mission The Hero of Mag Tuireadh（Sub-boss）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17480,8 +15978,16 @@
       "zhTWName": "",
       "enName": "Black Wizard",
       "combatPower": 1790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Field Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "G9 Shadow Mission The Hero of Mag Tuireadh (Sub-boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Field BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "G9 Shadow Mission The Hero of Mag Tuireadh（Sub-boss）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17504,8 +16010,14 @@
       "zhTWName": "",
       "enName": "Black Soldier",
       "combatPower": 2362,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle (Location)",
+        "Dugald Aisle"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊（Location）",
+        "杜加德走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17528,8 +16040,14 @@
       "zhTWName": "",
       "enName": "Black Warrior",
       "combatPower": 3810,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle (Location)",
+        "Dugald Aisle"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊（Location）",
+        "杜加德走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17552,8 +16070,14 @@
       "zhTWName": "",
       "enName": "Black Warrior",
       "combatPower": 3810,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle (Location)",
+        "Dugald Aisle"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊（Location）",
+        "杜加德走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17595,37 +16119,17 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-11012-summoneddarkskeleton",
-      "zhCNName": "暗黑骷髅",
-      "zhTWName": "",
-      "enName": "Dark Skeleton",
-      "combatPower": 1286,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 11012,
-      "raceClassName": "SummonedDarkSkeleton",
-      "baseCombatPower": 1700,
-      "combatPower2": 1286,
-      "level": 32,
-      "life": 300,
-      "attackMin": 20,
-      "attackMax": 40,
-      "defense": 2,
-      "protect": 2,
-      "bonusExp": 400
-    },
-    {
       "id": "g13-170303-darkratman",
       "zhCNName": "暗黑鼠人",
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17672,8 +16176,12 @@
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17696,8 +16204,12 @@
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17720,8 +16232,12 @@
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17744,8 +16260,12 @@
       "zhTWName": "",
       "enName": "Dark Rat Man",
       "combatPower": 1625,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17787,54 +16307,6 @@
       "bonusExp": 35
     },
     {
-      "id": "g13-20038-blackwolf-g13",
-      "zhCNName": "月夜狼人",
-      "zhTWName": "",
-      "enName": "Black Wolf",
-      "combatPower": 705,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20038,
-      "raceClassName": "BlackWolf_G13",
-      "baseCombatPower": 660,
-      "combatPower2": 705,
-      "level": 10,
-      "life": 110,
-      "attackMin": 8,
-      "attackMax": 22,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 70
-    },
-    {
-      "id": "g13-20032-blackwolf-huskyevent",
-      "zhCNName": "月夜狼人",
-      "zhTWName": "",
-      "enName": "Black Wolf",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20032,
-      "raceClassName": "BlackWolf_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 8,
-      "life": 90,
-      "attackMin": 8,
-      "attackMax": 26,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-10501-woodenman",
       "zhCNName": "木头人",
       "zhTWName": "",
@@ -17864,8 +16336,12 @@
       "zhTWName": "",
       "enName": "Wood Jackal",
       "combatPower": 840,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Intermediate"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -17984,8 +16460,18 @@
       "zhTWName": "",
       "enName": "Archer Slate",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal",
+        "Maiz Final Hit",
+        "Longa Enchanting Arrow",
+        "Iria (Exploration Treasure Box)"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通",
+        "Maiz Final Hit",
+        "伦迦 Enchanting Arrow",
+        "伊利亚（Exploration Treasure Box）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18008,8 +16494,18 @@
       "zhTWName": "",
       "enName": "Fighter Slate",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal",
+        "Maiz Final Hit",
+        "Longa Enchanting Arrow",
+        "Iria (Exploration Treasure Box)"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通",
+        "Maiz Final Hit",
+        "伦迦 Enchanting Arrow",
+        "伊利亚（Exploration Treasure Box）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18097,30 +16593,6 @@
       "defense": 5,
       "protect": 6,
       "bonusExp": 4000
-    },
-    {
-      "id": "g13-110014-hell-cow-g12",
-      "zhCNName": "柯雷格母兽",
-      "zhTWName": "",
-      "enName": "Shadow Crag",
-      "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110014,
-      "raceClassName": "Hell_Cow_G12",
-      "baseCombatPower": 1100,
-      "combatPower2": 1100,
-      "level": 33,
-      "life": 4700,
-      "attackMin": 18,
-      "attackMax": 30,
-      "defense": 5,
-      "protect": 6,
-      "bonusExp": 2900
     },
     {
       "id": "g13-110009-hell-cow-glasghibhleann2",
@@ -18248,8 +16720,12 @@
       "zhTWName": "",
       "enName": "Glas Ghaibhleann",
       "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Goddess (Boss)"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Goddess（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18296,8 +16772,12 @@
       "zhTWName": "",
       "enName": "Glas Ghaibhleann",
       "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Goddess (Boss)"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Goddess（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18536,8 +17016,20 @@
       "zhTWName": "",
       "enName": "Brown Dire Wolf",
       "combatPower": 725,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dunbarton",
+        "Osna Sail",
+        "Gairech Hills",
+        "Taillteann"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "Osna Sail",
+        "盖尔茨丘陵",
+        "塔尔汀"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18560,8 +17052,16 @@
       "zhTWName": "",
       "enName": "Brown Grizzly Bear",
       "combatPower": 1802,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton",
+        "Gairech Hills",
+        "Sen Mag Plains"
+      ],
+      "zhCNLocations": [
+        "敦巴伦",
+        "盖尔茨丘陵",
+        "Sen Mag Plains"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18584,8 +17084,14 @@
       "zhTWName": "",
       "enName": "Brown Bear",
       "combatPower": 1320,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Sen Mag Plains"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "Sen Mag Plains"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18656,8 +17162,20 @@
       "zhTWName": "",
       "enName": "Brown Fox",
       "combatPower": 265,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Taillteann",
+        "Sliab Cuilin"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "塔尔汀",
+        "斯利亚布库林"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18694,30 +17212,6 @@
       "life": 10000,
       "attackMin": 2,
       "attackMax": 4,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-900004-eventbrownfox",
-      "zhCNName": "棕狐狸(活动用)",
-      "zhTWName": "",
-      "enName": "Event Brown Fox",
-      "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900004,
-      "raceClassName": "EventBrownFox",
-      "baseCombatPower": 108,
-      "combatPower2": 500,
-      "level": 1,
-      "life": 100,
-      "attackMin": 15,
-      "attackMax": 20,
       "defense": 0,
       "protect": 0,
       "bonusExp": 0
@@ -18776,8 +17270,12 @@
       "zhTWName": "",
       "enName": "Brown Physis Fox",
       "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (North of Vales)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（North of Vales）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18800,8 +17298,12 @@
       "zhTWName": "",
       "enName": "Brown Warg",
       "combatPower": 950,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Near Whirlpool Mark)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Near Whirlpool Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18819,37 +17321,17 @@
       "bonusExp": 370
     },
     {
-      "id": "g13-21210-brownwarg-huskyevent",
-      "zhCNName": "棕色森林狼",
-      "zhTWName": "",
-      "enName": "Brown Warg",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 21210,
-      "raceClassName": "BrownWarg_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 20,
-      "life": 100,
-      "attackMin": 11,
-      "attackMax": 21,
-      "defense": 0,
-      "protect": 10,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-70402-brownsnowfieldbear",
       "zhCNName": "棕色雪原熊",
       "zhTWName": "",
       "enName": "Brown Snowfield Bear",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Sella Beach)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Sella Beach）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18872,8 +17354,20 @@
       "zhTWName": "",
       "enName": "Brown Gremlin",
       "combatPower": 594,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Silver",
+        "Albey Goddess",
+        "Barri Basic",
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 Silver",
+        "阿尔贝 Goddess",
+        "巴里 初级",
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18896,8 +17390,20 @@
       "zhTWName": "",
       "enName": "Brown Snake",
       "combatPower": 591,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Red",
+        "Albey Goddess",
+        "Fiodh (Violet)",
+        "Ciar Basic",
+        "Fiodh Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Red",
+        "阿尔贝 Goddess",
+        "菲奥纳（Violet）",
+        "赛维尔 初级",
+        "菲奥纳普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18944,8 +17450,12 @@
       "zhTWName": "",
       "enName": "Brown Reindeer",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Barba Basin)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Barba Basin）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18968,8 +17478,14 @@
       "zhTWName": "",
       "enName": "Brown Town Rat",
       "combatPower": 279,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Beginner",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Beginner",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -18979,30 +17495,6 @@
       "baseCombatPower": 210,
       "combatPower2": 279,
       "level": 3,
-      "life": 40,
-      "attackMin": 4,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 20
-    },
-    {
-      "id": "g13-120025-browntownrat-g13",
-      "zhCNName": "棕鼠",
-      "zhTWName": "",
-      "enName": "Brown Town Rat",
-      "combatPower": 250,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 120025,
-      "raceClassName": "BrownTownRat_G13",
-      "baseCombatPower": 210,
-      "combatPower2": 250,
-      "level": 10,
       "life": 40,
       "attackMin": 4,
       "attackMax": 10,
@@ -19057,30 +17549,6 @@
       "defense": 10,
       "protect": 5,
       "bonusExp": 190
-    },
-    {
-      "id": "g13-130027-forestgolemsummoned",
-      "zhCNName": "森林石巨人",
-      "zhTWName": "",
-      "enName": "Forestl Golem",
-      "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130027,
-      "raceClassName": "ForestGolemSummoned",
-      "baseCombatPower": 1500,
-      "combatPower2": 1500,
-      "level": 37,
-      "life": 190,
-      "attackMin": 10,
-      "attackMax": 90,
-      "defense": 10,
-      "protect": 4,
-      "bonusExp": 0
     },
     {
       "id": "g13-160010-bannergrumbil",
@@ -19280,8 +17748,12 @@
       "zhTWName": "",
       "enName": "Lioness",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Central Cenae Meadows)"
+      ],
+      "zhCNLocations": [
+        "Courcle（Central Cenae Meadows）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19336,30 +17808,6 @@
       "source": "g13-local",
       "raceId": 60005,
       "raceClassName": "Hen2",
-      "baseCombatPower": 100,
-      "combatPower2": 100,
-      "level": 4,
-      "life": 40,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
-      "id": "g13-110006-hen-event",
-      "zhCNName": "母鸡",
-      "zhTWName": "",
-      "enName": "Hen",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110006,
-      "raceClassName": "Hen_Event",
       "baseCombatPower": 100,
       "combatPower2": 100,
       "level": 4,
@@ -19472,8 +17920,16 @@
       "zhTWName": "",
       "enName": "Poison Goblin",
       "combatPower": 641,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Normal",
+        "Barri Normal",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "赛维尔普通",
+        "巴里普通",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19520,8 +17976,14 @@
       "zhTWName": "",
       "enName": "Poison Kobold",
       "combatPower": 876,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Normal",
+        "Albey Goddess"
+      ],
+      "zhCNLocations": [
+        "玛斯 普通",
+        "阿尔贝 Goddess"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19592,8 +18054,12 @@
       "zhTWName": "",
       "enName": "Bishop",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19784,8 +18250,16 @@
       "zhTWName": "",
       "enName": "Otter",
       "combatPower": 790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "North of the Cor Village Mana Tunnel",
+        "Near the Herba Jungle West Mana Tunnel",
+        "Near the Pantay Swamp Raft Mana Tunnel"
+      ],
+      "zhCNLocations": [
+        "North of the Cor Village Mana Tunnel",
+        "Near the Herba Jungle West Mana Tunnel",
+        "Near the Pantay Swamp Raft Mana Tunnel"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19808,8 +18282,12 @@
       "zhTWName": "",
       "enName": "Capybara",
       "combatPower": 750,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (Southeast, South, and West of Calida Exploration Camp)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（Southeast, South, and West of Calida Exploration Camp）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -19832,8 +18310,12 @@
       "zhTWName": "",
       "enName": "Savanna Jackal",
       "combatPower": 1210,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Cenae Meadows), West of Mana Tunnel"
+      ],
+      "zhCNLocations": [
+        "Courcle（Cenae Meadows）, West of Mana Tunnel"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20072,8 +18554,18 @@
       "zhTWName": "",
       "enName": "Sand Mimic",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Amethyst",
+        "Longa Emerald",
+        "Longa Topaz",
+        "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Amethyst",
+        "伦迦 Emerald",
+        "伦迦 Topaz",
+        "伦迦 Enchanting Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20120,8 +18612,16 @@
       "zhTWName": "",
       "enName": "Sand Millipede",
       "combatPower": 650,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous Northeast of Filia",
+        "by the Lizard Mark",
+        "Connous Northeast of Filia, by the Lizard Mark"
+      ],
+      "zhCNLocations": [
+        "科诺斯 Northeast of Filia",
+        "by the Lizard Mark",
+        "科诺斯 Northeast of Filia, by the Lizard Mark"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20144,8 +18644,12 @@
       "zhTWName": "",
       "enName": "Desert Dragon",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Sheep Landmark)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Sheep Landmark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20184,54 +18688,6 @@
       "attackMax": 100,
       "defense": 20,
       "protect": 20,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-180024-femalezombie01-whiteday",
-      "zhCNName": "没牵过手的僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180024,
-      "raceClassName": "FemaleZombie01_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 80,
-      "attackMin": 10,
-      "attackMax": 30,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 100
-    },
-    {
-      "id": "g13-180023-malezombie01-whiteday",
-      "zhCNName": "没牵过手的僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180023,
-      "raceClassName": "MaleZombie01_Whiteday",
-      "baseCombatPower": 550,
-      "combatPower2": 550,
-      "level": 10,
-      "life": 80,
-      "attackMin": 10,
-      "attackMax": 30,
-      "defense": 0,
-      "protect": 50,
       "bonusExp": 100
     },
     {
@@ -20384,8 +18840,16 @@
       "zhTWName": "",
       "enName": "Candle Spider",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon",
+        "Sen Mag Castle Dungeon",
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "Sen Mag Castle 地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20432,8 +18896,12 @@
       "zhTWName": "",
       "enName": "Troll",
       "combatPower": 1720,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Reighinalt)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Reighinalt）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20456,8 +18924,12 @@
       "zhTWName": "",
       "enName": "Troll",
       "combatPower": 1720,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Reighinalt)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Reighinalt）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20624,8 +19096,20 @@
       "zhTWName": "",
       "enName": "Raccoon",
       "combatPower": 279,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Taillteann",
+        "Abb Neagh",
+        "Sliab Cuilin",
+        "Corrib Valley"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔尔汀",
+        "阿布内尔",
+        "斯利亚布库林",
+        "Corrib Valley"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20792,8 +19276,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20816,8 +19304,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20840,8 +19332,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20864,8 +19360,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20888,8 +19388,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -20912,8 +19416,12 @@
       "zhTWName": "",
       "enName": "Pirate Red Skeleton",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21176,8 +19684,12 @@
       "zhTWName": "",
       "enName": "Pirate Skeleton",
       "combatPower": 1351,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Normal"
+      ],
+      "zhCNLocations": [
+        "伦达普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21272,8 +19784,12 @@
       "zhTWName": "",
       "enName": "Dark Red Porcupine",
       "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (South Errans Canyon)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（South Errans Canyon）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21296,8 +19812,12 @@
       "zhTWName": "",
       "enName": "Hot Spring Monkey",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (Hot Springs)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（Hot Springs）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21344,8 +19864,16 @@
       "zhTWName": "",
       "enName": "Meek Bat",
       "combatPower": 375,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Beginner",
+        "Alby Normal",
+        "Alby Quests"
+      ],
+      "zhCNLocations": [
+        "艾菲 Beginner",
+        "艾菲普通",
+        "艾菲 Quests"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21368,8 +19896,22 @@
       "zhTWName": "",
       "enName": "Fire Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental",
+        "Ceo Island (Location)",
+        "Ceo Island",
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental",
+        "Ceo Island（Location）",
+        "Ceo Island",
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21392,8 +19934,22 @@
       "zhTWName": "",
       "enName": "Fire Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental",
+        "Ceo Island (Location)",
+        "Ceo Island",
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental",
+        "Ceo Island（Location）",
+        "Ceo Island",
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21416,8 +19972,12 @@
       "zhTWName": "",
       "enName": "Fire Wyvern",
       "combatPower": 3600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21440,8 +20000,12 @@
       "zhTWName": "",
       "enName": "Fire Wyvern",
       "combatPower": 3600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21464,8 +20028,12 @@
       "zhTWName": "",
       "enName": "Fire Wyvern",
       "combatPower": 3600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21584,8 +20152,12 @@
       "zhTWName": "",
       "enName": "Volcano Rock Scorpion",
       "combatPower": 1950,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21728,8 +20300,12 @@
       "zhTWName": "",
       "enName": "Volcano Wolf",
       "combatPower": 940,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (Next to Hot Springs)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（Next to Hot Springs）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21800,8 +20376,12 @@
       "zhTWName": "",
       "enName": "Balrog",
       "combatPower": 3200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (halfway between Raspa and Pera Volcanoes)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（halfway between Raspa and Pera Volcanoes）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21824,8 +20404,12 @@
       "zhTWName": "",
       "enName": "Balrog",
       "combatPower": 3200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (halfway between Raspa and Pera Volcanoes)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（halfway between Raspa and Pera Volcanoes）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21848,8 +20432,12 @@
       "zhTWName": "",
       "enName": "Balrog",
       "combatPower": 3200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (halfway between Raspa and Pera Volcanoes)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（halfway between Raspa and Pera Volcanoes）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -21872,8 +20460,12 @@
       "zhTWName": "",
       "enName": "Balrog",
       "combatPower": 3200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (halfway between Raspa and Pera Volcanoes)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（halfway between Raspa and Pera Volcanoes）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22064,8 +20656,14 @@
       "zhTWName": "",
       "enName": "Ifrit",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Central Longa Desert)",
+        "Connous Underground Maze (Center)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Central 伦迦 Desert）",
+        "科诺斯 Underground Maze（Center）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22088,8 +20686,20 @@
       "zhTWName": "",
       "enName": "Salamander",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous Underground Maze",
+        "Summoned by Ifrit",
+        "Saga 2",
+        "Episodes 3",
+        "4 and 5"
+      ],
+      "zhCNLocations": [
+        "科诺斯 Underground Maze",
+        "Summoned by Ifrit",
+        "Saga 2",
+        "Episodes 3",
+        "4 and 5"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22136,8 +20746,26 @@
       "zhTWName": "",
       "enName": "Gray Fox",
       "combatPower": 463,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Gairech Hills",
+        "Taillteann",
+        "Abb Neagh",
+        "Sliab Cuilin",
+        "Tara"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "盖尔茨丘陵",
+        "塔尔汀",
+        "阿布内尔",
+        "斯利亚布库林",
+        "塔拉"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22184,8 +20812,22 @@
       "zhTWName": "",
       "enName": "Gray Wolf",
       "combatPower": 570,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Taillteann",
+        "Abb Neagh",
+        "Morva Aisle"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "塔尔汀",
+        "阿布内尔",
+        "莫尔巴走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22208,8 +20850,22 @@
       "zhTWName": "",
       "enName": "Gray Wolf",
       "combatPower": 570,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Taillteann",
+        "Abb Neagh",
+        "Morva Aisle"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "塔尔汀",
+        "阿布内尔",
+        "莫尔巴走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22256,8 +20912,12 @@
       "zhTWName": "",
       "enName": "Gray Werewolf",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22328,8 +20988,12 @@
       "zhTWName": "",
       "enName": "Gray Prison Zombie",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22424,8 +21088,12 @@
       "zhTWName": "",
       "enName": "Gray Physis Fox",
       "combatPower": 760,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (West of Reus River, Southeast of Vales)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（West of Reus River, Southeast of Vales）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22472,8 +21140,12 @@
       "zhTWName": "",
       "enName": "Gray Armadillo",
       "combatPower": 300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (East Longa Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（East 伦迦 Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22496,8 +21168,12 @@
       "zhTWName": "",
       "enName": "Gray Horn Cobra",
       "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22520,8 +21196,12 @@
       "zhTWName": "",
       "enName": "Gray Rock Scorpion",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22544,8 +21224,22 @@
       "zhTWName": "",
       "enName": "Gray Gremlin",
       "combatPower": 931,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Barri Basic",
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "巴里 初级",
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22568,8 +21262,12 @@
       "zhTWName": "",
       "enName": "Gray Reindeer",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Sella Beach)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Sella Beach）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22592,8 +21290,26 @@
       "zhTWName": "",
       "enName": "Gray Town Rat",
       "combatPower": 349,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Beginner",
+        "Dunbarton (Southern Field)",
+        "Ciar Normal",
+        "Rabbie Normal",
+        "Rabbie Basic",
+        "Math Normal",
+        "Fiodh Normal",
+        "Rundal Normal"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Beginner",
+        "敦巴伦（Southern Field）",
+        "赛维尔普通",
+        "莱比普通",
+        "莱比 初级",
+        "玛斯 普通",
+        "菲奥纳普通",
+        "伦达普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22603,30 +21319,6 @@
       "baseCombatPower": 220,
       "combatPower2": 349,
       "level": 4,
-      "life": 40,
-      "attackMin": 6,
-      "attackMax": 16,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 35
-    },
-    {
-      "id": "g13-120024-graytownrat-g13",
-      "zhCNName": "灰鼠",
-      "zhTWName": "",
-      "enName": "Gray Town Rat",
-      "combatPower": 250,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 120024,
-      "raceClassName": "GrayTownRat_G13",
-      "baseCombatPower": 220,
-      "combatPower2": 250,
-      "level": 10,
       "life": 40,
       "attackMin": 6,
       "attackMax": 16,
@@ -22659,85 +21351,23 @@
       "bonusExp": 500
     },
     {
-      "id": "g13-180009-bomberzombie01",
-      "zhCNName": "炸弹僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180009,
-      "raceClassName": "BomberZombie01",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180015-bomberzombie02",
-      "zhCNName": "炸弹僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180015,
-      "raceClassName": "BomberZombie02",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-180020-bomberzombie03",
-      "zhCNName": "炸弹僵尸",
-      "zhTWName": "",
-      "enName": "Zombie",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 180020,
-      "raceClassName": "BomberZombie03",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 200,
-      "attackMin": 15,
-      "attackMax": 45,
-      "defense": 0,
-      "protect": 50,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-80702-bearsprite",
       "zhCNName": "熊光羽",
       "zhTWName": "",
       "enName": "Bear Sprite",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon",
+        "Sen Mag Castle Dungeon",
+        "Dugald Castle Dungeon",
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "Sen Mag Castle 地下城",
+        "Dugald Castle 地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22808,8 +21438,22 @@
       "zhTWName": "",
       "enName": "Gorgon",
       "combatPower": 1252,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Intermediate (Boss)",
+        "Barri Basic",
+        "Barri Esras' Dungeon",
+        "Fiodh Normal",
+        "Fiodh Intermediate",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "艾菲 中级（BOSS）",
+        "巴里 初级",
+        "巴里 Esras' 地下城",
+        "菲奥纳普通",
+        "菲奥纳中级",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -22923,61 +21567,19 @@
       "bonusExp": 24
     },
     {
-      "id": "g13-43-dog-event",
-      "zhCNName": "狗",
-      "zhTWName": "",
-      "enName": "Dog",
-      "combatPower": 130,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 43,
-      "raceClassName": "Dog_Event",
-      "baseCombatPower": 130,
-      "combatPower2": 130,
-      "level": 4,
-      "life": 40,
-      "attackMin": 1,
-      "attackMax": 7,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
-      "id": "g13-900002-eventdog",
-      "zhCNName": "狗(活动用)",
-      "zhTWName": "",
-      "enName": "Event Dog",
-      "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900002,
-      "raceClassName": "EventDog",
-      "baseCombatPower": 297,
-      "combatPower2": 600,
-      "level": 1,
-      "life": 250,
-      "attackMin": 20,
-      "attackMax": 50,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-100201-cyclops",
       "zhCNName": "独眼巨人",
       "zhTWName": "",
       "enName": "Cyclops",
       "combatPower": 3245,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Normal (Boss)",
+        "Rundal Boss Trial"
+      ],
+      "zhCNLocations": [
+        "伦达普通（BOSS）",
+        "伦达 BOSS Trial"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23192,8 +21794,12 @@
       "zhTWName": "",
       "enName": "Lion",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Central Cenae Meadows)"
+      ],
+      "zhCNLocations": [
+        "Courcle（Central Cenae Meadows）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23216,8 +21822,20 @@
       "zhTWName": "",
       "enName": "Werewolf",
       "combatPower": 1575,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Normal",
+        "Albey Red",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Fiodh (Violet)"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 普通",
+        "阿尔贝 Red",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23240,8 +21858,20 @@
       "zhTWName": "",
       "enName": "Werewolf",
       "combatPower": 1575,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Normal",
+        "Albey Red",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Fiodh (Violet)"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 普通",
+        "阿尔贝 Red",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23281,30 +21911,6 @@
       "defense": 10,
       "protect": 10,
       "bonusExp": 500
-    },
-    {
-      "id": "g13-80704-wolfsprite-huskyevent",
-      "zhCNName": "狼光羽",
-      "zhTWName": "",
-      "enName": "Wolf Sprite",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 80704,
-      "raceClassName": "WolfSprite_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 8,
-      "life": 120,
-      "attackMin": 14,
-      "attackMax": 30,
-      "defense": 10,
-      "protect": 10,
-      "bonusExp": 70
     },
     {
       "id": "g13-30305-wolfmarkingfennecspider",
@@ -23384,8 +21990,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter",
       "combatPower": 1585,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23408,8 +22018,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter",
       "combatPower": 1585,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23432,8 +22046,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter",
       "combatPower": 1585,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23456,8 +22074,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter",
       "combatPower": 1585,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23480,8 +22102,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter",
       "combatPower": 1585,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23504,8 +22130,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter Archer",
       "combatPower": 1640,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23528,8 +22158,12 @@
       "zhTWName": "",
       "enName": "Goblin Hunter Archer",
       "combatPower": 1640,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Advanced"
+      ],
+      "zhCNLocations": [
+        "巴里高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23552,8 +22186,22 @@
       "zhTWName": "",
       "enName": "Mammoth",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "West of the Unflyable Bird Mark",
+        "Northwest of Silva Forest",
+        "Southeast of Lunae Valley",
+        "South of Fruited Tree Landmark",
+        "North of Sella Beach",
+        "South of Sella Beach"
+      ],
+      "zhCNLocations": [
+        "West of the Unflyable Bird Mark",
+        "Northwest of Silva Forest",
+        "Southeast of Lunae Valley",
+        "South of Fruited Tree Landmark",
+        "North of Sella Beach",
+        "South of Sella Beach"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -23593,54 +22241,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 1
-    },
-    {
-      "id": "g13-40117-pig-event",
-      "zhCNName": "猪",
-      "zhTWName": "",
-      "enName": "Pig",
-      "combatPower": 130,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 40117,
-      "raceClassName": "Pig_Event",
-      "baseCombatPower": 130,
-      "combatPower2": 130,
-      "level": 4,
-      "life": 40,
-      "attackMin": 1,
-      "attackMax": 7,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
-      "id": "g13-120026-ratboss2-g13-noai",
-      "zhCNName": "王城 鼠",
-      "zhTWName": "",
-      "enName": "Big Stage Rat",
-      "combatPower": 620,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 120026,
-      "raceClassName": "RatBoss2_G13_NoAI",
-      "baseCombatPower": 580,
-      "combatPower2": 620,
-      "level": 10,
-      "life": 50,
-      "attackMin": 9,
-      "attackMax": 25,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 40
     },
     {
       "id": "g13-87-royalalchemist1",
@@ -23960,8 +22560,14 @@
       "zhTWName": "",
       "enName": "Bandersnatch",
       "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Normal",
+        "Par Snow Crystal"
+      ],
+      "zhCNLocations": [
+        "Par 普通",
+        "Par Snow Crystal"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24123,133 +22729,19 @@
       "bonusExp": 200
     },
     {
-      "id": "g13-10213-test-kobold-ice",
-      "zhCNName": "用冰攻击的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Ice",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10213,
-      "raceClassName": "Test_Kobold_Ice",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10214-test-kobold-bow",
-      "zhCNName": "用弓攻击的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Bow",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10214,
-      "raceClassName": "Test_Kobold_Bow",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10212-test-kobold-fire",
-      "zhCNName": "用火攻击的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Fire",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10212,
-      "raceClassName": "Test_Kobold_Fire",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10215-test-kobold-jump",
-      "zhCNName": "用跳跃攻击的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Jump",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10215,
-      "raceClassName": "Test_Kobold_Jump",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 300,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 30,
-      "bonusExp": 700
-    },
-    {
-      "id": "g13-10211-test-kobold-lightning",
-      "zhCNName": "用雷攻击的地精",
-      "zhTWName": "",
-      "enName": "Test_Kobold_Lightning",
-      "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10211,
-      "raceClassName": "Test_Kobold_Lightning",
-      "baseCombatPower": 6000,
-      "combatPower2": 6000,
-      "level": 10,
-      "life": 60,
-      "attackMin": 5,
-      "attackMax": 10,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 700
-    },
-    {
       "id": "g13-120004-countryrat",
       "zhCNName": "田鼠",
       "zhTWName": "",
       "enName": "Country Rat",
       "combatPower": 341,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Tarlach's Glasses Case roleplay",
+        "Alby Normal"
+      ],
+      "zhCNLocations": [
+        "莱比 Tarlach's Glasses Case roleplay",
+        "艾菲普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24320,8 +22812,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24344,8 +22846,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24368,8 +22880,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24392,8 +22914,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24416,8 +22948,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24440,8 +22982,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24464,8 +23016,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 2050,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24488,8 +23050,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24512,8 +23084,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24536,8 +23118,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24560,8 +23152,18 @@
       "zhTWName": "",
       "enName": "Incubus",
       "combatPower": 5000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon (Solo)",
+        "Sen Mag Castle Dungeon (Solo)",
+        "Dugald Castle Dungeon (Solo)",
+        "Sliab Cuilin Castle Dungeon (Solo)"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城（Solo）",
+        "Sen Mag Castle 地下城（Solo）",
+        "Dugald Castle 地下城（Solo）",
+        "斯利亚布库林城地下城（Solo）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24896,8 +23498,12 @@
       "zhTWName": "",
       "enName": "White Wolf",
       "combatPower": 829,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -24913,30 +23519,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 85
-    },
-    {
-      "id": "g13-900005-eventwhitewolf",
-      "zhCNName": "白狼(活动用)",
-      "zhTWName": "",
-      "enName": "Event White Wolf",
-      "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900005,
-      "raceClassName": "EventWhiteWolf",
-      "baseCombatPower": 405,
-      "combatPower2": 800,
-      "level": 1,
-      "life": 220,
-      "attackMin": 25,
-      "attackMax": 60,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
     },
     {
       "id": "g13-21102-whitelynx",
@@ -24992,8 +23574,12 @@
       "zhTWName": "",
       "enName": "White Prison Zombie",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25040,8 +23626,12 @@
       "zhTWName": "",
       "enName": "White Succubus",
       "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比高级（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25112,8 +23702,12 @@
       "zhTWName": "",
       "enName": "White Rock Scorpion",
       "combatPower": 1300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25208,8 +23802,14 @@
       "zhTWName": "",
       "enName": "White Dire Wolf",
       "combatPower": 1015,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Gairech Hills"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "盖尔茨丘陵"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25232,8 +23832,14 @@
       "zhTWName": "",
       "enName": "White Dire Wolf",
       "combatPower": 1015,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Gairech Hills"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "盖尔茨丘陵"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25304,8 +23910,12 @@
       "zhTWName": "",
       "enName": "White Mummy Servant",
       "combatPower": 3500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow (Floor 3)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow（Floor 3）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25352,8 +23962,12 @@
       "zhTWName": "",
       "enName": "White Warg",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Lunae Valley North of Winged Horse Mark)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Lunae Valley North of Winged Horse Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25369,30 +23983,6 @@
       "defense": 0,
       "protect": 15,
       "bonusExp": 710
-    },
-    {
-      "id": "g13-21209-whitewarg-huskyevent",
-      "zhCNName": "白色森林狼",
-      "zhTWName": "",
-      "enName": "White Warg",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 21209,
-      "raceClassName": "WhiteWarg_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 20,
-      "life": 100,
-      "attackMin": 11,
-      "attackMax": 21,
-      "defense": 0,
-      "protect": 15,
-      "bonusExp": 70
     },
     {
       "id": "g13-251103-whitewoodlizard",
@@ -25424,8 +24014,12 @@
       "zhTWName": "",
       "enName": "White Poison Snake",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Advanced"
+      ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25784,8 +24378,12 @@
       "zhTWName": "",
       "enName": "White Python",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Emerald"
+      ],
+      "zhCNLocations": [
+        "伦迦 Emerald"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25808,8 +24406,18 @@
       "zhTWName": "",
       "enName": "White Snake",
       "combatPower": 1086,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Red",
+        "Albey Silver",
+        "Albey Goddess",
+        "Fiodh (Violet)"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Red",
+        "阿尔贝 Silver",
+        "阿尔贝 Goddess",
+        "菲奥纳（Violet）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25832,8 +24440,22 @@
       "zhTWName": "",
       "enName": "White Spider",
       "combatPower": 201,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dunbarton",
+        "Emain Macha",
+        "Solea",
+        "Connous (near the Lizard Mark and Spider Mark)",
+        "Connous Underground Maze"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "敦巴伦",
+        "艾明马夏",
+        "Solea",
+        "科诺斯（near the Lizard Mark and Spider Mark）",
+        "科诺斯 Underground Maze"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25952,8 +24574,12 @@
       "zhTWName": "",
       "enName": "White Spider Wasp",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -25976,8 +24602,12 @@
       "zhTWName": "",
       "enName": "White Reindeer",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Lunae Valley)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Lunae Valley）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26120,8 +24750,16 @@
       "zhTWName": "",
       "enName": "Argus",
       "combatPower": 3245,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Intermediate",
+        "Baol G3 Final",
+        "Fiodh Advanced"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级",
+        "Baol G3 Final",
+        "菲奥纳高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26283,37 +24921,23 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-42-pierrick-event",
-      "zhCNName": "皮埃尔",
-      "zhTWName": "",
-      "enName": "Pierrick",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 42,
-      "raceClassName": "Pierrick_Event",
-      "baseCombatPower": 100,
-      "combatPower2": 100,
-      "level": 10,
-      "life": 10,
-      "attackMin": 100,
-      "attackMax": 100,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-20801-keephound",
       "zhCNName": "监狱犬",
       "zhTWName": "",
       "enName": "Keep Hound",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon",
+        "Sen Mag Castle Dungeon",
+        "Dugald Castle Dungeon",
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "Sen Mag Castle 地下城",
+        "Dugald Castle 地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26329,30 +24953,6 @@
       "defense": 5,
       "protect": 10,
       "bonusExp": 400
-    },
-    {
-      "id": "g13-20802-keephound-huskyevent",
-      "zhCNName": "监狱犬",
-      "zhTWName": "",
-      "enName": "Keep Hound",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20802,
-      "raceClassName": "KeepHound_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 8,
-      "life": 120,
-      "attackMin": 13,
-      "attackMax": 25,
-      "defense": 5,
-      "protect": 10,
-      "bonusExp": 70
     },
     {
       "id": "g13-10901-ghoul",
@@ -26456,8 +25056,12 @@
       "zhTWName": "",
       "enName": "Goblin Bandit",
       "combatPower": 1134,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton"
+      ],
+      "zhCNLocations": [
+        "敦巴伦"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26480,8 +25084,12 @@
       "zhTWName": "",
       "enName": "Goblin Bandit",
       "combatPower": 1134,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton"
+      ],
+      "zhCNLocations": [
+        "敦巴伦"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26504,8 +25112,14 @@
       "zhTWName": "",
       "enName": "Kobold Bandit",
       "combatPower": 857,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Reighinalt)",
+        "Dunbarton"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Reighinalt）",
+        "敦巴伦"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26576,8 +25190,14 @@
       "zhTWName": "",
       "enName": "Short Maned Hyena",
       "combatPower": 1700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Muyu Desert",
+        "Rano (Muyu Desert)"
+      ],
+      "zhCNLocations": [
+        "Muyu Desert",
+        "拉诺（Muyu Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26600,8 +25220,18 @@
       "zhTWName": "",
       "enName": "Stone Mask",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Amethyst",
+        "Longa Emerald",
+        "Longa Topaz",
+        "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Amethyst",
+        "伦迦 Emerald",
+        "伦迦 Topaz",
+        "伦迦 Enchanting Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26624,8 +25254,14 @@
       "zhTWName": "",
       "enName": "Stone Mimic",
       "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
+      "zhCNLocations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26648,8 +25284,14 @@
       "zhTWName": "",
       "enName": "Stone Mimic",
       "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
+      "zhCNLocations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26672,8 +25314,14 @@
       "zhTWName": "",
       "enName": "Stone Mimic",
       "combatPower": 600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
+      "zhCNLocations": [
+        "Karu Forest Ruins",
+        "Maiz Prairie Ruins"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26888,8 +25536,12 @@
       "zhTWName": "",
       "enName": "Stone Gargoyle",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -26936,8 +25588,18 @@
       "zhTWName": "",
       "enName": "Stone Zombie",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Normal",
+        "Karu Stone Zombie",
+        "Karu Final Hit",
+        "Saga Episode 2"
+      ],
+      "zhCNLocations": [
+        "Karu 普通",
+        "Karu Stone Zombie",
+        "Karu Final Hit",
+        "Saga Episode 2"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27224,8 +25886,14 @@
       "zhTWName": "",
       "enName": "Golem",
       "combatPower": 2548,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Boss Trial",
+        "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔 BOSS Trial",
+        "赛维尔普通（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27344,8 +26012,14 @@
       "zhTWName": "",
       "enName": "Golem",
       "combatPower": 2548,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Boss Trial",
+        "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔 BOSS Trial",
+        "赛维尔普通（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27416,8 +26090,14 @@
       "zhTWName": "",
       "enName": "Golem",
       "combatPower": 2548,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Boss Trial",
+        "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔 BOSS Trial",
+        "赛维尔普通（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27531,30 +26211,6 @@
       "bonusExp": 19000
     },
     {
-      "id": "g13-130022-hardmode-minigolem-warp-summoner",
-      "zhCNName": "石巨人",
-      "zhTWName": "",
-      "enName": "Golem",
-      "combatPower": 8096,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130022,
-      "raceClassName": "Hardmode_MiniGolem_Warp_Summoner",
-      "baseCombatPower": 8096,
-      "combatPower2": 8096,
-      "level": 44,
-      "life": 20350,
-      "attackMin": 75,
-      "attackMax": 135,
-      "defense": 30,
-      "protect": 55,
-      "bonusExp": 22000
-    },
-    {
       "id": "g13-130009-minigolem",
       "zhCNName": "石巨人",
       "zhTWName": "",
@@ -27572,30 +26228,6 @@
       "combatPower2": 3548,
       "level": 34,
       "life": 4300,
-      "attackMin": 90,
-      "attackMax": 200,
-      "defense": 17,
-      "protect": 15,
-      "bonusExp": 2500
-    },
-    {
-      "id": "g13-130016-minigolem-1001event",
-      "zhCNName": "石巨人",
-      "zhTWName": "",
-      "enName": "Golem",
-      "combatPower": 3548,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130016,
-      "raceClassName": "MiniGolem_1001event",
-      "baseCombatPower": 1600,
-      "combatPower2": 3548,
-      "level": 34,
-      "life": 100000,
       "attackMin": 90,
       "attackMax": 200,
       "defense": 17,
@@ -27675,37 +26307,19 @@
       "bonusExp": 2500
     },
     {
-      "id": "g13-130013-minigolem-warp-summoner",
-      "zhCNName": "石巨人",
-      "zhTWName": "",
-      "enName": "Golem",
-      "combatPower": 3548,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130013,
-      "raceClassName": "MiniGolem_Warp_Summoner",
-      "baseCombatPower": 1600,
-      "combatPower2": 3548,
-      "level": 34,
-      "life": 4500,
-      "attackMin": 60,
-      "attackMax": 120,
-      "defense": 10,
-      "protect": 20,
-      "bonusExp": 2500
-    },
-    {
       "id": "g13-130017-promotiongolem",
       "zhCNName": "石巨人",
       "zhTWName": "",
       "enName": "Golem",
       "combatPower": 2548,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Boss Trial",
+        "Ciar Normal (Boss)"
+      ],
+      "zhCNLocations": [
+        "赛维尔 BOSS Trial",
+        "赛维尔普通（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27800,8 +26414,12 @@
       "zhTWName": "",
       "enName": "Old Ice Mimic",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Normal"
+      ],
+      "zhCNLocations": [
+        "Par 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27824,8 +26442,12 @@
       "zhTWName": "",
       "enName": "Old Ice Mimic",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Normal"
+      ],
+      "zhCNLocations": [
+        "Par 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -27963,30 +26585,6 @@
       "bonusExp": 250
     },
     {
-      "id": "g13-130028-sulfurgolemsummoned",
-      "zhCNName": "硫磺石巨人",
-      "zhTWName": "",
-      "enName": "Sulfur Golem",
-      "combatPower": 2500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130028,
-      "raceClassName": "SulfurGolemSummoned",
-      "baseCombatPower": 2500,
-      "combatPower2": 2500,
-      "level": 34,
-      "life": 300,
-      "attackMin": 30,
-      "attackMax": 160,
-      "defense": 15,
-      "protect": 8,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-30114-sulfurspider",
       "zhCNName": "硫磺蜘蛛",
       "zhTWName": "",
@@ -28057,30 +26655,6 @@
       "defense": 8,
       "protect": 7,
       "bonusExp": 140
-    },
-    {
-      "id": "g13-3-cichol-default",
-      "zhCNName": "神 锁孔",
-      "zhTWName": "",
-      "enName": "Cichol",
-      "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 3,
-      "raceClassName": "Cichol_Default",
-      "baseCombatPower": 100,
-      "combatPower2": 9999,
-      "level": 100,
-      "life": 100,
-      "attackMin": 100,
-      "attackMax": 100,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
     },
     {
       "id": "g13-250001-hellcat",
@@ -28256,8 +26830,12 @@
       "zhTWName": "",
       "enName": "Cromm Cruaich",
       "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Baol G3 Final (Boss)"
+      ],
+      "zhCNLocations": [
+        "Baol G3 Final（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28273,30 +26851,6 @@
       "defense": 40,
       "protect": 20,
       "bonusExp": 8000
-    },
-    {
-      "id": "g13-900023-scarecrow",
-      "zhCNName": "稻草人",
-      "zhTWName": "",
-      "enName": "Scarecrow",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900023,
-      "raceClassName": "Scarecrow",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 34,
-      "life": 140000,
-      "attackMin": 10,
-      "attackMax": 15,
-      "defense": 0,
-      "protect": 100,
-      "bonusExp": 10000
     },
     {
       "id": "g13-320001-octopus",
@@ -28328,8 +26882,16 @@
       "zhTWName": "",
       "enName": "Heavy Gargoyle",
       "combatPower": 2900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Green (Boss)",
+        "Albey Goddess (Third floor boss)",
+        "Baol Final"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Green（BOSS）",
+        "阿尔贝 Goddess（Third floor boss）",
+        "Baol Final"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28376,8 +26938,12 @@
       "zhTWName": "",
       "enName": "Pink Succubus",
       "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比高级（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28808,8 +27374,12 @@
       "zhTWName": "",
       "enName": "Amethyst Beetle",
       "combatPower": 1300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Desert Ruins Amethyst"
+      ],
+      "zhCNLocations": [
+        "伦迦 Desert Ruins Amethyst"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28832,8 +27402,12 @@
       "zhTWName": "",
       "enName": "Amethyst Magic Golem",
       "combatPower": 2400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Amethyst"
+      ],
+      "zhCNLocations": [
+        "伦迦 Amethyst"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28880,8 +27454,12 @@
       "zhTWName": "",
       "enName": "Red Kobold",
       "combatPower": 1370,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28904,8 +27482,12 @@
       "zhTWName": "",
       "enName": "Red Kobold",
       "combatPower": 1370,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28928,8 +27510,12 @@
       "zhTWName": "",
       "enName": "Red Kobold",
       "combatPower": 1370,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28952,8 +27538,12 @@
       "zhTWName": "",
       "enName": "Red Kobold",
       "combatPower": 1370,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -28976,8 +27566,12 @@
       "zhTWName": "",
       "enName": "Red Kobold",
       "combatPower": 1370,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29000,8 +27594,12 @@
       "zhTWName": "",
       "enName": "Red Blind Crab",
       "combatPower": 760,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (south of camp, east of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（south of camp, east of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29024,8 +27622,12 @@
       "zhTWName": "",
       "enName": "Red Ghost",
       "combatPower": 6020,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29072,8 +27674,12 @@
       "zhTWName": "",
       "enName": "Red Kobold Archer",
       "combatPower": 1834,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced"
+      ],
+      "zhCNLocations": [
+        "玛斯高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29120,8 +27726,18 @@
       "zhTWName": "",
       "enName": "Red Grizzly Bear",
       "combatPower": 2072,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton",
+        "Sliab Cuilin",
+        "Fiodh Normal",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "敦巴伦",
+        "斯利亚布库林",
+        "菲奥纳普通",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29144,8 +27760,26 @@
       "zhTWName": "",
       "enName": "Red Bear",
       "combatPower": 1552,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Dunbarton",
+        "Gairech Hills",
+        "Sen Mag Plains",
+        "Taillteann",
+        "Abb Neagh",
+        "Fiodh Normal",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "敦巴伦",
+        "盖尔茨丘陵",
+        "Sen Mag Plains",
+        "塔尔汀",
+        "阿布内尔",
+        "菲奥纳普通",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29163,37 +27797,27 @@
       "bonusExp": 200
     },
     {
-      "id": "g13-900003-eventredbear",
-      "zhCNName": "红熊(活动用)",
-      "zhTWName": "",
-      "enName": "Event Red Bear",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900003,
-      "raceClassName": "EventRedBear",
-      "baseCombatPower": 612,
-      "combatPower2": 1000,
-      "level": 1,
-      "life": 400,
-      "attackMin": 60,
-      "attackMax": 100,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-50002-redfox",
       "zhCNName": "红狐狸",
       "zhTWName": "",
       "enName": "Red Fox",
       "combatPower": 336,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill",
+        "Dugald Aisle",
+        "Dunbarton",
+        "Gairech Hills",
+        "Sliab Cuilin",
+        "Morva Aisle"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔",
+        "杜加德走廊",
+        "敦巴伦",
+        "盖尔茨丘陵",
+        "斯利亚布库林",
+        "莫尔巴走廊"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29216,8 +27840,14 @@
       "zhTWName": "",
       "enName": "Red Lynx",
       "combatPower": 1100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Nubes Mountains)",
+        "Courcle (just south-west of Cor)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Nubes Mountains）",
+        "Courcle（just south-west of Cor）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29264,8 +27894,12 @@
       "zhTWName": "",
       "enName": "Red Spike Laghodessa",
       "combatPower": 1805,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29336,8 +27970,14 @@
       "zhTWName": "",
       "enName": "Red Ghast",
       "combatPower": 8500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Intermediate",
+        "Due to the lack of Mana Deflector the red ghast and ghast can be stun locked and taken out via Ice Spear spamming"
+      ],
+      "zhCNLocations": [
+        "皮卡 中级",
+        "Due to the lack of Mana Deflector the red ghast and ghast can be stun locked and taken out via Ice Spear spamming"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29384,8 +28024,12 @@
       "zhTWName": "",
       "enName": "Red Prison Ghost",
       "combatPower": 7500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29432,8 +28076,12 @@
       "zhTWName": "",
       "enName": "Red Succubus",
       "combatPower": 2800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Basic (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比 初级（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29552,8 +28200,12 @@
       "zhTWName": "",
       "enName": "Red Physis Fox",
       "combatPower": 650,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Southwest of Vales)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Southwest of Vales）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29576,8 +28228,12 @@
       "zhTWName": "",
       "enName": "Red Mummy Servant",
       "combatPower": 2500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow (Floor 1)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow（Floor 1）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29600,8 +28256,12 @@
       "zhTWName": "",
       "enName": "Red Sand Scorpion",
       "combatPower": 550,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (South of Errans Canyon North of the N in Longa Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（South of Errans Canyon North of the N in 伦迦 Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29744,8 +28404,12 @@
       "zhTWName": "",
       "enName": "Red Horn Cobra",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29768,8 +28432,12 @@
       "zhTWName": "",
       "enName": "Red Snowfield Bear",
       "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Sella Beach)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Sella Beach）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29864,8 +28532,14 @@
       "zhTWName": "",
       "enName": "Red Skeleton Ghost",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal",
+        "Maiz Final Hit"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通",
+        "Maiz Final Hit"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -29960,8 +28634,34 @@
       "zhTWName": "",
       "enName": "Red Spider",
       "combatPower": 849,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill graveyard",
+        "Dunbarton",
+        "Tir Chonaill",
+        "Alby Normal",
+        "Ciar Normal",
+        "Fiodh Normal",
+        "Rundal Normal",
+        "Math Normal",
+        "Barri Normal",
+        "Barri Paladin Training",
+        "Barri Mythril Mine",
+        "Barri Spirit Fossil"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔墓地",
+        "敦巴伦",
+        "迪尔科内尔",
+        "艾菲普通",
+        "赛维尔普通",
+        "菲奥纳普通",
+        "伦达普通",
+        "玛斯 普通",
+        "巴里普通",
+        "巴里 Paladin Training",
+        "巴里 Mythril Mine",
+        "巴里 Spirit Fossil"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30032,8 +28732,12 @@
       "zhTWName": "",
       "enName": "Red Sickle Laghodessa",
       "combatPower": 1660,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30056,8 +28760,12 @@
       "zhTWName": "",
       "enName": "Red Sickle Laghodessa",
       "combatPower": 1660,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30200,8 +28908,16 @@
       "zhTWName": "",
       "enName": "Red Skeleton",
       "combatPower": 1274,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Red",
+        "Albey Goddess",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Red",
+        "阿尔贝 Goddess",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30512,8 +29228,12 @@
       "zhTWName": "",
       "enName": "Red Town Rat",
       "combatPower": 1360,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30536,8 +29256,12 @@
       "zhTWName": "",
       "enName": "Red Town Rat",
       "combatPower": 1360,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30560,8 +29284,12 @@
       "zhTWName": "",
       "enName": "Red Dragon",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (North of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（North of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30584,8 +29312,12 @@
       "zhTWName": "",
       "enName": "Red Dragon",
       "combatPower": 30000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (North of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（North of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30699,30 +29431,6 @@
       "bonusExp": 300
     },
     {
-      "id": "g13-130029-whitegolemsummoned",
-      "zhCNName": "纯白石巨人",
-      "zhTWName": "",
-      "enName": "White Golem",
-      "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130029,
-      "raceClassName": "WhiteGolemSummoned",
-      "baseCombatPower": 4000,
-      "combatPower2": 4000,
-      "level": 34,
-      "life": 500,
-      "attackMin": 60,
-      "attackMax": 250,
-      "defense": 20,
-      "protect": 15,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-40013-papersheep",
       "zhCNName": "纸羊",
       "zhTWName": "",
@@ -30776,8 +29484,12 @@
       "zhTWName": "",
       "enName": "Green Kiwi",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Karu Forest, mountainous area west of Snake Mark)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Karu Forest, mountainous area west of Snake Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30800,8 +29512,12 @@
       "zhTWName": "",
       "enName": "Green Kiwi",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Karu Forest, mountainous area west of Snake Mark)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Karu Forest, mountainous area west of Snake Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30848,8 +29564,12 @@
       "zhTWName": "",
       "enName": "Green Horn Cobra",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30872,8 +29592,16 @@
       "zhTWName": "",
       "enName": "Green Sarracenia",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Magic Bean (Boss)",
+        "During the Valentine's Event (2010) as the bossin the Event Magic Cacao dungeon version of Rabbie Dungeon",
+        "Coill Abyss (Also Summoned by Sephirot)"
+      ],
+      "zhCNLocations": [
+        "艾菲 Magic Bean（BOSS）",
+        "During the Valentine's Event（2010） as the bossin the Event Magic Cacao dungeon version of 莱比 地下城",
+        "科尔 Abyss（Also Summoned by Sephirot）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30896,8 +29624,14 @@
       "zhTWName": "",
       "enName": "Green Skeleton Ghost",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal",
+        "Maiz Final Hit"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通",
+        "Maiz Final Hit"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30920,8 +29654,30 @@
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1113,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Coill Passive Defense",
+        "Barri Basic",
+        "Barri Advanced",
+        "Fiodh Normal",
+        "Fiodh Intermediate",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "科尔 Passive Defense",
+        "巴里 初级",
+        "巴里高级",
+        "菲奥纳普通",
+        "菲奥纳中级",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30944,8 +29700,30 @@
       "zhTWName": "",
       "enName": "Green Gremlin",
       "combatPower": 1113,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Coill Passive Defense",
+        "Barri Basic",
+        "Barri Advanced",
+        "Fiodh Normal",
+        "Fiodh Intermediate",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "科尔 Passive Defense",
+        "巴里 初级",
+        "巴里高级",
+        "菲奥纳普通",
+        "菲奥纳中级",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30968,8 +29746,12 @@
       "zhTWName": "",
       "enName": "Green Lizard Witch",
       "combatPower": 2800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious (F2)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious（F2）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -30992,8 +29774,12 @@
       "zhTWName": "",
       "enName": "Green Snake",
       "combatPower": 1850,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31040,8 +29826,12 @@
       "zhTWName": "",
       "enName": "Green Snake",
       "combatPower": 1850,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Advanced"
+      ],
+      "zhCNLocations": [
+        "赛维尔高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31083,30 +29873,6 @@
       "bonusExp": 1
     },
     {
-      "id": "g13-110004-sheep-event",
-      "zhCNName": "羊",
-      "zhTWName": "",
-      "enName": "Sheep",
-      "combatPower": 130,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110004,
-      "raceClassName": "Sheep_Event",
-      "baseCombatPower": 130,
-      "combatPower2": 130,
-      "level": 4,
-      "life": 40,
-      "attackMin": 1,
-      "attackMax": 7,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
       "id": "g13-40006-sheep-tutorial",
       "zhCNName": "羊",
       "zhTWName": "",
@@ -31131,37 +29897,17 @@
       "bonusExp": 1
     },
     {
-      "id": "g13-900001-eventsheep",
-      "zhCNName": "羊(活动用)",
-      "zhTWName": "",
-      "enName": "Event Sheep",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900001,
-      "raceClassName": "EventSheep",
-      "baseCombatPower": 144,
-      "combatPower2": 100,
-      "level": 1,
-      "life": 120,
-      "attackMin": 5,
-      "attackMax": 50,
-      "defense": 6,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-80902-emeraldbeetle",
       "zhCNName": "翡翠金甲虫",
       "zhTWName": "",
       "enName": "Emerald Beetle",
       "combatPower": 1300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Emerald"
+      ],
+      "zhCNLocations": [
+        "伦迦 Emerald"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31184,8 +29930,12 @@
       "zhTWName": "",
       "enName": "Emerald Magic Golem",
       "combatPower": 2400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Emerald"
+      ],
+      "zhCNLocations": [
+        "伦迦 Emerald"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31280,8 +30030,20 @@
       "zhTWName": "",
       "enName": "Spike Laghodessa",
       "combatPower": 1190,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Basic",
+        "Albey Goddess",
+        "Albey Blue",
+        "Albey Red",
+        "Ciar Basic"
+      ],
+      "zhCNLocations": [
+        "莱比 初级",
+        "阿尔贝 Goddess",
+        "阿尔贝 Blue",
+        "阿尔贝 Red",
+        "赛维尔 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31304,8 +30066,12 @@
       "zhTWName": "",
       "enName": "Connous Lizard",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31352,8 +30118,12 @@
       "zhTWName": "",
       "enName": "Lungfish",
       "combatPower": 1250,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Longa Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（伦迦 Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31611,30 +30381,6 @@
       "bonusExp": 700
     },
     {
-      "id": "g13-16-rua-default",
-      "zhCNName": "茹娅",
-      "zhTWName": "",
-      "enName": "Rua",
-      "combatPower": 100,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 16,
-      "raceClassName": "Rua_Default",
-      "baseCombatPower": 100,
-      "combatPower2": 100,
-      "level": 100,
-      "life": 100,
-      "attackMin": 100,
-      "attackMax": 100,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-590001-beeper",
       "zhCNName": "菲比",
       "zhTWName": "",
@@ -31832,8 +30578,12 @@
       "zhTWName": "",
       "enName": "Blue Blind Crab",
       "combatPower": 720,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (south of camp)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（south of camp）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31856,8 +30606,12 @@
       "zhTWName": "",
       "enName": "Blue Ghost",
       "combatPower": 5680,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -31952,8 +30706,14 @@
       "zhTWName": "",
       "enName": "Blue Grizzly Bear",
       "combatPower": 1604,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Basic",
+        "Alby Intermediate"
+      ],
+      "zhCNLocations": [
+        "艾菲 初级",
+        "艾菲 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32000,8 +30760,12 @@
       "zhTWName": "",
       "enName": "Blue Wolf",
       "combatPower": 913,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Basic"
+      ],
+      "zhCNLocations": [
+        "艾菲 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32048,8 +30812,12 @@
       "zhTWName": "",
       "enName": "Blue Werewolf",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Intermediate"
+      ],
+      "zhCNLocations": [
+        "菲奥纳中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32120,8 +30888,12 @@
       "zhTWName": "",
       "enName": "Blue Ghast",
       "combatPower": 8500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Intermediate"
+      ],
+      "zhCNLocations": [
+        "皮卡 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32144,8 +30916,12 @@
       "zhTWName": "",
       "enName": "Blue Prison Ghost",
       "combatPower": 7500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32192,8 +30968,12 @@
       "zhTWName": "",
       "enName": "Blue Warg",
       "combatPower": 950,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Southwest of Flightless Bird Mark)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Southwest of Flightless Bird Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32216,8 +30996,12 @@
       "zhTWName": "",
       "enName": "Blue Sand Scorpion",
       "combatPower": 650,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (North between the A & D in \"Longa Desert\")"
+      ],
+      "zhCNLocations": [
+        "科诺斯（North between the A & D in \"伦迦 Desert\"）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32240,8 +31024,12 @@
       "zhTWName": "",
       "enName": "Blue Horn Cobra",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Rupes Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Rupes Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32264,8 +31052,14 @@
       "zhTWName": "",
       "enName": "Blue Skeleton Ghost",
       "combatPower": 1700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Maiz Normal",
+        "Maiz Final Hit"
+      ],
+      "zhCNLocations": [
+        "Maiz 普通",
+        "Maiz Final Hit"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32288,8 +31082,12 @@
       "zhTWName": "",
       "enName": "Blue Lizard Witch",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious (F3)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious（F3）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32312,8 +31110,12 @@
       "zhTWName": "",
       "enName": "Blue Python",
       "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Amethyst"
+      ],
+      "zhCNLocations": [
+        "伦迦 Amethyst"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32384,8 +31186,14 @@
       "zhTWName": "",
       "enName": "Blue Rat Man",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Intermediate",
+        "Ciar Normal (Rare Spawn)"
+      ],
+      "zhCNLocations": [
+        "赛维尔中级",
+        "赛维尔普通（Rare Spawn）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32456,8 +31264,22 @@
       "zhTWName": "",
       "enName": "Gorgon",
       "combatPower": 1252,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Intermediate (Boss)",
+        "Barri Basic",
+        "Barri Esras' Dungeon",
+        "Fiodh Normal",
+        "Fiodh Intermediate",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "艾菲 中级（BOSS）",
+        "巴里 初级",
+        "巴里 Esras' 地下城",
+        "菲奥纳普通",
+        "菲奥纳中级",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32552,8 +31374,12 @@
       "zhTWName": "",
       "enName": "Spider Soldier",
       "combatPower": 3600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32600,8 +31426,12 @@
       "zhTWName": "",
       "enName": "Spider Archer",
       "combatPower": 3300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32648,8 +31478,12 @@
       "zhTWName": "",
       "enName": "Spider Warrior",
       "combatPower": 4100,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32744,8 +31578,12 @@
       "zhTWName": "",
       "enName": "Spider Ranger",
       "combatPower": 3600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32864,8 +31702,12 @@
       "zhTWName": "",
       "enName": "Dragonfly",
       "combatPower": 1020,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Courcle (Herba Jungle)"
+      ],
+      "zhCNLocations": [
+        "Courcle（Herba Jungle）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32888,8 +31730,26 @@
       "zhTWName": "",
       "enName": "Bat",
       "combatPower": 468,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Normal",
+        "Ciar Normal",
+        "Ciar Basic",
+        "Rabbie Normal",
+        "Rabbie Basic",
+        "Math Normal",
+        "Rundal Basic",
+        "Albey (All except Red)"
+      ],
+      "zhCNLocations": [
+        "艾菲普通",
+        "赛维尔普通",
+        "赛维尔 初级",
+        "莱比普通",
+        "莱比 初级",
+        "玛斯 普通",
+        "伦达 初级",
+        "阿尔贝（All except Red）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -32899,30 +31759,6 @@
       "baseCombatPower": 350,
       "combatPower2": 468,
       "level": 5,
-      "life": 30,
-      "attackMin": 3,
-      "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 10
-    },
-    {
-      "id": "g13-80012-bat-g13",
-      "zhCNName": "蝙蝠",
-      "zhTWName": "",
-      "enName": "Bat",
-      "combatPower": 468,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 80012,
-      "raceClassName": "Bat_G13",
-      "baseCombatPower": 350,
-      "combatPower2": 468,
-      "level": 10,
       "life": 30,
       "attackMin": 3,
       "attackMax": 20,
@@ -33195,54 +32031,6 @@
       "bonusExp": 4500
     },
     {
-      "id": "g13-1000-travelera",
-      "zhCNName": "行人A",
-      "zhTWName": "",
-      "enName": "TravelerA",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 1000,
-      "raceClassName": "TravelerA",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 20,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-1001-travelera2",
-      "zhCNName": "行人A",
-      "zhTWName": "",
-      "enName": "TravelerA",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 1001,
-      "raceClassName": "TravelerA2",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 100,
-      "attackMin": 10,
-      "attackMax": 50,
-      "defense": 5,
-      "protect": 5,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-10088-soldier-towerdefence",
       "zhCNName": "补给兵",
       "zhTWName": "",
@@ -33272,8 +32060,14 @@
       "zhTWName": "",
       "enName": "Wendigo",
       "combatPower": 2200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Snow Crystal (Boss)",
+        "Par Ruins Mirror of Memory (Boss)"
+      ],
+      "zhCNLocations": [
+        "Par Snow Crystal（BOSS）",
+        "Par Ruins Mirror of Memory（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33296,8 +32090,14 @@
       "zhTWName": "",
       "enName": "Wendigo",
       "combatPower": 2200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Par Snow Crystal (Boss)",
+        "Par Ruins Mirror of Memory (Boss)"
+      ],
+      "zhCNLocations": [
+        "Par Snow Crystal（BOSS）",
+        "Par Ruins Mirror of Memory（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33337,102 +32137,6 @@
       "defense": 0,
       "protect": 60,
       "bonusExp": 0
-    },
-    {
-      "id": "g13-520211-python-army-summoned",
-      "zhCNName": "被召唤出来的蟒蛇军队",
-      "zhTWName": "",
-      "enName": "Summoned Python Army",
-      "combatPower": 850,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 520211,
-      "raceClassName": "Python_army_summoned",
-      "baseCombatPower": 1050,
-      "combatPower2": 850,
-      "level": 27,
-      "life": 180,
-      "attackMin": 6,
-      "attackMax": 17,
-      "defense": 3,
-      "protect": 6,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-520212-python-shaman-summoned",
-      "zhCNName": "被召唤出来的蟒蛇咒师",
-      "zhTWName": "",
-      "enName": "Summoned Python Shaman",
-      "combatPower": 890,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 520212,
-      "raceClassName": "Python_Shaman_summoned",
-      "baseCombatPower": 1050,
-      "combatPower2": 890,
-      "level": 27,
-      "life": 155,
-      "attackMin": 6,
-      "attackMax": 17,
-      "defense": 3,
-      "protect": 6,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-160003-summonedlightgargoyle1",
-      "zhCNName": "被召唤的翼魔",
-      "zhTWName": "",
-      "enName": "Light Gargoyle",
-      "combatPower": 1071,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 160003,
-      "raceClassName": "SummonedLightGargoyle1",
-      "baseCombatPower": 1200,
-      "combatPower2": 1071,
-      "level": 25,
-      "life": 450,
-      "attackMin": 10,
-      "attackMax": 60,
-      "defense": 4,
-      "protect": 5,
-      "bonusExp": 200
-    },
-    {
-      "id": "g13-160004-summonedlightgargoyle2",
-      "zhCNName": "被召唤的翼魔",
-      "zhTWName": "",
-      "enName": "Light Gargoyle",
-      "combatPower": 1071,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 160004,
-      "raceClassName": "SummonedLightGargoyle2",
-      "baseCombatPower": 1200,
-      "combatPower2": 1071,
-      "level": 25,
-      "life": 450,
-      "attackMin": 10,
-      "attackMax": 60,
-      "defense": 4,
-      "protect": 5,
-      "bonusExp": 200
     },
     {
       "id": "g13-10057-shadowcai01",
@@ -33632,8 +32336,12 @@
       "zhTWName": "",
       "enName": "Brown Prison Ghost",
       "combatPower": 7500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33704,8 +32412,12 @@
       "zhTWName": "",
       "enName": "Brown Ghost Servant",
       "combatPower": 2600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33776,8 +32488,12 @@
       "zhTWName": "",
       "enName": "Brown Desert Bear",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Desert (Near Connous Beach)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Desert（Near 科诺斯 Beach）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33800,8 +32516,12 @@
       "zhTWName": "",
       "enName": "Brown Cave Bat",
       "combatPower": 620,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous Underground Maze"
+      ],
+      "zhCNLocations": [
+        "科诺斯 Underground Maze"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33824,8 +32544,12 @@
       "zhTWName": "",
       "enName": "Brown Porcupine",
       "combatPower": 400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (North of last \"E\" in Longa Desert)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（North of last \"E\" in 伦迦 Desert）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33872,8 +32596,14 @@
       "zhTWName": "",
       "enName": "Brown Lizard Witch",
       "combatPower": 2600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious",
+        "Longa Mysterious (F1)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious",
+        "伦迦 Mysterious（F1）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33915,37 +32645,17 @@
       "bonusExp": 100
     },
     {
-      "id": "g13-900019-watermelon2",
-      "zhCNName": "西瓜",
-      "zhTWName": "",
-      "enName": "Watermelon",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900019,
-      "raceClassName": "Watermelon2",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 1,
-      "attackMin": 1,
-      "attackMax": 1,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-20021-darkskeletonhellhound-detect",
       "zhCNName": "警卫地狱骷髅犬",
       "zhTWName": "",
       "enName": "Guard Skeleton HellHound",
       "combatPower": 2240,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Baol Infiltration"
+      ],
+      "zhCNLocations": [
+        "Baol Infiltration"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -33992,8 +32702,12 @@
       "zhTWName": "",
       "enName": "Guard Laghodessa",
       "combatPower": 2410,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Baol Infiltration"
+      ],
+      "zhCNLocations": [
+        "Baol Infiltration"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34352,8 +33066,12 @@
       "zhTWName": "",
       "enName": "Nubes Millipede",
       "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Solea Underground (South)"
+      ],
+      "zhCNLocations": [
+        "Solea Underground（South）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34376,8 +33094,12 @@
       "zhTWName": "",
       "enName": "Nubes Wild Dog",
       "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Nubes Mountains)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Nubes Mountains）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34395,37 +33117,23 @@
       "bonusExp": 390
     },
     {
-      "id": "g13-21005-nubeswilddog-huskyevent",
-      "zhCNName": "诺贝思野狗",
-      "zhTWName": "",
-      "enName": "Nubes Wild Dog",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 21005,
-      "raceClassName": "NubesWildDog_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 20,
-      "life": 100,
-      "attackMin": 15,
-      "attackMax": 26,
-      "defense": 0,
-      "protect": 8,
-      "bonusExp": 70
-    },
-    {
       "id": "g13-20501-jackal",
       "zhCNName": "豺狗",
       "zhTWName": "",
       "enName": "Jackal",
       "combatPower": 973,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Normal",
+        "Fiodh (Violet)",
+        "Coill Normal",
+        "Coill Passive Defense"
+      ],
+      "zhCNLocations": [
+        "菲奥纳普通",
+        "菲奥纳（Violet）",
+        "科尔 普通",
+        "科尔 Passive Defense"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34544,8 +33252,14 @@
       "zhTWName": "",
       "enName": "Siren",
       "combatPower": 2864,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Siren",
+        "Rundal Boss Trial"
+      ],
+      "zhCNLocations": [
+        "伦达 Siren",
+        "伦达 BOSS Trial"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34563,85 +33277,19 @@
       "bonusExp": 1800
     },
     {
-      "id": "g13-10704-siren-g13-easy",
-      "zhCNName": "赛连",
-      "zhTWName": "",
-      "enName": "Siren",
-      "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10704,
-      "raceClassName": "Siren_G13_Easy",
-      "baseCombatPower": 1800,
-      "combatPower2": 1800,
-      "level": 10,
-      "life": 300,
-      "attackMin": 15,
-      "attackMax": 30,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1800
-    },
-    {
-      "id": "g13-10706-siren-g13-hard",
-      "zhCNName": "赛连",
-      "zhTWName": "",
-      "enName": "Siren",
-      "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10706,
-      "raceClassName": "Siren_G13_Hard",
-      "baseCombatPower": 1800,
-      "combatPower2": 1800,
-      "level": 10,
-      "life": 1500,
-      "attackMin": 30,
-      "attackMax": 60,
-      "defense": 20,
-      "protect": 20,
-      "bonusExp": 2500
-    },
-    {
-      "id": "g13-10705-siren-g13-mid",
-      "zhCNName": "赛连",
-      "zhTWName": "",
-      "enName": "Siren",
-      "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10705,
-      "raceClassName": "Siren_G13_Mid",
-      "baseCombatPower": 1800,
-      "combatPower2": 1800,
-      "level": 10,
-      "life": 700,
-      "attackMin": 20,
-      "attackMax": 40,
-      "defense": 10,
-      "protect": 10,
-      "bonusExp": 2000
-    },
-    {
       "id": "g13-10702-siren-no-drop-pocketitem",
       "zhCNName": "赛连",
       "zhTWName": "",
       "enName": "Siren",
       "combatPower": 2864,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Siren",
+        "Rundal Boss Trial"
+      ],
+      "zhCNLocations": [
+        "伦达 Siren",
+        "伦达 BOSS Trial"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -34880,8 +33528,16 @@
       "zhTWName": "",
       "enName": "Invisible Imp",
       "combatPower": 1044,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Coill Awakening",
+        "Coill Elemental",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "科尔 Awakening",
+        "科尔 Elemental",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35600,8 +34256,22 @@
       "zhTWName": "",
       "enName": "Metal Skeleton",
       "combatPower": 1540,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Normal (Boss)",
+        "Ciar Intermediate",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔普通（BOSS）",
+        "赛维尔中级",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35720,8 +34390,22 @@
       "zhTWName": "",
       "enName": "Metal Skeleton",
       "combatPower": 1540,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Normal (Boss)",
+        "Ciar Intermediate",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔普通（BOSS）",
+        "赛维尔中级",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35744,8 +34428,22 @@
       "zhTWName": "",
       "enName": "Metal Skeleton",
       "combatPower": 1540,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Normal (Boss)",
+        "Ciar Intermediate",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔普通（BOSS）",
+        "赛维尔中级",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35768,8 +34466,22 @@
       "zhTWName": "",
       "enName": "Metal Skeleton",
       "combatPower": 1540,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Normal (Boss)",
+        "Ciar Intermediate",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔普通（BOSS）",
+        "赛维尔中级",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35792,8 +34504,22 @@
       "zhTWName": "",
       "enName": "Metal Skeleton",
       "combatPower": 1540,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Normal (Boss)",
+        "Ciar Intermediate",
+        "Rabbie Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔普通（BOSS）",
+        "赛维尔中级",
+        "莱比普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35816,8 +34542,14 @@
       "zhTWName": "",
       "enName": "Gold Armor Hound",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Topaz",
+        "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Topaz",
+        "伦迦 Enchanting Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35888,8 +34620,12 @@
       "zhTWName": "",
       "enName": "Gold Kiwi",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Southernmost Valley of Kaypi Canyon)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Southernmost Valley of Kaypi Canyon）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -35912,8 +34648,12 @@
       "zhTWName": "",
       "enName": "Gold Kiwi",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Southernmost Valley of Kaypi Canyon)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Southernmost Valley of Kaypi Canyon）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -36056,8 +34796,12 @@
       "zhTWName": "",
       "enName": "Bronze Armor Hound",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Emerald"
+      ],
+      "zhCNLocations": [
+        "伦迦 Emerald"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -36128,8 +34872,12 @@
       "zhTWName": "",
       "enName": "Silver Armor Hound",
       "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Amethyst"
+      ],
+      "zhCNLocations": [
+        "伦迦 Amethyst"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -36145,30 +34893,6 @@
       "defense": 0,
       "protect": 10,
       "bonusExp": 340
-    },
-    {
-      "id": "g13-20904-silverarmorhound-huskyevent",
-      "zhCNName": "银甲犬",
-      "zhTWName": "",
-      "enName": "Silver Armor Hound",
-      "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20904,
-      "raceClassName": "SilverArmorHound_huskyevent",
-      "baseCombatPower": 700,
-      "combatPower2": 700,
-      "level": 11,
-      "life": 140,
-      "attackMin": 14,
-      "attackMax": 30,
-      "defense": 0,
-      "protect": 10,
-      "bonusExp": 70
     },
     {
       "id": "g13-530203-silverbonearcher",
@@ -36368,8 +35092,18 @@
       "zhTWName": "",
       "enName": "Sickle Laghodessa",
       "combatPower": 1003,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Brown Fomor Pass",
+        "Albey Dungeon (All except Blue and Red)",
+        "Ciar Basic",
+        "Ciar Intermediate"
+      ],
+      "zhCNLocations": [
+        "巴里 Brown Fomor Pass",
+        "阿尔贝 地下城（All except Blue and Red）",
+        "赛维尔 初级",
+        "赛维尔中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -37328,8 +36062,12 @@
       "zhTWName": "",
       "enName": "Arachne",
       "combatPower": 6000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced (Boss)"
+      ],
+      "zhCNLocations": [
+        "艾菲高级（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -37424,8 +36162,12 @@
       "zhTWName": "",
       "enName": "Old Sand Mimic",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Normal"
+      ],
+      "zhCNLocations": [
+        "伦迦 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -37539,37 +36281,29 @@
       "bonusExp": 1
     },
     {
-      "id": "g13-110007-chicken-event",
-      "zhCNName": "雏鸡",
-      "zhTWName": "",
-      "enName": "Chicken",
-      "combatPower": 60,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 110007,
-      "raceClassName": "Chicken_Event",
-      "baseCombatPower": 60,
-      "combatPower2": 60,
-      "level": 3,
-      "life": 30,
-      "attackMin": 1,
-      "attackMax": 4,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 1
-    },
-    {
       "id": "g13-350001-yeti",
       "zhCNName": "雪人",
       "zhTWName": "",
       "enName": "Yeti",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis",
+        "West of the Unflyable Bird Mark",
+        "Northwest of Silva Forest",
+        "Southeast of Lunae Valley",
+        "South of Fruited Tree Landmark",
+        "North of Sella Beach",
+        "South of Sella Beach"
+      ],
+      "zhCNLocations": [
+        "菲西斯",
+        "West of the Unflyable Bird Mark",
+        "Northwest of Silva Forest",
+        "Southeast of Lunae Valley",
+        "South of Fruited Tree Landmark",
+        "North of Sella Beach",
+        "South of Sella Beach"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -37808,8 +36542,12 @@
       "zhTWName": "",
       "enName": "Black Snowfield Ostrich",
       "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis, North end of Sella Beach"
+      ],
+      "zhCNLocations": [
+        "菲西斯, North end of Sella Beach"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -37832,8 +36570,12 @@
       "zhTWName": "",
       "enName": "Black Snowfield Ostrich",
       "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis, North end of Sella Beach"
+      ],
+      "zhCNLocations": [
+        "菲西斯, North end of Sella Beach"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38043,30 +36785,6 @@
       "bonusExp": 250
     },
     {
-      "id": "g13-10408-snowtroll-g13",
-      "zhCNName": "雪巨魔",
-      "zhTWName": "",
-      "enName": "Snow Troll",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10408,
-      "raceClassName": "SnowTroll_G13",
-      "baseCombatPower": 800,
-      "combatPower2": 1000,
-      "level": 10,
-      "life": 50,
-      "attackMin": 3,
-      "attackMax": 6,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-10406-snowtroll-towerdefence",
       "zhCNName": "雪巨魔",
       "zhTWName": "",
@@ -38115,37 +36833,23 @@
       "bonusExp": 500
     },
     {
-      "id": "g13-900006-snowball",
-      "zhCNName": "雪球",
-      "zhTWName": "",
-      "enName": "SnowBall",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900006,
-      "raceClassName": "SnowBall",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 500,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-80210-lightningsprite-towerdefence",
       "zhCNName": "雷 光羽",
       "zhTWName": "",
       "enName": "Lightning Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ceo Island",
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental"
+      ],
+      "zhCNLocations": [
+        "Ceo Island",
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38288,8 +36992,18 @@
       "zhTWName": "",
       "enName": "Lightning Sprite",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ceo Island",
+        "Coill Normal",
+        "Coill Passive Defense",
+        "Coill Elemental"
+      ],
+      "zhCNLocations": [
+        "Ceo Island",
+        "科尔 普通",
+        "科尔 Passive Defense",
+        "科尔 Elemental"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38312,8 +37026,12 @@
       "zhTWName": "",
       "enName": "Lightning Wyvern",
       "combatPower": 3300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38336,8 +37054,12 @@
       "zhTWName": "",
       "enName": "Lightning Wyvern",
       "combatPower": 3300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38360,8 +37082,12 @@
       "zhTWName": "",
       "enName": "Lightning Wyvern",
       "combatPower": 3300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (skies over Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（skies over Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38456,8 +37182,22 @@
       "zhTWName": "",
       "enName": "Light Gargoyle",
       "combatPower": 1566,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Forest of Souls",
+        "Albey Green",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Baol Final"
+      ],
+      "zhCNLocations": [
+        "Forest of Souls",
+        "阿尔贝 Green",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "Baol Final"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38576,8 +37316,26 @@
       "zhTWName": "",
       "enName": "Blue Snake",
       "combatPower": 812,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Normal",
+        "Albey Red",
+        "Albey Goddess",
+        "Alby Basic",
+        "Ciar Basic",
+        "Ciar Intermediate",
+        "Fiodh Normal",
+        "Coill Normal"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 普通",
+        "阿尔贝 Red",
+        "阿尔贝 Goddess",
+        "艾菲 初级",
+        "赛维尔 初级",
+        "赛维尔中级",
+        "菲奥纳普通",
+        "科尔 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38792,8 +37550,18 @@
       "zhTWName": "",
       "enName": "Flying Sword",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Basic",
+        "Barri Brown Fomor Pass",
+        "Fiodh Normal",
+        "Albey"
+      ],
+      "zhCNLocations": [
+        "巴里 初级",
+        "巴里 Brown Fomor Pass",
+        "菲奥纳普通",
+        "阿尔贝"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38816,8 +37584,18 @@
       "zhTWName": "",
       "enName": "Flying Sword",
       "combatPower": 1097,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Basic",
+        "Barri Brown Fomor Pass",
+        "Fiodh Normal",
+        "Albey"
+      ],
+      "zhCNLocations": [
+        "巴里 初级",
+        "巴里 Brown Fomor Pass",
+        "菲奥纳普通",
+        "阿尔贝"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38936,8 +37714,18 @@
       "zhTWName": "",
       "enName": "Coffin Mimic",
       "combatPower": 1316,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "G12 Peaca Secret Lair Dungeon",
+        "Peaca Normal",
+        "Peaca Basic",
+        "Peaca Intermediate"
+      ],
+      "zhCNLocations": [
+        "G12 皮卡 Secret Lair 地下城",
+        "皮卡普通",
+        "皮卡初级",
+        "皮卡 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38960,8 +37748,18 @@
       "zhTWName": "",
       "enName": "Coffin Mimic",
       "combatPower": 1316,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "G12 Peaca Secret Lair Dungeon",
+        "Peaca Normal",
+        "Peaca Basic",
+        "Peaca Intermediate"
+      ],
+      "zhCNLocations": [
+        "G12 皮卡 Secret Lair 地下城",
+        "皮卡普通",
+        "皮卡初级",
+        "皮卡 中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -38984,8 +37782,12 @@
       "zhTWName": "",
       "enName": "Ogre",
       "combatPower": 2400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39195,126 +37997,6 @@
       "bonusExp": 600
     },
     {
-      "id": "g13-100012-ogrebros-event",
-      "zhCNName": "食人魔战士",
-      "zhTWName": "",
-      "enName": "Ogre Bros",
-      "combatPower": 2980,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100012,
-      "raceClassName": "OgreBros_Event",
-      "baseCombatPower": 1500,
-      "combatPower2": 2980,
-      "level": 35,
-      "life": 300,
-      "attackMin": 40,
-      "attackMax": 60,
-      "defense": 150,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100013-ogrebros-event2",
-      "zhCNName": "食人魔战士",
-      "zhTWName": "",
-      "enName": "Ogre Bros",
-      "combatPower": 2980,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100013,
-      "raceClassName": "OgreBros_Event2",
-      "baseCombatPower": 1500,
-      "combatPower2": 2980,
-      "level": 35,
-      "life": 300,
-      "attackMin": 40,
-      "attackMax": 60,
-      "defense": 150,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100014-ogrebros-event3",
-      "zhCNName": "食人魔战士",
-      "zhTWName": "",
-      "enName": "Ogre Bros",
-      "combatPower": 2980,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100014,
-      "raceClassName": "OgreBros_Event3",
-      "baseCombatPower": 1500,
-      "combatPower2": 2980,
-      "level": 35,
-      "life": 300,
-      "attackMin": 40,
-      "attackMax": 60,
-      "defense": 150,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100015-ogrebros-event4",
-      "zhCNName": "食人魔战士",
-      "zhTWName": "",
-      "enName": "Ogre Bros",
-      "combatPower": 2980,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100015,
-      "raceClassName": "OgreBros_Event4",
-      "baseCombatPower": 1500,
-      "combatPower2": 2980,
-      "level": 35,
-      "life": 300,
-      "attackMin": 40,
-      "attackMax": 60,
-      "defense": 150,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100016-ogrebros-event5",
-      "zhCNName": "食人魔战士",
-      "zhTWName": "",
-      "enName": "Ogre Bros",
-      "combatPower": 2980,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100016,
-      "raceClassName": "OgreBros_Event5",
-      "baseCombatPower": 1500,
-      "combatPower2": 2980,
-      "level": 35,
-      "life": 300,
-      "attackMin": 40,
-      "attackMax": 60,
-      "defense": 150,
-      "protect": 20,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-100017-ogrebros-rp",
       "zhCNName": "食人魔战士",
       "zhTWName": "",
@@ -39392,8 +38074,12 @@
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 3700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39416,8 +38102,12 @@
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Basic"
+      ],
+      "zhCNLocations": [
+        "皮卡初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39440,8 +38130,12 @@
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 3700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39464,8 +38158,12 @@
       "zhTWName": "",
       "enName": "Wight",
       "combatPower": 3700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Peaca Normal"
+      ],
+      "zhCNLocations": [
+        "皮卡普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39608,8 +38306,12 @@
       "zhTWName": "",
       "enName": "Ant Eater",
       "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (west of camp, east of Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（west of camp, east of Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39627,37 +38329,23 @@
       "bonusExp": 270
     },
     {
-      "id": "g13-19103-whiteday-arachne",
-      "zhCNName": "饼干魔女",
-      "zhTWName": "",
-      "enName": "Cookie Witch",
-      "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 19103,
-      "raceClassName": "Whiteday_Arachne",
-      "baseCombatPower": 1500,
-      "combatPower2": 1500,
-      "level": 45,
-      "life": 500,
-      "attackMin": 25,
-      "attackMax": 40,
-      "defense": 5,
-      "protect": 10,
-      "bonusExp": 100
-    },
-    {
       "id": "g13-80703-horsesprite",
       "zhCNName": "马光羽",
       "zhTWName": "",
       "enName": "Horse Sprite",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Abb Neagh Castle Dungeon",
+        "Sen Mag Castle Dungeon",
+        "Dugald Castle Dungeon",
+        "Sliab Cuilin Castle Dungeon"
+      ],
+      "zhCNLocations": [
+        "阿布内尔城地下城",
+        "Sen Mag Castle 地下城",
+        "Dugald Castle 地下城",
+        "斯利亚布库林城地下城"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39680,8 +38368,16 @@
       "zhTWName": "",
       "enName": "Nightmare Humanoid",
       "combatPower": 2620,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Red (Boss)",
+        "Coill Passive Defense (Boss)",
+        "Baol G3 Final"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Red（BOSS）",
+        "科尔 Passive Defense（BOSS）",
+        "Baol G3 Final"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39728,8 +38424,20 @@
       "zhTWName": "",
       "enName": "Skeleton",
       "combatPower": 1118,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Blue",
+        "Gairech Hills (Dragon Ruins)",
+        "Rabbie Normal",
+        "Rundal Normal",
+        "Rundal Advanced"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 Blue",
+        "盖尔茨丘陵（Dragon Ruins）",
+        "莱比普通",
+        "伦达普通",
+        "伦达高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -39745,30 +38453,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 150
-    },
-    {
-      "id": "g13-900017-skeleton-cake-hat",
-      "zhCNName": "骷髅",
-      "zhTWName": "",
-      "enName": "Skeleton",
-      "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900017,
-      "raceClassName": "Skeleton_Cake_Hat",
-      "baseCombatPower": 2000,
-      "combatPower2": 2000,
-      "level": 10,
-      "life": 150,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 100
     },
     {
       "id": "g13-11006-skeletonarmora",
@@ -40088,8 +38772,14 @@
       "zhTWName": "",
       "enName": "Skeleton Ghost",
       "combatPower": 1600,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu (All Glowing Statue dungeons)",
+        "Maiz Glowing Gargoyle"
+      ],
+      "zhCNLocations": [
+        "Karu（All Glowing Statue dungeons）",
+        "Maiz Glowing Gargoyle"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40136,8 +38826,14 @@
       "zhTWName": "",
       "enName": "Skeleton Soldier",
       "combatPower": 1754,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hill and Reighinalt (Location)",
+        "Gairech Hills and Reighinalt"
+      ],
+      "zhCNLocations": [
+        "盖尔茨 Hill and Reighinalt（Location）",
+        "盖尔茨丘陵 and Reighinalt"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40280,8 +38976,16 @@
       "zhTWName": "",
       "enName": "Skeleton Wolf",
       "combatPower": 1112,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills",
+        "Rabbie Normal",
+        "Rundal Normal"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵",
+        "莱比普通",
+        "伦达普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40328,8 +39032,12 @@
       "zhTWName": "",
       "enName": "Skeleton Laghodessa",
       "combatPower": 2200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "莱比高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40520,8 +39228,16 @@
       "zhTWName": "",
       "enName": "Plateau Wild Boar",
       "combatPower": 1125,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Taillteann (west of the town)",
+        "Abb Neagh",
+        "Sliab Cuilin"
+      ],
+      "zhCNLocations": [
+        "塔尔汀（west of the town）",
+        "阿布内尔",
+        "斯利亚布库林"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40568,8 +39284,12 @@
       "zhTWName": "",
       "enName": "Maned Aardvark",
       "combatPower": 900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (Around the Flower Mark, many to the Northeast.)"
+      ],
+      "zhCNLocations": [
+        "拉诺（Around the Flower Mark, many to the Northeast.）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40616,8 +39336,12 @@
       "zhTWName": "",
       "enName": "Magic Golem",
       "combatPower": 1800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow (Boss)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow（BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -40633,30 +39357,6 @@
       "defense": 10,
       "protect": 30,
       "bonusExp": 800
-    },
-    {
-      "id": "g13-130105-magicgolemsummoned",
-      "zhCNName": "魔法石巨人",
-      "zhTWName": "",
-      "enName": "Magic Golem",
-      "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 130105,
-      "raceClassName": "MagicGolemSummoned",
-      "baseCombatPower": 4000,
-      "combatPower2": 4000,
-      "level": 34,
-      "life": 550,
-      "attackMin": 80,
-      "attackMax": 280,
-      "defense": 24,
-      "protect": 18,
-      "bonusExp": 0
     },
     {
       "id": "g13-13017-hardmode-sahuagin1",
@@ -40995,54 +39695,6 @@
       "bonusExp": 500
     },
     {
-      "id": "g13-10-g2-rueri",
-      "zhCNName": "鲁拉里",
-      "zhTWName": "",
-      "enName": "G2_Rueri",
-      "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 10,
-      "raceClassName": "G2_Rueri",
-      "baseCombatPower": 2000,
-      "combatPower2": 2000,
-      "level": 80,
-      "life": 30000,
-      "attackMin": 100,
-      "attackMax": 200,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-23-g3-ruari",
-      "zhCNName": "鲁拉里",
-      "zhTWName": "",
-      "enName": "G3_Ruari",
-      "combatPower": 9999,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 23,
-      "raceClassName": "G3_Ruari",
-      "baseCombatPower": 2000,
-      "combatPower2": 9999,
-      "level": 80,
-      "life": 30000,
-      "attackMin": 100,
-      "attackMax": 200,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-251401-crocodile",
       "zhCNName": "鳄鱼",
       "zhTWName": "",
@@ -41264,8 +39916,12 @@
       "zhTWName": "",
       "enName": "Yellow Succubus",
       "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "莱比高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41288,8 +39944,12 @@
       "zhTWName": "",
       "enName": "Yellow Succubus",
       "combatPower": 4000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Advanced"
+      ],
+      "zhCNLocations": [
+        "莱比高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41408,8 +40068,12 @@
       "zhTWName": "",
       "enName": "Gold Mask Ghost",
       "combatPower": 2000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Karu Forest Ruins (Any Glowing Statue)"
+      ],
+      "zhCNLocations": [
+        "Karu Forest Ruins（Any Glowing Statue）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41480,8 +40144,14 @@
       "zhTWName": "",
       "enName": "Gold Kobold",
       "combatPower": 912,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Math Advanced",
+        "Math Basic"
+      ],
+      "zhCNLocations": [
+        "玛斯高级",
+        "玛斯 初级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41648,8 +40318,12 @@
       "zhTWName": "",
       "enName": "Yellow Spider Wasp",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41696,8 +40370,12 @@
       "zhTWName": "",
       "enName": "Black Succubus",
       "combatPower": 1610,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Normal (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比普通（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41888,8 +40566,12 @@
       "zhTWName": "",
       "enName": "Black Raccoon",
       "combatPower": 1284,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton"
+      ],
+      "zhCNLocations": [
+        "敦巴伦"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41912,8 +40594,12 @@
       "zhTWName": "",
       "enName": "Black Raccoon",
       "combatPower": 1284,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton"
+      ],
+      "zhCNLocations": [
+        "敦巴伦"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -41936,8 +40622,18 @@
       "zhTWName": "",
       "enName": "Black Grizzly Bear",
       "combatPower": 2304,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dunbarton",
+        "Gairech Hills",
+        "Sen Mag Plains",
+        "Tara"
+      ],
+      "zhCNLocations": [
+        "敦巴伦",
+        "盖尔茨丘陵",
+        "Sen Mag Plains",
+        "塔拉"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42008,8 +40704,12 @@
       "zhTWName": "",
       "enName": "Black Wolf",
       "combatPower": 705,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Tir Chonaill"
+      ],
+      "zhCNLocations": [
+        "迪尔科内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42152,8 +40852,12 @@
       "zhTWName": "",
       "enName": "Black Prison Zombie",
       "combatPower": 10000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Metus)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Metus）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42224,8 +40928,12 @@
       "zhTWName": "",
       "enName": "Black Succubus",
       "combatPower": 1610,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Normal (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比普通（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42248,8 +40956,12 @@
       "zhTWName": "",
       "enName": "Black Succubus",
       "combatPower": 1610,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rabbie Normal (Solo Boss)"
+      ],
+      "zhCNLocations": [
+        "莱比普通（Solo BOSS）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42344,8 +41056,12 @@
       "zhTWName": "",
       "enName": "Black Ghost Servant",
       "combatPower": 2900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42368,8 +41084,12 @@
       "zhTWName": "",
       "enName": "Black Buffalo",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Reus River, Barba Basin)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Reus River, Barba Basin）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42392,8 +41112,12 @@
       "zhTWName": "",
       "enName": "Black Physis Fox",
       "combatPower": 830,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Barba Basin)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Barba Basin）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42416,8 +41140,16 @@
       "zhTWName": "",
       "enName": "Black Dire Wolf",
       "combatPower": 933,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Taillteann",
+        "Abb Neagh"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔尔汀",
+        "阿布内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42435,37 +41167,21 @@
       "bonusExp": 150
     },
     {
-      "id": "g13-20039-blackdirewolf-g13",
-      "zhCNName": "黑色恶狼",
-      "zhTWName": "",
-      "enName": "Black Dire Wolf",
-      "combatPower": 933,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 20039,
-      "raceClassName": "BlackDireWolf_G13",
-      "baseCombatPower": 850,
-      "combatPower2": 933,
-      "level": 10,
-      "life": 210,
-      "attackMin": 13,
-      "attackMax": 27,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 150
-    },
-    {
       "id": "g13-20036-blackdirewolf-towerdefence",
       "zhCNName": "黑色恶狼",
       "zhTWName": "",
       "enName": "Black Dire Wolf",
       "combatPower": 933,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Dugald Aisle",
+        "Taillteann",
+        "Abb Neagh"
+      ],
+      "zhCNLocations": [
+        "杜加德走廊",
+        "塔尔汀",
+        "阿布内尔"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42488,8 +41204,14 @@
       "zhTWName": "",
       "enName": "Black Kiwi",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Many in Rano (Valleys of Kaypi Canyon)",
+        "Few in Connous (Southeast of Filia, East of Sandworm Mark)"
+      ],
+      "zhCNLocations": [
+        "Many in 拉诺（Valleys of Kaypi Canyon）",
+        "Few in 科诺斯（Southeast of Filia, East of Sandworm Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42512,8 +41234,12 @@
       "zhTWName": "",
       "enName": "Black Mummy Servant",
       "combatPower": 3000,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Mysterious Arrow (Floor 2)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Mysterious Arrow（Floor 2）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42608,8 +41334,12 @@
       "zhTWName": "",
       "enName": "Black Poison Snake",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Fiodh Advanced"
+      ],
+      "zhCNLocations": [
+        "菲奥纳高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42632,8 +41362,12 @@
       "zhTWName": "",
       "enName": "Black Poisonous Spider",
       "combatPower": 3300,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Alby Advanced"
+      ],
+      "zhCNLocations": [
+        "艾菲高级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42680,8 +41414,14 @@
       "zhTWName": "",
       "enName": "Black Desert Bear",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Desert",
+        "Connous (Fish Mark)"
+      ],
+      "zhCNLocations": [
+        "伦迦 Desert",
+        "科诺斯（Fish Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42728,8 +41468,12 @@
       "zhTWName": "",
       "enName": "Black Sand Scorpion",
       "combatPower": 750,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (Northwest of the L in \"Longa Desert\")"
+      ],
+      "zhCNLocations": [
+        "科诺斯（Northwest of the L in \"伦迦 Desert\"）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42752,8 +41496,12 @@
       "zhTWName": "",
       "enName": "Black Armadillo",
       "combatPower": 400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (South of Filia)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（South of Filia）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42896,8 +41644,14 @@
       "zhTWName": "",
       "enName": "Black Python",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Topaz",
+        "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Topaz",
+        "伦迦 Enchanting Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42944,8 +41698,12 @@
       "zhTWName": "",
       "enName": "Black Porcupine",
       "combatPower": 500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Connous (East Longa Desert Neres Plateau)"
+      ],
+      "zhCNLocations": [
+        "科诺斯（East 伦迦 Desert Neres Plateau）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -42992,8 +41750,12 @@
       "zhTWName": "",
       "enName": "Black Snowfield Bear",
       "combatPower": 1500,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Physis (Northwest of Silva Forest)"
+      ],
+      "zhCNLocations": [
+        "菲西斯（Northwest of Silva Forest）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43040,8 +41802,12 @@
       "zhTWName": "",
       "enName": "Black Aardvark",
       "combatPower": 700,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rano (field between Qilla Base Camp and Flower Mark)"
+      ],
+      "zhCNLocations": [
+        "拉诺（field between Qilla Base Camp and Flower Mark）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43064,8 +41830,12 @@
       "zhTWName": "",
       "enName": "Black Ostrich",
       "combatPower": 695,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Mythril Armor with the Spirit's Blessing"
+      ],
+      "zhCNLocations": [
+        "赛维尔 Mythril Armor with the Spirit's Blessing"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43088,8 +41858,14 @@
       "zhTWName": "",
       "enName": "Black Python",
       "combatPower": 1200,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Longa Topaz",
+        "Longa Enchanting Arrow"
+      ],
+      "zhCNLocations": [
+        "伦迦 Topaz",
+        "伦迦 Enchanting Arrow"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43112,8 +41888,12 @@
       "zhTWName": "",
       "enName": "Black Snake",
       "combatPower": 1400,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Ciar Intermediate"
+      ],
+      "zhCNLocations": [
+        "赛维尔中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43160,8 +41940,30 @@
       "zhTWName": "",
       "enName": "Black Spider",
       "combatPower": 670,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Barri Normal",
+        "Albey Normal",
+        "Albey Green",
+        "Fiodh Normal",
+        "Fiodh (Violet)",
+        "Rundal Normal",
+        "Rundal Advanced",
+        "Rundal Dungeon (Temple Knights Lair)",
+        "Ciar Normal",
+        "Math Normal"
+      ],
+      "zhCNLocations": [
+        "巴里普通",
+        "阿尔贝 普通",
+        "阿尔贝 Green",
+        "菲奥纳普通",
+        "菲奥纳（Violet）",
+        "伦达普通",
+        "伦达高级",
+        "伦达 地下城（Temple Knights Lair）",
+        "赛维尔普通",
+        "玛斯 普通"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43208,8 +42010,12 @@
       "zhTWName": "",
       "enName": "Black Leopard",
       "combatPower": 1900,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Zardine (Raspa Volcano)"
+      ],
+      "zhCNLocations": [
+        "扎尔丁（Raspa Volcano）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43256,8 +42062,16 @@
       "zhTWName": "",
       "enName": "Black Wizard",
       "combatPower": 1790,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Gairech Hills (Field Boss)",
+        "Barri Brown Fomor Pass (Boss)",
+        "G9 Shadow Mission The Hero of Mag Tuireadh (Sub-boss)"
+      ],
+      "zhCNLocations": [
+        "盖尔茨丘陵（Field BOSS）",
+        "巴里 Brown Fomor Pass（BOSS）",
+        "G9 Shadow Mission The Hero of Mag Tuireadh（Sub-boss）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43280,8 +42094,16 @@
       "zhTWName": "",
       "enName": "Black Town Rat",
       "combatPower": 278,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Normal",
+        "Albey Green",
+        "Albey Red"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 普通",
+        "阿尔贝 Green",
+        "阿尔贝 Red"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43328,8 +42150,28 @@
       "zhTWName": "",
       "enName": "Rat Man",
       "combatPower": 849,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Albey Normal",
+        "Albey Green",
+        "Albey Blue",
+        "Albey Red",
+        "Albey Silver",
+        "Albey Black Orb",
+        "Albey Goddess",
+        "Ciar Basic",
+        "Ciar Intermediate"
+      ],
+      "zhCNLocations": [
+        "阿尔贝 普通",
+        "阿尔贝 Green",
+        "阿尔贝 Blue",
+        "阿尔贝 Red",
+        "阿尔贝 Silver",
+        "阿尔贝 Black Orb",
+        "阿尔贝 Goddess",
+        "赛维尔 初级",
+        "赛维尔中级"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -43345,30 +42187,6 @@
       "defense": 0,
       "protect": 5,
       "bonusExp": 150
-    },
-    {
-      "id": "g13-900018-ratman-cake-hat",
-      "zhCNName": "鼠人",
-      "zhTWName": "",
-      "enName": "Rat Man",
-      "combatPower": 2400,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900018,
-      "raceClassName": "Ratman_Cake_Hat",
-      "baseCombatPower": 2400,
-      "combatPower2": 2400,
-      "level": 10,
-      "life": 120,
-      "attackMin": 1,
-      "attackMax": 5,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 120
     },
     {
       "id": "g13-990022-dragonegg",
@@ -43779,78 +42597,6 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-100084-halloween-ghost-son4",
-      "zhCNName": "노베르 유령",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100084,
-      "raceClassName": "Halloween_Ghost_Son4",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100082-halloween-ghost-son5",
-      "zhCNName": "두두 유령",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100082,
-      "raceClassName": "Halloween_Ghost_Son5",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100094-halloween-ghost-daughter",
-      "zhCNName": "딸 유령",
-      "zhTWName": "",
-      "enName": "Ghost Daughter",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100094,
-      "raceClassName": "Halloween_Ghost_Daughter",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-600003-leprechaun-partholon",
       "zhCNName": "레프리컨",
       "zhTWName": "",
@@ -43870,30 +42616,6 @@
       "life": 60,
       "attackMin": 8,
       "attackMax": 20,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100080-halloween-ghost-son1",
-      "zhCNName": "로떼 유령",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100080,
-      "raceClassName": "Halloween_Ghost_Son1",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
       "defense": 0,
       "protect": 0,
       "bonusExp": 0
@@ -44000,8 +42722,14 @@
       "zhTWName": "",
       "enName": "Cyclops",
       "combatPower": 3245,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "Rundal Normal (Boss)",
+        "Rundal Boss Trial"
+      ],
+      "zhCNLocations": [
+        "伦达普通（BOSS）",
+        "伦达 BOSS Trial"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -44041,78 +42769,6 @@
       "defense": 0,
       "protect": 0,
       "bonusExp": 60
-    },
-    {
-      "id": "g13-100081-halloween-ghost-daughter1",
-      "zhCNName": "샤론 유령",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100081,
-      "raceClassName": "Halloween_Ghost_Daughter1",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-900008-watermelon",
-      "zhCNName": "수박",
-      "zhTWName": "",
-      "enName": "Watermelon",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900008,
-      "raceClassName": "Watermelon",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 1234,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 100,
-      "protect": 100,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-900009-watermelon-soldier",
-      "zhCNName": "수박",
-      "zhTWName": "",
-      "enName": "Watermelon",
-      "combatPower": 0,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": false,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 900009,
-      "raceClassName": "Watermelon_soldier",
-      "baseCombatPower": 0,
-      "combatPower2": 0,
-      "level": 1,
-      "life": 120,
-      "attackMin": 1,
-      "attackMax": 1,
-      "defense": 5,
-      "protect": 0,
-      "bonusExp": 0
     },
     {
       "id": "g13-110311-smallstonebison2",
@@ -44259,61 +42915,17 @@
       "bonusExp": 0
     },
     {
-      "id": "g13-100093-halloween-ghost-son",
-      "zhCNName": "아들 유령",
-      "zhTWName": "",
-      "enName": "Ghost Son",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100093,
-      "raceClassName": "Halloween_Ghost_Son",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100091-halloween-ghost-father",
-      "zhCNName": "아빠 유령",
-      "zhTWName": "",
-      "enName": "Ghost Daddy",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100091,
-      "raceClassName": "Halloween_Ghost_Father",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
       "id": "g13-17617-weak-ghost",
       "zhCNName": "약한 고스트",
       "zhTWName": "",
       "enName": "Weak Ghost",
       "combatPower": 800,
-      "locations": [],
-      "zhCNLocations": [],
+      "locations": [
+        "(Chest Event)"
+      ],
+      "zhCNLocations": [
+        "（Chest Event）"
+      ],
       "introducedBy": "G13",
       "isEvent": false,
       "translationStatus": "confirmed",
@@ -44350,30 +42962,6 @@
       "life": 600,
       "attackMin": 30,
       "attackMax": 50,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
-    },
-    {
-      "id": "g13-100092-halloween-ghost-mother",
-      "zhCNName": "엄마 유령",
-      "zhTWName": "",
-      "enName": "Ghost Mom",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100092,
-      "raceClassName": "Halloween_Ghost_Mother",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
       "defense": 0,
       "protect": 0,
       "bonusExp": 0
@@ -44425,30 +43013,6 @@
       "defense": 10,
       "protect": 5,
       "bonusExp": 400
-    },
-    {
-      "id": "g13-100083-halloween-ghost-son3",
-      "zhCNName": "제레미 유령",
-      "zhTWName": "",
-      "enName": "Ghost",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100083,
-      "raceClassName": "Halloween_Ghost_Son3",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 0,
-      "attackMax": 0,
-      "defense": 0,
-      "protect": 0,
-      "bonusExp": 0
     },
     {
       "id": "g13-440504-groundsnapshotteamt",
@@ -44521,30 +43085,6 @@
       "defense": 0,
       "protect": 12,
       "bonusExp": 300
-    },
-    {
-      "id": "g13-100090-halloween-ghost-grandfather",
-      "zhCNName": "할아버지 유령",
-      "zhTWName": "",
-      "enName": "Ghost Grandpa",
-      "combatPower": 1000,
-      "locations": [],
-      "zhCNLocations": [],
-      "introducedBy": "G13",
-      "isEvent": true,
-      "translationStatus": "confirmed",
-      "source": "g13-local",
-      "raceId": 100090,
-      "raceClassName": "Halloween_Ghost_Grandfather",
-      "baseCombatPower": 1000,
-      "combatPower2": 1000,
-      "level": 30,
-      "life": 1000,
-      "attackMin": 5,
-      "attackMax": 20,
-      "defense": 20,
-      "protect": 20,
-      "bonusExp": 0
     },
     {
       "id": "g13-270202-whitethornhorse",

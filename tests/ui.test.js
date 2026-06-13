@@ -242,7 +242,7 @@
     dataScopeSelect.value = 'all';
     dataScopeSelect.dispatchEvent(new Event('change', { bubbles: true }));
 
-    expectEqual(root.querySelector('[data-monster-data-scope-note]').textContent, '全部已知数据可能包含后期、版本未知或译名未校对记录。');
+    expectEqual(root.querySelector('[data-monster-data-scope-note]').textContent, '全部已知数据可能包含后期、版本未知或活动记录。');
 
     root.remove();
     localStorage.clear();
@@ -315,6 +315,46 @@
     localStorage.clear();
   });
 
+  test('monster name search supports Chinese composition', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    let nameInput = root.querySelector('[data-monster-name-query]');
+    nameInput.value = 'zzzznope';
+    nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-results]').textContent.includes('Gray Wolf'), false);
+
+    nameInput = root.querySelector('[data-monster-name-query]');
+    nameInput.focus();
+    nameInput.dispatchEvent(new Event('compositionstart', { bubbles: true }));
+    nameInput.value = '灰';
+    nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(document.activeElement, nameInput);
+    expectEqual(root.querySelector('[data-monster-name-query]'), nameInput);
+    expectEqual(root.querySelector('[data-monster-results]').textContent.includes('Gray Wolf'), false);
+
+    nameInput.value = '灰狼';
+    nameInput.dispatchEvent(new Event('compositionend', { bubbles: true }));
+
+    expectEqual(document.activeElement.hasAttribute('data-monster-name-query'), true);
+    expectEqual(document.activeElement.value, '灰狼');
+    expectEqual(root.querySelector('[data-monster-results]').textContent.includes('Gray Wolf'), true);
+
+    root.remove();
+    localStorage.clear();
+  });
+
   test('monster result strength shows rank name without Chinese description', () => {
     const root = document.createElement('div');
     document.body.appendChild(root);
@@ -336,6 +376,31 @@
     expectEqual(rankLabels.some((label) => label === 'Weak'), true);
     expectEqual(rankLabels.some((label) => label.includes('弱的敌人')), false);
     expectEqual(rankLabels.some((label) => label.includes(' / ')), false);
+
+    root.remove();
+    localStorage.clear();
+  });
+
+  test('monster result without known location is marked unknown', () => {
+    const root = document.createElement('div');
+    document.body.appendChild(root);
+    localStorage.clear();
+
+    window.MabinogiCP.renderApp(root);
+    root.querySelector('[data-tab="monsters"]').click();
+
+    const manualInput = root.querySelector('[data-monster-manual-cp]');
+    manualInput.value = '100';
+    manualInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    const firstUnknownMonster = window.MabinogiCP.MONSTER_RECORDS.find(
+      (monster) => !monster.locations.length && (!monster.zhCNLocations || !monster.zhCNLocations.length)
+    );
+    const nameInput = root.querySelector('[data-monster-name-query]');
+    nameInput.value = firstUnknownMonster.enName;
+    nameInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    expectEqual(root.querySelector('[data-monster-results]').textContent.includes('未知'), true);
 
     root.remove();
     localStorage.clear();

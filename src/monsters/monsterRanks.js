@@ -51,7 +51,6 @@
     locationQuery: '',
     dataScope: 'g13',
     includeUnknownIntroducedBy: false,
-    translationStatus: 'all',
   };
 
   app.calculateMonsterRank = function calculateMonsterRank(monsterCombatPower, characterCombatPower) {
@@ -131,7 +130,6 @@
         : new Set();
     const nameQuery = normalizeSearchText(activeFilters.nameQuery);
     const locationQuery = normalizeSearchText(activeFilters.locationQuery);
-    const translationStatus = activeFilters.translationStatus || 'all';
 
     return (monsters || [])
       .filter((monster) => isInDataScope(monster, activeFilters))
@@ -141,7 +139,6 @@
       }))
       .filter((monster) => monster.rank !== null)
       .filter((monster) => selectedRanks.has(monster.rank.id))
-      .filter((monster) => translationStatus === 'all' || monster.translationStatus === translationStatus)
       .filter((monster) => matchesNameQuery(monster, nameQuery))
       .filter((monster) => matchesLocationQuery(monster, locationQuery))
       .sort((left, right) => {

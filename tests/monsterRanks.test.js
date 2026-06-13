@@ -157,7 +157,6 @@
       locationQuery: '',
       dataScope: 'g13',
       includeUnknownIntroducedBy: false,
-      translationStatus: 'all',
     });
 
     expectEqual(result.map((item) => item.id).join(','), 'gray-wolf,red-spider');
@@ -187,7 +186,6 @@
       locationQuery: '',
       dataScope: 'all',
       includeUnknownIntroducedBy: true,
-      translationStatus: 'all',
     });
 
     expectEqual(result.map((item) => item.id).join(','), 'unknown-snake,event-rat,gray-wolf,red-spider,future-boss');
@@ -199,13 +197,6 @@
     expectEqual(filterMonsters(monsters, filter({ nameQuery: 'gray' }))[0].id, 'gray-wolf');
     expectEqual(filterMonsters(monsters, filter({ locationQuery: 'alby' }))[0].id, 'red-spider');
     expectEqual(filterMonsters(monsters, filter({ locationQuery: '伊比' }))[0].id, 'red-spider');
-  });
-
-  test('monster filter can limit by translation status', () => {
-    const result = filterMonsters(monsters, filter({ translationStatus: 'autoConverted' }));
-
-    expectEqual(result.length, 1);
-    expectEqual(result[0].id, 'red-spider');
   });
 
   test('generated G13 local monster records keep official Simplified Chinese names', () => {
@@ -225,7 +216,6 @@
       locationQuery: '',
       dataScope: 'g13',
       includeUnknownIntroducedBy: false,
-      translationStatus: 'all',
       ...overrides,
     };
   }
